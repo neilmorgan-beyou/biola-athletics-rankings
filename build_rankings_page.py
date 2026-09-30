@@ -117,7 +117,7 @@ def phase(week):
 
 # ---------------------------------------------------------------- load
 rows, summaries, games, vs_notes, gaps = [], [], [], [], []
-FINAL = ["volleyball", "soccer", "basketball", "bat-sports", "xc-track", "other-sports", "deep-history", "vs-ranked"]
+FINAL = ["volleyball", "soccer", "basketball", "bat-sports", "xc-track", "other-sports", "deep-history", "current-season", "vs-ranked"]
 for f in (DATA / (n + ".json") for n in FINAL):
     if not f.exists():
         print("missing (not finished yet?):", f.name)
