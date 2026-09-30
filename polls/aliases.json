@@ -73,14 +73,16 @@
   "Concordia University Portland": "Concordia (Ore.)"
  },
  "Men's Water Polo": {
-  "Pacific": "University of the Pacific",
+  "Pacific": "University of the Pacific (Calif.)",
   "Concordia University": "Concordia Irvine",
-  "Concordia": "Concordia Irvine"
+  "Concordia": "Concordia Irvine",
+  "Concordia Irvine": "Concordia Irvine"
  },
  "Women's Water Polo": {
-  "Pacific": "University of the Pacific",
+  "Pacific": "University of the Pacific (Calif.)",
   "Concordia University": "Concordia Irvine",
-  "Concordia": "Concordia Irvine"
+  "Concordia": "Concordia Irvine",
+  "Concordia Irvine": "Concordia Irvine"
  },
  "Women's Volleyball": {
   "Concordia": "Concordia Irvine",
@@ -88,7 +90,8 @@
   "Midland University": "Midland (Neb.)",
   "Columbia": "Columbia (Mo.)",
   "Westminster College": "Westminster (Utah)",
-  "Saint Mary": "College of Saint Mary (Neb.)"
+  "Saint Mary": "College of Saint Mary (Neb.)",
+  "Concordia University": "Concordia Irvine"
  },
  "_open_questions": [
   "Women's Soccer 'Concordia University' (one away game, one at the 2017 NCCAA nationals): not aliased -- the NCCAA opponent may be a different Concordia."
@@ -106,7 +109,8 @@
   "Plain 'Dominican' on Biola schedules is always Dominican University of California (PacWest) -- checked in every sport; 'Dominican' is in AMBIGUOUS so it never loose-matches Dominican (N.Y.).",
   "_poll:<sport> aliases apply to POLL names only. _poll:Softball 'Concordia' = Concordia Irvine: in all 47 NFCA DII polls (2018-2026) that print plain 'Concordia', no Irvine or St. Paul entry appears, and its rank equals the rank Biola's schedule listed for Concordia Irvine every week checked (e.g. 2023-03-14 #12 / game 3-18 #12; 2024-04-23 #17 / 4-24 #17). NCBWA 2005 plain 'Concordia' is Concordia-St. Paul (Irvine was NAIA) and is NOT aliased. Sport aliases never apply to poll names: that produced false 2004 WBB matches (DII 'Concordia University' was St. Paul).",
   "Women's Volleyball 'Midland College' 2014-08-22 = Midland (Neb.): game at Biola's Summer Slam; the opposition review found the game recap names Midland University (review/vs-ranked-audit.md). Midland College (Tex.) is a junior college.",
-  "Neil confirmed 2026-09-30: volleyball 'Columbia' = Columbia College (Mo.); 'Westminster College' = Westminster (Utah); 'Saint Mary' = College of Saint Mary (Neb.)."
+  "Neil confirmed 2026-09-30: volleyball 'Columbia' = Columbia College (Mo.); 'Westminster College' = Westminster (Utah); 'Saint Mary' = College of Saint Mary (Neb.).",
+  "Water polo: CWPA polls print 'Concordia University' for Concordia Irvine (the only Concordia with varsity water polo) and 'University of the Pacific' for Pacific; poll-side aliases added 2026-09-30 after the shared-name guard dropped 3 games vs ranked Pacific."
  ],
  "Baseball": {
   "Concordia": "Concordia Irvine",
@@ -133,5 +137,15 @@
  },
  "_poll:Softball": {
   "Concordia": "Concordia Irvine"
+ },
+ "_poll:Men's Water Polo": {
+  "Concordia University": "Concordia Irvine",
+  "University of the Pacific": "University of the Pacific (Calif.)",
+  "University of the Paciifc": "University of the Pacific (Calif.)"
+ },
+ "_poll:Women's Water Polo": {
+  "Concordia University": "Concordia Irvine",
+  "University of the Pacific": "University of the Pacific (Calif.)",
+  "University of the Paciifc": "University of the Pacific (Calif.)"
  }
 }

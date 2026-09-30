@@ -38,8 +38,8 @@
 - 2003: 26 polls (2003-08-13 to 2003-12-10, 2 incomplete); 16 of 43 games vs ranked
 - 2004: 26 polls (2004-08-10 to 2004-12-07, 1 incomplete); 8 of 31 games vs ranked
 - 2005: 25 polls (2005-08-08 to 2005-11-21); 13 of 30 games vs ranked
-- 2006: 25 polls (2006-08-16 to 2006-11-20, 1 incomplete); 12 of 32 games vs ranked
-- 2007: 26 polls (2007-08-14 to 2007-12-03, 2 incomplete); 20 of 40 games vs ranked
+- 2006: 25 polls (2006-08-16 to 2006-11-20, 1 incomplete); 14 of 32 games vs ranked
+- 2007: 26 polls (2007-08-14 to 2007-12-03, 2 incomplete); 22 of 40 games vs ranked
 - 2008: 26 polls (2008-08-19 to 2008-12-03, 2 incomplete); 21 of 35 games vs ranked
 - 2009: 25 polls (2009-08-18 to 2009-12-07, 2 incomplete); 18 of 34 games vs ranked
 - 2010: 25 polls (2010-08-17 to 2010-12-07); 20 of 38 games vs ranked
@@ -407,13 +407,13 @@
 - 2022: 15 polls (2022-08-31 to 2022-12-07); 5 of 32 games vs ranked
 - 2023: 15 polls (2023-08-23 to 2023-12-06); 11 of 34 games vs ranked
 - 2024: 15 polls (2024-08-21 to 2024-12-11); 8 of 33 games vs ranked
-- 2025: 16 polls (2025-08-20 to 2025-12-10); 6 of 31 games vs ranked
+- 2025: 16 polls (2025-08-20 to 2025-12-10); 7 of 31 games vs ranked
 - 2026: 6 polls (2026-08-19 to 2026-09-30); 4 of 15 games vs ranked
 
 ## Women's Water Polo
-- 2022: 17 polls (2022-01-12 to 2022-05-11); 7 of 29 games vs ranked
-- 2023: 19 polls (2023-01-11 to 2023-05-17); 11 of 33 games vs ranked
-- 2024: 18 polls (2024-01-11 to 2024-05-15); 12 of 31 games vs ranked
+- 2022: 17 polls (2022-01-12 to 2022-05-11); 8 of 29 games vs ranked
+- 2023: 19 polls (2023-01-11 to 2023-05-17); 12 of 33 games vs ranked
+- 2024: 18 polls (2024-01-11 to 2024-05-15); 13 of 31 games vs ranked
 - 2025: 18 polls (2025-01-08 to 2025-05-14); 12 of 28 games vs ranked
 - 2026: 16 polls (2026-01-14 to 2026-04-29); 9 of 29 games vs ranked
 
@@ -640,8 +640,6 @@
 - Women's Volleyball: 'Concordia NY' ~ 'Concordia-St. Paul'
 - Women's Volleyball: 'Concordia OR' ~ 'Concordia (Calif.)'
 - Women's Volleyball: 'Concordia OR' ~ 'Concordia-St. Paul'
-- Women's Volleyball: 'Concordia University' ~ 'Concordia (Calif.)'
-- Women's Volleyball: 'Concordia University' ~ 'Concordia-St. Paul'
 - Women's Volleyball: 'Concordia University (Ore.)' ~ 'Concordia (Calif.)'
 - Women's Volleyball: 'Concordia University (Ore.)' ~ 'Concordia-St. Paul'
 - Women's Volleyball: 'Embry-Riddle AZ' ~ 'Embry-Riddle (Fla.)'
