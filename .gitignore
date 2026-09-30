@@ -5,3 +5,4 @@ review/scratch*/
 __pycache__/
 *.pyc
 .DS_Store
+games/audit-recent.md

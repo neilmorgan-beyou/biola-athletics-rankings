@@ -19,6 +19,7 @@ CSS until the script adds .js-on.
 """
 import html
 import json
+import os
 from datetime import date
 import re
 import sys
@@ -194,6 +195,36 @@ for upd in CORR.get("poll_row_updates", []):
 _pfx = CORR.get("poll_rules", {}).get("drop_week_prefix")
 if _pfx:
     rows = [r for r in rows if not str(r.get("week") or "").startswith(_pfx)]
+
+# Current seasons: Biola's own appearances are read straight from the poll archive (polls/*.json),
+# which the weekly routine keeps up to date, and replace the hand-researched rows for those
+# seasons and divisions. Older seasons keep the researched rows (regional polls, notes, sources).
+CURRENT_FROM = int(os.environ.get("CURRENT_FROM", "2026"))
+sys.path.insert(0, str(Path(__file__).parent))
+from join_games_polls import key as _pkey
+ERA = {"NCAA DII": "NCAA DII", "NAIA": "NAIA", "NAIA DI": "NAIA", "mixed": "NCAA DII"}
+derived = []
+for pf in sorted((Path(__file__).parent / "polls").glob("*.json")):
+    if pf.name == "aliases.json" or pf.name.startswith("backup-"):
+        continue
+    pd_ = json.loads(pf.read_text())
+    for p in pd_.get("polls", []):
+        if season_start(p.get("season")) < CURRENT_FROM or not p.get("release_date"):
+            continue
+        hit = [t for t in p.get("teams", []) if _pkey(t.get("team_raw")).split("|")[0] == "biola"]
+        rv = [t for t in p.get("receiving_votes", []) if _pkey(t.get("team_raw")).split("|")[0] == "biola"]
+        if not hit and not rv:
+            continue
+        t = (hit or rv)[0]
+        derived.append({
+            "sport": pd_["sport"], "season": str(p["season"]), "era": ERA.get(p.get("division"), p.get("division")),
+            "poll": p["poll"], "scope": "national", "region": None, "week": p.get("week"),
+            "date": p["release_date"], "rank": (("T%d" % t["rank"]) if t.get("tied") else t["rank"]) if hit else "RV",
+            "points": t.get("points"), "record_at_time": t.get("record"), "source_url": p.get("source_url"),
+            "confidence": p.get("confidence") or "primary", "notes": "From the poll archive (polls/%s)" % pf.name})
+cover = {(r["sport"], season_start(r["season"]), r["era"]) for r in derived}
+rows = [r for r in rows if not ((r.get("sport"), season_start(r.get("season")), r.get("era")) in cover
+                                and (r.get("scope") or "") == "national")] + derived
 
 # Dedupe poll rows. Exact repeats first, then the same poll reported twice
 # (poll archive + Biola story, dates a few days apart), then rows reconstructed

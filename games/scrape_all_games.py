@@ -29,6 +29,11 @@ OLD_CACHE = ("/private/tmp/claude-502/-Users-neil-morgan/6ca11ac2-0cfd-488e-9532
 CACHE = os.path.join(OUT_DIR, "cache")   # fresh fetches land here
 os.makedirs(CACHE, exist_ok=True)
 CURRENT_START_YEAR = 2026                # seasons starting 2026+ are always fetched fresh
+# Weekly refresh: RECENT_FROM=<year> scrapes only seasons starting that year or later (all fresh)
+# and merges them into the existing all-games.json, leaving older seasons untouched.
+RECENT_FROM = int(os.environ.get("RECENT_FROM", "0") or 0)
+if RECENT_FROM:
+    CURRENT_START_YEAR = min(CURRENT_START_YEAR, RECENT_FROM)
 
 SPORTS = [  # slug, display name, season type, game_id prefix
     ("womens-volleyball", "Women's Volleyball", "fall", "wvb"),
@@ -323,13 +328,16 @@ POSTSEASON_RE = re.compile(
 
 
 def main():
-    sweep = json.load(open(os.path.join(OLD_CACHE, "id_sweep.json")))
+    sp = os.path.join(OLD_CACHE, "id_sweep.json")
+    sweep = json.load(open(sp)) if os.path.exists(sp) else {}  # optional: empty-feed fallback only
     all_games, audit_rows, notes, strip_log, dropped = [], [], [], [], []
     seasons_covered = {}
     fresh_pages = 0
     for slug, sport, stype, abbr in SPORTS:
         sel = fetch(f"{BASE}/sports/{slug}/schedule", f"selector_{slug}.html", fresh=True)
         seasons = sorted(set(re.findall(rf'value="/sports/{slug}/schedule/([0-9]{{4}}(?:-[0-9]{{2}})?)"', sel)))
+        if RECENT_FROM:
+            seasons = [x for x in seasons if int(x[:4]) >= RECENT_FROM]
         if not seasons:
             notes.append(f"{sport}: no season selector found")
             continue
@@ -503,6 +511,17 @@ def main():
         seasons_covered[sport] = covered
         all_games.extend(sport_games)
 
+    if RECENT_FROM:
+        done = {(sport, s_) for sport, ss in seasons_covered.items() for s_ in ss}
+        done_sports = set(seasons_covered)
+        old = json.load(open(os.path.join(OUT_DIR, "all-games.json")))["games"]
+        keep = [g for g in old if not (g["sport"] in done_sports and int(str(g["season"])[:4]) >= RECENT_FROM)]
+        print("recent refresh: kept %d older games, replaced seasons %s" % (len(keep), sorted(done)))
+        json.dump({"games": keep + all_games}, open(os.path.join(OUT_DIR, "all-games.json"), "w"), indent=1,
+                  ensure_ascii=False)
+        with open(os.path.join(OUT_DIR, "audit-recent.md"), "w") as fh:
+            fh.write("\n".join("- " + n for n in notes) + "\n")
+        return
     ids = Counter(g["game_id"] for g in all_games)
     assert all(v == 1 for v in ids.values()), [k for k, v in ids.items() if v > 1]
     json.dump({"games": all_games}, open(os.path.join(OUT_DIR, "all-games.json"), "w"), indent=1,
