@@ -759,6 +759,89 @@ ASOF = "%s %d, %d" % (["Jan.", "Feb.", "March", "April", "May", "June", "July", 
                       _today.day, _today.year)
 
 
+# ---------------------------------------------------------------- currently ranked
+# Delivered through the hosted data (prepended to the No. 1 line), so it needs no Sidearm edit.
+MON = ["Jan.", "Feb.", "March", "April", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
+POLL_SHORT = [("AVCA", "AVCA"), ("United Soccer", "United Soccer Coaches"), ("USTFCCCA", "USTFCCCA"), ("NFCA", "NFCA"),
+              ("NCBWA", "NCBWA"), ("NABC", "NABC"), ("WBCA", "WBCA"), ("ITA", "ITA"), ("CWPA", "CWPA"),
+              ("CSCAA", "CSCAA"), ("NCAA", "NCAA"), ("NAIA", "NAIA"), ("D2SIDA", "D2SIDA"), ("D2CSC", "D2CSC")]
+
+
+def poll_short(name):
+    return next((v for k, v in POLL_SHORT if k in (name or "")), name or "")
+
+
+def when(ds):
+    d_ = date.fromisoformat(ds[:10])
+    return "%s %d" % (MON[d_.month - 1], d_.day)
+
+
+def currently_ranked(today=None):
+    today = today or date.today()
+    entries = defaultdict(dict)  # sport -> {"national": row, "regional": row}
+    archived = set()
+    for pf in sorted((Path(__file__).parent / "polls").glob("*.json")):
+        if pf.name == "aliases.json" or pf.name.startswith("backup-"):
+            continue
+        pd_ = json.loads(pf.read_text())
+        archived.add(pd_["sport"])
+        latest = {}
+        for p in pd_.get("polls", []):
+            if p.get("release_date") and not p.get("postseason_final"):
+                if p["division"] not in latest or p["release_date"] > latest[p["division"]]["release_date"]:
+                    latest[p["division"]] = p
+        for dv, p in latest.items():
+            if dv not in ("NCAA DII", "mixed") or (today - date.fromisoformat(p["release_date"])).days > 30:
+                continue
+            t = next((t for t in p.get("teams", []) if _pkey(t.get("team_raw")).split("|")[0] == "biola"), None)
+            if t:
+                entries[pd_["sport"]]["national"] = {"rank": ("T%d" % t["rank"]) if t.get("tied") else t["rank"],
+                                                     "poll": p["poll"], "date": p["release_date"],
+                                                     "source_url": p.get("source_url")}
+    for r in rows:  # sports without a poll archive, and regional rankings everywhere
+        sc = (r.get("scope") or "").lower()
+        if sc not in ("national", "regional") or not r.get("date") or not is_ranked(r.get("rank")):
+            continue
+        if sc == "national" and r["sport"] in archived:
+            continue
+        age = (today - date.fromisoformat(str(r["date"])[:10])).days
+        if age < 0 or age > 16 or not re.match(r"NCAA", r.get("era") or ""):
+            continue
+        cur = entries[r["sport"]].get(sc)
+        if not cur or r["date"] > cur["date"]:
+            entries[r["sport"]][sc] = dict(r)
+    cards = []
+    for sp in sorted(entries, key=sport_key):
+        e_ = entries[sp]
+        if not e_:
+            continue
+        lines = []
+        for sc, label in (("national", "nationally"), ("regional", "")):
+            r = e_.get(sc)
+            if not r:
+                continue
+            where = label if sc == "national" else ("%s Region" % r["region"] if r.get("region") else "regionally")
+            lines.append('<span class="r"><b>%s</b> %s</span><span class="s">%s, %s &middot; <a href="%s">source</a></span>' % (
+                e(rank_label(r["rank"])), e(where), e(poll_short(r["poll"])), when(r["date"]), e(r.get("source_url") or "")))
+        cards.append('<div class="rk-now-card"><span class="t">%s</span>%s</div>' % (e(sp), "".join(lines)))
+    if not cards:
+        return ""
+    style = ("<style>.biola-cmp .rk-now{border:1px solid var(--border);border-top:4px solid var(--red);border-radius:0 0 var(--r-sm) var(--r-sm);"
+             "padding:14px 16px 16px;margin:0 0 22px}.biola-cmp .rk-now h2{font-family:var(--fd);font-weight:600;text-transform:uppercase;"
+             "font-size:20px;margin:0 0 10px;display:flex;justify-content:space-between;align-items:baseline;gap:10px}"
+             ".biola-cmp .rk-now h2 small{font-family:var(--fb);font-size:12px;font-weight:600;text-transform:none;color:var(--muted)}"
+             ".biola-cmp .rk-now-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}"
+             ".biola-cmp .rk-now-card{background:var(--surface-alt);border-radius:var(--r-sm);padding:10px 12px}"
+             ".biola-cmp .rk-now-card .t{display:block;font-family:var(--fd);font-weight:600;text-transform:uppercase;font-size:16px;margin-bottom:4px}"
+             ".biola-cmp .rk-now-card .r{display:block;font-size:14.5px}.biola-cmp .rk-now-card .r b{color:var(--red);font-family:var(--fd);font-size:20px;font-weight:600}"
+             ".biola-cmp .rk-now-card .s{display:block;font-size:12px;color:var(--muted);margin-bottom:4px}</style>")
+    return (style + '<section class="rk-now" aria-label="Teams currently ranked"><h2>Currently ranked <small>as of %s</small></h2>'
+            '<div class="rk-now-grid">%s</div></section>' % (ASOF, "".join(cards)))
+
+
+NOW_HTML = currently_ranked()
+
+
 def render(vs_tab, vs_panel):
     return f"""
 <!-- RANKINGS HISTORY -- Sidearm sport file body. GENERATED by build_rankings_page.py;
@@ -875,7 +958,7 @@ for sid in ("rk-seasons", "rk-polls", "rk-dept", "rk-vs"):
     m = inner(full, sid)
     parts[sid] = m.group(2) if m else ""
 parts["rk-stats"] = re.search(r'<div class="rk-stats">(.*?)</div>\n', full, re.S).group(1)
-parts["rk-ones"] = ones_html.encode("ascii", "xmlcharrefreplace").decode("ascii")
+parts["rk-ones"] = (NOW_HTML + ones_html).encode("ascii", "xmlcharrefreplace").decode("ascii")
 parts["rk-asof"] = ASOF
 
 # Light body: the two heavy panels keep their heading and a placeholder until the data arrives.
