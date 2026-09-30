@@ -720,6 +720,12 @@ def build_vs():
 
 
 VS_TAB, VS_PANEL = build_vs()
+from datetime import datetime, timezone
+DATA_URL = "https://neilmorgan-beyou.github.io/biola-athletics-rankings/rankings-data.json"
+GENERATED = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+_today = date.today()
+ASOF = "%s %d, %d" % (["Jan.", "Feb.", "March", "April", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."][_today.month - 1],
+                      _today.day, _today.year)
 
 
 def render(vs_tab, vs_panel):
@@ -734,7 +740,7 @@ def render(vs_tab, vs_panel):
 {CSS}
 </style>
 
-<div class="biola-cmp rk-app">
+<div class="biola-cmp rk-app" data-src="{DATA_URL}" data-generated="{GENERATED}">
 
 <div class="cmp-hero">
 <p class="cmp-eyebrow">Program history</p>
@@ -745,7 +751,7 @@ def render(vs_tab, vs_panel):
 <div class="rk-stats">{stat_html}</div>
 {ones_html}
 
-<p class="cmp-note"><strong>About this page.</strong> Rankings come from the published polls themselves where an archive survives, and otherwise from Biola Athletics news releases written at the time. "RV" means receiving votes. Current through Sept. 29, 2026. Every entry links to its source, labeled by type: <em>Poll</em> is the published poll itself, <em>Biola</em> is a Biola Athletics release or publication from the time, and <em>Other</em> is another school, conference or media report. Know of a ranking that is missing? Let the athletics communications office know.</p>
+<p class="cmp-note"><strong>About this page.</strong> Rankings come from the published polls themselves where an archive survives, and otherwise from Biola Athletics news releases written at the time. "RV" means receiving votes. Current through <span class="rk-asof">{ASOF}</span>. Every entry links to its source, labeled by type: <em>Poll</em> is the published poll itself, <em>Biola</em> is a Biola Athletics release or publication from the time, and <em>Other</em> is another school, conference or media report. Know of a ranking that is missing? Let the athletics communications office know.</p>
 
 <nav class="rk-tabs" role="tablist" aria-label="Rankings history sections">
 <a class="rk-tab" role="tab" id="tab-rk-seasons" href="#rk-seasons" aria-controls="rk-seasons"><span class="t">Ranked seasons</span><span class="d">Preseason, peak and final rank by year</span></a>
@@ -822,10 +828,38 @@ def render(vs_tab, vs_panel):
 }}
 </script>
 """
-# The record explorer ships in both the Sidearm body and the preview (Neil, 2026-09-30).
-body = render(VS_TAB, VS_PANEL).encode("ascii", "xmlcharrefreplace").decode("ascii")  # Neil approved 2026-09-30
-preview_body = render(VS_TAB, VS_PANEL).encode("ascii", "xmlcharrefreplace").decode("ascii")
+# Hosted data (Neil, 2026-09-30): the Sidearm body carries the light page; on load the script
+# fetches docs/rankings-data.json (GitHub Pages) and swaps in the current parts. The weekly
+# routine only has to update the JSON, never Sidearm.
+full = render(VS_TAB, VS_PANEL).encode("ascii", "xmlcharrefreplace").decode("ascii")
+
+
+def inner(html_, sec_id):
+    m = re.search(r'(<section[^>]*id="%s"[^>]*>)(.*?)(</section>)' % sec_id, html_, re.S)
+    return m
+
+
+parts = {}
+for sid in ("rk-seasons", "rk-polls", "rk-dept", "rk-vs"):
+    m = inner(full, sid)
+    parts[sid] = m.group(2) if m else ""
+parts["rk-stats"] = re.search(r'<div class="rk-stats">(.*?)</div>\n', full, re.S).group(1)
+parts["rk-ones"] = ones_html.encode("ascii", "xmlcharrefreplace").decode("ascii")
+parts["rk-asof"] = ASOF
+
+# Light body: the two heavy panels keep their heading and a placeholder until the data arrives.
+body = full
+for sid, head in (("rk-polls", "Every poll appearance"), ("rk-vs", "Record vs. ranked opponents")):
+    m = inner(body, sid)
+    if m:
+        ph = ('\n<h2 class="cmp-h%s">%s</h2>\n<p class="cmp-sub rk-loading">Loading the full tables&hellip; '
+              'If they do not appear, reload the page.</p>\n' % ("" if sid == "rk-polls" else " is-blue", head))
+        body = body[:m.start(2)] + ph + body[m.end(2):]
+preview_body = full
 (OUT / "rankings-history-sportfile-body.html").write_text(body)
+(OUT / "docs").mkdir(exist_ok=True)
+(OUT / "docs" / "rankings-data.json").write_text(json.dumps({"generated": GENERATED, "parts": parts}))
+(OUT / "docs" / ".nojekyll").write_text("")
 (OUT / "rankings-history-preview.html").write_text(
     '<!doctype html><html lang="en"><head><meta charset="utf-8">'
     '<meta name="viewport" content="width=device-width,initial-scale=1">'
@@ -834,4 +868,5 @@ preview_body = render(VS_TAB, VS_PANEL).encode("ascii", "xmlcharrefreplace").dec
     '<body><div class="pv">' + preview_body + '</div></body></html>')
 (OUT / "rankings-merged.json").write_text(json.dumps(
     {"rows": rows, "season_summaries": summ, "games": games, "gaps": gaps, "vs_notes": vs_notes}, indent=1))
-print("rows=%d summaries=%d games=%d body=%dKB" % (len(rows), len(summ), len(games), len(body) // 1024))
+print("rows=%d summaries=%d games=%d body=%dKB data=%dKB" % (len(rows), len(summ), len(games), len(body) // 1024,
+      len(json.dumps({"generated": GENERATED, "parts": parts})) // 1024))

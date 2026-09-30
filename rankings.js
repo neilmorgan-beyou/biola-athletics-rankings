@@ -1,6 +1,34 @@
 (function () {
   var APP = document.querySelector('.rk-app');
   if (!APP) return;
+  // Hosted data: fetch the current parts (updated weekly) and swap them in before wiring up
+  // tabs, sorting and filters. If the fetch fails the static page is used as is.
+  var src = APP.getAttribute('data-src');
+  if (src && window.fetch && window.JSON) {
+    fetch(src, { cache: 'no-cache' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) {
+        var p = d && d.parts;
+        if (!p || (d.generated || '') < (APP.getAttribute('data-generated') || '')) return;
+        ['rk-seasons', 'rk-polls', 'rk-dept', 'rk-vs'].forEach(function (id) {
+          var el = document.getElementById(id);
+          if (el && p[id]) el.innerHTML = p[id];
+        });
+        var st = APP.querySelector('.rk-stats'); if (st && p['rk-stats']) st.innerHTML = p['rk-stats'];
+        var on = APP.querySelector('.rk-ones'); if (on && p['rk-ones']) on.outerHTML = p['rk-ones'];
+        var as = APP.querySelector('.rk-asof'); if (as && p['rk-asof']) as.textContent = p['rk-asof'];
+      })
+      ['catch'](function () {
+        Array.prototype.forEach.call(APP.querySelectorAll('.rk-loading'), function (x) {
+          x.textContent = 'The full tables could not be loaded right now. Please try again later.';
+        });
+      })
+      .then(init, init);
+  } else {
+    init();
+  }
+
+  function init() {
   // Controls are hidden in CSS until this class is set, so a script failure
   // never leaves dead filters on the page; the static tables still read fine.
   APP.classList.add('js-on');
@@ -106,4 +134,5 @@
     });
     apply();
   });
+  }
 })();
