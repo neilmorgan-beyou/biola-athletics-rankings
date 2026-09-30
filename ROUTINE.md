@@ -35,7 +35,18 @@ Read `SPEC-poll-archive.md` first. The standing rules:
    the Biola line (and 3 other random teams) against your entry.
 
 3. **Sports without a poll archive** (cross country, track & field, swimming & diving): check the
-   current-season national/regional polls (USTFCCCA, CSCAA) for Biola. For each new appearance, append
+   current-season national/regional polls (USTFCCCA, CSCAA) for Biola.
+   - **Swimming (CSCAA):** the NCAA Division II polls are a published Google Sheet, one tab per poll
+     (tab names like "Preseason 2026", "October 2026"). Read the tab list from
+     https://docs.google.com/spreadsheets/d/e/2PACX-1vTVK5j20kOB-fbcWrBDmnIg84VPoD3s0KhNtCIrdM4yxhNWSwT33CKXwK9y7BAXvoN1TLwC-KvL1wXY/pubhtml
+     and each tab as CSV via `.../pub?gid=<gid>&single=true&output=csv` (men left, women right;
+     "Also receiving votes" rows list points in parentheses). Confirm the sheet's header says
+     "Division II" before using it. Source URL for rows: https://cscaa.org/top-25/
+   - **Cross country / track (USTFCCCA):** ustfccca.org blocks automated reads (Cloudflare 403),
+     but https://www.ustfccca.org/feed lists new polls. Do not guess ranks. If the feed shows a new
+     "NCAA DII ... Cross Country (or Track & Field) National Coaches' Poll" or "Regional Rankings"
+     post since the last row in data/current-season.json / data/xc-track.json, list its link(s) in the
+     email to Neil under "Needs a manual read (paste these links into Claude Code)". For each new appearance, append
    a row to `data/current-season.json` (create it as `{"rows": []}` if missing) with the same fields as
    the rows in `data/xc-track.json` (sport, season, era, poll, scope, region, week, date, rank, points,
    record_at_time, source_url, confidence "primary", notes). Skip if the row already exists.
@@ -58,6 +69,7 @@ Read `SPEC-poll-archive.md` first. The standing rules:
 
 7. **Email Neil** (neil.morgan@biola.edu) using the Gmail connector ONLY when there is something to
    report: the run could not complete (for example a source or athletics.biola.edu was unreachable),
+   new USTFCCCA polls that need a manual read,
    a failed validation, an uncertain item you left out, a possible alias, or a notable new ranking for
    Biola (Biola newly ranked or moving up 5+ spots). Subject starts with
    "[Rankings routine]". Keep it short: what changed, what needs him, links to the commit or report.

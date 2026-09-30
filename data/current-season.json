@@ -1,1 +1,36 @@
-{"rows": []}
+{
+ "rows": [
+  {
+   "season": "2026",
+   "era": "NCAA DII",
+   "poll": "USTFCCCA NCAA DII National Coaches' Poll",
+   "scope": "national",
+   "region": null,
+   "week": "Week 2",
+   "date": "2026-09-30",
+   "record_at_time": null,
+   "confidence": "primary",
+   "sport": "Women's Cross Country",
+   "rank": "T23",
+   "points": 62,
+   "source_url": "https://www.ustfccca.org/2026/09/featured/2026-ncaa-dii-womens-cross-country-national-coaches-poll-week-2",
+   "notes": "Tied with Neb.-Kearney (62 pts); LW 22. Read from the published poll 2026-09-30."
+  },
+  {
+   "season": "2026",
+   "era": "NCAA DII",
+   "poll": "USTFCCCA NCAA DII National Coaches' Poll",
+   "scope": "national",
+   "region": null,
+   "week": "Week 2",
+   "date": "2026-09-30",
+   "record_at_time": null,
+   "confidence": "primary",
+   "sport": "Men's Cross Country",
+   "rank": 30,
+   "points": 11,
+   "source_url": "https://www.ustfccca.org/2026/09/featured/2026-ncaa-dii-mens-cross-country-national-coaches-poll-week-2",
+   "notes": "LW 26. Read from the published poll 2026-09-30."
+  }
+ ]
+}
