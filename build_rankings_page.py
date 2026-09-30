@@ -747,6 +747,11 @@ def build_vs():
 <tbody>{"".join(g_rows)}</tbody></table></div>
 </section>
 """
+    # Same numbers the page shows, for other consumers (quill_context.py).
+    (DATA / "vs-records.json").write_text(json.dumps({
+        "covered": {sp: sorted({se for s_, se in polled if s_ == sp}) for sp in sports},
+        "labels": {"%s|%s" % k: v for k, v in label.items()},
+        "games": vg}, indent=0))
     return tab, panel
 
 
