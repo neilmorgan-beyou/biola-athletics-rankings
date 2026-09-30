@@ -1,0 +1,137 @@
+{
+ "_about": "Opponent name aliases for join_games_polls.py. Scope '_global' applies to every sport; a sport key applies only there. Left side: a name as printed anywhere (poll or schedule). Right side: the canonical name. Hand-reviewed only; never auto-generated.",
+ "_global": {
+  "Air Force": "United States Air Force Academy",
+  "Navy": "United States Naval Academy",
+  "University of the Paciifc": "University of the Pacific",
+  "Pomona Pitzer Colleges": "Pomona-Pitzer",
+  "Marist University": "Marist",
+  "Concordia Irvine": "Concordia Irvine",
+  "Concordia (Calif.)": "Concordia Irvine",
+  "Concordia CA": "Concordia Irvine",
+  "Concordia University Irvine": "Concordia Irvine",
+  "Concordia-Irvine": "Concordia Irvine",
+  "MidAmerica Nazaren (Kan.)": "MidAmerica Nazarene (Kan.)",
+  "GrandView": "Grand View (Iowa)",
+  "Albertson College ID": "College of Idaho",
+  "Albertson/College of Idaho": "College of Idaho",
+  "Point Loma": "Point Loma Nazarene",
+  "Point Loma Nazarene (Calif.)": "Point Loma Nazarene",
+  "Cornerstone": "Cornerstone (Mich.)",
+  "NW Nazarene": "Northwest Nazarene",
+  "MSU Denver": "Metro State",
+  "Metropolitan State": "Metro State",
+  "Metro State Denver": "Metro State",
+  "GrandView IA": "Grand View (Iowa)",
+  "Grand View": "Grand View (Iowa)",
+  "Azusa Pacifiic": "Azusa Pacific",
+  "Idaho, College of": "College of Idaho",
+  "Lewis & Clark State (ID)": "Lewis-Clark State (Idaho)",
+  "Lewis & Clark State": "Lewis-Clark State",
+  "Dominican": "Dominican (Calif.)",
+  "Dominican University": "Dominican (Calif.)",
+  "Dominican University of California": "Dominican (Calif.)",
+  "Point Loma (Calif.)": "Point Loma Nazarene",
+  "California Maritime Academy": "Cal Maritime",
+  "Embry-Riddle Aeronautical University (Fla.)": "Embry-Riddle (Fla.)",
+  "John Brown (AK)": "John Brown (Ark.)",
+  "California State University Chico": "Chico State",
+  "Chico State, Calif.": "Chico State",
+  "California State University, Chico": "Chico State",
+  "Cal State Chico": "Chico State",
+  "Cumberland University": "Cumberland (Tenn.)",
+  "Southern Poly": "Southern Polytechnic (Ga.)",
+  "Southern Poly (Ga.)": "Southern Polytechnic (Ga.)",
+  "Southern Poly Tech (Ga.)": "Southern Polytechnic (Ga.)",
+  "Southern Poly Technic (Ga.)": "Southern Polytechnic (Ga.)",
+  "Southern Polytechnic State University (Ga.)": "Southern Polytechnic (Ga.)",
+  "Savannah College of Art and Design": "SCAD Savannah (Ga.)",
+  "Savannah College of Art and Design (Ga.)": "SCAD Savannah (Ga.)",
+  "Savannah Art & Design (Ga.)": "SCAD Savannah (Ga.)",
+  "Savannah Art and Design (Ga.)": "SCAD Savannah (Ga.)",
+  "Savannah of Art and Design (Ga.)": "SCAD Savannah (Ga.)",
+  "SCAD (Ga.)": "SCAD Savannah (Ga.)",
+  "SCAD": "SCAD Savannah (Ga.)",
+  "University of Northwestern (Ohio)": "Northwestern Ohio",
+  "Northwestern (Ohio)": "Northwestern Ohio",
+  "Northwestern Ohio (Ohio)": "Northwestern Ohio",
+  "University of Northwestern Ohio": "Northwestern Ohio",
+  "Saint Mary's NE": "College of Saint Mary (Neb.)",
+  "St. Mary (Neb.)": "College of Saint Mary (Neb.)",
+  "Saint Mary (Neb.)": "College of Saint Mary (Neb.)",
+  "St. Mary (Kan.)": "University of Saint Mary (Kan.)",
+  "Saint Mary (Kan.)": "University of Saint Mary (Kan.)",
+  "Saint Mary (KS)": "University of Saint Mary (Kan.)",
+  "Savannah College of Arts and Design": "SCAD Savannah (Ga.)",
+  "Southern California College": "Vanguard",
+  "Vanguard University": "Vanguard",
+  "Christian Heritage (Calif.)": "San Diego Christian",
+  "Christian Heritage": "San Diego Christian",
+  "Christian Heritage College": "San Diego Christian",
+  "Christian Heritage College (Calif.)": "San Diego Christian",
+  "Concordia Portland": "Concordia (Ore.)",
+  "Concordia University Portland": "Concordia (Ore.)"
+ },
+ "Men's Water Polo": {
+  "Pacific": "University of the Pacific",
+  "Concordia University": "Concordia Irvine",
+  "Concordia": "Concordia Irvine"
+ },
+ "Women's Water Polo": {
+  "Pacific": "University of the Pacific",
+  "Concordia University": "Concordia Irvine",
+  "Concordia": "Concordia Irvine"
+ },
+ "Women's Volleyball": {
+  "Concordia": "Concordia Irvine",
+  "Midland College": "Midland (Neb.)",
+  "Midland University": "Midland (Neb.)",
+  "Columbia": "Columbia (Mo.)",
+  "Westminster College": "Westminster (Utah)",
+  "Saint Mary": "College of Saint Mary (Neb.)"
+ },
+ "_open_questions": [
+  "Women's Soccer 'Concordia University' (one away game, one at the 2017 NCCAA nationals): not aliased -- the NCCAA opponent may be a different Concordia."
+ ],
+ "Men's Tennis": {
+  "Concordia": "Concordia Irvine",
+  "Concordia University": "Concordia Irvine"
+ },
+ "Women's Tennis": {
+  "Concordia": "Concordia Irvine",
+  "Concordia University": "Concordia Irvine"
+ },
+ "_notes": [
+  "Plain 'Concordia' is aliased to Concordia Irvine only in sports where every such game is a home/away conference pair or PacWest/GSAC tournament (checked: volleyball, tennis, water polo, baseball, softball, basketball).",
+  "Plain 'Dominican' on Biola schedules is always Dominican University of California (PacWest) -- checked in every sport; 'Dominican' is in AMBIGUOUS so it never loose-matches Dominican (N.Y.).",
+  "_poll:<sport> aliases apply to POLL names only. _poll:Softball 'Concordia' = Concordia Irvine: in all 47 NFCA DII polls (2018-2026) that print plain 'Concordia', no Irvine or St. Paul entry appears, and its rank equals the rank Biola's schedule listed for Concordia Irvine every week checked (e.g. 2023-03-14 #12 / game 3-18 #12; 2024-04-23 #17 / 4-24 #17). NCBWA 2005 plain 'Concordia' is Concordia-St. Paul (Irvine was NAIA) and is NOT aliased. Sport aliases never apply to poll names: that produced false 2004 WBB matches (DII 'Concordia University' was St. Paul).",
+  "Women's Volleyball 'Midland College' 2014-08-22 = Midland (Neb.): game at Biola's Summer Slam; the opposition review found the game recap names Midland University (review/vs-ranked-audit.md). Midland College (Tex.) is a junior college.",
+  "Neil confirmed 2026-09-30: volleyball 'Columbia' = Columbia College (Mo.); 'Westminster College' = Westminster (Utah); 'Saint Mary' = College of Saint Mary (Neb.)."
+ ],
+ "Baseball": {
+  "Concordia": "Concordia Irvine",
+  "Concordia University": "Concordia Irvine"
+ },
+ "Softball": {
+  "Concordia": "Concordia Irvine",
+  "Concordia University": "Concordia Irvine"
+ },
+ "Men's Basketball": {
+  "Concordia": "Concordia Irvine",
+  "Concordia University": "Concordia Irvine"
+ },
+ "Women's Basketball": {
+  "Concordia": "Concordia Irvine",
+  "Concordia University": "Concordia Irvine"
+ },
+ "Men's Soccer": {
+  "Concordia": "Concordia Irvine",
+  "Concordia University": "Concordia Irvine"
+ },
+ "Women's Soccer": {
+  "Concordia": "Concordia Irvine"
+ },
+ "_poll:Softball": {
+  "Concordia": "Concordia Irvine"
+ }
+}

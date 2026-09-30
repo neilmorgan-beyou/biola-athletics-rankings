@@ -1,0 +1,271 @@
+{
+ "_about": "Corrections from the 2026-09-29 opposition review (review/*.md), applied by build_rankings_page.py on top of the research files, which stay as delivered. Key claims were re-checked by hand before being added here; see each 'checked' note.",
+ "directors_cup_rows": [
+  {
+   "season": "1998-99",
+   "body": "NAIA",
+   "status": "placed",
+   "place": 28,
+   "tied": true,
+   "points": 180,
+   "schools_scored": 234,
+   "confidence": "primary",
+   "source_url": "https://web.archive.org/web/20030213033338/http://graphics.fansonly.com:80/confs/nacda/graphics/9899NFinal.PDF",
+   "notes": "Recovered in review; tied with California Baptist."
+  },
+  {
+   "season": "1999-2000",
+   "body": "NAIA",
+   "status": "placed",
+   "place": 18,
+   "tied": false,
+   "points": 349.5,
+   "schools_scored": 234,
+   "confidence": "primary",
+   "source_url": "https://web.archive.org/web/20030109060823/http://graphics.fansonly.com:80/confs/nacda/graphics/9900NFinal.PDF",
+   "notes": "Recovered in review."
+  },
+  {
+   "season": "2000-01",
+   "body": "NAIA",
+   "status": "placed",
+   "place": 20,
+   "tied": false,
+   "points": 328.5,
+   "schools_scored": 239,
+   "confidence": "primary",
+   "source_url": "https://web.archive.org/web/20010819025347/http://graphics.fansonly.com:80/confs/nacda/graphics/0001NAIAFinal.PDF",
+   "notes": "Recovered in review; checked by hand against the PDF."
+  },
+  {
+   "season": "2001-02",
+   "body": "NAIA",
+   "status": "placed",
+   "place": 80,
+   "tied": false,
+   "points": 165,
+   "schools_scored": 245,
+   "confidence": "primary",
+   "source_url": "https://web.archive.org/web/20020702180317/http://graphics.fansonly.com:80/confs/nacda/graphics/0102NAIAFinalStandings.PDF",
+   "notes": "Recovered in review; checked by hand against the PDF."
+  },
+  {
+   "season": "2002-03",
+   "body": "NAIA",
+   "status": "placed",
+   "place": 43,
+   "tied": false,
+   "points": 293,
+   "schools_scored": 246,
+   "confidence": "primary",
+   "source_url": "https://web.archive.org/web/20031116212306/http://graphics.fansonly.com:80/confs/nacda/graphics/0203NAIAFinalStandings.pdf",
+   "notes": "Recovered in review; checked by hand against the PDF."
+  },
+  {
+   "season": "2003-04",
+   "body": "NAIA",
+   "status": "placed",
+   "place": 19,
+   "tied": false,
+   "points": 420,
+   "schools_scored": 236,
+   "confidence": "primary",
+   "source_url": "https://nacda.com/documents/2018/8/3/7222__directorscup__NAIAFinalStandings.pdf",
+   "notes": "Recovered in review."
+  },
+  {
+   "season": "2004-05",
+   "body": "NAIA",
+   "status": "placed",
+   "place": 39,
+   "tied": false,
+   "points": 339,
+   "schools_scored": null,
+   "confidence": "primary",
+   "source_url": "https://nacda.com/documents/2018/8/3/6627__directorscup__NFinalStand.pdf",
+   "notes": "Recovered in review; PDF prints the top 100 only."
+  },
+  {
+   "season": "2005-06",
+   "body": "NAIA",
+   "status": "placed",
+   "place": 60,
+   "tied": false,
+   "points": 259.5,
+   "schools_scored": null,
+   "confidence": "primary",
+   "source_url": "https://nacda.com/documents/2018/8/3/5997__directorscup__0506NFinalStand.pdf",
+   "notes": "Recovered in review; PDF prints the top 100 only."
+  }
+ ],
+ "directors_cup_fields": [
+  {
+   "season": "1995-96",
+   "body": "NAIA",
+   "schools_scored": 268
+  },
+  {
+   "season": "1997-98",
+   "body": "NAIA",
+   "schools_scored": 245
+  },
+  {
+   "season": "2006-07",
+   "body": "NAIA",
+   "schools_scored": 223
+  },
+  {
+   "season": "2012-13",
+   "body": "NAIA",
+   "schools_scored": 204
+  },
+  {
+   "season": "2023-24",
+   "body": "NCAA DII",
+   "schools_scored": 251
+  },
+  {
+   "season": "2024-25",
+   "body": "NCAA DII",
+   "schools_scored": 260
+  },
+  {
+   "season": "2019-20",
+   "body": "NCAA DII",
+   "tied": true
+  }
+ ],
+ "conference_rows": [
+  {
+   "award_match": "GSAC",
+   "season": "2011-12",
+   "status": "placed",
+   "place": 2,
+   "tied": false,
+   "points": 7.81,
+   "schools": 10,
+   "confidence": "primary",
+   "source_url": "https://web.archive.org/web/20121026151436/http://gsacsports.org/f/All_Sports_Award.php",
+   "notes": "Recovered in review; checked by hand against the archived GSAC page."
+  },
+  {
+   "award_match": "Academic",
+   "season": "2020-21",
+   "status": "placed",
+   "place": 4,
+   "tied": false,
+   "points": 3.45,
+   "schools": null,
+   "confidence": "primary",
+   "source_url": "https://thepacwest.com/news/2021/7/15/academics-dominican-wins-2021-pacwest-academic-achievement-award.aspx",
+   "notes": "Recovered in review."
+  },
+  {
+   "award_match": "Academic",
+   "season": "2021-22",
+   "status": "top 5",
+   "place": null,
+   "tied": false,
+   "points": null,
+   "schools": null,
+   "confidence": "primary",
+   "source_url": "https://thepacwest.com/news/2022/6/29/general-dominican-wins-11th-pacwest-academic-achievement-award.aspx",
+   "notes": "Recovered in review; release lists the top five without order for Biola."
+  },
+  {
+   "award_match": "Academic",
+   "season": "2025-26",
+   "status": "outside top 5",
+   "place": null,
+   "tied": false,
+   "points": null,
+   "schools": null,
+   "_keep_source": true,
+   "notes": "Release names only the top five."
+  }
+ ],
+ "conference_fields": [
+  {
+   "award_match": "GSAC",
+   "season": "2015-16",
+   "schools": 9,
+   "source_url": "https://web.archive.org/web/20160706204501/http://www.gsacsports.org/f/GSAC_All_Sports_Award_presented_by_Dukes.php",
+   "confidence": "primary"
+  }
+ ],
+ "game_rules": {
+  "_about": "Record vs ranked counts opponents ranked 1-25 in a national poll at game time, as listed on Biola's schedule.",
+  "max_rank": 25,
+  "exclude_event_contains": [
+   [
+    "Baseball",
+    "2018",
+    "NCCAA",
+    "NCCAA World Series seeds were entered in the rank field (review/vs-ranked-audit.md)."
+   ]
+  ],
+  "exclude_rank_raw": [
+   "NAIA DII",
+   "D3"
+  ],
+  "exclude_division_mismatch": true
+ },
+ "opponent_display": {
+  "#19 Montana State - Northern": "Montana State-Northern",
+  "#4 Louisiana State - Shreveport": "LSU Shreveport"
+ },
+ "poll_rules": {
+  "headline_max_rank": 25,
+  "headline_exclude_polls": [
+   "Clippd",
+   "Golfstat"
+  ],
+  "drop_week_prefix": "Poll before",
+  "_drop_why": "Rows inferred from a later poll's previous-week column; several repeat polls already listed (review/sample-audit.md)."
+ },
+ "poll_row_updates": [
+  {
+   "match": {
+    "sport": "Men's Basketball",
+    "season": "2016-17",
+    "rank": 1,
+    "source_url_contains": "news/2016/12/6"
+   },
+   "set": {
+    "confidence": "primary",
+    "date": "2016-12-06",
+    "week": "Dec. 6 edition",
+    "source_url": "https://web.archive.org/web/20190918203733/https://www.naia.org/sports/mbkb/2016-17/releases/20170103pxoag"
+   },
+   "why": "NAIA's Jan. 3, 2017 release: 'The Eagles were the No. 1-ranked team in the Dec. 6 edition.' Checked by hand."
+  },
+  {
+   "match": {
+    "sport": "Women's Cross Country",
+    "season": "2014",
+    "rank": 1,
+    "source_url_contains": "athletics.biola.edu/news/2014/8/27/XC_0827141525.aspx"
+   },
+   "set": {
+    "confidence": "secondary",
+    "source_url": "https://ky.milesplit.com/articles/133558/university-of-the-cumberlands-ranked-24-in-pre-season-naia-xc-poll"
+   },
+   "why": "Independent reprint of the NAIA 2014 preseason poll: 'Biola (Calif.) earned the top spot in the preseason poll.' Checked by hand."
+  },
+  {
+   "match": {
+    "sport": "Men's Basketball",
+    "season": "1981-82",
+    "rank": 1,
+    "source_url_contains": "1988-naia-annual"
+   },
+   "set": {
+    "confidence": "primary",
+    "source_url": "https://archive.org/details/1997-naia-mens-division-i-basketball-national-championship-press",
+    "notes": "NAIA's official championship guide, table 'Year #1 in Final Poll': '1982 Biola CA'. Also in the 1988 guide; UPI 1982-03-23: 'Biola was the No. 1 ranked NAIA team throughout the season.' Checked by hand.",
+    "cite_label": "NAIA record book"
+   },
+   "why": "NAIA's own record of its final poll; checked by hand."
+  }
+ ]
+}

@@ -1,0 +1,831 @@
+# Game / poll join report
+
+## Women's Volleyball
+- 1969: no polls archived; 15 games unverified
+- 1970: no polls archived; 18 games unverified
+- 1971: no polls archived; 15 games unverified
+- 1972: no polls archived; 13 games unverified
+- 1973: no polls archived; 17 games unverified
+- 1974: no polls archived; 22 games unverified
+- 1975: no polls archived; 22 games unverified
+- 1976: no polls archived; 26 games unverified
+- 1977: no polls archived; 29 games unverified
+- 1978: no polls archived; 23 games unverified
+- 1979: no polls archived; 21 games unverified
+- 1980: no polls archived; 29 games unverified
+- 1981: no polls archived; 38 games unverified
+- 1982: no polls archived; 29 games unverified
+- 1983: no polls archived; 26 games unverified
+- 1984: no polls archived; 29 games unverified
+- 1985: no polls archived; 42 games unverified
+- 1986: 11 polls (1986-09-15 to 1986-11-24); 2 of 41 games vs ranked
+- 1987: 11 polls (1987-09-15 to 1987-11-24); 1 of 31 games vs ranked
+- 1988: 11 polls (1988-09-13 to 1988-11-22); 2 of 28 games vs ranked
+- 1989: 12 polls (1989-08-01 to 1989-11-21); 1 of 35 games vs ranked
+- 1990: 11 polls (1990-08-13 to 1990-11-13); 2 of 33 games vs ranked
+- 1991: 12 polls (1991-08-05 to 1991-11-19); 1 of 19 games vs ranked
+- 1992: 12 polls (1992-08-12 to 1992-11-17); 4 of 30 games vs ranked
+- 1993: 11 polls (1993-08-10 to 1993-11-09); 4 of 34 games vs ranked
+- 1994: 10 polls (1994-09-06 to 1994-11-08); 0 of 29 games vs ranked
+- 1995: 11 polls (1995-09-05 to 1995-11-14); 0 of 24 games vs ranked
+- 1996: 12 polls (1996-09-03 to 1996-11-19); 0 of 35 games vs ranked
+- 1997: 12 polls (1997-09-02 to 1997-11-18, 2 incomplete); 0 of 38 games vs ranked
+- 1998: 11 polls (1998-09-08 to 1998-11-17); 0 of 33 games vs ranked
+- 1999: 11 polls (1999-09-07 to 1999-11-16); 0 of 29 games vs ranked
+- 2000: 25 polls (2000-08-15 to 2000-12-05, 1 incomplete); 13 of 32 games vs ranked
+- 2001: 24 polls (2001-08-14 to 2001-12-05, 2 incomplete); 13 of 36 games vs ranked
+- 2002: 26 polls (2002-08-13 to 2002-12-11, 1 incomplete); 11 of 34 games vs ranked
+- 2003: 26 polls (2003-08-13 to 2003-12-10, 2 incomplete); 16 of 43 games vs ranked
+- 2004: 26 polls (2004-08-10 to 2004-12-07, 1 incomplete); 8 of 31 games vs ranked
+- 2005: 25 polls (2005-08-08 to 2005-11-21); 13 of 30 games vs ranked
+- 2006: 25 polls (2006-08-16 to 2006-11-20, 1 incomplete); 12 of 32 games vs ranked
+- 2007: 26 polls (2007-08-14 to 2007-12-03, 2 incomplete); 20 of 40 games vs ranked
+- 2008: 26 polls (2008-08-19 to 2008-12-03, 2 incomplete); 21 of 35 games vs ranked
+- 2009: 25 polls (2009-08-18 to 2009-12-07, 2 incomplete); 18 of 34 games vs ranked
+- 2010: 25 polls (2010-08-17 to 2010-12-07); 20 of 38 games vs ranked
+- 2011: 26 polls (2011-08-16 to 2011-12-06); 21 of 40 games vs ranked
+- 2012: 26 polls (2012-08-14 to 2012-12-10); 15 of 36 games vs ranked
+- 2013: 26 polls (2013-08-13 to 2013-12-11); 17 of 31 games vs ranked
+- 2014: 26 polls (2014-08-18 to 2014-12-10); 14 of 37 games vs ranked
+- 2015: 27 polls (2015-08-18 to 2015-12-14); 16 of 34 games vs ranked
+- 2016: 22 polls (2016-08-16 to 2016-12-12); 12 of 37 games vs ranked
+- 2017: 22 polls (2017-08-14 to 2017-12-11); 5 of 35 games vs ranked
+- 2018: 22 polls (2018-08-09 to 2018-12-05); 3 of 36 games vs ranked
+- 2019: 22 polls (2019-08-14 to 2019-12-16); 1 of 30 games vs ranked
+- 2020: 20 polls (2021-01-04 to 2021-05-06); 1 of 8 games vs ranked
+- 2021: 22 polls (2021-08-11 to 2021-12-13); 2 of 28 games vs ranked
+- 2022: 21 polls (2022-08-10 to 2022-12-05); 2 of 27 games vs ranked
+- 2023: 21 polls (2023-08-16 to 2023-12-11); 4 of 27 games vs ranked
+- 2024: 22 polls (2024-08-14 to 2024-12-18); 7 of 28 games vs ranked
+- 2025: 22 polls (2025-08-13 to 2025-12-17); 3 of 27 games vs ranked
+- 2026: 9 polls (2026-08-12 to 2026-09-28); 2 of 13 games vs ranked
+- 10 polls have no release date and were not used: avca-dii-1995-pre, avca-dii-1996-pre, avca-dii-1997-pre, avca-dii-1998-pre, avca-dii-1999-pre, avca-dii-1999-post, avca-dii-2001-pre, avca-dii-2002-pre, avca-dii-2003-pre, avca-dii-2005-post
+
+## Men's Soccer
+- 1960: no polls archived; 10 games unverified
+- 1961: no polls archived; 10 games unverified
+- 1962: no polls archived; 14 games unverified
+- 1963: no polls archived; 14 games unverified
+- 1964: no polls archived; 12 games unverified
+- 1965: no polls archived; 14 games unverified
+- 1966: no polls archived; 12 games unverified
+- 1967: no polls archived; 13 games unverified
+- 1968: no polls archived; 17 games unverified
+- 1969: no polls archived; 15 games unverified
+- 1970: no polls archived; 18 games unverified
+- 1971: no polls archived; 15 games unverified
+- 1972: no polls archived; 18 games unverified
+- 1973: no polls archived; 17 games unverified
+- 1974: no polls archived; 18 games unverified
+- 1975: no polls archived; 17 games unverified
+- 1976: no polls archived; 20 games unverified
+- 1977: no polls archived; 19 games unverified
+- 1978: no polls archived; 22 games unverified
+- 1979: no polls archived; 22 games unverified
+- 1980: no polls archived; 23 games unverified
+- 1981: no polls archived; 21 games unverified
+- 1982: no polls archived; 25 games unverified
+- 1983: no polls archived; 23 games unverified
+- 1984: no polls archived; 24 games unverified
+- 1985: no polls archived; 20 games unverified
+- 1986: no polls archived; 21 games unverified
+- 1987: no polls archived; 26 games unverified
+- 1988: no polls archived; 22 games unverified
+- 1989: no polls archived; 23 games unverified
+- 1990: no polls archived; 20 games unverified
+- 1991: no polls archived; 17 games unverified
+- 1992: no polls archived; 19 games unverified
+- 1993: no polls archived; 20 games unverified
+- 1994: no polls archived; 20 games unverified
+- 1995: no polls archived; 19 games unverified
+- 1996: no polls archived; 20 games unverified
+- 1997: no polls archived; 20 games unverified
+- 1998: no polls archived; 21 games unverified
+- 1999: no polls archived; 19 games unverified
+- 2000: 9 polls (2000-08-22 to 2000-10-31); 2 of 15 games vs ranked
+- 2001: 8 polls (2001-08-21 to 2001-10-30); 3 of 16 games vs ranked
+- 2002: 10 polls (2002-08-20 to 2002-11-05); 5 of 22 games vs ranked
+- 2003: 9 polls (2003-08-19 to 2003-11-04); 1 of 18 games vs ranked
+- 2004: 9 polls (2004-08-17 to 2004-11-02); 4 of 17 games vs ranked
+- 2005: 9 polls (2005-08-24 to 2005-11-02); 5 of 19 games vs ranked
+- 2006: 20 polls (2006-08-15 to 2006-11-21); 4 of 17 games vs ranked
+- 2007: 22 polls (2007-08-14 to 2007-12-04); 6 of 17 games vs ranked
+- 2008: 25 polls (2008-08-12 to 2008-12-09, 1 incomplete); 4 of 17 games vs ranked
+- 2009: 23 polls (2009-08-11 to 2009-11-10); 8 of 22 games vs ranked
+- 2010: 24 polls (2010-08-10 to 2010-12-14, 1 incomplete); 5 of 19 games vs ranked
+- 2011: 25 polls (2011-08-09 to 2011-12-06, 3 incomplete); 7 of 21 games vs ranked
+- 2012: 25 polls (2012-08-07 to 2012-12-05); 2 of 19 games vs ranked
+- 2013: 25 polls (2013-08-13 to 2013-12-11); 4 of 19 games vs ranked
+- 2014: 23 polls (2014-08-07 to 2014-12-10); 1 of 18 games vs ranked
+- 2015: 23 polls (2015-08-06 to 2015-12-09); 5 of 21 games vs ranked
+- 2016: 22 polls (2016-08-02 to 2016-12-07, 1 incomplete); 4 of 17 games vs ranked
+- 2017: 24 polls (2017-08-03 to 2017-12-06); 3 of 18 games vs ranked
+- 2018: 24 polls (2018-08-07 to 2018-12-05); 2 of 18 games vs ranked
+- 2019: 23 polls (2019-08-06 to 2019-12-17); 2 of 18 games vs ranked
+- 2020: 10 polls (2021-03-03 to 2021-05-19); 0 of 5 games vs ranked
+- 2021: 24 polls (2021-08-04 to 2021-12-16); 3 of 18 games vs ranked
+- 2022: 22 polls (2022-08-02 to 2022-12-06); 2 of 18 games vs ranked
+- 2023: 23 polls (2023-08-01 to 2023-12-12); 3 of 18 games vs ranked
+- 2024: 19 polls (2024-08-06 to 2024-12-18); 2 of 18 games vs ranked
+- 2025: 19 polls (2025-08-20 to 2025-12-17); 1 of 17 games vs ranked
+- 2026: 9 polls (2026-08-04 to 2026-09-29); 1 of 9 games vs ranked
+
+## Women's Soccer
+- 1992: no polls archived; 17 games unverified
+- 1993: no polls archived; 17 games unverified
+- 1994: no polls archived; 15 games unverified
+- 1995: no polls archived; 15 games unverified
+- 1996: no polls archived; 20 games unverified
+- 1997: no polls archived; 20 games unverified
+- 1998: no polls archived; 16 games unverified
+- 1999: 10 polls (1999-08-24 to 1999-11-02, 1 incomplete); 3 of 16 games vs ranked
+- 2000: 9 polls (2000-08-22 to 2000-10-31); 3 of 18 games vs ranked
+- 2001: 9 polls (2001-08-21 to 2001-10-30, 1 incomplete); 4 of 18 games vs ranked
+- 2002: 10 polls (2002-08-20 to 2002-11-05, 3 incomplete); 3 of 20 games vs ranked
+- 2003: 10 polls (2003-08-19 to 2003-11-04); 7 of 20 games vs ranked
+- 2004: 10 polls (2004-08-17 to 2004-11-02, 1 incomplete); 7 of 19 games vs ranked
+- 2005: 10 polls (2005-08-24 to 2005-11-02); 6 of 16 games vs ranked
+- 2006: 20 polls (2006-08-15 to 2006-11-21); 6 of 16 games vs ranked
+- 2007: 22 polls (2007-08-14 to 2007-12-04); 4 of 16 games vs ranked
+- 2008: 25 polls (2008-08-12 to 2008-12-09); 6 of 15 games vs ranked
+- 2009: 23 polls (2009-08-11 to 2009-12-08, 2 incomplete); 6 of 15 games vs ranked
+- 2010: 24 polls (2010-08-10 to 2010-12-07); 6 of 17 games vs ranked
+- 2011: 25 polls (2011-08-09 to 2011-12-06); 6 of 17 games vs ranked
+- 2012: 25 polls (2012-08-07 to 2012-12-05); 10 of 20 games vs ranked
+- 2013: 25 polls (2013-08-13 to 2013-12-11); 8 of 19 games vs ranked
+- 2014: 23 polls (2014-08-07 to 2014-12-10); 9 of 19 games vs ranked
+- 2015: 23 polls (2015-08-06 to 2015-12-09); 5 of 22 games vs ranked
+- 2016: 22 polls (2016-08-02 to 2016-12-07, 2 incomplete); 4 of 19 games vs ranked
+- 2017: 24 polls (2017-08-03 to 2017-12-06, 2 incomplete); 0 of 22 games vs ranked
+- 2018: 24 polls (2018-08-07 to 2018-12-05); 0 of 18 games vs ranked
+- 2019: 23 polls (2019-08-06 to 2019-12-17); 1 of 18 games vs ranked
+- 2020: 10 polls (2021-03-03 to 2021-05-12); 1 of 4 games vs ranked
+- 2021: 24 polls (2021-08-04 to 2021-12-15); 2 of 17 games vs ranked
+- 2022: 22 polls (2022-08-02 to 2022-12-06); 2 of 17 games vs ranked
+- 2023: 23 polls (2023-08-01 to 2023-12-12, 1 incomplete); 3 of 17 games vs ranked
+- 2024: 19 polls (2024-08-06 to 2024-12-18); 4 of 18 games vs ranked
+- 2025: 19 polls (2025-08-20 to 2025-12-17); 1 of 17 games vs ranked
+- 2026: 8 polls (2026-08-19 to 2026-09-29); 0 of 9 games vs ranked
+
+## Men's Basketball
+- 1960: no polls archived; 21 games unverified
+- 1961: no polls archived; 22 games unverified
+- 1962: no polls archived; 21 games unverified
+- 1963: no polls archived; 21 games unverified
+- 1964: no polls archived; 23 games unverified
+- 1965: no polls archived; 22 games unverified
+- 1966: no polls archived; 26 games unverified
+- 1967: no polls archived; 24 games unverified
+- 1968: no polls archived; 26 games unverified
+- 1969: no polls archived; 27 games unverified
+- 1970: no polls archived; 30 games unverified
+- 1971: no polls archived; 30 games unverified
+- 1972: no polls archived; 29 games unverified
+- 1973: no polls archived; 25 games unverified
+- 1974: no polls archived; 30 games unverified
+- 1975: no polls archived; 32 games unverified
+- 1976: no polls archived; 31 games unverified
+- 1977: no polls archived; 36 games unverified
+- 1978: no polls archived; 32 games unverified
+- 1979: no polls archived; 30 games unverified
+- 1980: no polls archived; 32 games unverified
+- 1981: no polls archived; 40 games unverified
+- 1982: no polls archived; 32 games unverified
+- 1983: no polls archived; 31 games unverified
+- 1984: no polls archived; 33 games unverified
+- 1985: no polls archived; 32 games unverified
+- 1986: no polls archived; 31 games unverified
+- 1987: no polls archived; 36 games unverified
+- 1988: no polls archived; 37 games unverified
+- 1989: no polls archived; 30 games unverified
+- 1990: no polls archived; 33 games unverified
+- 1991: no polls archived; 37 games unverified
+- 1992: no polls archived; 33 games unverified
+- 1993: no polls archived; 34 games unverified
+- 1994: no polls archived; 31 games unverified
+- 1995: no polls archived; 31 games unverified
+- 1996: no polls archived; 34 games unverified
+- 1997: no polls archived; 37 games unverified
+- 1998: 1 polls (1999-02-23 to 1999-02-23); 0 of 37 games vs ranked
+- 1999: 16 polls (1999-11-09 to 2000-02-29); 11 of 35 games vs ranked
+- 2000: 18 polls (2000-10-31 to 2001-02-27); 11 of 33 games vs ranked
+- 2001: 19 polls (2001-10-30 to 2002-02-26); 7 of 34 games vs ranked
+- 2002: 24 polls (2002-10-29 to 2003-03-18); 6 of 32 games vs ranked
+- 2003: 19 polls (2003-10-28 to 2004-03-18, 1 incomplete); 6 of 32 games vs ranked
+- 2004: 34 polls (2004-10-26 to 2005-03-08); 8 of 36 games vs ranked
+- 2005: 25 polls (2005-10-26 to 2006-03-07); 4 of 31 games vs ranked
+- 2006: 26 polls (2006-11-01 to 2007-03-06); 9 of 31 games vs ranked
+- 2007: 26 polls (2007-10-31 to 2008-03-11); 9 of 31 games vs ranked
+- 2008: 36 polls (2008-10-27 to 2009-03-11); 9 of 32 games vs ranked
+- 2009: 37 polls (2009-10-26 to 2010-03-09); 10 of 35 games vs ranked
+- 2010: 39 polls (2010-10-25 to 2011-03-09); 7 of 34 games vs ranked
+- 2011: 39 polls (2011-10-24 to 2012-03-26, 1 incomplete); 11 of 36 games vs ranked
+- 2012: 40 polls (2012-10-23 to 2013-03-26); 7 of 31 games vs ranked
+- 2013: 41 polls (2013-10-29 to 2014-03-12); 8 of 31 games vs ranked
+- 2014: 41 polls (2014-10-28 to 2015-04-02, 1 incomplete); 10 of 31 games vs ranked
+- 2015: 41 polls (2015-10-27 to 2016-04-01); 10 of 34 games vs ranked
+- 2016: 33 polls (2016-10-25 to 2017-03-29); 9 of 32 games vs ranked
+- 2017: 32 polls (2017-10-24 to 2018-03-07); 2 of 28 games vs ranked
+- 2018: 32 polls (2018-10-23 to 2019-03-13); 1 of 28 games vs ranked
+- 2019: 24 polls (2019-10-23 to 2020-03-10); 4 of 31 games vs ranked
+- 2020: 14 polls (2020-11-17 to 2021-03-09); 6 of 14 games vs ranked
+- 2021: 16 polls (2021-10-26 to 2022-03-08); 0 of 29 games vs ranked
+- 2022: 16 polls (2022-11-01 to 2023-03-07); 3 of 29 games vs ranked
+- 2023: 17 polls (2023-10-31 to 2024-03-12); 1 of 29 games vs ranked
+- 2024: 17 polls (2024-10-29 to 2025-03-11); 2 of 30 games vs ranked
+- 2025: 16 polls (2025-10-28 to 2026-03-10); 2 of 28 games vs ranked
+
+## Women's Basketball
+- 1961: no polls archived; 10 games unverified
+- 1962: no polls archived; 9 games unverified
+- 1963: no polls archived; 8 games unverified
+- 1964: no polls archived; 7 games unverified
+- 1966: no polls archived; 4 games unverified
+- 1967: no polls archived; 7 games unverified
+- 1968: no polls archived; 5 games unverified
+- 1969: no polls archived; 14 games unverified
+- 1970: no polls archived; 14 games unverified
+- 1971: no polls archived; 15 games unverified
+- 1972: no polls archived; 16 games unverified
+- 1973: no polls archived; 21 games unverified
+- 1974: no polls archived; 18 games unverified
+- 1975: no polls archived; 24 games unverified
+- 1976: no polls archived; 29 games unverified
+- 1977: no polls archived; 34 games unverified
+- 1978: no polls archived; 33 games unverified
+- 1979: no polls archived; 29 games unverified
+- 1980: no polls archived; 31 games unverified
+- 1981: no polls archived; 31 games unverified
+- 1982: no polls archived; 32 games unverified
+- 1983: no polls archived; 33 games unverified
+- 1984: no polls archived; 27 games unverified
+- 1985: no polls archived; 26 games unverified
+- 1986: no polls archived; 29 games unverified
+- 1987: no polls archived; 26 games unverified
+- 1988: no polls archived; 29 games unverified
+- 1989: no polls archived; 29 games unverified
+- 1990: no polls archived; 31 games unverified
+- 1991: no polls archived; 27 games unverified
+- 1992: no polls archived; 27 games unverified
+- 1993: no polls archived; 31 games unverified
+- 1994: no polls archived; 33 games unverified
+- 1995: no polls archived; 31 games unverified
+- 1996: no polls archived; 28 games unverified
+- 1997: no polls archived; 30 games unverified
+- 1998: 12 polls (1998-10-30 to 1999-03-02, 6 incomplete); 1 of 33 games vs ranked
+- 1999: 19 polls (1999-11-09 to 2000-02-29); 10 of 30 games vs ranked
+- 2000: 31 polls (2000-10-31 to 2001-03-26); 1 of 32 games vs ranked
+- 2001: 31 polls (2001-10-30 to 2002-03-26); 8 of 29 games vs ranked
+- 2002: 39 polls (2002-10-29 to 2003-03-31); 8 of 29 games vs ranked
+- 2003: 35 polls (2003-10-28 to 2004-03-30, 1 incomplete); 12 of 34 games vs ranked
+- 2004: 38 polls (2004-10-26 to 2005-03-29); 9 of 27 games vs ranked
+- 2005: 27 polls (2005-10-26 to 2006-03-28); 10 of 29 games vs ranked
+- 2006: 28 polls (2006-10-31 to 2007-03-27); 9 of 29 games vs ranked
+- 2007: 29 polls (2007-10-31 to 2008-04-01); 13 of 31 games vs ranked
+- 2008: 39 polls (2008-10-27 to 2009-03-31); 14 of 32 games vs ranked
+- 2009: 35 polls (2009-10-26 to 2010-03-30); 14 of 32 games vs ranked
+- 2010: 40 polls (2010-10-25 to 2011-03-29); 8 of 32 games vs ranked
+- 2011: 41 polls (2011-10-24 to 2012-03-27); 11 of 34 games vs ranked
+- 2012: 42 polls (2012-10-23 to 2013-04-02); 10 of 33 games vs ranked
+- 2013: 41 polls (2013-10-29 to 2014-04-02, 1 incomplete); 11 of 31 games vs ranked
+- 2014: 41 polls (2014-10-28 to 2015-04-01); 11 of 32 games vs ranked
+- 2015: 41 polls (2015-10-27 to 2016-04-06, 1 incomplete); 8 of 31 games vs ranked
+- 2016: 32 polls (2016-10-25 to 2017-03-25); 8 of 31 games vs ranked
+- 2017: 33 polls (2017-10-24 to 2018-03-24); 3 of 26 games vs ranked
+- 2018: 33 polls (2018-10-23 to 2019-03-30); 1 of 28 games vs ranked
+- 2019: 24 polls (2019-10-23 to 2020-03-11); 4 of 30 games vs ranked
+- 2020: 7 polls (2021-02-02 to 2021-03-27); 0 of 13 games vs ranked
+- 2021: 17 polls (2021-11-02 to 2022-03-28); 3 of 29 games vs ranked
+- 2022: 17 polls (2022-11-01 to 2023-04-03); 4 of 29 games vs ranked
+- 2023: 18 polls (2023-10-31 to 2024-04-01); 2 of 29 games vs ranked
+- 2024: 18 polls (2024-10-29 to 2025-03-31); 3 of 29 games vs ranked
+- 2025: 18 polls (2025-10-28 to 2026-03-30); 1 of 27 games vs ranked
+
+## Baseball
+- 1964: no polls archived; 21 games unverified
+- 1965: no polls archived; 28 games unverified
+- 1966: no polls archived; 27 games unverified
+- 1967: no polls archived; 22 games unverified
+- 1968: no polls archived; 37 games unverified
+- 1969: no polls archived; 42 games unverified
+- 1970: no polls archived; 39 games unverified
+- 1971: no polls archived; 40 games unverified
+- 1972: no polls archived; 33 games unverified
+- 1973: no polls archived; 34 games unverified
+- 1974: no polls archived; 30 games unverified
+- 1975: no polls archived; 33 games unverified
+- 1976: no polls archived; 43 games unverified
+- 1977: no polls archived; 37 games unverified
+- 1978: no polls archived; 47 games unverified
+- 1979: no polls archived; 44 games unverified
+- 1980: no polls archived; 42 games unverified
+- 1981: no polls archived; 33 games unverified
+- 1982: no polls archived; 37 games unverified
+- 1983: no polls archived; 29 games unverified
+- 1984: no polls archived; 44 games unverified
+- 1985: no polls archived; 48 games unverified
+- 1986: no polls archived; 44 games unverified
+- 1987: no polls archived; 41 games unverified
+- 1988: no polls archived; 48 games unverified
+- 1989: no polls archived; 48 games unverified
+- 1990: no polls archived; 43 games unverified
+- 1991: no polls archived; 36 games unverified
+- 1992: no polls archived; 42 games unverified
+- 1993: no polls archived; 40 games unverified
+- 1994: no polls archived; 43 games unverified
+- 1995: no polls archived; 44 games unverified
+- 1996: no polls archived; 41 games unverified
+- 1997: no polls archived; 43 games unverified
+- 1998: 8 polls (1997-12-21 to 1998-05-05); 7 of 50 games vs ranked
+- 1999: 5 polls (1998-12-08 to 1999-05-04); 4 of 51 games vs ranked
+- 2000: 8 polls (1999-12-14 to 2000-05-02); 7 of 52 games vs ranked
+- 2001: 8 polls (2000-11-14 to 2001-05-01); 11 of 59 games vs ranked
+- 2002: 8 polls (2001-11-13 to 2002-05-08); 2 of 46 games vs ranked
+- 2003: 15 polls (2002-11-12 to 2003-05-07); 13 of 58 games vs ranked
+- 2004: 20 polls (2003-11-17 to 2004-05-12); 9 of 48 games vs ranked
+- 2005: 26 polls (2004-11-17 to 2005-06-06); 15 of 58 games vs ranked
+- 2006: 11 polls (2005-11-16 to 2006-05-17); 9 of 53 games vs ranked
+- 2007: 10 polls (2006-11-15 to 2007-05-09); 9 of 54 games vs ranked
+- 2008: 20 polls (2007-11-14 to 2008-05-07); 5 of 53 games vs ranked
+- 2009: 20 polls (2008-11-11 to 2009-05-08); 11 of 59 games vs ranked
+- 2010: 21 polls (2009-11-17 to 2010-06-01); 18 of 46 games vs ranked
+- 2011: 20 polls (2010-11-16 to 2011-05-08); 13 of 60 games vs ranked
+- 2012: 23 polls (2011-11-15 to 2012-06-05); 8 of 55 games vs ranked
+- 2013: 22 polls (2012-11-13 to 2013-06-05); 7 of 51 games vs ranked
+- 2014: 22 polls (2013-11-12 to 2014-06-04); 25 of 54 games vs ranked
+- 2015: 23 polls (2014-11-11 to 2015-06-03); 15 of 53 games vs ranked
+- 2016: 25 polls (2015-11-10 to 2016-06-08); 13 of 58 games vs ranked
+- 2017: 21 polls (2016-11-08 to 2017-06-07); 10 of 53 games vs ranked
+- 2018: 21 polls (2017-11-07 to 2018-06-06); 7 of 56 games vs ranked
+- 2019: 22 polls (2018-11-06 to 2019-06-11); 8 of 48 games vs ranked
+- 2020: 7 polls (2019-11-06 to 2020-03-11); 3 of 14 games vs ranked
+- 2021: 24 polls (2020-11-04 to 2021-06-21); 12 of 33 games vs ranked
+- 2022: 23 polls (2021-11-03 to 2022-06-17); 12 of 49 games vs ranked
+- 2023: 22 polls (2022-11-02 to 2023-06-14); 8 of 46 games vs ranked
+- 2024: 22 polls (2023-11-01 to 2024-06-12); 12 of 50 games vs ranked
+- 2025: 23 polls (2024-11-06 to 2025-06-11); 9 of 53 games vs ranked
+- 2026: 23 polls (2025-11-05 to 2026-06-10); 8 of 52 games vs ranked
+
+## Softball
+- 1993: no polls archived; 28 games unverified
+- 1994: no polls archived; 29 games unverified
+- 1995: no polls archived; 30 games unverified
+- 1996: no polls archived; 31 games unverified
+- 1998: no polls archived; 32 games unverified
+- 1999: no polls archived; 45 games unverified
+- 2000: 8 polls (2000-02-01 to 2000-05-09); 13 of 57 games vs ranked
+- 2001: 9 polls (2001-02-02 to 2001-05-08); 15 of 63 games vs ranked
+- 2002: 9 polls (2002-02-05 to 2002-05-07, 2 incomplete); 17 of 63 games vs ranked
+- 2003: 9 polls (2003-02-03 to 2003-05-06); 17 of 52 games vs ranked
+- 2004: 16 polls (2004-02-03 to 2004-06-02, 1 incomplete); 12 of 45 games vs ranked
+- 2005: 14 polls (2005-02-09 to 2005-06-13); 19 of 50 games vs ranked
+- 2006: 15 polls (2006-02-08 to 2006-06-16); 19 of 46 games vs ranked
+- 2007: 21 polls (2007-01-31 to 2007-05-31); 19 of 49 games vs ranked
+- 2008: 19 polls (2008-01-30 to 2008-05-21); 21 of 51 games vs ranked
+- 2009: 17 polls (2009-01-27 to 2009-05-05); 22 of 40 games vs ranked
+- 2010: 20 polls (2010-02-02 to 2010-06-03); 18 of 45 games vs ranked
+- 2011: 24 polls (2010-11-09 to 2011-06-01); 20 of 53 games vs ranked
+- 2012: 23 polls (2011-11-15 to 2012-05-29); 15 of 44 games vs ranked
+- 2013: 23 polls (2012-11-13 to 2013-06-05); 8 of 53 games vs ranked
+- 2014: 24 polls (2014-01-21 to 2014-06-04); 10 of 50 games vs ranked
+- 2015: 23 polls (2015-01-20 to 2015-06-03); 15 of 56 games vs ranked
+- 2016: 23 polls (2016-01-19 to 2016-06-08); 2 of 52 games vs ranked
+- 2017: 22 polls (2017-01-17 to 2017-06-07); 4 of 45 games vs ranked
+- 2018: 21 polls (2018-01-16 to 2018-06-06, 1 incomplete); 12 of 52 games vs ranked
+- 2019: 21 polls (2019-01-15 to 2019-06-05); 7 of 45 games vs ranked
+- 2020: 8 polls (2020-01-15 to 2020-04-08, 1 incomplete); 1 of 23 games vs ranked
+- 2021: 22 polls (2021-01-13 to 2021-06-09); 22 of 42 games vs ranked
+- 2022: 22 polls (2022-01-12 to 2022-06-08); 5 of 43 games vs ranked
+- 2023: 21 polls (2022-11-02 to 2023-06-06); 11 of 53 games vs ranked
+- 2024: 21 polls (2023-11-01 to 2024-05-28); 11 of 46 games vs ranked
+- 2025: 22 polls (2024-11-06 to 2025-06-04); 10 of 60 games vs ranked
+- 2026: 23 polls (2025-11-05 to 2026-06-09); 17 of 65 games vs ranked
+- 20 polls have no release date and were not used: naia-sb-2005-final, nfca-dii-1999-w01, nfca-dii-1999-w02, nfca-dii-1999-w03, nfca-dii-1999-w04, nfca-dii-1999-w05, nfca-dii-2000-final, nfca-dii-2000-w01, nfca-dii-2001-w01, nfca-dii-2001-w02, nfca-dii-2002-w01, nfca-dii-2002-w02
+
+## Men's Water Polo
+- 2021: 15 polls (2021-09-01 to 2021-12-08); 11 of 25 games vs ranked
+- 2022: 15 polls (2022-08-31 to 2022-12-07); 5 of 32 games vs ranked
+- 2023: 15 polls (2023-08-23 to 2023-12-06); 11 of 34 games vs ranked
+- 2024: 15 polls (2024-08-21 to 2024-12-11); 8 of 33 games vs ranked
+- 2025: 16 polls (2025-08-20 to 2025-12-10); 6 of 31 games vs ranked
+- 2026: 5 polls (2026-08-19 to 2026-09-23); 4 of 15 games vs ranked
+
+## Women's Water Polo
+- 2022: 17 polls (2022-01-12 to 2022-05-11); 7 of 29 games vs ranked
+- 2023: 19 polls (2023-01-11 to 2023-05-17); 11 of 33 games vs ranked
+- 2024: 18 polls (2024-01-11 to 2024-05-15); 12 of 31 games vs ranked
+- 2025: 18 polls (2025-01-08 to 2025-05-14); 12 of 28 games vs ranked
+- 2026: 16 polls (2026-01-14 to 2026-04-29); 9 of 29 games vs ranked
+
+## Men's Tennis
+- 2007: 7 polls (2007-02-07 to 2007-05-02, 2 incomplete); 5 of 15 games vs ranked
+- 2008: 7 polls (2008-02-06 to 2008-04-30); 6 of 17 games vs ranked
+- 2009: 7 polls (2009-02-10 to 2009-05-03); 15 of 21 games vs ranked
+- 2010: 7 polls (2010-02-09 to 2010-05-04); 12 of 21 games vs ranked
+- 2011: 8 polls (2011-02-01 to 2011-05-09); 13 of 20 games vs ranked
+- 2012: 9 polls (2012-01-31 to 2012-05-22); 12 of 19 games vs ranked
+- 2013: 9 polls (2013-01-29 to 2013-05-22); 9 of 19 games vs ranked
+- 2014: 9 polls (2014-01-28 to 2014-05-21, 2 incomplete); 8 of 25 games vs ranked
+- 2015: 9 polls (2015-01-27 to 2015-05-20, 1 incomplete); 10 of 24 games vs ranked
+- 2016: 9 polls (2016-01-27 to 2016-05-25, 1 incomplete); 6 of 23 games vs ranked
+- 2017: 9 polls (2017-01-24 to 2017-05-24); 6 of 22 games vs ranked
+- 2018: 5 polls (2018-01-17 to 2018-05-02); 6 of 22 games vs ranked
+- 2019: 9 polls (2019-01-16 to 2019-05-01); 4 of 24 games vs ranked
+- 2020: 3 polls (2020-01-15 to 2020-04-15); 2 of 11 games vs ranked
+- 2021: 7 polls (2021-02-02 to 2021-05-28); 7 of 20 games vs ranked
+- 2022: 11 polls (2022-01-20 to 2022-05-26); 9 of 27 games vs ranked
+- 2023: 11 polls (2023-01-19 to 2023-05-24); 6 of 21 games vs ranked
+- 2024: 13 polls (2024-01-17 to 2024-05-29); 7 of 25 games vs ranked
+- 2025: 13 polls (2025-01-15 to 2025-05-30); 9 of 21 games vs ranked
+- 2026: 13 polls (2026-01-14 to 2026-05-27); 7 of 22 games vs ranked
+
+## Women's Tennis
+- 1983: no polls archived; 23 games unverified
+- 1984: no polls archived; 21 games unverified
+- 1985: no polls archived; 23 games unverified
+- 1986: no polls archived; 22 games unverified
+- 1987: no polls archived; 18 games unverified
+- 1988: no polls archived; 18 games unverified
+- 1989: no polls archived; 20 games unverified
+- 1990: no polls archived; 19 games unverified
+- 1991: no polls archived; 21 games unverified
+- 1992: no polls archived; 17 games unverified
+- 1993: no polls archived; 14 games unverified
+- 1994: no polls archived; 21 games unverified
+- 1995: no polls archived; 22 games unverified
+- 1996: no polls archived; 19 games unverified
+- 1997: no polls archived; 24 games unverified
+- 1998: no polls archived; 19 games unverified
+- 1999: no polls archived; 22 games unverified
+- 2000: no polls archived; 25 games unverified
+- 2001: no polls archived; 23 games unverified
+- 2002: no polls archived; 23 games unverified
+- 2003: no polls archived; 21 games unverified
+- 2004: no polls archived; 23 games unverified
+- 2005: no polls archived; 19 games unverified
+- 2006: no polls archived; 20 games unverified
+- 2007: 7 polls (2007-02-07 to 2007-05-02); 6 of 20 games vs ranked
+- 2008: 7 polls (2008-02-06 to 2008-04-30); 6 of 21 games vs ranked
+- 2009: 7 polls (2009-02-10 to 2009-05-03, 1 incomplete); 13 of 22 games vs ranked
+- 2010: 7 polls (2010-02-09 to 2010-05-04); 12 of 22 games vs ranked
+- 2011: 7 polls (2011-02-01 to 2011-05-03); 12 of 23 games vs ranked
+- 2012: 9 polls (2012-01-31 to 2012-05-22); 11 of 23 games vs ranked
+- 2013: 9 polls (2013-01-29 to 2013-05-22); 8 of 21 games vs ranked
+- 2014: 9 polls (2014-01-28 to 2014-05-21); 7 of 24 games vs ranked
+- 2015: 9 polls (2015-01-27 to 2015-05-20, 1 incomplete); 9 of 23 games vs ranked
+- 2016: 8 polls (2016-01-27 to 2016-05-25); 7 of 22 games vs ranked
+- 2017: 9 polls (2017-01-24 to 2017-05-24); 6 of 21 games vs ranked
+- 2018: 9 polls (2018-01-17 to 2018-05-02); 3 of 17 games vs ranked
+- 2019: 9 polls (2019-01-16 to 2019-05-01); 1 of 21 games vs ranked
+- 2020: 3 polls (2020-01-15 to 2020-04-15); 1 of 14 games vs ranked
+- 2021: 7 polls (2021-02-02 to 2021-05-28); 8 of 21 games vs ranked
+- 2022: 11 polls (2022-01-20 to 2022-05-26); 8 of 27 games vs ranked
+- 2023: 11 polls (2023-01-20 to 2023-05-24); 5 of 19 games vs ranked
+- 2024: 13 polls (2024-01-17 to 2024-05-29); 6 of 27 games vs ranked
+- 2025: 13 polls (2025-01-15 to 2025-05-30); 7 of 24 games vs ranked
+- 2026: 13 polls (2026-01-14 to 2026-05-27); 7 of 22 games vs ranked
+
+## Loose matches (same base name, state tag on one side only) -- check these
+
+- Baseball: 'Azusa Pacific University' = 'Azusa Pacific (Calif.)'
+- Baseball: 'Azusa Pacific' = 'Azusa Pacific (Calif.)'
+- Baseball: 'Azusa Pacific' = 'Azusa Pacific University (Calif.)'
+- Baseball: 'Dallas Baptist (TX)' = 'Dallas Baptist'
+- Baseball: 'Fresno Pacific' = 'Fresno Pacific University (Calif.)'
+- Baseball: 'Hope International' = 'Hope International (Calif.)'
+- Baseball: 'Lewis-Clark State' = 'Lewis-Clark State (Idaho)'
+- Baseball: 'The Master's' = 'The Master's (Calif.)'
+- Baseball: 'The Master's' = 'The Master's College (Calif.)'
+- Baseball: 'Vanguard University' = 'Vanguard (Calif.)'
+- Baseball: 'Westmont College' = 'Westmont (Calif.)'
+- Baseball: 'Westmont' = 'Westmont (Calif.)'
+- Men's Basketball: 'Azusa Pacific University' = 'Azusa Pacific (Calif.)'
+- Men's Basketball: 'Azusa Pacific University' = 'Azusa Pacific University (Calif.)'
+- Men's Basketball: 'Azusa Pacific' = 'Azusa Pacific (Calif.)'
+- Men's Basketball: 'Azusa Pacific' = 'Azusa Pacific University (Calif.)'
+- Men's Basketball: 'Bellevue University' = 'Bellevue (Neb.)'
+- Men's Basketball: 'Chaminade' = 'Chaminade, Hawai’i'
+- Men's Basketball: 'Fresno Pacific' = 'Fresno Pacific University (Calif.)'
+- Men's Basketball: 'Hope International University' = 'Hope International (Calif.)'
+- Men's Basketball: 'Hope International' = 'Hope International (Calif.)'
+- Men's Basketball: 'Houston Baptist' = 'Houston Baptist (Texas)'
+- Men's Basketball: 'Mid-America Christian University' = 'Mid-America Christian (Okla.)'
+- Men's Basketball: 'MidAmerica Nazarene' = 'MidAmerica Nazarene (Kan.)'
+- Men's Basketball: 'San Diego Christian College' = 'San Diego Christian (Calif.)'
+- Men's Basketball: 'San Diego Christian' = 'San Diego Christian (Calif.)'
+- Men's Basketball: 'The Master's University' = 'The Master's (Calif.)'
+- Men's Basketball: 'The Master's' = 'The Master's (Calif.)'
+- Men's Basketball: 'The Master's' = 'The Master's College (Calif.)'
+- Men's Basketball: 'Vanguard University' = 'Vanguard University (Calif.)'
+- Men's Basketball: 'Westmont' = 'Westmont (Calif.)'
+- Men's Basketball: 'Westmont' = 'Westmont College (Calif.)'
+- Men's Soccer: 'Azusa Pacific (BIOLA WEEKEND)' = 'Azusa Pacific (Calif.)'
+- Men's Soccer: 'Azusa Pacific University' = 'Azusa Pacific (Calif.) (II)'
+- Men's Soccer: 'Azusa Pacific' = 'Azusa Pacific (Calif.)'
+- Men's Soccer: 'Azusa Pacific' = 'Azusa Pacific University (Calif.)'
+- Men's Soccer: 'Fort Hays State (KS)' = 'Fort Hays State University'
+- Men's Soccer: 'Fresno Pacific University' = 'Fresno Pacific (Calif.) (II)'
+- Men's Soccer: 'Fresno Pacific' = 'Fresno Pacific (Calif.)'
+- Men's Soccer: 'Fresno Pacific' = 'Fresno Pacific University (Calif.)'
+- Men's Soccer: 'Hannibal-LaGrange' = 'Hannibal-LaGrange (Mo.)'
+- Men's Soccer: 'Mobile' = 'Mobile (Ala.)'
+- Men's Soccer: 'Simon Fraser' = 'Simon Fraser (B.C.)'
+- Men's Soccer: 'The Master's' = 'The Master's (Calif.)'
+- Men's Soccer: 'The Master's' = 'The Master's College (Calif.)'
+- Men's Soccer: 'Vanguard University' = 'Vanguard (Calif.) (II)'
+- Men's Soccer: 'Vanguard' = 'Vanguard (Calif.)'
+- Men's Soccer: 'Vanguard' = 'Vanguard University (Calif.)'
+- Men's Soccer: 'Westmont' = 'Westmont (Calif.)'
+- Men's Tennis: 'Azusa Pacific University' = 'Azusa Pacific (Calif.)'
+- Men's Tennis: 'Azusa Pacific' = 'Azusa Pacific (Calif.)'
+- Men's Tennis: 'Fresno Pacific University' = 'Fresno Pacific (Calif.)'
+- Men's Tennis: 'Fresno Pacific' = 'Fresno Pacific (Calif.)'
+- Men's Tennis: 'Hope International' = 'Hope International (Calif.)'
+- Men's Tennis: 'Vanguard University' = 'Vanguard (Calif.)'
+- Men's Tennis: 'Vanguard' = 'Vanguard (Calif.)'
+- Men's Tennis: 'Westmont College' = 'Westmont (Calif.)'
+- Men's Tennis: 'Westmont' = 'Westmont (Calif.)'
+- Softball: 'Azusa Pacific' = 'Azusa Pacific (Calif.)'
+- Softball: 'Azusa Pacific' = 'Azusa Pacific University (Calif.)'
+- Softball: 'Hope International' = 'Hope International (Calif.)'
+- Softball: 'Houston Baptist' = 'Houston Baptist (Texas)'
+- Softball: 'Reinhardt University' = 'Reinhardt (Ga.)'
+- Softball: 'The Master's' = 'Master's (Calif.)'
+- Softball: 'Vanguard University' = 'Vanguard (Calif.)'
+- Softball: 'Vanguard' = 'Vanguard (Calif.)'
+- Softball: 'Waldorf' = 'Waldorf (Iowa)'
+- Women's Basketball: 'Azusa Pacific University' = 'Azusa Pacific (Calif.)'
+- Women's Basketball: 'Azusa Pacific University' = 'Azusa Pacific University (Calif.)'
+- Women's Basketball: 'Azusa Pacific' = 'Azusa Pacific (Calif.)'
+- Women's Basketball: 'Azusa Pacific' = 'Azusa Pacific University (Calif.)'
+- Women's Basketball: 'Fresno Pacific' = 'Fresno Pacific (Calif.)'
+- Women's Basketball: 'Lewis-Clark State' = 'Lewis-Clark State (Idaho)'
+- Women's Basketball: 'Lewis-Clark State' = 'Lewis-Clark State College (Idaho)'
+- Women's Basketball: 'MidAmerica Nazarene University' = 'MidAmerica Nazarene (Kan.)'
+- Women's Basketball: 'Simon Fraser' = 'Simon Fraser (B.C.)'
+- Women's Basketball: 'The Master's College' = 'The Master's (Calif.)'
+- Women's Basketball: 'The Master's College' = 'The Master's College (Calif.)'
+- Women's Basketball: 'The Master's' = 'The Master's (Calif.)'
+- Women's Basketball: 'The Master's' = 'The Master's College (Calif.)'
+- Women's Basketball: 'The Master's' = 'The Master’s (Calif.)'
+- Women's Basketball: 'Vanguard University' = 'Vanguard (Calif.)'
+- Women's Basketball: 'Vanguard University' = 'Vanguard University (Calif.)'
+- Women's Basketball: 'Vanguard' = 'Vanguard (Calif.)'
+- Women's Basketball: 'Vanguard' = 'Vanguard University (Calif.)'
+- Women's Basketball: 'Westmont College' = 'Westmont (Calif.)'
+- Women's Basketball: 'Westmont College' = 'Westmont College (Calif.)'
+- Women's Basketball: 'Westmont' = 'Westmont (Calif.)'
+- Women's Basketball: 'Westmont' = 'Westmont College (Calif.)'
+- Women's Soccer: 'Auburn-Montgomery' = 'Auburn Montgomery (Ala.)'
+- Women's Soccer: 'Azusa Pacific (BIOLA WEEKEND)' = 'Azusa Pacific (Calif.)'
+- Women's Soccer: 'Azusa Pacific (Parent's Weekend)' = 'Azusa Pacific University (Calif.)'
+- Women's Soccer: 'Azusa Pacific University' = 'Azusa Pacific (Calif.) (II)'
+- Women's Soccer: 'Azusa Pacific' = 'Azusa Pacific (Calif.)'
+- Women's Soccer: 'Azusa Pacific' = 'Azusa Pacific University (Calif.)'
+- Women's Soccer: 'Notre Dame de Namur' = 'Notre Dame de Namur (Calif.)'
+- Women's Soccer: 'Simon Fraser' = 'Simon Fraser (B.C.)'
+- Women's Soccer: 'The Master's' = 'The Master's College (Calif.)'
+- Women's Soccer: 'The Master's' = 'The Master’s (Calif.)'
+- Women's Soccer: 'Vanguard University' = 'Vanguard (Calif.) (II)'
+- Women's Soccer: 'Vanguard University' = 'Vanguard (Calif.)'
+- Women's Soccer: 'Vanguard' = 'Vanguard (Calif.)'
+- Women's Soccer: 'Vanguard' = 'Vanguard University (Calif.)'
+- Women's Soccer: 'Westmont College' = 'Westmont (Calif.) (II)'
+- Women's Soccer: 'Westmont College' = 'Westmont (Calif.)'
+- Women's Soccer: 'Westmont' = 'Westmont (Calif.)'
+- Women's Soccer: 'Westmont' = 'Westmont College (Calif.)'
+- Women's Tennis: 'Azusa Pacific University' = 'Azusa Pacific (Calif.)'
+- Women's Tennis: 'Azusa Pacific' = 'Azusa Pacific (Calif.)'
+- Women's Tennis: 'Fresno Pacific University' = 'Fresno Pacific (Calif.)'
+- Women's Tennis: 'Fresno Pacific' = 'Fresno Pacific (Calif.)'
+- Women's Tennis: 'Hope International' = 'Hope International (Calif.)'
+- Women's Tennis: 'Menlo College' = 'Menlo (Calif.) (W)'
+- Women's Tennis: 'Menlo' = 'Menlo (Calif.) (W)'
+- Women's Tennis: 'Vanguard University' = 'Vanguard (Calif.)'
+- Women's Tennis: 'Vanguard' = 'Vanguard (Calif.)'
+- Women's Tennis: 'Westmont College' = 'Westmont (Calif.)'
+- Women's Tennis: 'Westmont' = 'Westmont (Calif.)'
+- Women's Volleyball: 'Azusa Pacific University' = 'Azusa Pacific (Calif.)'
+- Women's Volleyball: 'Azusa Pacific' = 'Azusa Pacific (Calif.)'
+- Women's Volleyball: 'Bellevue' = 'Bellevue (Neb.)'
+- Women's Volleyball: 'Campbellsville University' = 'Campbellsville (Ky.)'
+- Women's Volleyball: 'Davenport University' = 'Davenport (Mich.)'
+- Women's Volleyball: 'Fresno Pacific University' = 'Fresno Pacific (Calif.)'
+- Women's Volleyball: 'Fresno Pacific' = 'Fresno Pacific (Calif.) (II)'
+- Women's Volleyball: 'Fresno Pacific' = 'Fresno Pacific (Calif.)'
+- Women's Volleyball: 'Hastings College' = 'Hastings (Neb.)'
+- Women's Volleyball: 'Houston Baptist' = 'Houston Baptist (Texas)'
+- Women's Volleyball: 'Lewis-Clark State' = 'Lewis-Clark State (Idaho)'
+- Women's Volleyball: 'Lubbock Christian' = 'Lubbock Christian (Texas)'
+- Women's Volleyball: 'Madonna' = 'Madonna (Mich.)'
+- Women's Volleyball: 'MidAmerica Nazarene University' = 'MidAmerica Nazaren (Kan.)'
+- Women's Volleyball: 'MidAmerica Nazarene' = 'MidAmerica Nazarene (Kan.)'
+- Women's Volleyball: 'Palm Beach Atlantic' = 'Palm Beach Atlantic (Fla.)'
+- Women's Volleyball: 'The Master's' = 'The Master's (Calif.)'
+- Women's Volleyball: 'The Master's' = 'The Master’s (Calif.)'
+- Women's Volleyball: 'Vanguard University' = 'Vanguard (Calif.)'
+- Women's Volleyball: 'Vanguard' = 'Vanguard (Calif.)'
+- Women's Volleyball: 'Walsh' = 'Walsh (Ohio)'
+- Women's Volleyball: 'Westmont' = 'Westmont (Calif.)'
+
+## Near misses: opponent vs a ranked team with a similar name in the poll in effect (alias needed?)
+
+- Women's Volleyball: 'California Baptist' ~ 'Houston Baptist (Texas)'
+- Women's Volleyball: 'California Baptist' ~ 'Missouri Baptist'
+- Women's Volleyball: 'College of Coastal Georgia' ~ 'Coastal Georgia'
+- Women's Volleyball: 'Concordia' ~ 'Concordia (Neb.)'
+- Women's Volleyball: 'Concordia Irvine' ~ 'Concordia (Neb.)'
+- Women's Volleyball: 'Concordia Irvine' ~ 'Concordia (Ore.)'
+- Women's Volleyball: 'Concordia NY' ~ 'Concordia (Calif.)'
+- Women's Volleyball: 'Concordia NY' ~ 'Concordia-St. Paul'
+- Women's Volleyball: 'Concordia OR' ~ 'Concordia (Calif.)'
+- Women's Volleyball: 'Concordia OR' ~ 'Concordia-St. Paul'
+- Women's Volleyball: 'Concordia University' ~ 'Concordia (Calif.)'
+- Women's Volleyball: 'Concordia University' ~ 'Concordia-St. Paul'
+- Women's Volleyball: 'Concordia University (Ore.)' ~ 'Concordia (Calif.)'
+- Women's Volleyball: 'Concordia University (Ore.)' ~ 'Concordia-St. Paul'
+- Women's Volleyball: 'Embry-Riddle AZ' ~ 'Embry-Riddle (Fla.)'
+- Women's Volleyball: 'Hawai'I Pacific' ~ 'Hawai'i Hilo'
+- Women's Volleyball: 'Lewis-Clark State College (Idaho)' ~ 'Lewis'
+- Women's Volleyball: 'Montana State University-Northern' ~ 'Northern State'
+- Women's Volleyball: 'Northwest Nazarene' ~ 'Northwest (Wash.)'
+- Women's Volleyball: 'Ottawa (Ariz.)' ~ 'Ottawa (Kan.)'
+- Women's Volleyball: 'San Diego Christian' ~ 'UC San Diego'
+- Women's Volleyball: 'San Diego Christian College' ~ 'UC San Diego'
+- Women's Volleyball: 'San Diego Christian College (Calif.)' ~ 'UC San Diego'
+- Men's Soccer: 'California Baptist' ~ 'Missouri Baptist'
+- Men's Soccer: 'California Baptist' ~ 'Oklahoma Baptist'
+- Men's Soccer: 'California Baptist University' ~ 'Missouri Baptist (V)'
+- Men's Soccer: 'Concordia' ~ 'Concordia (Neb.)'
+- Men's Soccer: 'Concordia CA' ~ 'Concordia (Ore.)'
+- Men's Soccer: 'Concordia Irvine' ~ 'Concordia (Ore.)'
+- Men's Soccer: 'Concordia Irvine' ~ 'Concordia College (NY)'
+- Men's Soccer: 'Dominican University CA' ~ 'Dominican College (N.Y.)'
+- Men's Soccer: 'Dominican University CA' ~ 'Ohio Dominican (IX)'
+- Men's Soccer: 'Embry Riddle (AZ)' ~ 'Embry-Riddle (Fla.)'
+- Men's Soccer: 'Embry Riddle AZ' ~ 'Embry-Riddle Aeronautical University (Fla.)'
+- Men's Soccer: 'Embry-Riddle Aeronautical University (Ariz.)' ~ 'Embry-Riddle (Fla.)'
+- Men's Soccer: 'Life Pacific' ~ 'Life (Ga.)'
+- Men's Soccer: 'Notre Dame de Namur' ~ 'Notre Dame (Ohio)'
+- Men's Soccer: 'Notre Dame de Namur' ~ 'Notre Dame College'
+- Men's Soccer: 'San Diego Christian' ~ 'UC San Diego'
+- Men's Soccer: 'San Diego Christian College (Calif.)' ~ 'University of California-San Diego'
+- Women's Soccer: 'California Baptist' ~ 'Missouri Baptist'
+- Women's Soccer: 'Concordia' ~ 'Concordia University (Ore.)'
+- Women's Soccer: 'Concordia (CA)' ~ 'Concordia (Ore.)'
+- Women's Soccer: 'Concordia CA' ~ 'Concordia University (Ore.)'
+- Women's Soccer: 'Concordia University' ~ 'Concordia (Calif.) (II)'
+- Women's Soccer: 'Concordia University' ~ 'Concordia (Neb.)'
+- Women's Soccer: 'Concordia University' ~ 'Concordia (Ore.) (I)'
+- Women's Soccer: 'Concordia University' ~ 'Concordia University (Ore.)'
+- Women's Soccer: 'Concordia University-Irvine' ~ 'Concordia (Ore.) (I)'
+- Women's Soccer: 'Embry-Riddle Aeronautical University (Ariz.)' ~ 'Embry-Riddle (Fla.)'
+- Women's Soccer: 'Hawaii Pacific' ~ 'University of Hawaii- Hilo'
+- Women's Soccer: 'Hawaii Pacific' ~ 'University of Hawaii-Hilo'
+- Women's Soccer: 'Oklahoma Baptist University' ~ 'California Baptist (II)'
+- Women's Soccer: 'Ottawa' ~ 'Ottawa (Kan.)'
+- Women's Soccer: 'San Diego Christian' ~ 'UC San Diego'
+- Women's Soccer: 'San Diego Christian' ~ 'UC-San Diego'
+- Women's Soccer: 'San Diego Christian College' ~ 'UC-San Diego'
+- Women's Soccer: 'San Diego Christian College (Calif.)' ~ 'University of California-San Diego'
+- Men's Basketball: 'Benedictine University at Mesa' ~ 'Benedictine (Kan.)'
+- Men's Basketball: 'Bethel (MN)' ~ 'Bethel (Ind.)'
+- Men's Basketball: 'California Baptist' ~ 'Dallas Baptist, Texas'
+- Men's Basketball: 'California Baptist' ~ 'Houston Baptist (Texas)'
+- Men's Basketball: 'California Baptist' ~ 'Missouri Baptist'
+- Men's Basketball: 'California Baptist' ~ 'Oklahoma Baptist'
+- Men's Basketball: 'California Baptist' ~ 'Oklahoma Baptist University'
+- Men's Basketball: 'California Baptist' ~ 'Southwest Baptist'
+- Men's Basketball: 'California Baptist' ~ 'Wayland Baptist (Texas)'
+- Men's Basketball: 'California Baptist' ~ 'Western Baptist (Ore.)'
+- Men's Basketball: 'California Baptist University' ~ 'Houston Baptist (Texas)'
+- Men's Basketball: 'California Baptist University' ~ 'Oklahoma Baptist'
+- Men's Basketball: 'Concordia Irvine' ~ 'Concordia (Neb.)'
+- Men's Basketball: 'Concordia Irvine' ~ 'Concordia (Ore.)'
+- Men's Basketball: 'Dominican' ~ 'Dominican (N.Y.)'
+- Men's Basketball: 'Dominican' ~ 'Dominican, N.Y.'
+- Men's Basketball: 'Lewis & Clark (OR)' ~ 'Lewis-Clark State (Idaho)'
+- Men's Basketball: 'Life Pacific' ~ 'Life (Ga.)'
+- Men's Basketball: 'Northwest Indian College' ~ 'Northwest (Wash.)'
+- Men's Basketball: 'Pacific Union' ~ 'Union (Tenn.)'
+- Men's Basketball: 'Pacific Union CA' ~ 'Union (Tenn.)'
+- Men's Basketball: 'Pacific Union CA' ~ 'Union University (Tenn.)'
+- Men's Basketball: 'Pacific Union CA' ~ 'Virginia Union'
+- Men's Basketball: 'Rocky Mountain College MT' ~ 'Mountain State (W.Va.)'
+- Men's Basketball: 'Rocky Mountain MT' ~ 'Mountain State (W.Va.)'
+- Men's Basketball: 'San Diego Christian College (Calif.)' ~ 'UC San Diego'
+- Men's Basketball: 'West Coast Baptist College (Calif.)' ~ 'California Baptist'
+- Women's Basketball: 'California Baptist' ~ 'East Texas Baptist'
+- Women's Basketball: 'California Baptist' ~ 'Houston Baptist (Texas)'
+- Women's Basketball: 'California Baptist' ~ 'Oklahoma Baptist'
+- Women's Basketball: 'California Baptist' ~ 'Oklahoma Baptist University'
+- Women's Basketball: 'California Baptist' ~ 'Ouachita Baptist'
+- Women's Basketball: 'California Baptist' ~ 'Wayland Baptist (Texas)'
+- Women's Basketball: 'California Baptist' ~ 'Western Baptist (Ore.)'
+- Women's Basketball: 'California Baptist' ~ 'Williams Baptist (Ark.)'
+- Women's Basketball: 'California Baptist University' ~ 'Houston Baptist (Texas)'
+- Women's Basketball: 'California Baptist University' ~ 'Oklahoma Baptist'
+- Women's Basketball: 'California Baptist University, CA' ~ 'Houston Baptist (Texas)'
+- Women's Basketball: 'California Baptist University, CA' ~ 'Wayland Baptist (Texas)'
+- Women's Basketball: 'Concordia' ~ 'Concordia (Neb.)'
+- Women's Basketball: 'Concordia' ~ 'Concordia (Ore.)'
+- Women's Basketball: 'Concordia CA' ~ 'Concordia (Mich.)'
+- Women's Basketball: 'Concordia CA' ~ 'Concordia (Neb.)'
+- Women's Basketball: 'Concordia CA' ~ 'Concordia University (Mich.)'
+- Women's Basketball: 'Concordia CA' ~ 'Concordia University (Minn.)'
+- Women's Basketball: 'Concordia CA' ~ 'Concordia University (Neb.)'
+- Women's Basketball: 'Concordia CA' ~ 'Concordia University (Ore.)'
+- Women's Basketball: 'Concordia Irvine' ~ 'Concordia (Neb.)'
+- Women's Basketball: 'Concordia Irvine' ~ 'Concordia (Ore.)'
+- Women's Basketball: 'Concordia Portland' ~ 'Concordia (Neb.)'
+- Women's Basketball: 'Concordia University (Calif.)' ~ 'Concordia (Neb.)'
+- Women's Basketball: 'Concordia University, CA' ~ 'Concordia (Neb.)'
+- Women's Basketball: 'Hawaii Hilo' ~ 'Hawaii Pacific'
+- Women's Basketball: 'Notre Dame de Namur' ~ 'Notre Dame (OH)'
+- Women's Basketball: 'Pacific Union College' ~ 'Union (Tenn.)'
+- Women's Basketball: 'Point Loma' ~ 'Point (Ga.)'
+- Women's Basketball: 'San Diego Christian' ~ 'UC San Diego'
+- Women's Basketball: 'San Diego Christian' ~ 'University Of California-San Diego'
+- Women's Basketball: 'San Diego Christian' ~ 'University of California - San Diego'
+- Women's Basketball: 'San Diego Christian' ~ 'University of California, San Diego'
+- Women's Basketball: 'San Diego Christian College' ~ 'University Of California-San Diego'
+- Women's Basketball: 'San Diego Christian College' ~ 'University of California - San Diego'
+- Women's Basketball: 'San Diego Christian College' ~ 'University of California-San Diego'
+- Women's Basketball: 'San Diego Christian College (Calif.)' ~ 'University of California - San Diego'
+- Women's Basketball: 'University of Mary' ~ 'College of Saint Mary (Neb.)'
+- Women's Basketball: 'Western University (Ontario)' ~ 'Montana Western'
+- Baseball: 'Bethany CA' ~ 'Bethany College (Kan.)'
+- Baseball: 'California Baptist' ~ 'Dallas Baptist'
+- Baseball: 'California Baptist' ~ 'Houston Baptist'
+- Baseball: 'California Baptist' ~ 'Missouri Baptist'
+- Baseball: 'California Baptist' ~ 'Missouri Baptist University'
+- Baseball: 'California Baptist' ~ 'Oklahoma Baptist'
+- Baseball: 'California Baptist' ~ 'Oklahoma Baptist University'
+- Baseball: 'California Baptist' ~ 'Ouachita Baptist'
+- Baseball: 'California Baptist' ~ 'Ouachita Baptist (Ark.)'
+- Baseball: 'California Baptist' ~ 'Wayland Baptist (Fla.)'
+- Baseball: 'California Baptist' ~ 'Wayland Baptist University (Texas)'
+- Baseball: 'California Baptist University' ~ 'Houston Baptist (Texas)'
+- Baseball: 'California Christian' ~ 'Lubbock Christian (Texas)'
+- Baseball: 'Concordia' ~ 'Concordia (Mich.)'
+- Baseball: 'Concordia' ~ 'Concordia (Neb.)'
+- Baseball: 'Concordia Irvine' ~ 'Concordia (Neb.)'
+- Baseball: 'Saint Francis IL' ~ 'Francis Marion, S.C.'
+- Baseball: 'San Diego Christian' ~ 'UC San Diego'
+- Baseball: 'San Diego Christian College (Calif.)' ~ 'UC San Diego'
+- Baseball: 'San Diego Christian College (Calif.)' ~ 'UC San Diego (Calif.)'
+- Softball: 'BYU-Hawaii' ~ 'Hawaii Pacific'
+- Softball: 'British Columbia' ~ 'Columbia College (Mo.)'
+- Softball: 'Cal Lutheran' ~ 'Midland Lutheran (Neb.)'
+- Softball: 'Cal State Monterey Bay' ~ 'Cal State East Bay'
+- Softball: 'California Baptist' ~ 'Houston Baptist (Texas)'
+- Softball: 'California Baptist' ~ 'Oklahoma Baptist'
+- Softball: 'Concordia IL' ~ 'Concordia University (Calif.)'
+- Softball: 'Concordia IL' ~ 'Concordia University (Ore.)'
+- Softball: 'Concordia MN' ~ 'Concordia (Calif.)'
+- Softball: 'Concordia OR' ~ 'Concordia (Calif.)'
+- Softball: 'Concordia OR' ~ 'Concordia University (Calif.)'
+- Softball: 'Concordia Portland' ~ 'Concordia'
+- Softball: 'Concordia University (Mich.)' ~ 'Concordia Irvine'
+- Softball: 'Dominican' ~ 'Ohio Dominican'
+- Softball: 'Dominican University' ~ 'Ohio Dominican'
+- Softball: 'San Diego Christian College (Calif.)' ~ 'UC San Diego'
+- Softball: 'St. Mary's (MN)' ~ 'St. Mary's (Texas)'
+- Men's Water Polo: 'Concordia' ~ 'University of California-Irvine'
+- Men's Water Polo: 'Concordia Irvine' ~ 'University of California-Irvine'
+- Men's Water Polo: 'Concordia University Irvine' ~ 'University of California-Irvine'
+- Women's Water Polo: 'Concordia' ~ 'University of California-Irvine'
+- Women's Water Polo: 'Concordia Irvine' ~ 'University of California-Irvine'
+- Women's Water Polo: 'Fresno Pacific' ~ 'Fresno State'
+- Women's Water Polo: 'Fresno Pacific' ~ 'Fresno State University'
+- Women's Water Polo: 'Fresno Pacifiic' ~ 'Fresno State University'
+- Men's Tennis: 'Concordia' ~ 'Concordia College (New York)'
+- Men's Tennis: 'Concordia Irvine' ~ 'Concordia College (New York)'
+- Men's Tennis: 'Dallas Baptist University' ~ 'California Baptist'
+- Men's Tennis: 'Hawai'i Hilo' ~ 'Hawaii Pacific University (M)'
+- Men's Tennis: 'Hawai'i Pacific' ~ 'Univ. of Hawaii, Hilo'
+- Men's Tennis: 'Hawaii Hilo' ~ 'Hawaii Pacific University'
+- Men's Tennis: 'Hawaii Hilo' ~ 'Hawaii Pacific University (M)'
+- Men's Tennis: 'Hawaii Pacific' ~ 'Hawaii Hilo (M)'
+- Men's Tennis: 'San Diego Christian' ~ 'UC San Diego'
+- Women's Tennis: 'Dallas Baptist University' ~ 'California Baptist'
+- Women's Tennis: 'Hawai'i Hilo' ~ 'Hawaii Pacific University'
+- Women's Tennis: 'Hawaii Hilo' ~ 'Hawaii Pacific (W)'
+- Women's Tennis: 'Hawaii Hilo' ~ 'Hawaii Pacific University'
+- Women's Tennis: 'Hawaii Hilo' ~ 'Hawaii Pacific University (W)'
+- Women's Tennis: 'Hawaii Pacific University' ~ 'Hawaii Hilo (W)'
+- Women's Tennis: 'San Diego Christian' ~ 'UC San Diego'
+
+## Poll teams whose name matches NO Biola opponent (a ranked opponent hiding here means a missing alias)
+
+- Women's Volleyball: Abilene Christian; Adams State; Air Force; Alabama-Huntsville; Angelo State; Aquinas (Mich.); Arkansas Tech; Arkansas-Fort Smith; Armstrong Atlantic State; Armstrong State; Army; Ashford (Iowa); Ashland; Augusta; Augustana [S.D.]; Barry; Benedictine (Kan.); Benedictine Mesa (Ariz.); Bentley; Berry (Ga.); Biola; Biola (Calif.); Biola (Calif.) (II); Briar Cliff (Iowa); Bushnell (Ore.); CIU (S.C.); Cal State Sacramento; California (PA); Cameron; Cedarville; Cedarville (Ohio); Central Methodist (Mo.); Central Missouri; Central Missouri State; Central Oklahoma; Clarion; Coastal Georgia; Colorado - Colorado Springs; Colorado State - Pueblo; Colorado State-Pueblo; Columbia International (S.C.); Columbia International(S.C.); Concordia - St. Paul; Concordia St. Paul; Concordia- St. Paul; Concordia-St. Paul; Concorida (Neb.); Cumberlands (Ky.); Dakota State (S.D.); Dakota Wesleyan (S.D.); Denver; Dixie State-Utah; Dowling; Drury; Eastern New Mexico; Eckerd; Edinboro; Emporia State; Ferris State; Findlay; Flagler; Flagler (Fla.); Florida Gulf Coast; Florida Southern; Fort Hays State; Francis Marion; Gannon; Georgia Southwestern; Graceland (Iowa); Grand Valley State; Harding; Hawai'i - Hila; Hillsdale; Huntington (Ind.); IPFW; IU Kokomo (Ind.); Indiana East; Indiana Southeast; Iowa Wesleyan; John Brown (Ark.); Kansas Wesleyan; Keiser (Fla.); King (Tenn.); Lawrence Tech (Mich.); Life (Ga.); Lock Haven; Loudes (Ohio); Lourdes (Ohio); Lynn; Marian (Ind.); Martin Methodist (Tenn.); Mary (N.D.); Mercy; Mesa State; Michigan Tech; MidAmercia Nazarene (Kan.); Midland Lutheran (Neb.); Midwestern State; Minnesota Duluth; Minnesota St.-Mankato; Minnesota State; Minnesota State Mankato; Minnesota State, Mankato; Minnesota State-Mankato; Minnesota State-Moorhead; Minnesota-Duluth; Minnesota-Moorhead; Mississippi U for Women; Missouri - St. Louis; Missouri S&T; Missouri Southern; Missouri Southern State; Missouri St. Louis; Missouri Valley; Missouri Western; Missouri-St Louis; Missouri-St. Louis; Montevallo; Morningside; Morningside (Iowa); Morningside (Iowa) (III); Mount Vernon Nazarene (Ohio); Mount Vernon Nazarene (Ohio) (IX); NW Missouri State; Navy; Nelson (Texas); New Haven; Newman (Kan.); North Alabama; North Dakota; North Dakota State; Northern Colorado; Northern Kentucky; Northern Michigan; Northern State; Northwest Missouri State; Northwood; Northwood (MI); Northwood (Mich.); Notre Dame (Calif.); Nova Southeastern; Oakland; Ohio Dominican; Oklahoma Wesleyan; Peru State (Neb.); Pittsburg State; Point Park (Pa.); Post; Providence (Mont.); Providence (Mont.) (Mont.); Quincy; Reinhardt (Ga.); Rocky Mountian (Mont.); Rollins; SC-Spartanburg; SIU Edwardsville; SIU-Edwardsville; SW Minnesota State; Saint Francis (Ind.); Saint Katherine (Calif.); Saint Leo; Saint Xavier (Ill.); Si Tanka (S.D.); South Dakota State; Southeast Missouri; Southeastern (Fla.); Southern Illinois-Edwardsville; Southern Indiana; Southern Nazarene; Southwest Minnesota St.; Southwest Minnesota State; Spring Arbor (Mich.); St Cloud State; St Francis (Ill.); St. Ambrose (Iowa); St. Cloud State; St. Cloud State [5.]; St. Edward's; St. Francis (Ill.); St. Leo; St. Xavier (Ill.); Tampa; Texas - Tyler; Texas A&M - Commerce; Texas A&M - Kingsville; Texas A&M-Commerce; Texas A&M-Kingsville; Texas Tyler; Texas Woman's; Texas-Tyler; Tiffin; Trinity Christian (Ill.); Truman; Truman State; Union (Tenn.); University of Tampa; Upper Iowa; Valley City State (N.D.); Washburn; Washburn University; Wayland Baptist (Texas); Wayne State (MI); Wayne State (Mich.); Wayne State (NE); Wayne State (Neb.); Wayne State [NE]; Wayne State [Neb.]; Webber International (Fla.); West Alabama; West Florida; West Texas A&M; West Virginia Wesleyan; Wheeling; Wheeling Jesuit; William Carey (Miss.); Wingate; Winona State; Wright State
+- Men's Soccer: Adelphi University; American International College; Anderson; Anderson (S.C.); Anderson University (S.C.); Aquinas (Mich.); Ashford (Iowa); Ashford University (Iowa); Ashland (Ohio); Ashland University; Assumption University; Auburn Montgomery (Ala.; Auburn Montgomery (Ala.); Auburn Montgomery (Ala.) (XIII); Auburn University Montgomery; Auburn University Montgomery (Ala.); Baker (Kan.); Baker (Kan.) (V); Baker University (Kan.); Barry; Barry (Fla.); Barry University; Barton College; Bellarmine; Bellarmine University; Bellevue (Neb.); Bellevue (Neb.) (IV); Bellevue University (Neb.); Benedictine (Kan.); Benedictine (Kan.) (V); Benedictine College (Kan.); Bentley University; Berry (Ga.); Berry (Ga.) (XIII); Berry College (Ga.); Bethel (Ind.); Bethel (Ind.) (VIII); Bethel (Tenn.); Bethel (Tenn.) (XI); Bethel (Tenn.) (XII); Bethel College (Ind.); Bethel University (Tenn.); Biola (Calif.); Biola (Calif.) (II); Biola University (Calif.); Birmingham-Southern (Ala.); Bloomfield (N.J.); Bloomsburg University; Brescia (Ky.); Brescia (Ky.) (XII); Briar Cliff (Iowa); Bridgeport (Conn.), University of; C.W. Post; C.W. Post (N.Y.); CIU (S.C.); California State University Stanislaus; Campbellsville (Ky.); Cardinal Stritch (Wis.); Cardinal Stritch (Wis.) (VII); Carson-Newman; Carson-Newman (Tenn.); Carson-Newman College (Tenn.); Carson-Newman University; Catawba College; Cedarville (Ohio); Cedarville University; Central Methodist (Mo.); Charleston; Charleston (W.Va.); Charleston, University of (W.Va.); Chowan University; Christian Brothers; Christian Brothers University; Clarke (Iowa); Clayton State (Ga.); Clayton State University; Coker; Coker (S.C.); Coker College; Coker University; Colorado Mesa; Colorado Mesa University; Colorado Mines; Colorado State University-Pueblo; Colorado State-Pueblo; Columbia (Mo.); Columbia (Mo.) (V); Columbia College (Mo.); Columbia International (S.C.); Concord University; Covenant (Ga.); Covenant (Ga.) (XII); Cumberland (Tenn.); Cumberlands (Ky.); Cumberlands (Ky.) (XI); Dalton State; Dalton State (Ga.); Davenport (Mich.); Davenport University (Mich.); Davis & Elkins; Davis & Elkins (W. Va.); Davis & Elkins College; Davis and Elkins (W. Va.); Davis and Elkins College (W. Va.); Dominican Gollege (N.Y.); Dowling (N.Y.); Dowling College (N.Y.); Drury; Drury (Mo.); Drury University; East Stroudsburg (Pa.); East Stroudsburg University; Eastern New Mexico; Eastern New Mexico University; Eastern Oregon; Eastern Oregon (Ore.); Eckerd (Fla.); Eckerd College; Erskine College; Faulkner (Ala.); Felician (N.J.); Felician University; Flagler; Flagler (Fla.); Flagler College; Florida Memorial; Florida National; Florida Southern; Florida Southern College; Florida Tech; Fort Lewis; Fort Lewis (Colo.); Fort Lewis College; Francis Marion; Francis Marion University; Franklin Pierce; Franklin Pierce (N.H.); Franklin Pierce College (N.H.); Franklin Pierce University; Frostburg State University; Gannon; Gannon (Pa.); Gannon University; Georgia Gwinnett; Georgia Gwinnett (Ga.); Georgian Court University; Goshen (Ind.); Governors State (Ill.); Grace (Ind.); Grace College (Ind.); Graceland (Iowa); Graceland (Iowa) (V); Graceland University (Iowa); Grand View (Iowa); Grand View (Iowa) (VII); Grand View University (Iowa); Green Mountain (Vt.); Harris-Stowe (Mo.); Holy Cross (Ind.); Houston-Victoria (Texas); Huron (S.D.); Huston-Tillotson (Texas); Illinois Institute of Technology; Incarnate Word; Incarnate Word (Texas); Incarnate Word (Texas), University of the; Indiana Institute of Technology; Indiana Wesleyan; Indiana Wesleyan (Ind.); Indiana Wesleyan (VIII); Indiana Wesleyan University; Indianapolis, University of; Jamestown (N.D.); John Brown (Ark.); Kansas Wesleyan; Kansas Wesleyan (IV); Kansas Wesleyan University; Keiser (Fla.); Keiser (Fla.) [One first-place vote]; King (Tenn.); LIU Post; LSU Shreveport (La.); Lake Erie College; Lambuth (Tenn.); Lambuth (Tenn.) (XI); Lambuth University (Tenn.); Lander; Lander (S.C.); Lander University; Le Moyne (N.Y.); Le Moyne College; LeMoyne (N.Y.); Lee (Tenn.; Lee (Tenn.); Lee (Tenn.) (XIII); Lee University; Lee University (Tenn.); Lees-McRae (N.C.); Lees-McRae College; Lenoir-Rhyne; Lenoir-Rhyne College (N.C.); Lenoir-Rhyne University; Lewis; Lewis (Ill.); Lewis University; Life (Ga.); Limestone; Limestone College; Limestone University; Lincoln Memorial; Lincoln Memorial (Tenn.); Lincoln Memorial University; Lincoln University (Mo.); Lindenwood; Lindenwood (Mo.); Lindenwood (Mo.) (V); Lindenwood University; Lindenwood University (Mo.); Lindenwood-Belleville (Ill.); Lindsey Wilson (Ky.); Lindsey Wilson (Ky.) (XI); Lindsey Wilson College (Ky.); Lock Haven (Pa.); Lock Haven University; Louisiana Christian; Lynn; Lynn (Fla.); Lynn University; Lyon (Ark.); Madonna (Mich.); Madonna University (Mich.); Maine - Fort Kent; Maine - Fort Kent (X); Marian (Ind.); Marian (Ind.) (VIII); Mars Hill; Mars Hill College; Mars Hill University; Martin Methodist (Tenn.); Martin Methodist College (Tenn.); Marymount California; Maryville University of St. Louis; Massachusetts-Lowell; Massachusetts-Lowell, University of; McKendree (Ill.) (V); McKendree University; McKendree University (Ill.); McPherson (Kan.); Mercy; Mercy College; Mercy University; Mercyhurst; Mercyhurst (Pa.); Mercyhurst College (Pa.); Mercyhurst University; Merrimack; Merrimack (Mass.); Merrimack College; Merrimack College (Mass.); Mesa State (Colo.); Metro State; Metro State (Colo.); Metropolitan State College of Denver; Metropolitan State University of Denver; Mid-America Christian (Okla.); Mid-Continent (Ky.); Mid-Continent (Ky.) (XI); Mid-Continent University (Ky.); MidAmerica Nazarene (Kan.); MidAmerica Nazarene University (Kan.); Midland (Neb.); Midland Lutheran (Neb.) (III); Millersville; Millersville University; Milligan (Tenn.); Milligan (Tenn.) (XII); Mississippi College; Missouri Baptist; Missouri Baptist (V); Missouri Science & Technology; Missouri University of Science & Technology; Montevallo (Ala.); Montevallo (Ala.), University of; Montreat (N.C.) (XII); Montreat College (N.C.); Morningside (Iowa); Mount Mercy (Iowa); Mount Senario (Wis.); Mount Vernon Nazarene University (Ohio); National American (S.D.); New York Institute Of Technology; New York Tech; Newberry College (S.C.); Newman (Kan.); North Carolina-Pembroke; North Greenville University; Northeastern State; Northeastern State (Okla.); Northeastern State University; Northern Kentucky; Northern Kentucky University; Northern Michigan University; Northwestern (Iowa); Northwestern (Ohio); Northwestern Ohio; Northwestern Ohio (Ohio); Northwood (Fla.); Northwood (Mich.); Northwood University (Fla.); Northwood University (Mich.); Nortre Dame de Namur (Calif.); Notre Dame; Notre Dame (Ohio); Notre Dame (Ohio) (IX); Notre Dame College; Notre Dame College (Ohio); Nova Southeastern; Nova Southeastern (Fla.); Nova Southeastern University; Nyack (N.Y.); Nyack College; Ohio Dominican; Ohio Dominican (IX); Ohio Dominican University; Ohio Valley University; Okahoma Christian; Oklahoma Baptist; Oklahoma Baptist (VI); Oklahoma Baptist University; Oklahoma Christian (VI); Oklahoma Christian University; Oklahoma City; Oklahoma City (VI); Oklahoma City University; Oklahoma Wesleyan [17 first-place votes]; Oregon Tech; Ouachita Baptist University; Palm Beach Atlantic; Palm Beach Atlantic University; Park (Mo.); Park (Mo.) (IV); Park University (Mo.); Pfeiffer; Pfeiffer University; Point (Ga.); Point Park (Pa.); Post; Post (Conn.); Post University; Presbyterian (S.C.); Purdue University Northwest; Queens (N.C.); Queens College; Queens University (N.C.); Queens University of Charlotte; Quincy; Quincy (Ill.); Quincy University; Reinhardt (Ga.); Roberts Wesleyan (N.Y.); Roberts Wesleyan College (N.Y.); Rockhurst; Rockhurst University; Rogers State University; Rollins; Rollins (Fla.); Rollins College; Roosevelt (Ill.); Roosevelt University; SCAD (Ga.); SCAD Savannah (Ga.); SIU-Edwardsville; Saginaw Valley; Saginaw Valley State; Saginaw Valley State University; Saint Leo; Saint Leo (Fla.); Saint Leo University; Saint Thomas University (Fla.); Saint Xavier (Ill.); Saint Xavier University (Ill.); Savannah Art & Design (Ga.); Savannah Art & Design (Ga.) (XIV); Savannah College of Art and Design (Ga.); Science & Arts; Science & Arts (Okla.); Science & Arts (Okla.) (VI); Science and Arts (Okla.); Science and Arts of Oklahoma; Science and Arts of Oklahoma (Okla.); Seton Hill (Pa.); Seton Hill University; Shepherd (W. Va.); Shippensburg University; Shorter College (Ga.); Shorter University (Ga.); Si Tanka (S.D.); Siena Heights (Mich.); Slippery Rock; Slippery Rock University; South Carolina Upstate; South Carolina-Aiken; Southeastern (Fla.); Southern Connecticut State; Southern Connecticut State University; Southern Illinois University-Edwardsville; Southern Nazarene (Okla.); Southern Nazarene (Okla.) (VI); Southern Nazarene University; Southern Nazarene University (Okla.); Southern New Hampshire; Southern New Hampshire University; Southern Oregon; Southern Poly (Ga.); Southern Poly State (Ga.); Southern Polytechnic State University (Ga.); Southern Wesleyan (S.C.); Southwestern Christian (Okla.); Spring Hill College; St. Ambrose (Iowa); St. Ambrose (Iowa) (VII); St. Andrews (N.C.); St. Cloud State University; St. Edward's; St. Edward's (Texas); St. Edward's University; St. Francis (Ind.); St. Gregory's (Okla.); St. Mary's University (Texas); St. Thomas (Fla.); St. Thomas (Texas); St. Thomas Aquinas; St. Xavier (Ill.); Tampa; Tampa (Fla.); Tampa (Fla.), University of; Taylor (Ind.); Teikyo Post (Conn.); Tennessee Wesleyan; Texas A&M International; Texas A&M International University; Texas Wesleyan; Texas Wesleyan University; Texas-Permian Basin; Thomas (Ga.); Tiffin; Tiffin (Ohio); Tiffin University; Trinity Christian (Ill.); Truett-McConnell (Ga.); Truman State (Mo.); Tusculum; Tusculum (Tenn.); Tusculum College; Tusculum College (Tenn.); Tusculum University; Union (Ky.); Union (Tenn.) (XI); Union Commonwealth (Ky.); Union University; University Of Charleston; University Of Indianapolis; University Of Souther Indiana; University Of Southern Indiana; University Of Tampa; University Of West Florida; University Of Wisconsin-Parkside; University of Charleston; University of Charleston (W.Va.); University of Findlay; University of Indianapolis; University of Maine at Fort Kent; University of Missouri-St. Louis; University of Montevallo; University of North Carolina-Pembroke; University of North Georgia; University of Northwestern Ohi; University of Northwestern Ohio; University of Tampa; University of Texas-Dallas; University of Texas-Tyler; University of West Alabama; University of West Florida; University of Wisconsin-Parkside; University of the Cumberlands (Ky.); University of the District of Columbia; University of the Incarnate Word (Texas); Upper Iowa; Upper Iowa University; Urbana; Urbana University; Virginia Intermont; Virginia Intermont (XII); WV Tech (W. Va.); WVU Tech; WVU Tech (W. Va.); WVU Tech (W.V.); WVU Tech (W.Va.); Walsh (Ohio); Walsh University; Warner Southern (Fla.) (XIV); Warner Southern College (Fla.); Warner University (Fla.); Wayland Baptist (Texas); Webber International (Fla.); Webber International (Fla.) (XIV); West Alabama; West Chester; West Chester University; West Florida; West Florida, University of; West Texas A&M; West Texas A&M University; Westcliff (Calif.); Western Oregon University; Wheeling Jesuit University; William Carey (Miss.); William Carey University (Miss.); William Jewell; William Jewell (Mo.); William Jewell (Mo.) (V); William Jewell College (Mo.); William Penn (Iowa); William Woods (Mo.); Williams Baptist (Ark).; Williams Baptist (Ark.); Wilmington (Del.); Wilmington University; Wingate; Wingate (N.C.); Wingate University; Wisconsin-Parkside; Wisconsin-Parkside, University of; Xavier (La.); Young Harris; Young Harris College
+- Women's Soccer: Abilene Christian; Abilene Christian (Texas); Adelphi; Adelphi (N.Y.); Adelphi University; American International; Angelo State; Angelo State University; Aquinas (Mich.); Armstrong Atlantic; Armstrong Atlantic State; Armstrong Atlantic State University; Armstrong State; Armstrong State University; Ashford (Iowa); Ashland University; Assumption College; Augustana College; Augustana University; Avila (Mo.); BYU-Hawaii; Baker (Kan.); Baker University (Kan.); Barry; Barry University; Belhaven (Miss.); Bellarmine; Bellarmine University; Bellevue (Neb.); Bellevue (Neb.) (IV); Belmont Abbey; Belmont Abbey College; Bemidji State University; Benedictine (Kan.); Benedictine (Kan.) (V); Benedictine College (Kan.); Benedictine University (Kan.); Bentley University; Berry (Ga.); Berry (Ga.) (XIII); Berry College (Ga.); Bethel (Tenn.); Bethel (Tenn.) (XI); Bethel College (Tenn.); Bethel University (Tenn.); Biola (Calif.); Biola (Calif.) (II); Birmingham-Southern (Ala.); Bloomsburg; Bloomsburg University; Brenau (Ga.); Brevard (N.C.); Briar Cliff (Iowa); Bridgeport; Bridgeport (Conn.), University of; Bryant (R.I.); Bryant College (R.I.); Bryant University (R.l.); C.W. Post (N.Y.); C.W.Post (N.Y.); Cal Poly Humboldt - [DII]; Cal State Stanislaus; California (Pa.); California State University Stanislaus; California University of Pennsylvania - [DII]; California Universityof Pennsylvania; Campbellsville (Ky.); Cardinal Stritch (Wis.); Carson-Newman; Carson-Newman (Tenn.); Carson-Newman College; Carson-Newman College (Tenn.); Carson-Newman University; Catawba (N.C.); Catawba College; Cedarville University; Central Methodist (Mo.); Central Missouri; Central Missouri State; Central Missouri, University of; Central Oklahoma; Central Oklahoma, University of; Central Washington University; Clayton State; Clayton State University; College Of Saint Rose; College of Saint Rose; Colorado Colorado-Springs; Colorado Mesa; Colorado Mesa University; Colorado Mines; Colorado School Of Mines; Colorado School of Mines; Colorado State University-Pueblo; Colorado-Colorado Springs; Columbia (Mo.); Columbia (mo.); Columbus State; Columbus State University; Concord University; Concordia University-St. Paul; Cornerstone (Mich.); Cornerstone (Mich.) (VIII); Covenant (Ga.); Covenant (Ga.) (XII); Cumberland (Ky.); Cumberland (Tenn.); Cumberlands (Ky.); Dakota Wesleyan University (S.D.); Dallas Baptist; Dallas Baptist (Texas); Dallas Baptist University; Davenport (Mich.); Delta State University; Dowling; Dowling (N.Y.); Dowling College (N.Y.); Drury (Mo.); Drury University; East Stroudsburg; East Stroudsburg University; Edinboro; Edinboro (Pa.); Edinboro University; Emporia State University; Fairmont State University; Ferris State University; Findlay (Ohio); Flagler (Fla.); Flagler College; Florida Southern; Florida Southern College; Florida Tech; Fort Hays State University; Fort Lewis; Fort Lewis (Colo.); Fort Lewis College; Francis Marion University; Franklin Pierce; Franklin Pierce (N.H.); Franklin Pierce College (N.H.); Franklin Pierce University; Friends (Kan.); Frostburg State University; Gannon; Gannon University; Georgetown (Ky.); Georgia College; Georgia Gwinnett; Georgia Gwinnett (Ga.); Grace (Ind.); Graceland (Iowa); Graceland (Iowa) (V); Graceland University (Iowa); Grand Valley State; Grand Valley State (Mich.); Grand Valley State University; Grand Vallley State; Grand View (Iowa); Green Mountain (Vt.); Hastings (Neb.); Hastings College (Neb.); Holy Family (Pa.); Holy Family University; Houghton (N.Y.); Houghton (N.Y.) (IX); Houghton College (N.Y.); Houston-Victoria (Texas); Huron (S.D.); Incarnate Word (Texas); Incarnate Word (Texas), University of the; Indiana (Pa.); Indiana University (Pa.); Indiana University of Pennsylvania; Indianapolis; Indianapolis, University of; Jamestown (N.D.); Jefferson University; John Brown (Ark.); John Brown (Ark.) (VI); John Brown University (Ark.); Judson (Ill.); Kansas Wesleyan; Kansas Wesleyan (IV); Kansas Wesleyan University; Keiser (Fla.); King (Tenn.); King (Tenn.) (XII); King College (Tenn.); Kutztown; Kutztown (Pa.); Kutztown University; LIU Post; Lander; Lander University; Lee; Lee (Tenn.); Lee (Tenn.) (XIII); Lee University; Lee University (Tenn.); Lenoir- Rhyne University; Lenoir-Rhyne; Lenoir-Rhyne College (N.C.); Lenoir-Rhyne University; Life (Ga.); Limestone College; Limestone University; Lincoln Memorial (Tenn.); Lincoln Memorial University; Lindenwood (Mo.); Lindenwood University; Lindenwood University (Mo.); Lynn; Lynn (Fla.); Lynn University; Madonna (Mich.); Madonna (Mich.) (VIII); Madonna University (Mich.); Malone (Ohio); Marian (Ind.); Marian (Ind.) 1; Marian (Ind.) 3; Marian College (Ind.); Marian University (Ind.); Martin Methodist (Tenn.); Martin Methodist (Tenn.) (XI); Martin Methodist College (Tenn.); Mary (N.D); Mary (N.D.); Maryville University of St. Louis; Massachusetts-Lowell; Massachusetts-Lowell, University of; McKendree (Ill.); McKendree (Ill.) (V); McKendree University; McKendree University (Ill.); Mercy College; Mercy University; Mercyhurst (Pa.); Mercyhurst College (Pa.); Mercyhurst University; Merrimack; Merrimack (Mass.); Merrimack College; Mesa State (Colo.); Metro State; Metro State (Colo.); Metropolitan State College of Denver; Metropolitan State University of Denver; MidAmerica Nazarene (Kan.); Middle Georgia State; Midland (Neb.); Midwestern State (Texas); Midwestern State University; Millersville; Millersville University; Milligan (Tenn.); Minnesota State University-Mankato; Minnesota State-Mankato; Minnesota-Duluth; Minot State; Minot State University; Mississippi College; Missouri Baptist; Missouri Southern; Missouri Valley; Missouri Western State University; Molloy College; Molloy University; Montana State-Billings; Montevallo (Ala.), University of; Mount St. Clare (Iowa); Mount Vernon Nazarene (Ohio); Mount Vernon Nazarene (Ohio) (IX); Mount Vernon Nazarene (Ohio.); National American (S.D.); Nebraska Wesleyan; Nebraska-Omaha; Nebraska-Omaha, University of; New Haven; New Haven (Conn.); New Haven, University of; Newman (Kan.); North Alabama; North Carolina-Pembroke; North Georgia; North Georgia College & State; Northeastern State; Northeastern State University; Northern Kentucky; Northern Kentucky University; Northern Michigan; Northern Michigan University; Northwest Missouri State University; Northwest Nazarene University; Northwestern Oklahoma State; Northwood (Fla.); Northwood (Fla.) (XIV); Northwood (Texas); Northwood University (Fla.); Notre Dame College; Notre Dame College (Ohio); Nova Southeastern; Nova Southeastern (Fla.); Nova Southeastern University; OUAZ (Ariz.); Ohio Dominican; Ohio Dominican (IX); Ohio Dominican University; Ohio Valley University; Oklahoma Christian; Oklahoma Christian (VI); Oklahoma Christian University; Oklahoma City; Oklahoma City (VI); Oklahoma City University; Olivet Nazarene (Ill.); Olivet Nazarene University (Ill.); Ouachita Baptist University; Pace University; Palm Beach Atlantic (Fla.); Palm Beach Atlantic University; Park (Mo.); Park (Mo.) (IV); Park University (Mo.); Pittsburg State University; Queens University Of Charlotte; Quincy; Quincy (Ill.); Quincy University; Regis; Regis (Colo.); Regis University; Reinhardt (Ga.); Robert Morris University-Illinois (Ill.); Roberts Wesleyan College (N.Y.); Rockhurst; Rockhurst University; Rollins; Rollins (Fla.); Rollins College; SCAD (Ga.); SCAD Savannah (Ga.); SIU-Edwardsville; Saginaw Valley State (Mich.); Saginaw Valley State University; Saint Ambrose (Iowa); Saint Ambrose University (Iowa); Saint Anselm College; Saint Leo; Saint Leo (Fla.); Saint Leo College (Fla.); Saint Leo University; Saint Michael's College; Saint Rose; Saint Rose (N.Y.), College of; Saint Rose (N.Y.), Gollege of; Saint Xavier University (Ill.); Savannah Art & Design (Ga.); Savannah Art and Design (Ga.) (XIV); Savannah College of Art and Design (Ga.); Science & Arts (Okla.); Science and Arts (Okla.); Seattle (Wash.); Seattle University; Seton Hill University; Shepherd University; Shippensburg; Shippensburg University; Siena Heights (Mich.); Siena Heights (Mich.) (VIII); Siena Heights University (Mich.); Slippery Rock; Slippery Rock University; Sourthwest Minnesota State; Southeastern (Fla.); Southeastern (Fla.) 2; Southern Connecticut State; Southern Illinois University-Edwardsville; Southern Nazarene (Okla.); Southern Nazarene University (Okla.); Southern New Hampshire; Southern New Hampshire University; Southern lilinois University-Edwardsville; Southwest Baptist University; Southwest Minnesota State; Southwestern Oklahoma State; Southwestern Oklahoma State University; Spring Arbor (Mich.); Spring Arbor (Mich.) (VIII); Spring Arbor University (Mich.); St. Ambrose (Iowa); St. Cloud State University; St. Edward's; St. Edward's (Texas); St. Edward's University; St. Edwards (Texas); St. Leo (Fla.); St. Mary (Neb.); St. Rose (N.Y.); St. Scholastica (Minn.); St. Thomas (Fla.); St. Xavier (Ill.); St. Xavier (Ill.) (VII); Stonehill; Stonehill College; Tampa; Tampa (Fla.); Tampa (Fla.), University of; Taylor (Ind.); Tennessee Southern; Tennessee Southern (Tenn.); Tennessee Wesleyan; Texas A&M University-Commerce; Texas A&M-Commerce; Texas Wesleyan; Texas Wesleyan University; Texas Woman's University; Texas at Brownsville; Thomas (Ga.); Thomas Jefferson University; Tiffin (Ohio); Tiffin (Ohio) (IX); Transylvania (Ky.); Trinity Christian (Ill.); Trinity Christian (Ill.) (VII); Trinity Christian College (Ill.); Truett McConnell (Ga.); Truett-McConnell (Ga.); Truman State; Truman State University; Tusculum (Tenn.); Tusculum College (Tenn.); Union (Ky.); University Of Bridgeport; University Of Central Oklahoma; University Of Charleston; University Of Indianapolis; University Of New Haven; University Of Tampa; University Of West Florida; University Of Wisconsin-Parkside; University of Bridgeport; University of Central Missouri; University of Central Oklahoma; University of Charleston; University of Colorado- Colorado Springs; University of Colorado-Colorado Springs; University of Findlay; University of Indianapolis; University of Missouri-St. Louis; University of Montevallo; University of Nebraska-Omaha; University of New Haven; University of North Alabama; University of North Carolina-Pembroke; University of North Georgia; University of Northwestern Ohi; University of Science & Arts (Okla.); University of Tampa; University of West Alabama; University of West Florida; Valdosta State; Valdosta State University; Virginia Intermont; Washburn (Kan.); Washburn (Кап.); Washburn University; West Chester; West Chester (Pa.); West Chester University; West Florida; West Florida, University of; West Texas A&M; West Texas A&M University; West Virginia State University; West Virginia Wesleyan; West Virginia Wesleyan College; William Carey (MS); William Carey (Miss.); William Carey (Miss.) (XIII); William Carey (Miss.) 13; William Carey (Miss.) 17; William Carey University (Miss.); William Jewell; William Jewell (Mo.); William Jewell (Mo.) (V); William Jewell College (Mo.); William Woods (Mo.); Wilmington University; Wingate; Wingate University; Winona State; Winona State (Minn.); Winona State University; Wisconsin-Parkside
+- Men's Basketball: (tie) Ferris State, Mich.; (tie) Grand Valley State; (tie) King; (tie) Lander, S.C.; (tie) Missouri-St. Louis; (tie) Pace, N.Y.; (tie) Queens (N.C.); (tie) UNC Pembroke; (tie) Valdosta State, Ga.; (tie) Winston-Salem State; Adams State; Adelphi; Adelphi, N.Y.; Alabama Huntsville; Alabama-Huntsville; Alaska Anchorage; Alaska-Anchorage; Alaska-Fairbanks; Alderson-Broaddus; Allen (S.C.); Angelo State; Angelo State (Texas); Angelo State, Texas; Aquinas (Mich.); Aquinas College (Mich.); Arkansas Fort Smith; Arkansas Monticello; Arkansas Tech; Arkansas-Fort Smith; Arkansas-Monticello; Armstrong State; Asbury (Ky.); Ashland; Ashland (Ohio); Ashland, Ohio; Assumption; Assumption (Mass.); Assumption, Mass.; Auburn Montgomery (Ala.); Auburn Montogmery (Ala.); Auburn University Montgomery (Ala.); Augusta; Augusta (Ga.); Augusta, Ga; Augusta, Ga.; Augustana; Augustana (S.D.); Augustana, S.D.; Ave Maria (Fla.); Avila (Mo.); Azuza Pacific, Calif.; Bacone (Okla.); Barat (Ill.); Barry; Barry (Fla.); Barry, Fla.; Barton; Barton, N.C.; Bellarmine; Bellarmine (Ky.); Bellarmine, Ky.; Belmont Abbey (N.C.); Benedict; Benedict, S.C.; Bentley; Bentley (Mass.); Bentley, Mass.; Berea (Ky.); Biola (Calif.); Biola University (Calif.); Birmingham-Southern (Ala.); Black Hills State; Black Hills State (S.D.); Black Hills State University (S.D.); Black Hills State, S.D.; Bloomfield, N.J.; Bloomsburg; Bluefield (Va.); Bluefield College (Va.); Bowie State; Brescia (Ky.); Brevard (N.C.); Brewton-Parker (Ga.); Briar Cliff (Iowa); Briar Cliff University (Iowa); Bridgeport (Conn.); Bridgeport, Conn.; Bryan College (Tenn.); Bryant; Cal Poly Humboldt; Cal State-Bakersfield; Caldwell (N.J.); California (Pa.); California State-Hayward; California, Pa.; Calumet (Ind.); Cardinal Stritch (Wis.); Cardinal Stritch University (Wis.); Carson-Newman (Tenn.); Carson-Newman, Tenn.; Catawba; Catawba (N.C.); Catawba, N.C.; Central Arkansas; Central Baptist (Ark.); Central Christian (Kan.); Central Christian College (Kan.); Central Methodist (Mo.); Central Methodist University (Mo.); Central Missouri; Central Oklahoma; Central State (Ohio); Charleston; Charleston (W.Va.); Charleston, W.Va.; Christian Brothers; Christian Brothers, Tenn.; Cincinnati Christian (Ohio); Claflin; Claflin, S.C.; Clark Atlanta; Clark Atlanta, Ga.; Clarke (Iowa); Clayton State; Coker, S.C.; College of West Virginia; College of the Ozarks (Mo.); Colo.-Colorado Springs; Colorado Mesa; Colorado-Colorado Springs; Columbia (Mo.); Columbia College (Mo.); Columbus State; Columbus State, Ga.; Concordia-St. Paul, Minn.; Converse, S.C.; Crichton (Tenn.); Crichton College (Tenn.); Cumberlands (Ky.); DBU (Texas); DBU, Texas; Dakota State (S.D.); Dakota Wesleyan (S.D.); Dakota Wesleyan University (S.D.); Dallas Baptist (Texas); Dallas Baptist, Texas; Dalton State (Ga.); Davenport; Davenport (Mich.); Davenport University (Mich.); Davenport, Mich.; Delta State; Delta State (Miss.); Delta State, Miss.; Dickinson State (N.D.); Dickinson State University (N.D.); Dillard (La.); District of Columbia; Doane (Neb.); Dordt (Iowa); Dordt College (Iowa); East Central (Okla.); East Stroudsburg; East Stroudsburg (Pa.); East Stroudsburg, Pa.; East Texas A&M; Eastern New Mexico; Eastern Oregon; Eastern Oregon University; Eckerd; Eckerd, Fla.; Edinboro; Edward Waters (Fla.); Elizabeth City State; Emmanuel (Ga.); Emmanuel College (Ga.); Emmanuel, Ga.; Fairmont State; Fairmont State (W.Va.); Fairmont State, W.Va.; Felician, N.J.; Ferris State; Ferris State (Mich.); Ferris State, Mich.; Findlay; Findlay (Ohio); Findlay, Ohio; Flagler (Fla.); Flagler, Fla.; Florida Gulf Coast; Florida Memorial; Florida Southern; Florida Tech; Fort Hays State; Fort Hays State (Kan.); Fort Hays State, Kan.; Francis Marion, S.C.; Freed-Hardeman (Tenn.); Freed-Hardeman University (Tenn.); Friends (Kan.); Friends University (Kan.); GRU Augusta; GRU Augusta (Ga.); Gannon; Gannon (Pa.); Gannon, Pa.; Georgia College; Glenville State (W.Va.); Goshen (Ind.); Governors State (Ill.); Grand Valley State; Grand Valley State (Mich.); Grand Valley State, Mich.; Grand View (Iowa); Grand View University (Iowa); Harding; Harding (Ark.); Henderson State; Hillsdale; Hillsdale (Mich.); Hillsdale, Mich.; Holy Family; Holy Family, Pa.; Huntington (Ind.); Huntington University (Ind.); Husson (Maine); Huston-Tillotson (Texas); IU East; IU East (Ind.); IU Kokomo (Ind.); IU Southeast; IU Southeast (Ind.); Illinois-Springfield; Indiana (Pa.); Indiana East; Indiana East (Ind.); Indiana Institute of Technology; Indiana Northwest (Ind.); Indiana Southeast; Indiana Southeast (Ind.); Indiana Tech; Indiana University East; Indiana University Southeast; Indiana, Pa.; Indianapolis; Indianapolis (Ind.); Indianapolis, Ind.; Iowa Wesleyan; Iowa Wesleyan College; Jamestown (N.D.); Jamestown College (N.D.); Jarvis Christian (Texas); Jarvis Christian College (Texas); Jefferson; Jefferson (Pa.); Johnson C. Smith; Kansas Wesleyan; Keiser (Fla.); Kendall (Ill.); Kennesaw State; Kentucky Wesleyan; King; King College (Tenn.); King, Tenn.; Kutztown; Kutztown, Pa.; LIU Post; LSU Alexandria; LSU Alexandria (La.); LSU Shreveport (La.); LSU-Alexandria (La.); LSU-Shreveport; LSU-Shreveport (La.); Lake Superior State (Mich.); Lake Superior State, Mich.; Lander, S.C.; Le Moyne, N.Y.; LeMoyne; Lenoir-Rhyne; Lenoir-Rhyne, N.C.; Lewis; Lewis (Ill.); Lewis, Ill.; Life (Ga.); Life University (GA); Life University (Ga.); Lincoln Memorial; Lincoln Memorial (Tenn.); Lincoln Memorial, Tenn.; Lindenwood (Mo.); Lindenwood University (Mo.); Lindenwood-Belleville (Ill.); Lindsey Wilson (Ky.); Lindsey Wilson College (Ky.); Livingstone; Livingstone (N.C.); Lourdes (Ohio); Loyola (La.); Loyola University (La.); Lynn; Lynn, Fla.; Lyon (Ark.); MSU Denver; MSU Denver (Colo.); MSU Denver, Colo.; MSU Moorhead; MSU Moorhead (Minn.); MSU Moorhead, Minn.; Madonna (Mich.); Malone (Ohio); Malone University (Ohio); Marian (Ind.); Massachusetts-Lowell; Mayville State (N.D.); McKendree (Ill.); McKendree University (Ill.); McKendree, Ill.; Mercyhurst; Mercyhurst (Pa.); Mercyhurst, Pa.; Merrimack; Merrimack, Mass.; Mesa State; Metropolitan State (Colo.); Metropolitan State, Colo.; Metropolitan State, Cool.; Michigan-Dearborn; Middle Georgia State; Midland (Neb.); Midwestern State; Midwestern State (Texas); Midwestern State, Texas; Miles; Miles (Ala.); Miles, Ala.; Millersville; Milligan (Tenn.); Minnesota St.-Moorhead; Minnesota State; Minnesota State-Moorehad; Minnesota State-Moorhead; Minot State (N.D.); Minot State University (N.D.); Minot State, N.D.; Missouri S&T; Missouri Southern; Missouri Valley; Missouri-St. Louis; Montevallo; Montevallo (Ala.); Montevallo, Ala.; Montreat (N.C.); Morehouse (Ga.); Morehouse, Ga.; Morningside (Iowa); Morningside College (Iowa); Mount Marty (S.D.); Mount Mercy (Iowa); Mount Olive; Mount Olive (N.C.); Mount Olive, N.C.; Mount St. Clare (Iowa); Mountain State (W.Va.); Mountain State (W.Va.) (Coll of West Virginia); Mountain State University (W.Va.); Nebraska Wesleyan; Nebraska-Kearney; Nebraska-Omaha; Newberry, S.C.; Newman; Newman (Kan.); North Alabama; North Carolina-Pembroke; North Dakota; North Georgia; Northeastern State (Okla.); Northern Kentucky; Northern Michigan; Northern State; Northern State (S.D.); Northern State, S.D.; Northwest Christian (Ore.); Northwest Missouri St.; Northwest Missouri State; Northwestern Ohio; Northwestern Oklahoma; Notre Dame (Calif.); Nova Southeastern; Nova Southeastern (Fla.); Nova Southeastern, Fla.; Ohio Dominican; Oklahoma Christian; Oklahoma Christian University; Oklahoma Wesleyan; Oklahoma Wesleyan University; Oregon Institute of Technology; Ottawa University (Kan.); Ouachita Baptist; Ouachita Baptist, Ark.; Ozarks (Mo.); Pace (N.Y.); Pace, N.Y.; Palm Beach Atlantic (Fla.); Palm Beach Atlantic, Fla.; Peru State (Neb.); Philadelphia, Pa.; Philander Smith (Ark.); Pikeville (Ky.); Pikeville College (Ky.); Pittsburg State; Pittsburgh-Johnstown; Point Park (Pa.); Post, Conn.; Presbyterian; Presentation (S.D.); Providence (Mont.); Queens (N.C.); Queens, N.C.; Regis, Colo.; Reinhardt (Ga.); Rio Grande (Ohio); Robert Morris University-Illinois; Roberts Wesleyan College (N.Y.); Rochester (Mich.); Rockhurst, Mo.; Rogers State (Okla.); Rogers State University (Okla.); Roosevelt (Ill.); SAGU (Texas); SIU Edwardsville; Saint Ambrose University (Iowa); Saint Anselm; Saint Anselm (N.H.); Saint Anselm, N.H.; Saint Anselm. N.H.; Saint Leo; Saint Martin’s; Saint Martin’s (Wash.); Saint Martin’s, Wash.; Saint Michael’s, Vt.; Saint Rose; Salem; Sciences in Philadelphia (Pa.); Shaw; Shawnee State (Ohio); Shippensburg; Shippensburg (Pa.); Shippensburg, Pa.; Shorter (Ga.); Shorter College (Ga.); Shorter University (Ga.); Siena Heights (Mich.); Siena Heights University (Mich.); Sioux Falls (S.D.); South Carolina Aiken; South Dakota; South Dakota Mines; South Dakota Mines & Technology; Southeastern (Fla.); Southeastern Okla. St.; Southeastern Oklahoma State; Southern Arkansas; Southern Connecticut St.; Southern Connecticut State; Southern Indiana; Southern New Hampshire; Southern Poly State (Ga.); Southern Tech (Ga.); Southern-New Orleans (La.); Southwest Baptist; Southwest Baptist, Mo.; Southwest Minn. St.; Southwest Minnesota St.; Southwest Minnesota State; Southwestern Okla. St.; Southwestern Okla. State; Spring Hill (Ala.); St. Ambrose (Iowa); St. Augustine’s; St. Catharine (Ky.); St. Catharine College (Ky.); St. Cloud State; St. Cloud State, Minn.; St. Cloud State. Minn.; St. Edward’s; St. Edward’s (Texas); St. Edward’s, Texas; St. Edward’s. Texas; St. Gregory's (Okla.); St. Mary’s; St. Mary’s (Texas); St. Mary’s, Texas; St. Michael’s; St. Thomas Aquinas (N.Y.); St. Thomas Aquinas, N.Y.; St. Thomas Aquinas, N.Y..; St. Thomas-Houston (Texas); St. Vincent (Pa.); Sterling (Kan.); Sterling College (Kan.); Stillman; Stillman (Ala.); Stillman, Ala.; Stonehill; Tabor (Kan.); Talladega (Ala.); Tampa; Tampa, Fla.; Tarleton State; Tarleton State (Texas); Tarleton State, Texas; Teikyo-Post (Conn.); Tennessee Wesleyan; Texas A&M-Commerce; Texas A&M-Kingsville; Texas College; Texas Wesleyan; Texas Wesleyan University; Texas-Permian Basin; Texas-Tyler; Thomas (Ga.); Thomas More (Ky.); Transylvania (Ky.); Tri-State (Ind.); Trinity International (Ill.); Truman State; Truman State (Mo.); Truman State, Mo.; Tusculum; Tusculum (Tenn.); UAFS; UAH; UNC Pembroke; UNC Pembroke (N.C.); UNC Pembroke, N.C.; USC AIken; USC Aiken; USC Aiken (S.C.); USC Aiken, S.C.; USC Upstate; UT-Permian Basin; UT-Permian Basin, Texas; Univ. of the Sciences, Pa.; University of Illinois at Springfield; University of Rio Grande (Ohio); University of Sioux Falls (S.D.); University of the Cumberlands (Ky.); University of the Sciences; Upper Iowa; Utah Tech; Valdosta State; Valdosta State (Ga.); Valdosta State, Ga.; Valley City State (N.D.); Virginia State; Virginia Union; Viterbo (Wis.); Voorhees (S.C.); WVU Tech; Waldorf (Iowa); Walsh (Ohio); Walsh University (Ohio); Walsh, Ohio; Warner (Fla.); Warner Southern (Fla.); Warner University (Fla.); Warner-Southern (Fla.); Washburn; Washburn (Kan.); Washburn, Kan.; Washington Adventist; Washington Adventist (Md.); West Alabama; West Chester; West Chester (Pa.); West Chester, Pa.; West Florida; West Georgia; West Liberty; West Liberty (W. Va.); West Liberty (W.Va.); West Liberty , W.Va.; West Liberty State; West Liberty, W. Va.; West Liberty, W.Va.; West Texas A&M; West Virginia Institute of Technology (WV); West Virginia State; Western Oregon; Westminister (Utah); Wheeling Jesuit, W.Va.; Wiley (Texas); Wiley College (Texas); William Carey (Miss.); William Carey University (Miss.); William Penn (Iowa); William Penn University (Iowa); William Woods (Mo.); Wingate; Winston-Salem State; Winston-Salem State (N.C.); Wisconsin-Parkside; Xavier (La.); Xavier University (La.); York (Neb.); Young Harris, Ga.
+- Women's Basketball: Adelphi; Adelphi University (N.Y.); Alabama-Huntsville; Albertson (Idaho); American International; American International College; American International College (Mass.); Anderson; Anderson (SC); Anderson College; Anderson College - Anderson; Anderson University; Anderson University (S.C.); Anderson, SC; Angelo State; Angelo State University; Angelo State University (Texas); Angelo State University - San Angelo; Aquinas (Mich.); Aquinas College (Mich.); Armstrong Atlantic State; Armstrong State; Asbury (Ky.); Assumption; Assumption College (Mass.); Auburn Montgomery (Ala.); Auburn University Montgomery (Ala.); Auburn-Montgomery (Ala.); Augusta; Augusta State; Augusta State University; Augusta State University (Ga.); Augustana; Augustana (SD); Augustana College; Augustana College (S.D.); Augustana, SD; Ave Maria (Fla.); Avila (Mo.); Barry; Barry University (Fla.); Barton; Belhaven (Miss.); Bellarmine; Bellarmine University; Bellarmine University (Ky.); Bellarmine, Ky.; Bellevue (Neb.); Belmont Abbey; Benedict; Benedict College (S.C.); Benedictine (Kan.); Bentley; Bentley College; Bentley College (Mass.); Bentley College - Waltham; Bentley University (Mass.); Bentley, Mass.; Berea (Ky.); Biola (Calif.); Biola University (Calif.); Biola(Calif.); Bloomfield (N.J.); Bloomsburg; Bloomsburg University of Pennsylvania; Bloomsburg University of Pennsylvania (Pa.); Bluefield (Va.); Bowie State; Bowie State University (Md.); Brescia (Ky.); Brescia University (Ky.); Brevard (N.C.); Brewton Parker (Ga.); Brewton-Parker (Ga.); Briar Cliff (Iowa); Briar Cliff University (Iowa); Bryan (Tenn.); Bryan College (Tenn.); Bryant College; CSU Pueblo; Cal State Poly - Pomona; Cal State-Bakersfield; California (PA); California (Pa.); California St. Polytechnic Univ. - Pomona; California State; California State - Bakersfield; California State Poly - Pomona; California State Poly -Pomona; California State Poly Pomona; California State Poly University; California State Poly University - Pomona; California State Poly-Pomona; California State Polytechnic University - Pomona; California State University - Bakersfield; California State University Poly- Pomona; California State University Poly-Pomona; California State Unviersity, San Bernardino; California University (Pa.); California University Of PA; California University Of PA - California; California University Of Pennsylvania; California University of PA; California University of Pennsylvania; California University of Pennsylvania (PA); California University of Pennsylvania (Pa.); California, PA; California, Pa.; Cameron; Campbellsville (Ky.); Campbellsville University (Ky.); Campbellsville(Ky.); Cardinal Stritch (Wis.); Cardinal Stritch University (Wis.); Carroll (Mont.); Carroll College (Mont.); Carson--Newman; Carson-Newman; Carson-Newman College; Carson-Newman College (Tenn.); Carson-Newman College - Jefferson City; Carson-Newman University (Tenn.); Catawba; Cedarville; Cedarville (Ohio); Cedarville University (Ohio); Central Arkansas; Central Missouri; Central Missouri State University; Central Missouri State University - Warrensburg; Central Oklahoma; Central State (Ohio); Charleston; Charleston (WV); Charleston, WV; Chowan; Clark Atlanta; Clark Atlanta University (Ga.); Clarke (Iowa); Clayton State; Clayton State University (Ga.); Coastal Georgia; Coker; College Of Saint Rose (N.Y.); College of Idaho; College of Idaho (Idaho); College of Saint Mary (Neb.); College of Saint Rose (N.Y.); Colorado Mesa; Colorado Mesa University; Colorado Mines; Colorado State--Pueblo; Colorado State-Pueblo; Columbia (Mo.); Columbia College (Mo.); Columbus State; Columbus State University (Ga.); Concordia (Saint Paul); Concordia University - Minn.; Concordia University, St. Paul; Concordia University, St. Paul (Minn.); Concordia University-Saint Paul; Concordia- St. Paul; Concordia-St. Paul; Cornerstone (Mich.); Cornerstone University (Mich.); Culver-Stockton (Mo.); Cumberland (Ky.); Cumberland (Tenn.); Cumberland University (Tenn.); Cumberlands (Ky.); Daemen; Daemen (N.Y.); Daemen College (N.Y.); Dakota State (S.D.); Dakota Wesleyan (S.D); Dakota Wesleyan (S.D.); Davenport (Mich.); Davenport University (Mich.); Delta State; Delta State University (Miss.); Delta State, Miss.; Dickinson State (N.D); Dickinson State (N.D.); Dickinson State University (N.D.); Dillard (La.); District of Columbia; Dixie State College of Utah; Doane (Neb.); Dowling College (N.Y.); Drury; Drury University; Drury University (Mo.); Drury University - Springfield; East Texas Baptist; Easter Oregon; Eckerd; Edinboro; Edinboro University (Pa.); Edward Waters; Elizabeth City State University (N.C.); Embry Riddle; Embry-Riddle; Embry-Riddle (Ariz.); Emmanuel (Ga.); Emporia State; Emporia State College; Emporia State University; Emporia State University (Kan.); Emporia State University (Mich.); Emporia State University - Emporia; Emporia State, Kan.; Fairmont State; Fairmont State University; Fairmont State University (W. Va.); Fairmont State University (W.Va.); Fairmont State University - Fairmont; Fairmount State; Faulkner (Ala.); Fayetteville State; Fayetteville State University (N.C.); Ferris State; Ferris State University (Mich.); Findlay; Findlay (Ohio); Florida Gulf Coast University; Florida Institute of Technology; Florida Southern; Florida Southern College; Florida Southern College (Fla.); Florida Tech; Fort Hays State; Fort Hays State University (Kan.); Fort Hays State University (Kansas); Fort Valley State; Fort Valley State University; Fort Valley State University (Ga.); Franklin Pierce; Franklin Pierce University; Franklin Pierce University (N.H.); Friends (Kan.); Ga. College & State University; Gannon; Gannon University; Gannon University (Pa.); Georgia College; Georgia College & State; Georgia College & State Univ.; Georgia College & State University; Georgia Southwestern; Glenville State; Glenville State College; Glenville State College (W. Va.); Glenville State College (W.Va.); Glenville State College - Glenville; Glenville State College - Glenville (W.Va.); Glenville State College(W.Va.); Goshen (Ind.); Grace (Ind.); Grand Valley State; Grand Valley State Univ. (Mich.); Grand Valley State University; Grand Valley State University (Kan.); Grand Valley State University (Mich.); Grand Valley State University - Allendale; Grand Valley State, Mich.; Grand View (Iowa); Grand View University (Iowa); Great Falla (Mont.); Hannibal-LaGrange (Mo.); Harding; Harding University (Ark.); Harris-Stowe State University (Mo.); Haskell (Kan.); Haskell Indian Nations University (Kan.); Henderson State; Henderson State University; Henderson State University (Ark.); Henderson State University - Arkadelphia; Hillsdale; Hillsdale College; Hillsdale College (Mich.); Holy Family; Holy Family (Pa.); Holy Family University (Ga.); Holy Family University (Pa.); Holy Family University (Penn.); Houston Baptist (Texas); Humboldt State University (Calif.); IU East (Ind.); IU Northwest; IU Northwest (Ind.); Indiana (PA); Indiana (Pa.); Indiana - South Bend; Indiana East; Indiana Northwest; Indiana Northwest (Ind.); Indiana Southeast; Indiana Tech; Indiana University Of Pennsylvania; Indiana University Southeast; Indiana University of Pennsylvania; Indiana University of Pennsylvania (Pa.); Indiana Wesleyan; Indiana Wesleyan University; Indiana, PA; Indiana-Southeast; Indianapolis; Iowa Wesleyan; Iowa Wesleyan College; Jamestown (N.D.); Jamestown College (N.D.); Jarvis Christian (Texas); Jefferson; John Brown (Ark.); John Brown University (Ark.); Johnson C Smith University (N.C.); Johnson C. Smith; Johnson C. Smith University; Johnson C. Smith University (N.C.); Judson (Ill.); Kansas Wesleyan; Kansas Wesleyan University; Kennesaw State; Kentucky Wesleyan; LIU Post (N.Y.); LSU Alexandria (La.); LSU Shreveport (La.); Lake Superior State; Lake Superior State University; Lake Superior State University (Mich.); Lake Superior State University - Sault Sainte Marie; Lake Superior State University 10+3; Lander; Lander University (S.C.); Lawrence Tech (MI); Lawrence Tech (Mich.); Le Moyne (NY); Lewis; Lewis University (Ill.); Lewis-Clarke State (Idaho); Limestone; Limestone College (S.C.); Limestone College (SC); Lincoln Memorial; Lindenwood; Lindenwood (Mo.); Lindenwood-Belleville (Ill.); Lindsey Wilson (Ky.); Lindsey Wilson College (Ky.); Lipscomb (Tenn.); Livingstone College (N.C.); Lock Haven; Longwood; Louisiana College; Louisiana State-Shreveport; Loyola (La.); Loyola University (La.); Lubbock Christian; Lubbock Christian (Texas); Lubbock Christian University (Texas); Lubbock Christian(Texas); Lyon (Ark.); Madonna (Mich.); Malone; Malone (Ohio); Mars Hill; Mayville State (N.D.); Merrimack; Merrimack College; Merrimack College - North Andover; Merrimack University; Metro State College of Denver; Metro State College of Denver (Colo.); Metropolitan State College of Denver; Metropolitan State College of Denver (Colo.); Metropolitan State Univ. of Denver (Colo.); Metropolitan State University of Denver (Colo.); Michigan Tech; Michigan Technological University; Michigan Technological University (Mich.); Michigan-Dearborn; Midland Lutheran (Neb.); Midwestern State University (Tex.); Midwestern State University (Texas); Miles; Millersville; Millersville University of Pennsylvania; Milligan (Tenn.); Milligan College (Tenn.); Minnesota Duluth; Minnesota State; Minnesota State Mankato; Minnesota State Moorhead; Minnesota State University - Mankato; Minnesota State University, Mankato; Minnesota State University- Moorhead; Minnesota State University-Mankato; Minnesota State University-Moorhead; Minnesota State-Mankato; Minnesota State-Moorhead; Minnesota-Duluth; Minot State (N.D.); Minot State University (N.D.); Missouri Baptist; Missouri S&T; Missouri Southern; Missouri Southern State; Missouri Southern State University; Missouri Western; Missouri Western State; Missouri Western State (Mo.); Missouri-St Louis; Missouri-St. Louis; Mobile (Ala.); Montreat (N.C.); Morningside (Iowa); Morningside College (Iowa); Morris (S.C.); Mount Marty (S.D.); Mount Marty College (S.D.); Mount Mercy (Iowa); Mount Vernon Nazarene University (Ohio); Mt. Vernon Nazarene (Ohio); Nebraska Kearney; Nebraska-Kearney; New Haven; New York Institute of Technology; Newberry; Newman (Kan.); Newman University (Kan.); North Alabama; North Carolina Central; North Carolina Central University; North Dakota; North Florida; North Georgia; North Georgia College & State University; Northern Kentucky; Northern Kentucky University; Northern Michigan; Northern Michigan University; Northern State; Northern State University (S.D.); Northwest Christian (Ore.); Northwestern Ohio; Northwestern Okla. St.; Northwestern Oklahoma; Northwestern Oklahoma St.; Northwestern Oklahoma State; Northwood; Notre Dame (OH); Notre Dame (Ohio); Notre Dame College (Ohio); Nova Southeastern; Nova Southeastern University (Fla); Nova Southeastern University (Fla.); Ohio Dominican; Oklahoma Wesleyan; Olivet Nazrene (Ill.); Ouachita Baptist; Ouachita Baptist University (Ark.); Ozarks (Mo.); Pace; Pace University (N.Y.); Peru State (Neb.); Pikeville (Ky.); Pittsburg State; Pittsburg State University (Kan.); Pittsburgh-Johnstown; Point (Ga.); Point Park (Pa.); Presbyterian; Providence (Mont.); Puget Sound (Wash.); Purdue Calumet (Ind.); Purdue Northwest (Ind.); Queens (NY); Queens College (N.Y.); Queens, NY; Quincy; Quincy University; Quincy University (Ill.); Regis University - Denver; Reinhardt (Ga.); Rio Grande (Ohio); Robert Morris (Ill.); Rogers State (Okla.); Rogers State University (Okla.); Rollins; Rollins College; Rollins College (Fla.); Roosevelt (Ill.); Rust (Miss.); Saint Anselm; Saint Augustine's College (N.C.); Saint Cloud State; Saint Cloud State University; Saint Cloud State University (Minn.); Saint Cloud State University - Saint Cloud; Saint Francis (Ind.); Saint Mary (Neb.); Saint Rose; Saint Xavier (Ill.); Saint Xavier University (Ill.); Saint Xavier(Ill.); Savannah State; Seattle Pacific University - Seattle; Seton Hill; Shaw; Shaw University; Shaw University (N.C.); Shaw University - Raleigh; Shawnee State (Ohio); Shawnee State University (Ohio); Shawnee State( Ohio); Shepherd University (W. Va.); Shippensburg; Shippensburg Univ. of Pennsylvania; Siena Heights (Mich.); Sioux Falls; Sioux Falls (S.D.); South Carolina Aiken; South Dakota; South Dakota State; Southeastern (Fla.); Southeastern Okla. St.; Southeastern Oklahoma St.; Southeastern Oklahoma State; Southeastern Oklahoma State University; Southern Conn. St. University; Southern Conn. State University; Southern Connecticut St.; Southern Connecticut State Univ.; Southern Connecticut State University; Southern Indiana; Southern New Hampshire; Southern Oregon; Southern Oregon University; Southern Poly (Ga.); Southern Poly State (Ga.); Southern Polytechnic State University (Ga.); Southern-New Orleans (La.); Southwest Minnesota St.; Southwest Minnesota State; Southwest State; Southwestern (Kan.); Southwestern College (Kan.); Southwestern Oklahoma State; Spring Arbor (Mich.); Spring Hill (Ala.); St. Catharine (Ky.); St. Cloud State; St. Francis (Ill.); St. Francis (Ind.); St. Joseph's (Maine); St. Xavier (Ill.); St.Cloud State University (Minn.); St.Edward's (Texas); Sterling (Kan.); Sterling College (Kan.); Stonehill; Stonehill College (Mass.); Tabor (Kan.); Talladega (Ala.); Tampa; Tennessee Wesleyan; Tennessee Wesleyan College; Texas A&M International; Texas A&M University, Commerce; Texas A&M University-Commerce; Texas A&M-Commerce; Texas A&M-Kingsville; Texas Tyler; Texas Wesleyan; Texas Woman's; Texas Woman’s; Texas-Tyler; Thomas Jefferson; Thomas Jefferson University; Thomas More (Ky.); Translvania (Ky.); Transylvania (Ky.); Tri-State (Ind.); Truman State; Truman State University (Mo.); Tusculum; Tusculum College (Tenn.); Tuskegee; UC Davis; USC-Aiken; UT-Tyler; University Of Central Arkansas - Conway; University Of Charleston; University Of Charleston (W. Va.); University Of Charleston (W.Va); University Of Charleston (W.Va.); University Of Charleston - Charleston; University Of Indianapolis; University Of Minnesota-Duluth; University Of Nebraska - Kearney; University Of North Dakota; University Of Sioux Falls (S.D.); University Of South Carolina Aiken; University Of South Dakota; University of Central Arkansas; University of Central Missouri; University of Central Missouri (Mo.); University of Central Oklahoma; University of Charleston; University of Colorado - Colorado Springs; University of District of Columbia; University of Findlay (Ohio); University of Indianapolis (Ind.); University of Minn. - Duluth; University of Minnesota-Duluth; University of Mobile (Ala.); University of Nebraska, Kearney; University of New Haven (Conn.); University of North Dakota; University of North Dakota - Grand Forks; University of North Georgia; University of Saint Francis (Ind.); University of Sioux Falls (S.D.); University of South Carolina - Aiken; University of South Carolina Aiken; University of South Carolina, Aiken; University of South Carolina-Aiken; University of South Dakota; University of Southern Indiana; University of Tampa (Fla.); University of West Georgia - Carrollton; University of Wisconsin - Parkside; University of the Cumberlands (Ky.); University of the Sciences; Urbana (Ohio); Valdosta State; Valdosta State University; Valdosta State University (Ga.); Valdosta State University - Valdosta; Valley City State (N.D.); Valley City State University (N.D.); Virginia State; Virginia State University; Virginia State University (Va.); Virginia Union; Virginia Union University; Voorhees (S.C.); Walsh; Walsh (Ohio); Walsh University (Ohio); Warner Southern (Fla.); Washburn; Washburn University; Washburn University (Kan.); Washburn University - (Kan.); Washburn University - Topeka; Wayne State (Mich.); Wayne State (Neb.); Wayne State College (Neb.); Wayne State University (Mich.); Webber (Fla.); Webber International (Fla.); West Chester; West Chester University of Pennsylvania; West Florida; West Liberty; West Liberty State; West Liberty State College (W. Va.); West Liberty University (W. Va.); West Liberty University (W.Va.); West Texas A&M; West Texas A&M University; West Virginia State; West Virginia Tech; Western Baptist (Ore.); Western Colorado; Western Montana; Western Washington University - Bellingham; Wheeling Jesuit; Wiley (Texas); Wiley College (Texas); William Carey (Miss.); William Jewell (Mo.); William Jewell College (Mo.); William Penn (Iowa); William Penn University (Iowa); Wingate; Wingate University (N.C.); Winona State; Winona State University (MN); Winona State University (Minn.); Winston-Salem State; Xavier (La.); Xavier University (La.)
+- Baseball: Abilene Christian; Abilene Christian (Texas); Abilene Christian, Texas; Abraham Baldwin (Ga.); Adelphi; Adelphi (N.Y.); Adelphi, N.Y.; Alabama Huntsville; Alabama-Huntsville; Angelo State; Angelo State (Texas); Angelo State, Texas; Angelo State, Texas.; Aquinas (Mich.); Ark.-Monitcello; Arkansas Fort Smith; Arkansas Monticello; Arkansas Tech; Arkansas-Monticello; Armstrong; Armstrong Atlantic; Armstrong Atlantic State (Ga.); Armstrong Atlantic State, Ga.; Armstrong Atlantic, Ga.; Armstrong State (Ga.); Armstrong State, Ga.; Armstrong, Ga.; Ashland; Ashland (Ohio); Ashland, Ohio; Auburn Montogmery (Ala.); Auburn-Montomery (Ala.); Augusta (Ga.); Augusta State; Augustana; Augustana (S.D.); Ave Maria (Fla.); Avila (Mo.); Avila University (Mo.); Azuza Pacific (Calif.); Bacone (Okla.); Bacone College (Okla.); Barry; Barry (Fla.); Barry, Fla.; Barton; Belhaven (Miss.); Belhaven College (Miss.); Belhaven University (Miss.); Bellarmine; Belmont Abbey; Belmont Abbey (N.C.); Belmont Abbey, Tenn.; Belmont-Abbey (N.C.); Benedictine (Kan.); Benedictine Mesa (Ariz.); Bentley; Berry (Ga.); Berry College (Ga.); Biola; Biola (Calif.); Biola University (Calif.); Birmingham-Southern (Ala.); Bloomsburg; Brevard (N.C.); Brewton-Parker (Ga.); Brewton-Parker College (Ga.); Bryan (Tenn.); Bryant; Bryant (R.I.); Cal State Stanislaus; California (Pa.); California, Pa.; Cameron; Cameron (Okla.); Cameron, Okla.; Carson-Newman; Carson-Newman (Tenn.); Catawba; Catawba (N.C.); Catawba (N.C.) -1-; Catawba College; Catawba, N.C.; Catawba, S.C.; Central Methodist (Mo.); Central Missouri; Central Missouri St.; Central Missouri State; Central Oklahoma; Charleston; Clarke (Iowa); Colorado Colorado Springs; Colorado Mesa; Colorado Messa; Colorado School of Mines; Colorado St.-Pueblo; Colorado State-Pueblo; Colorado-Pueblo; Columbia (Mo.); Columbus State; Columbus State (Ga.); Columbus State, Ga.; Concord (W. Va.); Concord (W.Va.); Concordia St. Paul (Minn.); Culver-Stockton (Mo.); Culver-Stockton College (Mo.); Cumberlands (Ky); Cumberlands (Ky.); Dakota State (S.D.); Dakota Wesleyan (S.D.); Davenport; Davenport (Mich.); Delta State; Delta State (Miss.); Delta State, Miss; Delta State, Miss.; Dickinson State (N.D.); Dickinson State University (N.D.); Doane (Neb.); Dominican (N.Y.); Dowling; Dowling (N.Y.); Dowling, N.Y.; Drury; Drury (Mo.); Drury, Mo.; East Stroudsburg; East Stroudsburg (Pa.); East Stroudsburg, Pa.; Eckerd; Emporia State; Emporia State (Kan.); Emporia State, Kan.; Emporia State, Kans.; Erskine; Erskine (S.C); Erskine (S.C.); Erskine, N.C.; Erskine, S.C.; Faulkner (Ala.); Faulkner University (Ala.); Felician; Fisher (Mass.); Flagler; Flagler (Fla.); Florida Gulf Coast; Florida Southern; Florida Tech; Fort Hays State; Francis Marion; Francis Marion (S.C.); Francis Marion, S.C.; Franklin Pierce; Franklin Pierce (N.H.); Franklin Pierce, N.H.; Freed-Hardeman (Tenn.); Freed-Hardeman University (Tenn.); Friends (Kan.); Georgetown (Ky.); Georgia Coll. & State; Georgia College; Georgia College & State; Georgia College & State U.; Georgia Gwinnett; Georgia Southwestern; Goldey-Beacom; Grand Valley St., Mich.; Grand Valley State; Grand Valley State (Mich.); Grand Valley State, Mich; Grand Valley State, Mich.; Grand Valley, Mich.; Grand View (Iowa); Harding; Harding, Ark.; Henderson State; Henderson State (Ark.); Houston Baptist; Houston Baptist (Texas); Houston-Victoria (Texas); Huntington (Ind.); IU Southeast (Ind.); Illinois Springfield; Illinois-Springfield; Incarnate Word; Incarnate Word (Texas); Incarnate Word, Texas; Indiana; Indiana (PA); Indiana Southeast; Indiana Southeast (Ind.); Indiana Wesleyan; Indianapolis; Indianapolis (Ind.); Indianapolis, Ind.; Jamestown (N.D.); Jamestown College (N.D.); Johnson (Tenn.); Judson (Ill.); Kansas Newman; Kansas Wesleyan; Kansas Wesleyan University; Keiser (Fla.); Kennesaw State; Kutztown; Kutztown (Pa.); Kutztown, Pa.; LIU Post; LSU Alexandria (La.); LSU Shreveport; LSU Shreveport (La.); Lambuth (Tenn.); Lander; Lander (S.C); Lander (S.C.); Lander, S.C.; Le Moyne; LeMoyne; LeMoyne, N.Y.; Lee; Lee (Tenn.); Lee University (Tenn.); Lenoir-Rhyne; Lenoir-Rhyne (N.C.); Lewis; Lewis (Ill.); Lewis, Ill.; Lincoln Memorial; Lindenwood; Lindenwood (Mo.); Lindenwood University (Mo.); Lindsey Wilson (Ky.); Lipscomb (Tenn.); Lock Haven; Louisiana Christian; Louisiana State University Shreveport; Louisiana State University-Shreveport; Louisiana State-Shreveport; Loyola (La.); Lynn; Lynn (Fla.); Lynn, Fla.; Lyon (Ark.); Malone (Ohio); Malone College (Ohio); Malone University (Ohio); Marian (Ind.); Martin Methodist (Tenn.); Maryville; Massachusetts-Lowell; Mayville State (N.D.); McKendree (Ill.); McPherson (Kan.); Mercyhurst; Mercyhurst (Pa.); Mercyhurst, Pa.; Mesa State; Mesa State (Colo.); Mesa State, Colo.; Mid-America Christian (Okla.); Middle Georgia State; Midland Lutheran (Neb.); Millersville; Millersville (Pa.); Millersville (Penn.); Millersville, Pa.; Minnesota Duluth; Minnesota State; Minnesota State Mankato; Minnesota-Crookston; Mississippi College; Missouri Baptist; Missouri Baptist University; Missouri S&T; Missouri Southern; Missouri Southern State; Missouri Valley; Missouri Western; Missouri-St. Louis; Molloy; Montevallo; Montreat (N.C.); Montreat College (N.C.); Mount Mercy (Iowa); Mount OIive; Mount Olive; Mount Olive (N.C); Mount Olive (N.C.); Mount Olive, N.C.; Mount Vernon Nazarene (Ohio); Mount. Olive, N.C.; Mt. Vernon Nazarene (Ohio); NYIT; Neb.-Kearney; Nebraska-Kearney; Nebraska-Omaha; Nelson (Texas); New Haven; New Haven, Conn.; New Mexico Highlands; New York Tech; Newberry; Newberry (S.C.); Newman (Kan.); North Alabama; North Dakota; North Florida; North Georgia; North Greenville; Northern Kentucky; Northwest Missouri; Northwest Missouri State; Northwestern Ohio; Northwestern Oklahoma; Northwood; Northwood (Fla.); Northwood (Texas); Northwood University (Fla.); Northwood University (Texas); Nova Southeastern; Nova Southeastern (Fla.); Nova Southeastern, Fla.; OUAZ (Ariz.); Oakland City (Ind.); Oklahoma City; Oklahoma City University; Oklahoma Wesleyan; Olivet Nazarene (Ill.); Ouachita Baptist; Ouachita Baptist (Ark.); Our Lady of the Lake (Texas); Ozarks (Mo.); Palm Beach Atlantic; Palm Beach Atlantic (Fla.); Park University (Mo.); Peru State (Neb.); Pfeiffer; Pfeiffer (N.C.); Pitt-Johnstown (Pa.); Pittsburg State; Point (Ga.); Point Park (Pa.); Point Park University (Pa.); Quincy; Quincy (Ill.); Reinhardt (Ga.); Rio Grande (Ohio); Robert Morris College (Ill.); Rockhurst; Rockhurst (Mo.); Rogers State; Rogers State (Okla.); Rogers State University (Okla.); Rollins; Rollins, Fla.; SAGU (Texas); SIU-Edwardsville; Saginaw Valley State; Saint Ambrose (Iowa); Saint Ambrose University (Iowa); Saint Edward's (Texas); Saint Joseph's (Ind.); Saint Leo; Saint Leo (Fla.); Saint Mary's (Texas); Saint Rose; Saint Scholastica (Minn.); Saint Thomas (Fla.); Saint Thomas University (Fla.); Saint Xavier (Ill.); Saint Xavier University (Ill.); Savannah Art and Design (Ga.); Savannah College of Art and Design (Ga.); Science & Arts (Okla.); Seton Hill; Seton Hill (Pa.); Seton Hill, Pa.; Seton Hill. Pa.; Shawnee State (Ohio); Shepherd (Pa.); Shippensburg; Shippensburg (Pa.); Shippensburg, Pa.; Shorter; Shorter (Ga.); Slippery Rock; Slippery Rock (Pa.); Slippery Rock, Pa.; So. Connecticut State; South Carolina Aiken; South Carolina Beaufort; South Carolina-Aiken; Southeastern (Fla.); Southeastern Oklahoma; Southeastern University (Fla.); Southern Arkansas; Southern Colorado; Southern Conn. St.; Southern Conn. State; Southern Connecticut; Southern Connecticut St.; Southern Connecticut State; Southern Indiana; Southern Nazarene (Okla.); Southern Nazarene University (Okla.); Southern New Hampshire; Southwestern Oklahoma; Spalding (Ky.); Spring Hill; Spring Hill (Ala.); St, Mary’s Texas; St. Ambrose (Iowa); St. Anselm; St. Cloud St. (Minn.); St. Cloud State; St. Cloud State (Minn.); St. Cloud State, Minn.; St. Cloud, Minn.; St. Edward's; St. Edward's (Texas); St. Edward's, Texas; St. Edwards, Texas; St. Edward’s; St. Edward’s (Texas); St. Edward’s, Texas; St. Joseph's; St. Leo (Fla.); St. Mary's; St. Mary's (Texas); St. Mary's Texas; St. Mary's, Texas; St. Marys, TX; St. Mary’s; St. Mary’s (Texas); St. Mary’s Texas; St. Mary’s, Texas; St. Thomas (Fla.); St. Thomas Aquinas; St. Thomas Aquinas (N.Y.); St. Thomas Aquinas, N.Y.; St. Xavier (Ill.); StoneHill, Mass.; Tabor (Kan.); Tabor College (Kan.); Tampa; Tampa (Fla.); Tampa, Fla.; Tarleton State (Texas); Tarleton State, Texas; Taylor (Ind.); Taylor University (Ind.); Tennessee Wesleyan; Tennessee Wesleyan College; Texas A&M - Victoria; Texas A&M Kingsville; Texas A&M – Victoria; Texas A&M- Victoria; Texas A&M-Kingsville; Texas A&M-Texarkana; Texas A&m-Kingsville; Texas Lutheran; Texas Wesleyan; Texas Wesleyan University; Texas-Permian Basin; Thomas Jefferson; Trevecca; Trevecca Nazarene; Trevecca Nazarene (Tenn.); Trevecca Nazarene University (Tenn.); Truett McConnell (Ga.); Truett-McConnell (Ga.); Tusculum; Tusculum (Tenn.); Tusculum, Tenn.; UC-Davis; UMass Lowell; UMass-Lowell; UNC Pembroke; UNC-Pembroke; USC Aiken; USC Beaufort (S.C.); USC-Aiken; UT Tyler; Union (Ky.); Union (Tenn.); Union College (Ky.); Union University (Tenn.); Univ of Science and Arts of Oklahoma (Okla.); University of Northwestern Ohio; University of Rio Grande (Ohio); University of South Carolina - Beaufort; University of South Carolina - Beaufort (SC); University of the Cumberlands (Ky.); Urbana (Ohio); Valdosta State; Valdosta State (Ga.); Valdosta State, Ga.; Warner (Fla.); Warner Southern (Fla.); Warner Southern College (Fla.); Warner University (Fla.); Washburn (Kan.); Wayland Baptist (Fla.); Wayland Baptist (Texas); Wayland Baptist University (Texas); Wayne State; Wayne State (Mich.); Wayne State (Neb.); Wayne State, Neb.; Webber International (Fla.); West Alabama; West Chester; West Chester (Pa.); West Chester, Pa.; West Florida; West Georgia; West Oregon; West Texas A&M; West Virginia State; William Carey (Miss.); William Carey University (Miss.); William Jewell (Mo.); William Jewell College (Mo.); William Penn (Iowa); William Woods (Mo.); William Woods University (Mo.); Wilmington; Wilmington (Del); Wilmington (Del.); Wilmington, Del.; Wingate; Winona State, Minn.; Winston-Salem State; Wisconsin-Parkside; York (Neb.); York College (Neb.); Young Harris
+- Softball: AIC; AUM; Abilene Christian; Ala.-Huntsville; Alabama- Huntsville; Alabama-Hunstville; Alabama-Huntsville; American International; Anderson; Anderson (South Carolina); Angelo St.; Angelo State; Arkansas Monticello; Arkansas Tech; Arkansas-Monticello; Armstong Atlantic; Armstrong; Armstrong Atlantic; Armstrong Atlantic State; Armstrong State; Ashland; Assumption; Athens State (Ala.); Auburn Montgomery; Auburn Montgomery (Ala.); Auburn University Montgomery (Ala.); Auburn-Montgomery; Augusta St.; Augusta State; Bacone (Okla.); Baker (Kan.); Bellevue (Neb.); Bellevue University (Neb.); Benedictine (Kan.); Biola; Biola (Calif.); Biola University (Calif.); Bloomsburg; Brenau (Ga.); Brenau University (Ga.); Brescia (Ky.); Bridgeport; Bryant; C.W. Post; CUI; Cal St. Stanislaus; Cal State Dominguez Hils; Cal State Stanislaus; Cal State-Stanislaus; Caldwell; Caldwell (N.J.); Caldwell College; California (PA); California (Pa.); California (Pennsylvania); California State-Hayward; Cameron; Campbellsville (Ky.); Campbellsville University (Ky.); Cardinal Stritch (Wis.); Carson Newman; Carson-Newman; Catawba; Cedarville; Central Baptist (Ark.); Central Baptist College (Ark.); Central Methodist (Mo.); Central Missouri; Central Oklahoma; Charleston; Coastal Georgia; Coastal Georgia (Ga.); Coker; Colorado School of Mines; Colorado-Colorado Springs; Columbia (Mo.); Columbia College (Mo.); Columbus State; Concordia-MN; Concordia-St. Paul; Cornerstone (Mich.); Cumberland (Tenn.); Cumberlands (Ky.); DELETE; Davenport (Mich.); Delta State; Dowling; East Stroudsburg; East Texas A&M; Embry-Riddle; Embry-Riddle (Ariz.); Embry-Riddle (Fla.); Emporia St.; Emporia State; Faulkner (Ala.); Faulkner University (Ala.); Ferris State; Flagler; Florida Gulf Coast; Florida Gulf Coast Univ.; Florida Southern; Florida Tech; Fort Hays State; Francis Marion; Freed-Hardeman (Tenn.); Freed-Hardeman University (Tenn.); Friends (Kan.); Friends University (Kan.); Ga. College & State Univ.; Gannon; Geneva (Pa.); Georgetown (Ky.); Georgetown College (Ky.); Georgia College; Georgia College & State; Georgia College and State University; Georgia Gwinnett; Georgia Southwestern; Georgian Court; Georgian Court (N.J.); Glenville State; Grand Canyon; Grand Valley State; Grand View (Iowa); Harding; Holy Family (Pa.); Houston - Victoria (TX); Houston - Victoria (Texas); Houston-Victoria (Texas); Humboldt St.; Humboldt State; Huntington University (Ind.); IU Southeast; IU Southeast (Ind.); IUP; Illinois Springfield; Illinois-Springfield; Incarnate Word; Indiana (PA); Indiana (Pennsylvania); Indiana Southeast; Indiana Southeast (Ind.); Indiana Wesleyan; Indiana Wesleyan (Ind.); Indianapolis; Kansas Wesleyan; Keiser (Fla.); Kennesaw State; Kutztown; LIU Post; LIU-C.W. Post; LSU Alexandria; LSU Alexandria (La.); Lawrence Tech (Mich.); Le Moyne; LeMoyne; LeMoyne-Owen; Lenior-Rhyne; Lenoir -Rhyne; Lenoir Rhyne; Lenoir-Rhyne; Lenoir-Ryhne; Lewis; Limestone; Lincoln Memorial; Lindenwood (Mo.); Lindenwood-Belleville (Ill.); Lindsey Wilson (Ky.); Lindsey Wilson College (Ky.); Lipscomb (Tenn.); Lock Haven; Lynn; Lyon (Ark.); Marian (Ind.); Marian University (Ind.); Martin Methodist (Tenn.); Martin Methodist College (Tenn.); Marymount California; Massachusetts-Lowell; McKendree; McKendree (Ill.); McKendree University (Ill.); Merrimack; Mesa St.; Metro St.; Metro State; Metropolitan State; Middle Georgia State; Midland (Neb.); Midland Lutheran (Neb.); Midwestern; Midwestern St.; Midwestern State; Milligan (Tenn.); Minn. St. Mankato; Minnesota Duluth; Minnesota St. Mankatao; Minnesota St. Mankato; Minnesota St.-Mankato; Minnesota State; Minnesota State Manakto; Minnesota State Mankato; Minnesota State, Mankato; Minnesota State-Mankato; Minot State University (N.D.); Mississippi College; Missouri Baptist; Missouri Baptist (Mo.); Missouri Southern; Missouri Valley; Missouri Western; Missouri Western St.; Missouri Western State; Missouri-Rolla; Missouri-St. Louis; Molloy; Montevallo; Montreat (N.C.); Mount Mercy (Iowa); Mount Vernon Nazarene (Ohio); NW Missouri St.; NW Missouri State; Nebraska Omaha; Nebraska-Kearney; Nebraska-Omaha; New Haven; Newberry; Newman (Kan.); North Alabama; North Dakota State; North Florida; North Greenville; Northeastern State (OK); Northeastern State (Okla.); Northern Kentucky; Northwest Missouri; Northwest Missouri St.; Northwest Missouri State; Northwestern (Iowa); Northwestern Oklahoma; Northwestern Oklahoma State; Northwood; Northwood (MI); Northwood Univ. (Mich.); Nova Southeastern; Nova Southeastern (Fla.); Ohio Dominican; Oklahoma City; Oklahoma City University; Ottawa (Kan.); Our Lady of the Lake (Texas); Palm Beach Atlantic; Park (Mo.); Pfeiffer; Pittsburg State; Queens; Queens (N.C.); Quincy; Rio Grande (Ohio); Rogers State; Rogers State (Okla.); Rogers State University (Okla.); Rollins; S. New Hampshire; S.C. Aiken; SCAD (Ga.); SCAD Savannah (Ga.); SE Oklahoma; SE Oklahoma St.; SE Oklahoma State; SIU Edwardsville; SIU-Edwardsville; SW Minnesota State; Saginaw Valley; Saginaw Valley State; Saint Anselm; Saint Gregory's (Okla.); Saint Gregory's University (Okla.); Saint Joseph's (Indiana); Saint Leo; Saint Xavier (Ill.); Saint Xavier University (Ill.); Savannah Art and Design (Ga.); Savannah College of Art and Design (Ga.); Science & Arts (Okla.); Science and Arts (Okla.); Seton HIll; Seton Hill; Shepherd; Shippensburg; So. Illinois, Edwardsville; South Carolina Beaufort; South Carolina- Upstate; Southeastern (Fla.); Southeastern Okla.; Southeastern Oklahoma; Southeastern Oklahoma St.; Southeastern Oklahoma State; Southern Arkansas; Southern Conecticut State; Southern Connecticut; Southern Connecticut St.; Southern Connecticut State; Southern Illinois-Edwardsville; Southern Indiana; Southern Nazarene; Southern Nazarene (Okla.); Southern Nazarene University (Okla.); Southern New Hampshire; Southwest Minnesota State; Spring Arbor (Mich.); Spring Hill (Ala.); St. Ambrose (Iowa); St. Anselm; St. Cloud State; St. Edward's; St. Edwards; St. Francis (Ill.); St. Gregory's (Okla.); St. Gregory’s (Okla.); St. Joseph's (Maine); St. Leo; St. Mary (Neb.); St. Mary's [TX]; St. Scholastica (Minn.); St. Thomas Aquinas; St. Xavier (Ill.); Tampa; Tarleton State; Tennessee Southern; Tennessee Southern (Tenn.); Tennessee Wesleyan; Texas A&M - Texarkana; Texas A&M -Texarkana (Texas); Texas A&M Commerce; Texas A&M Kingsville; Texas A&M Texarkana; Texas A&M University - Texarkana; Texas A&M University -Texarkana; Texas A&M University – Texarkana; Texas A&M-Commerce; Texas A&M-Kingsville; Texas A&M-Texarkana; Texas Wesleyan; Texas Woman's; Texas Woman's University; Thomas (Ga.); Tiffin; Tiffin (Ohio); Trevecca Nazarene; Trevecca Nazarene (Tenn.); Trevecca Nazarene University (Tenn.); Truett McConnell (Ga.); Truett-McConnell (Ga.); Truman; Truman State; Tusculum; UAH; UIndy; UMSL; UNC-Pembroke; USC Aiken; USC Beaufort (S.C.); USC Upstate; UT Tyler; UT-Tyler; Union (Tenn.); Union University (Tenn.); University of Alabama in Huntsville; University of Charleston; University of Houston - Victoria (TX); University of Houston - Victoria (Texas); University of Missouri-St. Louis; Valdosta St.; Valdosta State; Valley City State (N.D.); Valodsta St.; Virginia-Wise; Warner (Fla.); Warner Southern (Fla.); Warner Southern College (Fla.); Warner University (Fla.); Washburn; Wayne St. (MI); Wayne St. (Mich.); Wayne St. (NE); Wayne St. (Neb.); Wayne State; Wayne State (MI); Wayne State (Mich.); Wayne State (Michigan); Wayne State (NE); Wayne State (Neb.); Wayne State University; Webber (Fla.); Webber International (Fla.); West Alabama; West Chester; West Chester University; West Florida; West Liberty; West Virginia State; West Virginia Weleyan; West Virginia Wesleyan; Western New Mexico; William Carey (Miss.); William Carey University (Miss.); William Jewell (Mo.); Williams Baptist (Ark.); Williams Baptist College (Ark.); Wingate; Winona St.; Winona State; Young Harris; delete
+- Men's Water Polo: Fordham University; Harvard University; Saint Mary’s University (Calif.); St. Francis College Brooklyn; Stanford University; University of California
+- Women's Water Polo: Biola University; Bucknell University; Harvard University; Indiana University; University of California; University of California-Irvine; Villanova University
+- Men's Tennis: Adelphi (M); Anderson; Anderson University; Anderson University (M); Anderson University, South Carolina; Aquinas (Mich.); Asbury (Ky.); Assumption (M); Assumption University (M); Auburn Montgomery (Ala.); Auburn Montgomery (M); Auburn University At Montgomery; Auburn University Montgomery; Auburn University at Montgomery; Auburn University at Montgomery (M); Augusta University; Augusta University (M); Augustana (South Dakota) (M); Barry; Barry (M); Barry University; Barry University (M); Barton (M); Barton College; Belhaven (Miss.); Belmont Abbey (M); Belmont Abbey College; Belmont Abbey College (M); Benedictine (Kan.); Bentley (M); Berry (Ga.); Bethany (Kan.); Bethel (Tenn.); Biola (Calif.); Biola (M); Biola University; Biola University (M); Bloomsburg (M); Bluefield State College; Cameron (M); Cameron University; Cameron University (M); Campbellsville (Ky.); Cardinal Stritch (Wis.); Carson-Newman (M); Carson-Newman University; Carson-Newman University (M); Charleston (West Virginia) (M); Chestnut Hill College; Chowan University; Coastal Georgia; Coker (M); Coker College; Colorado State University-Pueblo; Columbus State; Columbus State  (M); Columbus State (M); Columbus State University; Columbus State University (M); Concordia College (NY); Concordia College (New York); Concordia College, New York; Converse (M); Converse University; Cornerstone (Mich.); Cumberland (Tenn.); Cumberlands (Ky.); Dalton State (Ga.); Davenport (M); Davenport (Mich.); Davenport University; Delta State; Delta State (M); Delta State University; Drury (M); Drury University; Drury University (M); Eckerd (M); Edinboro (M); Edinboro University; Edinboro University (M); Embry Riddle Aeronautical University; Embry-Riddle; Embry-Riddle (Fla.); Embry-Riddle (Florida) (M); Embry-Riddle Aeronautical U; Embry-Riddle Aeronautical University; Embry-Riddle Aeronautical University (M); Embry-Riddle University; Emmanuel (Georgia) (M); Emmanuel College; Emporia State (M); Emporia State University; Fairmont State (M); Fairmont State University; Fairmont State University (M); Feed-Hardeman (Tenn.); Ferris State; Ferris State (M); Ferris State University; Ferris State University (M); Findlay (M); Flagler; Flagler (Fla.); Flagler (M); Flagler College; Flagler College (M); Florida Southern (M); Florida Southern College; Florida Southern College (M); Francis Marion (M); Francis Marion University; Francis Marion University (M); Franklin Pierce (M); Franklin Pierce College; Georgetown (Ky.); Georgia College; Georgia College & State U.; Georgia College & State University; Georgia College (M); Georgia Gwinnett; Graceland (Iowa); Harding (M); Harding University; Harding University (M); Hillsdale College; Indiana Southeast; Indiana Wesleyan; Jefferson; Keiser (Fla.); Kutztown (M); Lake Superior State (M); Lander; Lander (M); Lander University; Lander University (M); Lawrence Tech (Mich.); Le Moyne College; Le Moyne College (M); LeMoyne College; Lee (M); Lee (Tenn.); Lee University; Lee University (M); Lee University (tenn.); Lenoir-Rhyne (M); Lenoir-Rhyne University; Lewis University; Lewis University (M); Limestone (M); Limestone College; Limestone University; Limestone University (M); Lincoln Memorial (M); Lincoln Memorial University; Lindenwood (Mo.); Lindsey Wilson (Ky.); Lubbock Christian University (M); Lynn; Lynn (M); Lynn University; Lynn University (M); Marian (Ind.); Martin Methodist (Tenn.); Maryville University; McKendree; McKendree (Ill.); McKendree (M); McKendree University; McKendree University (Ill.); McKendree University (M); Mercyhurst (M); Mercyhurst University; Metropolitan St. University/Denver; Metropolitan State College of Denver; Metropolitan State University of Denver; Metropolitan State University of Denver (M); Middle Georgia State; Mississippi College; Mississippi College (M); Missouri Valley; Mobile (Ala.); Montevallo (M); Mount Olive (M); Nebraska-Kearney (M); New York Institute of Technology; Newberry College; Newberry College (M); North Georgia; North Georgia (M); North Greenville (M); Northwest Missouri St. U.; Northwest Missouri State; Northwest Missouri State (M); Northwest Missouri State University; Northwest Missouri State University (M); Northwestern Ohio; Northwood (Fla.); Northwood (M); Northwood University (Mich.); Oklahoma Baptist; Oklahoma Baptist University; Oklahoma Christian; Olivet Nazarene (Ill.); Ouachita Baptist; Ouachita Baptist (M); Ouachita Baptist University; Ouachita Baptist University (M); Our Lady of the Lake (Texas); Pikeville (Ky.); Purdue Northwest (M); Queens (New York) (M); Queens College; Queens College (NY) (M); Queens College (New York); Queens College/NY; Queens Univ. of Charlotte; Queens University Of Charlotte; Queens University of Charlotte; Reinhardt (Ga.); Rockhurst (M); Rockhurst University; Rollins (M); Rollins College; Rollins College (M); SCAD Atlanta (Ga.); SCAD Savannah (Ga.); Saint Leo; Saint Leo (M); Saint Leo University; Saint Leo University (M); Saint Mary’s University/TX; Saint Thomas (Fla.); Saint Thomas (Ga.); Saint Thomas Aquinas College; Saint Thomas Aquinas College (M); Savannah Art and Design (Ga.); Savannah of Art and Design (Ga.); Shorter (Ga.); Sioux Falls (S.D.); Southeastern (Fla.); Southeastern Oklahoma State; Southeastern Oklahoma State (M); Southeastern Oklahoma State University; Southeastern Oklahoma State University (M); Southern Arkansas; Southern Arkansas (M); Southern Arkansas U; Southern Arkansas University; Southern Arkansas University (M); Southern New Hampshire University; Southwest Baptist; Southwest Baptist University; Southwest Baptist University (M); Spring Arbor (Mich.); Spring Hill (M); St. Edward's University; St. Edwards University; St. Edward’s University; St. Mary's (Texas) (M); St. Mary's University (Texas); St. Mary's University Texas; St. Marys University (Texas); St. Mary’s University (TX); St. Mary’s University (TX) (M); St. Mary’s University (Texas); St. Thomas (Fla.); St. Thomas Aquinas (M); Taylor (Ind.); Tennessee Wesleyan; Thomas Jefferson University; Thomas Jefferson University (M); Tiffin (M); Tiffin University; Tiffin University (M); Tusculum (M); Tusculum College; Tusculum University; Tusculum University (M); UIndy; UIndy (M); UT Tyler; UT Tyler (M); Union (Ky.); Union College (Ky.); Univ. of Illinois at Springfield; Univ. of Indianapolis; Univ. of Missouri, St. Louis; Univ. of Montevallo; Univ. of Nebraska at Kearney; Univ. of South Carolina, Aiken; Univ. of West Florida; University Of Charleston; University Of Findlay; University Of Findlay (M); University Of Illinois, Springfield; University Of Indianapolis; University Of Montevallo; University Of Mount Olive; University Of North Georgia; University Of Texas, Tyler; University Of West Alabama; University Of West Alabama (M); University Of West Florida; University Of West Florida (M); University of Charleston; University of Charleston (M); University of Charleston (W.V.); University of Illinois, Springfield; University of Indianapolis; University of Indianapolis (M); University of Mount Olive; University of Mount Olive (M); University of North Georgia; University of North Georgia (M); University of South Carolina Aiken; University of Texas at Tyler; University of Texas at Tyler (M); University of West Alabama; University of West Florida; Valdosta State; Valdosta State (M); Valdosta State University; Valdosta State University (M); Virginia Intermont; Virginia at Wise (M); Walsh (M); Walsh (Ohio); Walsh University; Warner (Fla.); Wayne State; Wayne State (M); Wayne State (MI); Wayne State University; Wayne State University (M); Webber International (Fla.); West Alabama (M); West Florida; West Florida (M); West Liberty University; West Virginia Wesleyan (M); West Virginia Wesleyan Coll.; West Virginia Wesleyan College; William Carey (Miss.); William Woods (Mo.); Wingate; Wingate (M); Wingate University; Wingate University (M); Xavier (La.); Young Harris College; Young Harris College (M)
+- Women's Tennis: Adelphi (W); Adelphi University; Anderson (South Carolina) (W); Anderson University; Anderson University (W); Aquinas (Mich.); Arkansas Tech University; Arkansas Tech University (W); Ashford (Iowa); Auburn Montgomery (Ala.); Auburn Montgomery (W); Auburn University At Montgomery; Auburn University Montgomery; Auburn University at Montgomery; Auburn University at Montgomery (W); Augusta University; Augusta University (W); Augustana (South Dakota) (W); Augustana University; Augustana University (SD); Augustana University (SD) (W); Augustana University/SD; Belhaven (Miss.); Bellarmine University; Belmont Abbey (W); Belmont Abbey College; Berry (Ga.); Bethel (Kan.); Bethel (Tenn.); Biola (Calif.); Biola (W); Biola University; Cameron; Cameron (W); Cameron University; Cameron University (W); Campbellsville (Ky.); Cardinal Stritch (Wis.); Carson Newman University; Carson-Newman (W); Carson-Newman University; Catawba (W); Catawba College; Catawba College (W); Central Oklahoma; Central Oklahoma (W); Charleston (West Virginia) (W); Chestnut Hill (W); Christian Brothers University; Coastal Georgia; Coker (W); Columbus State; Columbus State  (W); Columbus State (W); Columbus State University; Columbus State University (W); Concordia College (New York); Costal Georgia; Cumberland (Tenn.); Cumberlands (Ky.); D'Youville (W); Davenport (Mich.); Davenport (W); Delta State (W); District of Columbia (W); Drury; Drury (W); Drury University; Drury University (W); Eckerd (W); Embry-Riddle; Embry-Riddle (Fla.); Embry-Riddle (Florida) (W); Embry-Riddle Aeronautical U; Embry-Riddle Aeronautical University; Embry-Riddle Aeronautical University (W); Embry-Riddle University; Emporia State (W); Erskine (W); Erskine College; Erskine College (W); Evangel (Mo.); Fairmont State (W); Ferris State (W); Ferris State University; Findlay (W); Flagler; Flagler (Fla.); Flagler (W); Flagler College; Flagler College (W); Florida Southern; Florida Southern (W); Florida Southern College; Florida Southern College (W); Florida Tech; Francis Marion University; Franklin Pierce College; Franklin Pierce University; Freed-Hardeman; Georgetown (Ky.); Georgia College; Georgia College & State U.; Georgia College (W); Georgia Gwinnett; Goldey-Beacom (W); Goldey-Beacom College; Harding (W); Harding University; Henderson State (W); Hillsdale College; IUP; Indiana (Pennsylvania) (W); Indiana Southeast; Indiana U Of Pennsylvania; Indiana University of Pennsylvania; Indiana University of Pennsylvania (W); Keiser (Fla.); LSU Alexandria; LSU Alexandria (La.); Lander University; Lander University (W); Le Moyne College; LeMoyne College; Lee (Tenn.); Lee (W); Lee University; Lee University (W); Lee University (tenn.); Lees-McRae (W); Lenoir-Rhyne (W); Lenoir-Rhyne University; Lenoir-Rhyne University (W); Lewis (W); Lewis University; Lewis University (W); Limestone (W); Limestone University; Limestone University (W); Lincoln Memorial (W); Lincoln Memorial University; Lindsey Wilson (Ky.); Lubbock Christian University (W); Lynn; Lynn (W); Lynn University; Lynn University (W); Marian (Ind.); Martin Methodist (Tenn.); Maryville University; Mercyhurst; Metropolitan State College of Denver; Metropolitan State University of Denver; Michigan Technological University; Michigan Technological University (W); Middle Georgia State; Middle Georgia State (Ga.) (W); Milligan (Tenn.); Mississippi College; Mississippi College (W); Missouri Valley; Missouri Western (W); Missouri Western State University; Missouri Western State University (W); Mobile (Ala.); Montevallo (W); NOVA Southeastern; Nebraska Wesleyan; Nebraska-Kearney (W); New Haven (W); New York Institute Of Technology; New York Institute of Technology; Newberry; Newberry (W); Newberry College; Newberry College (W); Newman University; North Georgia; North Georgia (W); North Greenville (W); Northeastern State; Northeastern State (W); Northeastern State University; Northeastern State University (W); Northwest Missouri St. U.; Northwest Missouri State; Northwest Missouri State (W); Northwest Missouri State University; Northwest Missouri State University (W); Northwest Ohio; Northwestern Ohio; Northwood (Fla.); Northwood (W); Northwood University; Northwood University (Mich.); Northwood University/MI; Nova Southeastern; Nova Southeastern (W); Nova Southeastern University; Nova Southeastern University (W); Olivet Nazarene (Ill.); Queens (New York) (W); Queens Charlotte; Queens College (New York); Queens College/NY; Queens University Of Charlotte; Queens University of Charlotte; Reinhardt (Ga.); Robert Morris (Ill.); Rockhurst (W); Rockhurst University; Rollins; Rollins (W); Rollins College; SCAD Atlanta (Ga.); SCAD Savannah (Ga.); Saint Leo; Saint Leo (W); Saint Leo University; Saint Leo University (W); Saint Mary’s University/TX; Saint Thomas (Fla.); Saint Thomas Aquinas College; Saint Thomas Aquinas College (W); Shorter (Ga.); Slippery Rock (W); Slippery Rock Univ. of Pennsylvania; Slippery Rock University; Sonoma State; Sonoma State University; Southeastern (Fla.); Southeastern Oklahoma State; Southeastern Oklahoma State (W); Southeastern Oklahoma State University; Southern Arkansas (W); Southern Arkansas University; Southern New Hampshire (W); Southern New Hampshire University; Southwest Baptist; Southwest Baptist University; Spring Hill (Ala.); St. Edward's University; St. Edwards University; St. Edward’s University; St. Mary's; St. Mary's (Texas) (W); St. Mary's University (TX) (W); St. Mary's University (Texas); St. Mary's University TX; St. Marys University (Texas); St. Mary’s (Texas); St. Mary’s University (TX); St. Mary’s University (Texas); St. Thomas (Fla.); St. Thomas Aquinas (W); Stonehill College; Tampa; Tampa (W); Tarleton State; Tarleton State Univeresity; Tarleton State University; Taylor (Ind.); Tennessee Wesleyan; Thomas Jefferson University; Thomas Jefferson University (W); Tiffin (W); Tiffin University; Tiffin University (W); Tusculum; Tusculum (W); Tusculum College; Tusculum University; Tusculum University (W); Tuskegee (W); UIndy; UIndy (W); UT Tyler (W); Uniersity of Central Oklahoma; Union (Ky.); Univ. Of Illinois At Springfield; Univ. of Charleston (West Virginia); Univ. of Indianapolis; Univ. of Missouri, St. Louis; Univ. of Montevallo; Univ. of Nebraska at Kearney; Univ. of South Carolina, Aiken; Univ. of West Florida; University Of Central Oklahoma; University Of Charleston; University Of District Of Columbia; University Of Findlay; University Of Findlay (W); University Of Illinois, Springfield; University Of Indianapolis; University Of Mary; University Of Missouri, St. Louis; University Of Montevallo; University Of Montevallo (W); University Of Mount Olive; University Of Nebraska, Kearney; University Of North Georgia; University Of Tampa; University Of Texas, Tyler; University Of West Alabama; University Of West Alabama (W); University Of West Florida; University Of West Florida (W); University of Central Oklahoma; University of Central Oklahoma (W); University of Charleston; University of Charleston (W); University of Indianapolis; University of Indianapolis (W); University of Mount Olive; University of Mount Olive (W); University of Nebraska at Kearney; University of Nebraska at Kearney (W); University of North Georgia; University of North Georgia (W); University of Tampa; University of Tampa (W); University of Texas at Tyler; University of West Alabama; University of West Florida; Valdosta State (W); Valdosta State University; Walsh (W); Walsh University; Warner (Fla.); Wayne State; Wayne State (MI); Wayne State (W); Wayne State University; Wayne State University (W); Webber International (Fla.); West Alabama; West Alabama (W); West Florida; West Florida (W); West Liberty University; West Virginia State U.; West Virginia Wesleyan (W); Westmont Calif.); William Carey (Miss.); William Jewell (Mo.); William Woods (Mo.); Wilmington (Delaware) (W); Wilmington University; Wilmington University (W); Wingate; Wingate (W); Wingate University; Wingate University (W); Winona State University; Xavier (La.); Young Harris College; Young Harris College (W)

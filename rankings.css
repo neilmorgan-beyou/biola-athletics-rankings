@@ -1,0 +1,145 @@
+.biola-cmp {
+  /* Official Biola Athletics 2026 palette. Identical tokens to the sibling pages. */
+  --red: #C8102E; --blue: #489FDF; --gray: #D0D3D4; --warm: #5E514D;
+  --black: #000000; --white: #FFFFFF; --ink: #000000; --muted: #5E514D;
+  --border: #D0D3D4; --surface: #FFFFFF; --surface-alt: #F4F4F4;
+  --fd: 'beachwood-variable', 'Oswald', 'Arial Narrow', sans-serif;
+  --fb: 'gotham', 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --r: 12px; --r-sm: 8px;
+  font-family: var(--fb); color: var(--ink); line-height: 1.65; font-size: 16px;
+}
+.biola-cmp *, .biola-cmp *::before, .biola-cmp *::after { box-sizing: border-box; }
+.biola-cmp p { margin: 0 0 14px; }
+.biola-cmp p:last-child { margin-bottom: 0; }
+.biola-cmp a { color: var(--red); }
+.biola-cmp a:focus-visible, .biola-cmp button:focus-visible, .biola-cmp select:focus-visible,
+.biola-cmp input:focus-visible { outline: 2px solid var(--red); outline-offset: 3px; border-radius: 4px; }
+
+/* ---- hero ---- */
+.biola-cmp .cmp-hero {
+  position: relative; overflow: hidden; background: var(--black);
+  background-image: linear-gradient(118deg, #000000 0%, #14100F 52%, #1F1A18 100%);
+  border-radius: var(--r); padding: 46px 44px 42px; margin-bottom: 22px;
+}
+.biola-cmp .cmp-hero::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 5px;
+  background: linear-gradient(90deg, var(--red) 0 72%, var(--blue) 72% 100%);
+}
+.biola-cmp .cmp-eyebrow { font-size: 11px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; color: var(--blue); margin: 0 0 14px; }
+.biola-cmp .cmp-hero h1 {
+  font-family: var(--fd); font-weight: 600; text-transform: uppercase; letter-spacing: -.012em;
+  line-height: .92; font-size: 56px; margin: 0 0 18px; color: var(--white); text-wrap: balance;
+}
+.biola-cmp .cmp-hero h1 span { color: var(--red); }
+.biola-cmp .cmp-lede { color: var(--gray); font-size: 17px; max-width: 62ch; margin: 0; }
+@media (max-width: 860px) { .biola-cmp .cmp-hero { padding: 34px 24px 32px; } .biola-cmp .cmp-hero h1 { font-size: 40px; } }
+@media (max-width: 560px) { .biola-cmp .cmp-hero h1 { font-size: 32px; } }
+
+/* ---- stat strip ---- */
+.biola-cmp .rk-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 0 0 26px; }
+.biola-cmp .rk-stat { border-top: 3px solid var(--red); background: var(--surface-alt); border-radius: 0 0 var(--r-sm) var(--r-sm); padding: 14px 16px; }
+.biola-cmp .rk-stat .n { display: block; font-family: var(--fd); font-weight: 600; font-size: 34px; line-height: 1; font-variant-numeric: tabular-nums; }
+.biola-cmp .rk-stat .l { display: block; font-size: 12.5px; color: var(--muted); margin-top: 6px; line-height: 1.35; }
+@media (max-width: 860px) { .biola-cmp .rk-stats { grid-template-columns: repeat(2, 1fr); } }
+
+/* ---- note, jump links, section heads ---- */
+.biola-cmp .cmp-note {
+  background: var(--surface-alt); border-left: 4px solid var(--blue); border-radius: 0 var(--r-sm) var(--r-sm) 0;
+  padding: 18px 22px; margin: 0 0 22px; font-size: 15px;
+}
+.biola-cmp .rk-jump { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 36px; }
+.biola-cmp .rk-jump a {
+  text-decoration: none; font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+  border: 1.5px solid var(--gray); border-radius: 999px; padding: 7px 14px; color: var(--ink);
+}
+.biola-cmp .rk-jump a:hover { border-color: var(--red); color: var(--red); }
+.biola-cmp h2.cmp-h {
+  font-family: var(--fd); font-weight: 600; text-transform: uppercase; font-size: 25px; line-height: 1.08;
+  margin: 0 0 6px; display: flex; align-items: center; gap: 13px;
+}
+.biola-cmp h2.cmp-h::before { content: ""; width: 6px; height: .78em; background: var(--red); border-radius: 1px; flex: 0 0 6px; }
+.biola-cmp h2.cmp-h.is-blue::before { background: var(--blue); }
+.biola-cmp .cmp-sub { color: var(--muted); font-size: 14.5px; margin: 0 0 16px; padding-left: 19px; }
+.biola-cmp .cmp-sec { margin-bottom: 46px; scroll-margin-top: 150px; }
+
+/* ---- filters: hidden until the script runs ---- */
+.biola-cmp .rk-filters { display: none; flex-wrap: wrap; align-items: flex-end; gap: 10px 14px; margin: 0 0 14px; }
+.biola-cmp.js-on .rk-filters { display: flex; }
+.biola-cmp .rk-filters label { display: flex; flex-direction: column; gap: 4px; font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.biola-cmp .rk-filters select, .biola-cmp .rk-filters input {
+  font: 500 14px var(--fb); color: var(--ink); background: var(--white);
+  border: 1.5px solid var(--gray); border-radius: var(--r-sm); padding: 8px 10px; min-width: 170px;
+}
+.biola-cmp .rk-filters .rk-q { flex: 1 1 220px; }
+.biola-cmp .rk-filters .rk-q input { width: 100%; }
+.biola-cmp .rk-count { margin: 0 0 0 auto; font-size: 13px; color: var(--muted); align-self: center; }
+
+/* ---- tables ---- */
+.biola-cmp .rk-wrap { overflow-x: auto; max-height: 640px; overflow-y: auto; border: 1px solid var(--border); border-radius: var(--r-sm); }
+.biola-cmp .rk-table { width: 100%; border-collapse: collapse; font-size: 14px; font-variant-numeric: tabular-nums; }
+.biola-cmp .rk-table th {
+  position: sticky; top: 0; z-index: 1; background: var(--black); color: var(--white);
+  text-align: left; font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+  padding: 10px 12px; white-space: nowrap; border-bottom: 3px solid var(--red);
+}
+.biola-cmp .rk-table th button {
+  all: unset; cursor: default; font: inherit; letter-spacing: inherit; color: inherit;
+}
+.biola-cmp.js-on .rk-table th button { cursor: pointer; }
+.biola-cmp.js-on .rk-table th button::after { content: " \2195"; opacity: .45; }
+.biola-cmp .rk-table th[aria-sort="ascending"] button::after { content: " \2191"; opacity: 1; color: var(--blue); }
+.biola-cmp .rk-table th[aria-sort="descending"] button::after { content: " \2193"; opacity: 1; color: var(--blue); }
+.biola-cmp .rk-table td { padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+.biola-cmp .rk-table tbody tr:nth-child(even) { background: var(--surface-alt); }
+.biola-cmp .rk-table tbody tr:hover { background: #EAEAEA; }
+.biola-cmp .rk-table td:first-child { font-weight: 600; white-space: nowrap; }
+.biola-cmp .rk-table .rk-peak { font-weight: 700; color: var(--red); }
+.biola-cmp .rk-table .rk-res.is-w { font-weight: 700; color: var(--black); }
+.biola-cmp .rk-table .rk-res.is-w::before { content: ""; display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--red); margin-right: 7px; vertical-align: 1px; }
+.biola-cmp .rk-table .rk-res.is-l, .biola-cmp .rk-table .rk-res.is-t { color: var(--muted); }
+.biola-cmp .rk-table tr.is-hidden { display: none; }
+
+/* ---- reference links ---- */
+.biola-cmp .cmp-refs { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px 22px; }
+.biola-cmp a.cmp-link { display: block; text-decoration: none; border-left: 3px solid var(--gray); padding: 11px 0 11px 15px; transition: border-color .15s ease, background .15s ease; }
+.biola-cmp a.cmp-link:hover { border-left-color: var(--red); background: var(--surface-alt); }
+.biola-cmp a.cmp-link .t { display: block; font-family: var(--fd); font-weight: 600; text-transform: uppercase; font-size: 16px; letter-spacing: .02em; color: var(--red); margin-bottom: 2px; }
+.biola-cmp a.cmp-link .d { display: block; font-size: 13px; color: var(--muted); line-height: 1.45; }
+@media (max-width: 860px) { .biola-cmp .cmp-refs { grid-template-columns: 1fr; } }
+@media (prefers-reduced-motion: reduce) { .biola-cmp a.cmp-link { transition: none; } }
+
+/* ---- department standings ---- */
+.biola-cmp .rk-h3 { font-family: var(--fd); font-weight: 600; text-transform: uppercase; font-size: 18px; letter-spacing: .02em; margin: 22px 0 10px; }
+.biola-cmp .rk-table tr.is-quiet td { color: var(--muted); }
+.biola-cmp .rk-table .rk-status { font-style: italic; font-size: 13px; }
+
+/* ---- No. 1 roll ---- */
+.biola-cmp .rk-ones { font-size: 14.5px; margin: -8px 0 22px; line-height: 1.6; }
+.biola-cmp .rk-ones .k { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--white); background: var(--red); border-radius: 4px; padding: 2px 8px; margin-right: 6px; }
+
+/* ---- section tabs: links without script (jump + all panels shown), real tabs with it ---- */
+.biola-cmp .rk-tabs { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0; margin: 8px 0 28px; border-bottom: 3px solid var(--black); }
+.biola-cmp a.rk-tab {
+  display: block; text-decoration: none; color: var(--ink); background: var(--surface-alt);
+  padding: 14px 18px 12px; border: 1px solid var(--border); border-bottom: 0; margin-right: -1px;
+  border-radius: var(--r-sm) var(--r-sm) 0 0; transition: background .13s ease;
+}
+.biola-cmp a.rk-tab .t { display: block; font-family: var(--fd); font-weight: 600; text-transform: uppercase; font-size: 19px; line-height: 1.1; }
+.biola-cmp a.rk-tab .d { display: block; font-size: 12.5px; color: var(--muted); margin-top: 4px; line-height: 1.35; }
+.biola-cmp a.rk-tab:hover { background: #EAEAEA; }
+.biola-cmp a.rk-tab[aria-selected="true"] { background: var(--black); border-color: var(--black); color: var(--white); box-shadow: inset 0 4px 0 var(--red); }
+.biola-cmp a.rk-tab[aria-selected="true"] .d { color: var(--gray); }
+.biola-cmp.js-on .rk-panel[hidden] { display: none; }
+@media (max-width: 640px) {
+  .biola-cmp .rk-tabs { grid-template-columns: 1fr; border-bottom: 0; }
+  .biola-cmp a.rk-tab { border-radius: 0; margin: 0 0 -1px; border-bottom: 1px solid var(--border); }
+  .biola-cmp a.rk-tab .d { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { .biola-cmp a.rk-tab { transition: none; } }
+
+/* ---- record explorer ---- */
+.biola-cmp .rk-table tr.is-total td { font-weight: 700; background: #EFEFEF; }
+.biola-cmp a.rk-tab.is-quiet:not([aria-selected="true"]) { background: var(--white); border-style: dashed; }
+.biola-cmp #t-vsgames td:nth-child(2), .biola-cmp #t-polls td:nth-child(5) { white-space: nowrap; }
+.biola-cmp .rk-table td.rk-partial { color: var(--red); }
+.biola-cmp .rk-table td.rk-partial::after { content: " *"; }

@@ -1,0 +1,7 @@
+cache/
+games/cache/
+polls/backup-*.json
+review/scratch*/
+__pycache__/
+*.pyc
+.DS_Store

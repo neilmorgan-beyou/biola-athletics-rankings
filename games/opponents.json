@@ -1,0 +1,9580 @@
+{
+ "Women's Volleyball": [
+  {
+   "opponent_raw": "Academy of Art",
+   "games": 12
+  },
+  {
+   "opponent_raw": "Alaska Anchorage",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Alaska Fairbanks",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Albertson College ID",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Alderson Broaddus",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Alliant International",
+   "games": 7
+  },
+  {
+   "opponent_raw": "Arizona Christian",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Arizona Christian University",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Arkansas-Little Rock",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Augustana",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Azusa Pacific",
+   "games": 94
+  },
+  {
+   "opponent_raw": "Azusa Pacific University",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Bellevue",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Bellevue NE",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Bellevue University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Bethany",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Bethany Nazarene",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Bethel",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Black Hills State SD",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Bluefield College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Bryan College TN",
+   "games": 1
+  },
+  {
+   "opponent_raw": "BYU Hawaii",
+   "games": 4
+  },
+  {
+   "opponent_raw": "BYU-Hawaii",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Cal Lutheran",
+   "games": 13
+  },
+  {
+   "opponent_raw": "Cal Poly",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Cal Poly Pomona",
+   "games": 23
+  },
+  {
+   "opponent_raw": "Cal State Dominguez Hills",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Cal State East Bay",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cal State Monterey Bay",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cal State San Marcos",
+   "games": 1
+  },
+  {
+   "opponent_raw": "California Bapstist",
+   "games": 1
+  },
+  {
+   "opponent_raw": "California Baptist",
+   "games": 60
+  },
+  {
+   "opponent_raw": "California Baptist University",
+   "games": 4
+  },
+  {
+   "opponent_raw": "California Lutheran",
+   "games": 13
+  },
+  {
+   "opponent_raw": "California State University East Bay",
+   "games": 1
+  },
+  {
+   "opponent_raw": "California State University Monterey Bay",
+   "games": 1
+  },
+  {
+   "opponent_raw": "California State University-San Marcos",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Calvin",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Calvin College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Campbellsville KY",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Campbellsville University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Campbellsville University (Ky.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Capilano University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Carrol College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Carroll",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Carroll College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Carroll College (Mont.)",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Carroll MT",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Catawaba College",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Central Washington",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Cerritos College",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Chaminade",
+   "games": 13
+  },
+  {
+   "opponent_raw": "Chaminade University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Chapman",
+   "games": 24
+  },
+  {
+   "opponent_raw": "Chapman CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Chapman University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Chico State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Christ-College Irvine",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Christ-College irvine",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Christian Heritage",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Claremont Mudd-Scripps",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Claremont-Mudd Scripps",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Claremont-Mudd-Scripps",
+   "games": 7
+  },
+  {
+   "opponent_raw": "College of Charleston",
+   "games": 1
+  },
+  {
+   "opponent_raw": "College of Coastal Georgia",
+   "games": 1
+  },
+  {
+   "opponent_raw": "College of Idaho",
+   "games": 4
+  },
+  {
+   "opponent_raw": "College of the Ozarks",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Colorado Christian",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Colorado Mesa",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Colorado School of Mines",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Columbia",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Columbia College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Columbia College (Mo.)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Columbia MO",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Concord University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Concordia",
+   "games": 14
+  },
+  {
+   "opponent_raw": "Concordia (Mich)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Concordia (Texas)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Concordia CA",
+   "games": 15
+  },
+  {
+   "opponent_raw": "Concordia Irvine",
+   "games": 37
+  },
+  {
+   "opponent_raw": "Concordia NY",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Concordia OR",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Concordia Portland",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Concordia University",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Concordia University (Calif.)",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Concordia University (Ore.)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Corban OR",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cornerstone",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Cornerstone MI",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cornerstone University (Mich.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "CSU Bakersfield",
+   "games": 11
+  },
+  {
+   "opponent_raw": "CSU Dominguez Hills",
+   "games": 50
+  },
+  {
+   "opponent_raw": "CSU East Bay",
+   "games": 6
+  },
+  {
+   "opponent_raw": "CSU Fullerton",
+   "games": 7
+  },
+  {
+   "opponent_raw": "CSU Long Beach",
+   "games": 12
+  },
+  {
+   "opponent_raw": "CSU Los Angeles",
+   "games": 23
+  },
+  {
+   "opponent_raw": "CSU Monterey Bay",
+   "games": 4
+  },
+  {
+   "opponent_raw": "CSU Northridge",
+   "games": 3
+  },
+  {
+   "opponent_raw": "CSU San Bernardino",
+   "games": 11
+  },
+  {
+   "opponent_raw": "CSU San Marcos",
+   "games": 4
+  },
+  {
+   "opponent_raw": "CSU Stanislas",
+   "games": 1
+  },
+  {
+   "opponent_raw": "CSU Stanislaus",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cuesta College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Daemen",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Daemon College NY",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Dallas Baptist",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Davenport University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Dickinson State",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Dixie State",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Doane NE",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Dominican",
+   "games": 14
+  },
+  {
+   "opponent_raw": "Dordt College (Iowa)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Dordt IA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "East Stroudsburg State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Eastern Oregon",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Eastern Oregon University",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Elmhurst",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Elmhurst College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Embry Riddle University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Embry-Riddle",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Embry-Riddle AZ",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Embry-Riddle FL",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Emmanuel College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Evangel University (Mo.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Florida Tech",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Fort Lewis",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Franklin College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Freed-Hardeman TN",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Fresno Pacific",
+   "games": 79
+  },
+  {
+   "opponent_raw": "Fresno Pacific CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Fresno Pacific University",
+   "games": 4
+  },
+  {
+   "opponent_raw": "George Fox",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Georgetown",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Georgetown KY",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Gonzaga",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Grace College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Grand Canyon",
+   "games": 5
+  },
+  {
+   "opponent_raw": "GrandView College (Iowa)",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Great Falls MT",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Hastings College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Hastings College (Neb.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Hawai'i Hilo",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Hawai'I Pacific",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Hawai'i Pacific",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Hawai'i-Hilo",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Hawaii Hilo",
+   "games": 11
+  },
+  {
+   "opponent_raw": "Hawaii Pacific",
+   "games": 12
+  },
+  {
+   "opponent_raw": "Hawaii Pacifiic",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Hawaii-Hilo",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Highpoint College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Holy Names",
+   "games": 13
+  },
+  {
+   "opponent_raw": "Holy Names CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Holy Names University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Hope International",
+   "games": 30
+  },
+  {
+   "opponent_raw": "Hope International CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Hope International University",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Hope International University (Calif.)",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Houghton",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Houston Baptist",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Houston-Tilloben College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Humboldt State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Incarnate Word",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Indiana Tech",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Indiana Wesleyan",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Indiana Wesleyan University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Indiana-Purdue",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Indianapolis",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Jamestown ND",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Jessup",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Judson",
+   "games": 1
+  },
+  {
+   "opponent_raw": "La Sierra",
+   "games": 3
+  },
+  {
+   "opponent_raw": "La Sierra CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "La Sierra University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "La Verne",
+   "games": 24
+  },
+  {
+   "opponent_raw": "Lander",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Lee",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Lee TN",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Lee University TN",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Lewis",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Lewis & Clark",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Lewis-Clark State",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Lewis-Clark State College (Idaho)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Lewis-Clark State ID",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Liberty",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Life Pacific",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Life Pacific College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Lindenwood MO",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Lindsey Wilson College (Ky.)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Lindsey Wilson KY",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Linfield",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Loyola Marymount",
+   "games": 12
+  },
+  {
+   "opponent_raw": "Lubbock Christian",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Lubbock Christian TX",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Lubbock Christian University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Madonna",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Madonna MI",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Madonna University (Mich.)",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Madonna University MI",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Malone",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Malone OH",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Mary Hardin",
+   "games": 2
+  },
+  {
+   "opponent_raw": "McKendree",
+   "games": 2
+  },
+  {
+   "opponent_raw": "McKendree IL",
+   "games": 1
+  },
+  {
+   "opponent_raw": "McMurry University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "McPherson College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Menlo",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Menlo CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Menlo College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Menlo College (Calif.)",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Metro State",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Michigan-Dearborn",
+   "games": 1
+  },
+  {
+   "opponent_raw": "MidAmerica Nazarene",
+   "games": 1
+  },
+  {
+   "opponent_raw": "MidAmerica Nazarene KS",
+   "games": 1
+  },
+  {
+   "opponent_raw": "MidAmerica Nazarene University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Midland College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Midland University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Minot State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Mississippi Christian",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Missouri Baptist",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Missouri Baptist University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Missouri Western State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Missouri Western State University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Mobile AL",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Montana State Billings",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Montana State University-Northern",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Montana Tech",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Montana Western",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Mount Marty",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Mount Saint Joseph",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Mount Saint Mary's",
+   "games": 7
+  },
+  {
+   "opponent_raw": "Mt. St. Claire",
+   "games": 1
+  },
+  {
+   "opponent_raw": "National American SD",
+   "games": 1
+  },
+  {
+   "opponent_raw": "National American University SD",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Nebraska-Kearney",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Nebraska-Omaha",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Nevada-Reno",
+   "games": 2
+  },
+  {
+   "opponent_raw": "New Hope Christian College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "North Florida",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Northwest Nazarene",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Northwest WA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Northwestern",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Northwestern IA",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Notre Dame De Namur",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Notre Dame de Namur",
+   "games": 15
+  },
+  {
+   "opponent_raw": "Occidental",
+   "games": 14
+  },
+  {
+   "opponent_raw": "Oklahoma",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Oklahoma Baptist",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Oklahoma City University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Olivet Nazarene University (Ill.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Olivet Nazarene University IL",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Oral Roberts",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Oregon Tech",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Ottawa (Ariz.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Our Lady of the Lake TX",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Palm Beach Atlantic",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Park University (Mo.)",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Pepperdine",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Piedmont International University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Point Loma",
+   "games": 79
+  },
+  {
+   "opponent_raw": "Point Loma Nazarene",
+   "games": 9
+  },
+  {
+   "opponent_raw": "Point Loma Nazarene University",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Pomona-Pitzer",
+   "games": 17
+  },
+  {
+   "opponent_raw": "Portland State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Providence Christian College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Puget Sound",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Redlands",
+   "games": 16
+  },
+  {
+   "opponent_raw": "Regis",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Rio Grande",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Robert Morris",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Rockhurst",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Rocky Mountain College (Mont.)",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Rocky Mountain MT",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Sacramento State",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Saginaw Valley State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "SAGU",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Saint Catherine's",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Saint Martin's",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Saint Mary",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Saint Mary's",
+   "games": 12
+  },
+  {
+   "opponent_raw": "Saint Mary's (TX)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Saint Mary's NE",
+   "games": 2
+  },
+  {
+   "opponent_raw": "San Diego",
+   "games": 5
+  },
+  {
+   "opponent_raw": "San Diego Christian",
+   "games": 32
+  },
+  {
+   "opponent_raw": "San Diego Christian College",
+   "games": 4
+  },
+  {
+   "opponent_raw": "San Diego Christian College (Calif.)",
+   "games": 6
+  },
+  {
+   "opponent_raw": "San Diego State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "San Francisco State University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Santa Clara",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Savannah College of Arts and Design",
+   "games": 1
+  },
+  {
+   "opponent_raw": "SCAD",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Seattle Pacific",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Shawnee State OH",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Si Tanka-Huron SD",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Simon Fraser",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Simpson",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Sioux Falls",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Sonoma State",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Sonoma State University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Southern California",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Southern Oregon",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Southern Oregon Univ.",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Southern Oregon University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Southern Utah",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Southern Utah State",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Southwestern",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Southwestern Christian University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Spring Hill AL",
+   "games": 1
+  },
+  {
+   "opponent_raw": "St. Mary's",
+   "games": 1
+  },
+  {
+   "opponent_raw": "St. Thomas",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Stanislaus State",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Tabor College (Kan.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Tampa Bay",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Tarleton State",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Taylor IN",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Texas A&M International",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Texas at Brownsville",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Texas Permian Basin",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Texas Wesleyan",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Texas-Brownsville",
+   "games": 3
+  },
+  {
+   "opponent_raw": "The College of Idaho",
+   "games": 2
+  },
+  {
+   "opponent_raw": "The Master's",
+   "games": 47
+  },
+  {
+   "opponent_raw": "The Master's College",
+   "games": 4
+  },
+  {
+   "opponent_raw": "The Master's College (Calif.)",
+   "games": 4
+  },
+  {
+   "opponent_raw": "The Master's University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Trevecca Nazarene",
+   "games": 1
+  },
+  {
+   "opponent_raw": "UC Colorado Springs",
+   "games": 1
+  },
+  {
+   "opponent_raw": "UC Davis",
+   "games": 5
+  },
+  {
+   "opponent_raw": "UC Irvine",
+   "games": 3
+  },
+  {
+   "opponent_raw": "UC Merced",
+   "games": 3
+  },
+  {
+   "opponent_raw": "UC Riverside",
+   "games": 15
+  },
+  {
+   "opponent_raw": "UC San Diego",
+   "games": 20
+  },
+  {
+   "opponent_raw": "UC Santa Barbara",
+   "games": 1
+  },
+  {
+   "opponent_raw": "UC Santa Cruz",
+   "games": 2
+  },
+  {
+   "opponent_raw": "UCLA",
+   "games": 6
+  },
+  {
+   "opponent_raw": "University of Alaska Fairbanks",
+   "games": 1
+  },
+  {
+   "opponent_raw": "University of Great Falls (Mont.)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "University of Great Falls MT",
+   "games": 1
+  },
+  {
+   "opponent_raw": "University of Michigan-Dearborn",
+   "games": 1
+  },
+  {
+   "opponent_raw": "University of Texas at Brownsville",
+   "games": 2
+  },
+  {
+   "opponent_raw": "University of Texas-Brownsville",
+   "games": 1
+  },
+  {
+   "opponent_raw": "UNLV",
+   "games": 3
+  },
+  {
+   "opponent_raw": "US International",
+   "games": 7
+  },
+  {
+   "opponent_raw": "USC",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Vanguard",
+   "games": 59
+  },
+  {
+   "opponent_raw": "Vanguard University",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Vanguard University (Calif.)",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Viterbo University (Wis.)",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Viterbo WI",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Walsh",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Walsh University OH",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Warner Pacific",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Western Maryland",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Western Montana",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Western New Mexico",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Western Oregon",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Western Oregon State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Western State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Western Washington",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Westminster College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Westminster College (Utah)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Westminster College UT",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Westminster UT",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Westmont",
+   "games": 74
+  },
+  {
+   "opponent_raw": "Westmont College",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Westmont College (Calif.)",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Whittier",
+   "games": 19
+  },
+  {
+   "opponent_raw": "Whitworth",
+   "games": 2
+  },
+  {
+   "opponent_raw": "William Jessup CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "William Jessup University (Calif.)",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Wisconsin-Milwaukee",
+   "games": 2
+  }
+ ],
+ "Men's Soccer": [
+  {
+   "opponent_raw": "Academy of Art",
+   "games": 7
+  },
+  {
+   "opponent_raw": "Academy of Art CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Alabama-Huntsville",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Albertson College ID",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Alderson-Broaddus",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Alliant International",
+   "games": 14
+  },
+  {
+   "opponent_raw": "Alumni Game",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Antelope Valley",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Arizona Christian",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Arizona Christian University",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Azusa Pacific",
+   "games": 65
+  },
+  {
+   "opponent_raw": "Azusa Pacific (BIOLA WEEKEND)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Azusa Pacific CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Azusa Pacific University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Belhaven (MS)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Bethesda",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Bethesda University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Bryan",
+   "games": 1
+  },
+  {
+   "opponent_raw": "BYU",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Cal Lutheran",
+   "games": 12
+  },
+  {
+   "opponent_raw": "Cal lutheran",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Cal Poly",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Cal Poly Pomona",
+   "games": 19
+  },
+  {
+   "opponent_raw": "Cal State Dominguez Hills",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cal State East Bay",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cal State LA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Cal State San Bernardino",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Cal State San Marcos",
+   "games": 11
+  },
+  {
+   "opponent_raw": "California",
+   "games": 1
+  },
+  {
+   "opponent_raw": "California Baptist",
+   "games": 28
+  },
+  {
+   "opponent_raw": "California Baptist University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "California Lutheran",
+   "games": 2
+  },
+  {
+   "opponent_raw": "California State University-San Marcos",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Caltech",
+   "games": 18
+  },
+  {
+   "opponent_raw": "Calvin",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Chaminade",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Chapman",
+   "games": 22
+  },
+  {
+   "opponent_raw": "Chapman CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Chico State",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Claremont CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Claremont-Mudd-Scripps",
+   "games": 21
+  },
+  {
+   "opponent_raw": "Colorado",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Colorado Christian",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Colorado School of Mines",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Concordia",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Concordia CA",
+   "games": 9
+  },
+  {
+   "opponent_raw": "Concordia Irvine",
+   "games": 29
+  },
+  {
+   "opponent_raw": "Concordia Portland",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Concordia University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Concordia University (Calif.)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Concordia University Irvine",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Concordia University-Irvine",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Corban",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Corban University (Ore.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cornerstone",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cornerstone (MI)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "CSU Bakersfield",
+   "games": 3
+  },
+  {
+   "opponent_raw": "CSU Dominguez Hills",
+   "games": 12
+  },
+  {
+   "opponent_raw": "CSU East Bay",
+   "games": 2
+  },
+  {
+   "opponent_raw": "CSU Fullerton",
+   "games": 19
+  },
+  {
+   "opponent_raw": "CSU Long Beach",
+   "games": 2
+  },
+  {
+   "opponent_raw": "CSU Los Angeles",
+   "games": 17
+  },
+  {
+   "opponent_raw": "CSU Monterey Bay",
+   "games": 2
+  },
+  {
+   "opponent_raw": "CSU Northridge",
+   "games": 2
+  },
+  {
+   "opponent_raw": "CSU San Bernardino",
+   "games": 16
+  },
+  {
+   "opponent_raw": "CSU San Marcos",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Dana College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Dixie State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Dixie State University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Dixie State UT",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Dominican",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Dominican University CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Dublin",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Embry Riddle (AZ)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Embry Riddle AZ",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Embry-Riddle Aeronautical University (Ariz.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Evergreen State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Fort Hays State (KS)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Fresno Pacific",
+   "games": 65
+  },
+  {
+   "opponent_raw": "Fresno Pacific University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Fresno State",
+   "games": 7
+  },
+  {
+   "opponent_raw": "George Fox",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Grand Canyon",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Hannibal-LaGrange",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Hastings NE",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Hawai'i Hilo",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Hawai'i Pacific",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Hawaii",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Hawaii Hilo",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Hawaii Pacific",
+   "games": 12
+  },
+  {
+   "opponent_raw": "Holy Names",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Holy Names CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Hope International",
+   "games": 18
+  },
+  {
+   "opponent_raw": "Hope International CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Hope International University",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Hope International University (Calif.)",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Houghton",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Humboldt State",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Illinois Springfield",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Indiana Tech",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Jessup",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Judson",
+   "games": 1
+  },
+  {
+   "opponent_raw": "King's (NY)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "La Sierra CA",
+   "games": 3
+  },
+  {
+   "opponent_raw": "La Verne",
+   "games": 12
+  },
+  {
+   "opponent_raw": "Liberty",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Life Pacific",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Long Beach State",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Loyola Marymount",
+   "games": 11
+  },
+  {
+   "opponent_raw": "Marymount CA",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Marymount College (Calif.)",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Menlo",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Menlo CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Menlo College (Calif.)",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Menlo College CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Messiah",
+   "games": 1
+  },
+  {
+   "opponent_raw": "MidWestern State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Midwestern State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Midwestern State University Texas",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Missouri Valley College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Mobile",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Montana State Billings",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Northwest Nazarene",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Northwest University (Wash.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Northwest WA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Notre Dame de Namur",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Occidental",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Oklahoma Wesleyan",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Olivet Nazarene",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Olivet Nazarene University IL",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Ottawa (Ariz.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Our Lady of the Lake University (Texas)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Pacific Lutheran University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Pacific Union CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Point Loma",
+   "games": 43
+  },
+  {
+   "opponent_raw": "Point Loma Nazarene",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Point Loma Nazarene CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Point Loma Nazarene University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Pomona-Pitzer",
+   "games": 19
+  },
+  {
+   "opponent_raw": "Portland",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Puget Sound",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Redlands",
+   "games": 19
+  },
+  {
+   "opponent_raw": "Regis",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Rio Grande OH",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Robert Morris (IL)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Rocky Mountain College (Mont.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Sacramento State",
+   "games": 2
+  },
+  {
+   "opponent_raw": "San Diego",
+   "games": 7
+  },
+  {
+   "opponent_raw": "San Diego Christian",
+   "games": 23
+  },
+  {
+   "opponent_raw": "San Diego Christian College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "San Diego Christian College (Calif.)",
+   "games": 5
+  },
+  {
+   "opponent_raw": "San Diego State",
+   "games": 16
+  },
+  {
+   "opponent_raw": "San Jose State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Seattle",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Seattle Pacific",
+   "games": 7
+  },
+  {
+   "opponent_raw": "Simon Fraser",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Simon Fraser BC",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Simpson CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Soka CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Sonoma State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Spring Arbor",
+   "games": 1
+  },
+  {
+   "opponent_raw": "St. Martin's University WA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Stanford",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Stanislaus State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Stanton University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Texas at Brownsville",
+   "games": 1
+  },
+  {
+   "opponent_raw": "The Master's",
+   "games": 48
+  },
+  {
+   "opponent_raw": "The master's",
+   "games": 1
+  },
+  {
+   "opponent_raw": "The Master's College",
+   "games": 2
+  },
+  {
+   "opponent_raw": "The Master's College (Calif.)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "The Master's University (Calif.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Trinity International",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Trinity International IL",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Trinity Western BC",
+   "games": 1
+  },
+  {
+   "opponent_raw": "UC Colorado Springs",
+   "games": 1
+  },
+  {
+   "opponent_raw": "UC Irvine",
+   "games": 3
+  },
+  {
+   "opponent_raw": "UC irvine",
+   "games": 1
+  },
+  {
+   "opponent_raw": "UC Merced",
+   "games": 2
+  },
+  {
+   "opponent_raw": "UC Riverside",
+   "games": 25
+  },
+  {
+   "opponent_raw": "UC San Diego",
+   "games": 30
+  },
+  {
+   "opponent_raw": "UC Santa Barbara",
+   "games": 12
+  },
+  {
+   "opponent_raw": "UC Santa Cruz",
+   "games": 2
+  },
+  {
+   "opponent_raw": "UCLA",
+   "games": 27
+  },
+  {
+   "opponent_raw": "Univ. of Colorado-Colorado Springs",
+   "games": 1
+  },
+  {
+   "opponent_raw": "University of Great Falls (Mont.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "University of Mary",
+   "games": 1
+  },
+  {
+   "opponent_raw": "University of the Fraser Valley",
+   "games": 1
+  },
+  {
+   "opponent_raw": "UNLV",
+   "games": 3
+  },
+  {
+   "opponent_raw": "USC",
+   "games": 9
+  },
+  {
+   "opponent_raw": "Vanguard",
+   "games": 47
+  },
+  {
+   "opponent_raw": "Vanguard University",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Vanguard University (Calif.)",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Victor Valley",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Viterbo",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Warner Pacific",
+   "games": 1
+  },
+  {
+   "opponent_raw": "West Coast Christian",
+   "games": 2
+  },
+  {
+   "opponent_raw": "West Virginia Wesleyan",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Westcliff",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Western Washington",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Westminster",
+   "games": 11
+  },
+  {
+   "opponent_raw": "Westminster College UT",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Westminster UT",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Westmont",
+   "games": 68
+  },
+  {
+   "opponent_raw": "Westmont College",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Westmont College (Calif.)",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Wheaton",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Whittier",
+   "games": 21
+  },
+  {
+   "opponent_raw": "Whittier CA",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Whittier College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Whitworth",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Whtworth",
+   "games": 1
+  },
+  {
+   "opponent_raw": "William Jessup University (Calif.)",
+   "games": 4
+  }
+ ],
+ "Women's Soccer": [
+  {
+   "opponent_raw": "Academy of Art",
+   "games": 7
+  },
+  {
+   "opponent_raw": "Academy of Art CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Alliant International",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Antelope Valley",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Arizona Christian",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Arizona Christian University",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Auburn-Montgomery",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Azusa Pacific",
+   "games": 32
+  },
+  {
+   "opponent_raw": "Azusa Pacific (BIOLA WEEKEND)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Azusa Pacific (Parent's Weekend)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Azusa Pacific University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Bethesda College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cal Lutheran",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Cal Poly Humboldt",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Cal Poly Pomona",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Cal State Bakersfield",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cal State Dominguez Hills",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Cal State East Bay",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Cal State LA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Cal State San Bernardino",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Cal State San Marcos",
+   "games": 10
+  },
+  {
+   "opponent_raw": "California Baptist",
+   "games": 31
+  },
+  {
+   "opponent_raw": "California Baptist University",
+   "games": 3
+  },
+  {
+   "opponent_raw": "California State University-San Marcos",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Carroll MT",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Chaminade",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Chapman",
+   "games": 12
+  },
+  {
+   "opponent_raw": "Chico State",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Claremont-Mudd-Scripps",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Claremont-Mudd-Scripps Colleges",
+   "games": 1
+  },
+  {
+   "opponent_raw": "College of Idaho",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Colorado Christian",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Colorado Christian University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Concordia",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Concordia (CA)",
+   "games": 12
+  },
+  {
+   "opponent_raw": "Concordia (OR)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Concordia CA",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Concordia Irvine",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Concordia Portland",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Concordia University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Concordia University (Calif.)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Concordia University Irvine",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Concordia University-Irvine",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Corban",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Corban College OR",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Corban OR",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Corban University (Ore.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "CSU Dominguez Hills",
+   "games": 2
+  },
+  {
+   "opponent_raw": "CSU East Bay",
+   "games": 2
+  },
+  {
+   "opponent_raw": "CSU Fullerton",
+   "games": 1
+  },
+  {
+   "opponent_raw": "CSU Los Angeles",
+   "games": 13
+  },
+  {
+   "opponent_raw": "CSU Monterey Bay",
+   "games": 4
+  },
+  {
+   "opponent_raw": "CSU San Bernardino",
+   "games": 3
+  },
+  {
+   "opponent_raw": "CSU San Marcos",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Dixie State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Dominican",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Eastern Oregon",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Embry-Riddle (AZ)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Embry-Riddle Aeronautical University (Ariz.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Emmanuel College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Fresno Pacific",
+   "games": 19
+  },
+  {
+   "opponent_raw": "Fresno Pacific University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Grand Canyon",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Hawai'i Hilo",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Hawai'i Pacific",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Hawaii Hilo",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Hawaii Pacific",
+   "games": 7
+  },
+  {
+   "opponent_raw": "Holy Names",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Holy Names CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Hope International",
+   "games": 21
+  },
+  {
+   "opponent_raw": "Hope International University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Hope International University (Calif.)",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Indiana Wesleyan University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Jessup",
+   "games": 1
+  },
+  {
+   "opponent_raw": "La Verne",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Lindsey Wilson College KY",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Marymount CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Marymount College (Calif.)",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Menlo",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Menlo CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Menlo College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Menlo College (Calif.)",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Mills College",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Montclair State (NJ)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Northwest University (Wash.)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Northwest WA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Northwestern (IA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Notre Dame de Namur",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Notre Dame de Namur CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Occidental",
+   "games": 7
+  },
+  {
+   "opponent_raw": "Oklahoma Baptist University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Oklahoma Wesleyan",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Oregon Institute of Technology",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Oregon Tech",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Ottawa",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Our Lady of the Lake University (Texas)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Point Loma",
+   "games": 20
+  },
+  {
+   "opponent_raw": "Point Loma Nazarene",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Point Loma Nazarene University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Pomona-Pitzer",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Pomona-Pitzer CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Puget Sound",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Redlands",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Robert Morris (IL)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Rocky Mountain College (Mont.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Saint Francis IN",
+   "games": 1
+  },
+  {
+   "opponent_raw": "San Diego Christian",
+   "games": 11
+  },
+  {
+   "opponent_raw": "San Diego Christian College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "San Diego Christian College (Calif.)",
+   "games": 5
+  },
+  {
+   "opponent_raw": "San Francisco State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Seattle Pacific",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Simon Fraser",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Simpson College IA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Soka CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Soka University (Calif.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Sonoma State",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Southern Oregon University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Stanislaus State",
+   "games": 4
+  },
+  {
+   "opponent_raw": "The Master's",
+   "games": 31
+  },
+  {
+   "opponent_raw": "The Master's College",
+   "games": 2
+  },
+  {
+   "opponent_raw": "The Master's College (Calif.)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "The Master's University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "The Master's University (Calif.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Trinity International University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Trinity International University IL",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Trinity Western University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Trinity Western University BC",
+   "games": 1
+  },
+  {
+   "opponent_raw": "UC Irvine",
+   "games": 1
+  },
+  {
+   "opponent_raw": "UC Merced",
+   "games": 1
+  },
+  {
+   "opponent_raw": "UC San Diego",
+   "games": 1
+  },
+  {
+   "opponent_raw": "UC Santa Cruz",
+   "games": 3
+  },
+  {
+   "opponent_raw": "University of Antelope Valley",
+   "games": 1
+  },
+  {
+   "opponent_raw": "University of Great Falls MT",
+   "games": 1
+  },
+  {
+   "opponent_raw": "University of Mobile (Ala.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "University of Northwestern (Ohio)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Vanguard",
+   "games": 33
+  },
+  {
+   "opponent_raw": "Vanguard University",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Vanguard University (Calif.)",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Viterbo University (Wis.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Viterbo WI",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Westcliff",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Western Oregon University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Western Washington",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Westminster UT",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Westmont",
+   "games": 33
+  },
+  {
+   "opponent_raw": "Westmont College",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Westmont College (Calif.)",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Whittier",
+   "games": 13
+  },
+  {
+   "opponent_raw": "Whittier CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "William Jessup CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "William Jessup University (Calif.)",
+   "games": 4
+  },
+  {
+   "opponent_raw": "William Penn IA",
+   "games": 1
+  }
+ ],
+ "Men's Basketball": [
+  {
+   "opponent_raw": "Abilene Christian",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Academy of Art",
+   "games": 13
+  },
+  {
+   "opponent_raw": "Alameda State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Alaska-Juneau",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Ambassador",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Ambassador (TX)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "American Indian",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Anderson College, IN",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Antelope Valley",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Arizona Christian",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Arizona Christian University",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Ashford IA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Azusa Pacific",
+   "games": 116
+  },
+  {
+   "opponent_raw": "Azusa Pacific University",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Azusa Pacific University (Calif.)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Azusa Pacific University, CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Baker (KS)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Bakersfield",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Barber-Scotia (SC)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Belhaven MS",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Bellevue University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Benedictine (KS)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Benedictine University at Mesa",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Bethany",
+   "games": 13
+  },
+  {
+   "opponent_raw": "Bethany Bible",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Bethany CA",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Bethany College",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Bethany Nazarene (OK)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Bethany University",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Bethany University CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Bethel (IN)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Bethel (MN)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Bethesda CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Bethesda College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Bethesda University",
+   "games": 3
+  },
+  {
+   "opponent_raw": "BYU-Hawaii",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Cal Lutheran",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cal Poly",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Cal Poly Pomona",
+   "games": 24
+  },
+  {
+   "opponent_raw": "Cal State Dominguez Hills",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Cal State LA",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Cal State Los Angeles",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cal State Maritime",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Cal State San Marcos",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Cal Tech",
+   "games": 14
+  },
+  {
+   "opponent_raw": "Calgary AB",
+   "games": 3
+  },
+  {
+   "opponent_raw": "California Baptist",
+   "games": 89
+  },
+  {
+   "opponent_raw": "California Baptist University",
+   "games": 9
+  },
+  {
+   "opponent_raw": "California Christian",
+   "games": 9
+  },
+  {
+   "opponent_raw": "California Lutheran",
+   "games": 52
+  },
+  {
+   "opponent_raw": "California Lutheran University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "California Maritime",
+   "games": 1
+  },
+  {
+   "opponent_raw": "California Maritime Academy",
+   "games": 3
+  },
+  {
+   "opponent_raw": "California State University, Chico",
+   "games": 1
+  },
+  {
+   "opponent_raw": "California State University, Dominguez Hills",
+   "games": 1
+  },
+  {
+   "opponent_raw": "California State University-San Marcos",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Caltech",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Calvin (MI)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Calvin College (MI)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Calvin College, MI",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cameron (OK)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Campbellsville KY",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Carroll College (Mont.)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Carroll College MT",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cascade (OR)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Cascade College (OR)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cedarville College, OH",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Central (IA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Central (KS)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Central Washington",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Central Washington University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Chaminade",
+   "games": 18
+  },
+  {
+   "opponent_raw": "Chaminade (HI)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Chapman",
+   "games": 17
+  },
+  {
+   "opponent_raw": "Chico State",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Claremont-Mudd-Scripps",
+   "games": 13
+  },
+  {
+   "opponent_raw": "College of Idaho",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Colorado Christian",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Colorado School of Mines",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Concordia",
+   "games": 16
+  },
+  {
+   "opponent_raw": "Concordia (NE)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Concordia CA",
+   "games": 9
+  },
+  {
+   "opponent_raw": "Concordia Irvine",
+   "games": 36
+  },
+  {
+   "opponent_raw": "Concordia University",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Concordia University (Calif.)",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Concordia University Irvine",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Corban",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cornerstone (MI)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "CS Dominguez Hills",
+   "games": 2
+  },
+  {
+   "opponent_raw": "CSU Dominguez",
+   "games": 1
+  },
+  {
+   "opponent_raw": "CSU Dominguez Hills",
+   "games": 29
+  },
+  {
+   "opponent_raw": "CSU East Bay",
+   "games": 1
+  },
+  {
+   "opponent_raw": "CSU Fullerton",
+   "games": 2
+  },
+  {
+   "opponent_raw": "CSU Loa Angeles",
+   "games": 1
+  },
+  {
+   "opponent_raw": "CSU Los Agneles",
+   "games": 1
+  },
+  {
+   "opponent_raw": "CSU Los Angeles",
+   "games": 29
+  },
+  {
+   "opponent_raw": "CSU Monterey Bay",
+   "games": 4
+  },
+  {
+   "opponent_raw": "CSU San Bernardino",
+   "games": 7
+  },
+  {
+   "opponent_raw": "CSU San Marcos",
+   "games": 5
+  },
+  {
+   "opponent_raw": "CSULA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Culver-Stockton",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cumberland University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Daemen College (NY)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "de Sonora (MX)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Dixie State",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Domincan",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Dominican",
+   "games": 24
+  },
+  {
+   "opponent_raw": "Dominican (CA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Dominican University CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Dominican University of California",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Drury",
+   "games": 3
+  },
+  {
+   "opponent_raw": "East Central Oklahoma",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Eastern Nazarene (MA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Eastern Washington",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Elmira (NY)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Embry-Riddle Aeronautical University (Ariz.)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Embry-Riddle FL",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Emporia State (KS)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Evangel (MO)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Evangel College MO",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Evergreen State WA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Faulkner University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Fisk University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Fontbonne (LA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Fort Lewis (CO)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Franklin Pierce",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Fraser Valley BC",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Fresno",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Fresno Pacific",
+   "games": 94
+  },
+  {
+   "opponent_raw": "Fresno Pacific University",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Fresno Pacific University (Calif.)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Fresno Pacific University, CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Ft. Kent (Maine)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Geneva (PA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Geneva College (Pa.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "George Fox",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Georgetown (KY)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Georgia Southwestern",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Glassboro State (NJ)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Grace (IN)",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Graceland (IA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Grand Canyon",
+   "games": 16
+  },
+  {
+   "opponent_raw": "Grand Canyon College, AZ",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Great Falls (MT)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Hardin-Simmons",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Hastings (NE)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Hawai'i Hilo",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Hawai'i Pacific",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Hawaii Hilo",
+   "games": 14
+  },
+  {
+   "opponent_raw": "Hawaii Pacific",
+   "games": 12
+  },
+  {
+   "opponent_raw": "Holy Names",
+   "games": 17
+  },
+  {
+   "opponent_raw": "Holy Names CA",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Holy Names University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Holy Names University CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Hope International",
+   "games": 41
+  },
+  {
+   "opponent_raw": "Hope international",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Hope International University",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Hope International University (Calif.)",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Houghton College (NY)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Houston Baptist",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Huron (SD)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Incarnate Word (TX)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Indiana Wesleyan",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Jessup",
+   "games": 3
+  },
+  {
+   "opponent_raw": "John Brown (AK)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "John Brown (AR)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "John Brown University (Ark.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Judson (IL)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Judson Baptist (OR)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Kearney State (NE)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "King's College (NY)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "LA Baptist",
+   "games": 1
+  },
+  {
+   "opponent_raw": "LA Pacific",
+   "games": 13
+  },
+  {
+   "opponent_raw": "La Sierra",
+   "games": 10
+  },
+  {
+   "opponent_raw": "La Sierra CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "La Sierra University",
+   "games": 8
+  },
+  {
+   "opponent_raw": "La Verne",
+   "games": 27
+  },
+  {
+   "opponent_raw": "Lake Forest (IL)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Lakeland (WI)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Lambuth (TN)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Langston (OK)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Langston University (Okla.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Lee (TN)",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Lee College, TN",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Lethbridge (CAN)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "LeTourneau",
+   "games": 1
+  },
+  {
+   "opponent_raw": "LeTourneau University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Lewis & Clark (OR)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Lewis-Clark State College ID",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Life Pacific",
+   "games": 11
+  },
+  {
+   "opponent_raw": "Linfield",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Linfield (OR)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Lipscomb (TN)",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Long Beach State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Loras (IA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Louisiana State - Shreveport",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Lubbock Christian",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Maine-Fort Kent",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Manchester College, IN",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Martin Methodist TN",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Mary (ND)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "McPherson (KS)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Menlo",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Menlo CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Menlo College",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Menlo College (Calif.)",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Michigan Tech",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Michoacan",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Mid-America Christian University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Mid-America Nazarene (MO)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "MidAmerica Nazarene",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Milwaukee School of Engineering",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Missouri Baptist",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Missouri Western",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Mobile (AL)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Montana State - Northern",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Montana State-Billings",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Montana Tech",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Montana-Western",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Mount Senario",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Mount Vernon Nazarene OH",
+   "games": 1
+  },
+  {
+   "opponent_raw": "New Hampshire",
+   "games": 1
+  },
+  {
+   "opponent_raw": "North Park (IL)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Northern Arizona",
+   "games": 1
+  },
+  {
+   "opponent_raw": "NorthernArizona",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Northland College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Northwest Indian College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Northwest Nazarene",
+   "games": 7
+  },
+  {
+   "opponent_raw": "Northwest University (Wash.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Northwestern (MN)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Northwestern Oklahoma State",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Northwood University (MI)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Nothwestern (MN)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Notre Dame de Namur",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Nvevo Leon (MX)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Occdental",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Occidental",
+   "games": 16
+  },
+  {
+   "opponent_raw": "Occidental College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Occidental College, CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Oklahoma Baptist",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Oklahoma Baptist University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Oklahoma City",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Olivet Nazarene",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Olivet Nazarene (IL)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Olivet Nazarene College, IL",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Oregon Tech",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Our Lady of the Lake TX",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Pacific Union",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Pacific Union CA",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Pacific Union College (Calif.)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Park MO",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Patten",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Patten College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Pfeiffer (NC)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Phillips (OK)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Point Loma",
+   "games": 96
+  },
+  {
+   "opponent_raw": "Point Loma Nazarene",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Point Loma Nazarene University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Point Loma Nazarene University, CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Point University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Pomona",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Pomona College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Pomona-Pitzer",
+   "games": 33
+  },
+  {
+   "opponent_raw": "Pomona-Pitzer CA",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Pomona-Pitzer College CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Portland State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Prairie Bible College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Pt. Loma Nazarene",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Pt. Loma Nazarene University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Quincy (IL)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Ramapo (NJ)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Redlands",
+   "games": 19
+  },
+  {
+   "opponent_raw": "Redlands CA",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Robert Morris (IL)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Rockmont (CO)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Rocky Mountain College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Rocky Mountain College MT",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Rocky Mountain MT",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Rollins (FL)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Sacramento State",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Saginaw Valley State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "SAGU American Indian College",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Saint Katherine",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Saint Mary (KS)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "San Diego",
+   "games": 3
+  },
+  {
+   "opponent_raw": "San Diego Christian",
+   "games": 51
+  },
+  {
+   "opponent_raw": "San Diego Christian College",
+   "games": 6
+  },
+  {
+   "opponent_raw": "San Diego Christian College (Calif.)",
+   "games": 8
+  },
+  {
+   "opponent_raw": "San Diego State University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "San Francisco State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Saskatchewan",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Science & Arts (OK)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Seattle (WA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Seattle Pacific",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Sheldon Jackson (AK)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Shepherd University (Calif.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Simon Fraser",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Simpson CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Sonoma State",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Sonora",
+   "games": 1
+  },
+  {
+   "opponent_raw": "South Carolina-Spartanburg",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Southern Nazarene",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Southern Nazarene University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Southern Oregon",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Southern Oregon University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Southern Poly",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Southern Utah",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Southern Utah State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Southern Wesleyan University (S.C.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Southwestern (AZ)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Southwestern KS",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Spring Arbor (MI)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "St Thomas (MN)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "St. Francis (IL)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "St. Joseph's (ME)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "St. Katherine",
+   "games": 1
+  },
+  {
+   "opponent_raw": "St. Thomas",
+   "games": 1
+  },
+  {
+   "opponent_raw": "St. Xavier (IL)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Stanislaus State",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Stanton",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Taylor (IN)",
+   "games": 7
+  },
+  {
+   "opponent_raw": "Taylor University, IN",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Tennessee Temple",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Tennessee Temple University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "The Master's",
+   "games": 85
+  },
+  {
+   "opponent_raw": "The Master's College",
+   "games": 4
+  },
+  {
+   "opponent_raw": "The Master's College (Calif.)",
+   "games": 6
+  },
+  {
+   "opponent_raw": "The Master's College (LABC), CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "The Master's University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "The Master's University (Calif.)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Tougaloo College (Miss.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Trevecca Nazarene",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Trinity Western BC",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Trinity Western University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "U C Irvine",
+   "games": 1
+  },
+  {
+   "opponent_raw": "U C Riverside",
+   "games": 1
+  },
+  {
+   "opponent_raw": "U S International",
+   "games": 1
+  },
+  {
+   "opponent_raw": "U S International Univ",
+   "games": 1
+  },
+  {
+   "opponent_raw": "UC Irvine",
+   "games": 2
+  },
+  {
+   "opponent_raw": "UC Merced",
+   "games": 3
+  },
+  {
+   "opponent_raw": "UC Riverside",
+   "games": 17
+  },
+  {
+   "opponent_raw": "UC San Diego",
+   "games": 18
+  },
+  {
+   "opponent_raw": "UC Santa Cruz",
+   "games": 2
+  },
+  {
+   "opponent_raw": "UCLA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "UMKC",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Union (TN)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "University of Alberta",
+   "games": 1
+  },
+  {
+   "opponent_raw": "University of La Verne",
+   "games": 4
+  },
+  {
+   "opponent_raw": "University of Minnesota Duluth",
+   "games": 1
+  },
+  {
+   "opponent_raw": "University of Redlands",
+   "games": 3
+  },
+  {
+   "opponent_raw": "University of Redlands CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "University of Saskatchewan",
+   "games": 1
+  },
+  {
+   "opponent_raw": "University of the Fraser Valley",
+   "games": 1
+  },
+  {
+   "opponent_raw": "University of Victoria",
+   "games": 1
+  },
+  {
+   "opponent_raw": "UNLV",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Upland",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Urinusu (PA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "US International",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Vanguard",
+   "games": 90
+  },
+  {
+   "opponent_raw": "Vanguard University",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Vanguard University (Calif.)",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Vanguard University (SCC), CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Victoria (BC)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Victoria BC",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Wabash (IN)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Warner Pacific",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Warner Pacific (OR)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Wassuk (NY)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Wayland Baptist",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Wayland Baptist (TX)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Wayne State College NE",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Wesminster (UT)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "West Coast Baptist",
+   "games": 9
+  },
+  {
+   "opponent_raw": "West Coast Baptist CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "West Coast Baptist College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "West Coast Baptist College (Calif.)",
+   "games": 4
+  },
+  {
+   "opponent_raw": "West Texas",
+   "games": 1
+  },
+  {
+   "opponent_raw": "West Virginia Tech",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Western Baptist",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Western New Mexico",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Western Washington",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Western Washington State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Westminster (UT)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Westminster College (Utah)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Westminster UT",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Westmont",
+   "games": 101
+  },
+  {
+   "opponent_raw": "Westmont College",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Westmont College (Calif.)",
+   "games": 11
+  },
+  {
+   "opponent_raw": "Westmont College, CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Wheaton (IL)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Whitman College WA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Whittier",
+   "games": 22
+  },
+  {
+   "opponent_raw": "Whittier CA",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Whittier College CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Whittier College, CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "William Jessup",
+   "games": 1
+  },
+  {
+   "opponent_raw": "William Jessup CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "William Jessup University (Calif.)",
+   "games": 7
+  },
+  {
+   "opponent_raw": "William Jewell",
+   "games": 1
+  },
+  {
+   "opponent_raw": "William Jewell College (Mo.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Winona State (MN)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Wisconsin Lutheran",
+   "games": 1
+  }
+ ],
+ "Women's Basketball": [
+  {
+   "opponent_raw": "Academy of Art",
+   "games": 12
+  },
+  {
+   "opponent_raw": "Adams State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Air Force Academy",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Alaska Anchorage",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Alaska Fairbanks",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Alma",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Antelope Valley",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Arizona",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Arizona Christian",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Arizona Christian University",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Arizona State",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Arkansas Tech",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Ashford IA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Ashland",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Ashland (IN)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Augsburg (MN)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Australia Travellers",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Australian Institute of Sport",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Azusa Pacific",
+   "games": 92
+  },
+  {
+   "opponent_raw": "Azusa Pacific University",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Azusa Pacific University (Calif.)",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Azusa Pacific University, CA",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Baker (KS)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Berry (GA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Berry (GA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Bethany",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Bethany (OK)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Bethany CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Bethany University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Bethel (KS)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Bethel College TN",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Bethesda",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Bethesda CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Bethesda College",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Bethesda University",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Black Hills State SD",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Box Hill Australia",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Butler (IN)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "BYU Hawaii",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cal Maritime",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cal Poly",
+   "games": 9
+  },
+  {
+   "opponent_raw": "Cal Poly Humboldt",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Cal Poly Pomona",
+   "games": 24
+  },
+  {
+   "opponent_raw": "Cal Poly San Luis Obispo",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cal State Dominguez Hills",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Cal State Fullerton",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Cal State LA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Cal State San Bernardino",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cal State San Marcos",
+   "games": 2
+  },
+  {
+   "opponent_raw": "California Baptist",
+   "games": 65
+  },
+  {
+   "opponent_raw": "California Baptist University",
+   "games": 7
+  },
+  {
+   "opponent_raw": "California Baptist University, CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "California Lutheran",
+   "games": 29
+  },
+  {
+   "opponent_raw": "California Lutheran University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "California Maritime Academy",
+   "games": 3
+  },
+  {
+   "opponent_raw": "California State University, Dominguez Hills",
+   "games": 1
+  },
+  {
+   "opponent_raw": "California State University-San Marcos",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Cascade College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Central (IA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Central Methodist University (Mo.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Central Washington",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Chaminade",
+   "games": 15
+  },
+  {
+   "opponent_raw": "Chapman",
+   "games": 14
+  },
+  {
+   "opponent_raw": "Chapman CA",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Chapman Universisty, CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Chapman University",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Chapman University CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Chapman University, CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Chico State",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Christian Heritage College, CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Claremont-Mudd-Scripps",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Claremont-Mudd-Scripps Colleges",
+   "games": 1
+  },
+  {
+   "opponent_raw": "College of the Ozarks",
+   "games": 2
+  },
+  {
+   "opponent_raw": "College of the Ozarks MO",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Colorado College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Colorado School of Mines",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Colorado State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Concordia",
+   "games": 15
+  },
+  {
+   "opponent_raw": "Concordia CA",
+   "games": 9
+  },
+  {
+   "opponent_raw": "Concordia Irvine",
+   "games": 47
+  },
+  {
+   "opponent_raw": "Concordia Portland",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Concordia University",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Concordia University (Calif.)",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Concordia University (CCI), CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Concordia University Irvine",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Concordia University, CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Corban (OR)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "CS Dominguez Hills",
+   "games": 1
+  },
+  {
+   "opponent_raw": "CSU Bakersfield",
+   "games": 1
+  },
+  {
+   "opponent_raw": "CSU Dominguez Hills",
+   "games": 44
+  },
+  {
+   "opponent_raw": "CSU East Bay",
+   "games": 4
+  },
+  {
+   "opponent_raw": "CSU Fullerton",
+   "games": 12
+  },
+  {
+   "opponent_raw": "CSU Fullerton JV",
+   "games": 3
+  },
+  {
+   "opponent_raw": "CSU Hayward",
+   "games": 1
+  },
+  {
+   "opponent_raw": "CSU Long Beach",
+   "games": 13
+  },
+  {
+   "opponent_raw": "CSU Long Beach JV",
+   "games": 2
+  },
+  {
+   "opponent_raw": "CSU Los Angeles",
+   "games": 26
+  },
+  {
+   "opponent_raw": "CSU Monterey Bay",
+   "games": 2
+  },
+  {
+   "opponent_raw": "CSU Northridge",
+   "games": 12
+  },
+  {
+   "opponent_raw": "CSU San Bernardino",
+   "games": 16
+  },
+  {
+   "opponent_raw": "CSUN",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Denver",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Dixie State",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Dixie State College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Dominican",
+   "games": 16
+  },
+  {
+   "opponent_raw": "Dominican CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Dordt (IA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Eastern Oregon",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Eastern Washington",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Embry-Riddle Aeronautical University (Ariz.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Evangel",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Evangel University (Mo.)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Florida International",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Fontbonne (LA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Fort Lewis (CO)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Francis Marion",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Franklin (IN)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Freed-Hardeman TN",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Freed-Hardeman, TN",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Fresno Pacific",
+   "games": 74
+  },
+  {
+   "opponent_raw": "Fresno Pacific University",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Fresno Pacific University, CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Fresno State",
+   "games": 4
+  },
+  {
+   "opponent_raw": "George Fox",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Georgetown (KY)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Glassboro State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Gonzaga",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Gordon (MA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Grand Canyon",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Great Falls College, MT",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Hastings NE",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Hawai'i Hilo",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Hawai'i Pacific",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Hawaii Hilo",
+   "games": 10
+  },
+  {
+   "opponent_raw": "Hawaii Pacific",
+   "games": 10
+  },
+  {
+   "opponent_raw": "Hawaii Pacific University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Hawaii-Hilo",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Holy Names",
+   "games": 12
+  },
+  {
+   "opponent_raw": "Holy Names CA",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Holy Names University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Hope International",
+   "games": 33
+  },
+  {
+   "opponent_raw": "Hope International University",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Hope International University (Calif.)",
+   "games": 10
+  },
+  {
+   "opponent_raw": "Hope International University, CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Hope International Universtiy",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Houghton College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Huntington",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Idaho",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Incarnate Word",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Iowa",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Jessup",
+   "games": 3
+  },
+  {
+   "opponent_raw": "L I F E",
+   "games": 2
+  },
+  {
+   "opponent_raw": "LA Pacific",
+   "games": 3
+  },
+  {
+   "opponent_raw": "La Serra Univerity, CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "La Sierra",
+   "games": 4
+  },
+  {
+   "opponent_raw": "La Sierra CA",
+   "games": 4
+  },
+  {
+   "opponent_raw": "La Sierra University",
+   "games": 5
+  },
+  {
+   "opponent_raw": "La Verne",
+   "games": 17
+  },
+  {
+   "opponent_raw": "Lambuth TN",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Langston OK",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Lee TN",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Lee University TN",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Lenoir-Rhyne College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Lewis-Clark State",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Lewis-Clark State College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Lewis-Clark State ID",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Life (GA)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Life Pacific",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Long Beach State",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Loyola Marymount",
+   "games": 9
+  },
+  {
+   "opponent_raw": "Loyola Marymount University, CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Macalester (MN)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Marian (IN)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Martin Methodist",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Master's College (LABC), CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Master's College, CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "McKendree",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Melbourne Roos",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Menlo",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Menlo CA",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Menlo College",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Menlo College (Calif.)",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Mesa State (CO)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Mexico University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Mid America Nazarene (KS)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "MidAmerica Nazarene University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Midland (NE)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Millikan (WI)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Mills",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Mills College, CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Missouri Valley College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Montana State - Northern",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Montana State Northern",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Montana State-Billings",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Montana State-Northern",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Montana Tech",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Montana Western",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Moravian (PA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Mt. Mercy (IA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Mundelein",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Nevada-Reno",
+   "games": 1
+  },
+  {
+   "opponent_raw": "New Mexico State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "North Dakota State",
+   "games": 2
+  },
+  {
+   "opponent_raw": "North Oklahoma State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Northeastern State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Northern Arizona",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Northern Colorado",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Northern Montana",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Northern Oklahoma",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Northwest Missouri State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Northwest Nazarene",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Northwest Nazarene University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Northwest University (Wash.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Northwestern College, IA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Notre Dame de Namur",
+   "games": 6
+  },
+  {
+   "opponent_raw": "NW Oklahoma State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Occidental",
+   "games": 18
+  },
+  {
+   "opponent_raw": "Occidental College, CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Oklahoma Baptist",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Oklahoma Christian",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Oklahoma City",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Olivet Nazarene IL",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Olivet Nazarene University IL",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Oregon Tech",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Ottawa KS",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Our Lady of the Lake University (Texas)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Pacific",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Pacific (OR)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Pacific Lutheran",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Pacific Union College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Pasadena College (PLNU), CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Pepperdine",
+   "games": 10
+  },
+  {
+   "opponent_raw": "Phillips (OK)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Point Loma",
+   "games": 85
+  },
+  {
+   "opponent_raw": "Point Loma Nazarene",
+   "games": 11
+  },
+  {
+   "opponent_raw": "Point Loma Nazarene University",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Point Loma Nazarene University, CA",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Pomona College, CA",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Pomona-Pitzer",
+   "games": 25
+  },
+  {
+   "opponent_raw": "Pomona-Pitzer College CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Pomona-Pitzer College, CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Portland",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Redlands",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Regis University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Rio Hondo",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Rio Hondo Girls' Christian League",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Rocky Mountain College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Sacramento State",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Saginaw Valley State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Saint Ambrose (IA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Saint Martin's",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Saint Martin's University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "San Diego",
+   "games": 11
+  },
+  {
+   "opponent_raw": "San Diego Christian",
+   "games": 24
+  },
+  {
+   "opponent_raw": "San Diego Christian College",
+   "games": 4
+  },
+  {
+   "opponent_raw": "San Diego Christian College (Calif.)",
+   "games": 8
+  },
+  {
+   "opponent_raw": "San Diego State",
+   "games": 12
+  },
+  {
+   "opponent_raw": "San Diego State University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "San Francisco",
+   "games": 1
+  },
+  {
+   "opponent_raw": "San Francisco State",
+   "games": 3
+  },
+  {
+   "opponent_raw": "San Jose State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Science & Arts (OK)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Seattle",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Seattle Pacific",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Seattle Pacific University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Shorter (GA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Showtime Australia",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Simon Fraser",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Simon Frasier",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Simon Frasier (BC, CA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Simpson University (Calif.)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Sonoma State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "South Carolina State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "South Dakota School of Mines",
+   "games": 1
+  },
+  {
+   "opponent_raw": "South Dakota School of Mines & Technology (S.D.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "South Dakota Tech",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Southern California",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Southern Nazarene",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Southern Utah",
+   "games": 1
+  },
+  {
+   "opponent_raw": "St. Martin's (WA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "St. Mary's",
+   "games": 9
+  },
+  {
+   "opponent_raw": "St. Thomas (MN)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "St. Thomas Aquinas (NY)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "St. Vincent (PA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Stanford",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Stanislaus State",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Staten Island (NY)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "SUNY-Geneseo",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Tarleton State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Taylor (IN)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "The Master's",
+   "games": 54
+  },
+  {
+   "opponent_raw": "The Master's College",
+   "games": 4
+  },
+  {
+   "opponent_raw": "The Master's College (Calif.)",
+   "games": 7
+  },
+  {
+   "opponent_raw": "The Master's University (Calif.)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Travecca Nazarene",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Trevecca Nazarene TN",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Trinity Christian",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Trinity Western University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "U C Riverside",
+   "games": 2
+  },
+  {
+   "opponent_raw": "UC Berkeley",
+   "games": 2
+  },
+  {
+   "opponent_raw": "UC Irvine",
+   "games": 3
+  },
+  {
+   "opponent_raw": "UC Merced",
+   "games": 2
+  },
+  {
+   "opponent_raw": "UC Riverside",
+   "games": 25
+  },
+  {
+   "opponent_raw": "UC San Diego",
+   "games": 9
+  },
+  {
+   "opponent_raw": "UC Santa Barbara",
+   "games": 14
+  },
+  {
+   "opponent_raw": "UC Santa Cruz",
+   "games": 3
+  },
+  {
+   "opponent_raw": "UCLA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "UCLA JV",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Union (TN)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Union TN",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Univ. of Colo.-Colorado Springs",
+   "games": 1
+  },
+  {
+   "opponent_raw": "University of Alberta",
+   "games": 1
+  },
+  {
+   "opponent_raw": "University of British Columbia",
+   "games": 1
+  },
+  {
+   "opponent_raw": "University of Calgary",
+   "games": 1
+  },
+  {
+   "opponent_raw": "University of La Verne",
+   "games": 1
+  },
+  {
+   "opponent_raw": "University of La Verne, CA",
+   "games": 3
+  },
+  {
+   "opponent_raw": "University of Lethbridge",
+   "games": 1
+  },
+  {
+   "opponent_raw": "University of Mary",
+   "games": 1
+  },
+  {
+   "opponent_raw": "University of Redlands",
+   "games": 1
+  },
+  {
+   "opponent_raw": "University of San Diego",
+   "games": 2
+  },
+  {
+   "opponent_raw": "University of Victoria",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Upand",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Upland",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Upland Academy, CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "US International",
+   "games": 7
+  },
+  {
+   "opponent_raw": "USC",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Valparaiso (IN)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Vancouver Island University BC",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Vanguard",
+   "games": 64
+  },
+  {
+   "opponent_raw": "Vanguard CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Vanguard University",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Vanguard University (Calif.)",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Vanguard University, CA",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Victoria (BC, CA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Victoria BC",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Viterbo University (Wis.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Warner Pacific",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Washington State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Wayland Baptist TX",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Wesminster College, UT",
+   "games": 1
+  },
+  {
+   "opponent_raw": "West Georgia",
+   "games": 1
+  },
+  {
+   "opponent_raw": "West Point (NY)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Westcliff",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Westcliff University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Western New Mexico",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Western New Mexico University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Western Oregon",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Western University (Ontario)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Western Washington",
+   "games": 10
+  },
+  {
+   "opponent_raw": "Western Washington University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Westminster",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Westminster College (Utah)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Westminster UT",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Westmont",
+   "games": 36
+  },
+  {
+   "opponent_raw": "Westmont College",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Westmont College (Calif.)",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Westmont College, CA",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Wetmont",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Whitman",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Whitman (WA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Whittier",
+   "games": 22
+  },
+  {
+   "opponent_raw": "Whittier CA",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Whittier College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Whittier College, CA",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Whitworth",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Willamette",
+   "games": 1
+  },
+  {
+   "opponent_raw": "William Jessup CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "William Jessup University (Calif.)",
+   "games": 8
+  },
+  {
+   "opponent_raw": "William Woods MO",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Williams Baptist College AR",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Wyoming",
+   "games": 1
+  }
+ ],
+ "Baseball": [
+  {
+   "opponent_raw": "Academy of Art",
+   "games": 16
+  },
+  {
+   "opponent_raw": "Antelope Valley",
+   "games": 13
+  },
+  {
+   "opponent_raw": "Arizona Christian",
+   "games": 11
+  },
+  {
+   "opponent_raw": "Arizona Christian University",
+   "games": 18
+  },
+  {
+   "opponent_raw": "Auburn-Montgomery AL",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Azusa Pacific",
+   "games": 210
+  },
+  {
+   "opponent_raw": "Azusa Pacific University",
+   "games": 12
+  },
+  {
+   "opponent_raw": "Azusa Pacific University (Calif.)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Baptist Bible",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Bellevue (NE)",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Bethany",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Bethany CA",
+   "games": 7
+  },
+  {
+   "opponent_raw": "Bethel (IN)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Bethesda CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Bethesda College",
+   "games": 9
+  },
+  {
+   "opponent_raw": "Bethesda University",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Bluefield College (Va.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Briar Cliff (IA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "British Columbia",
+   "games": 7
+  },
+  {
+   "opponent_raw": "Cal Baptist",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Cal Poly",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Cal Poly Pomona",
+   "games": 23
+  },
+  {
+   "opponent_raw": "Cal State Dominguez Hills",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Cal State LA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cal State Los Angeles",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Cal State Monterey Bay",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Cal State San Bernardino",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Cal State San Marcos",
+   "games": 19
+  },
+  {
+   "opponent_raw": "Cal State-San Marcos",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Calfiornia Institute for Men-Chino",
+   "games": 1
+  },
+  {
+   "opponent_raw": "California Baptist",
+   "games": 142
+  },
+  {
+   "opponent_raw": "California Baptist University",
+   "games": 4
+  },
+  {
+   "opponent_raw": "California Christian",
+   "games": 2
+  },
+  {
+   "opponent_raw": "California Lutheran",
+   "games": 84
+  },
+  {
+   "opponent_raw": "California State University-San Marcos",
+   "games": 9
+  },
+  {
+   "opponent_raw": "Caltech",
+   "games": 15
+  },
+  {
+   "opponent_raw": "Campbellsville University (Ky.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Central Washington",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Chaminade",
+   "games": 11
+  },
+  {
+   "opponent_raw": "Chapman",
+   "games": 29
+  },
+  {
+   "opponent_raw": "Chico State",
+   "games": 9
+  },
+  {
+   "opponent_raw": "Chico State University",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Claremont-Mudd-Scripps",
+   "games": 50
+  },
+  {
+   "opponent_raw": "College of Idaho",
+   "games": 9
+  },
+  {
+   "opponent_raw": "Colorado Christian",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Colorado Springs",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Concordia",
+   "games": 30
+  },
+  {
+   "opponent_raw": "Concordia CA",
+   "games": 24
+  },
+  {
+   "opponent_raw": "Concordia Irvine",
+   "games": 82
+  },
+  {
+   "opponent_raw": "Concordia Portland",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Concordia University",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Concordia University (Calif.)",
+   "games": 16
+  },
+  {
+   "opponent_raw": "Concordia University (Mich.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Corban",
+   "games": 12
+  },
+  {
+   "opponent_raw": "Corban University (Ore.)",
+   "games": 4
+  },
+  {
+   "opponent_raw": "CSU Dominguez Hills",
+   "games": 48
+  },
+  {
+   "opponent_raw": "CSU East Bay",
+   "games": 5
+  },
+  {
+   "opponent_raw": "CSU Fullerton",
+   "games": 23
+  },
+  {
+   "opponent_raw": "CSU Long Beach",
+   "games": 4
+  },
+  {
+   "opponent_raw": "CSU Los Angeles",
+   "games": 25
+  },
+  {
+   "opponent_raw": "CSU Monterey Bay",
+   "games": 3
+  },
+  {
+   "opponent_raw": "CSU Northridge",
+   "games": 5
+  },
+  {
+   "opponent_raw": "CSU Pueblo",
+   "games": 1
+  },
+  {
+   "opponent_raw": "CSU San Bernardino",
+   "games": 31
+  },
+  {
+   "opponent_raw": "CSU San Marcos",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Cumberland (TN)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Dallas Baptist (TX)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Dallas Christian College",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Dartmouth",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Dartmouth (NH)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Dixie State",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Dixie State College UT",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Dordt (IA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Eastern Connecticut",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Embry-Riddle (FL)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Fresno Pacific",
+   "games": 53
+  },
+  {
+   "opponent_raw": "Fresno Pacific University",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Fresno Pacific University (Calif.)",
+   "games": 4
+  },
+  {
+   "opponent_raw": "George Fox",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Gonzaga",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Gonzaga (WA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Grand Canyon",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Greenville (IL)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Hastings (NE)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Hawai'i Hilo",
+   "games": 12
+  },
+  {
+   "opponent_raw": "Hawai'i Pacific",
+   "games": 12
+  },
+  {
+   "opponent_raw": "Hawaii Hilo",
+   "games": 22
+  },
+  {
+   "opponent_raw": "Hawaii Pacific",
+   "games": 43
+  },
+  {
+   "opponent_raw": "Hawaii-Hilo",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Holy Names",
+   "games": 16
+  },
+  {
+   "opponent_raw": "Hope International",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Hope International University (Calif.)",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Husson (ME)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Indiana Tech",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Jessup",
+   "games": 8
+  },
+  {
+   "opponent_raw": "John Brown",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Judson Baptist",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Kentucky Christian",
+   "games": 1
+  },
+  {
+   "opponent_raw": "King's College (NY)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "La Sierra CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "La Venre",
+   "games": 1
+  },
+  {
+   "opponent_raw": "La Verne",
+   "games": 46
+  },
+  {
+   "opponent_raw": "La Verne CA",
+   "games": 10
+  },
+  {
+   "opponent_raw": "LeTourneau",
+   "games": 1
+  },
+  {
+   "opponent_raw": "LeTourneau (TX)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Lewis & Clark",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Lewis & Clark (OR)",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Lewis & Clark State (ID)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Lewis-Clark State",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Loyola Marymount",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Lubbock Christian",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Madonna (MI)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Madonna MI",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Marymount College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Marymount College (Calif.)",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Massachusetts College of Liberal Arts",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Menlo",
+   "games": 13
+  },
+  {
+   "opponent_raw": "Menlo CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Menlo College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Menlo College (Calif.)",
+   "games": 14
+  },
+  {
+   "opponent_raw": "Metro State",
+   "games": 3
+  },
+  {
+   "opponent_raw": "MidAmerica Nazarene (KS)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Milligan",
+   "games": 1
+  },
+  {
+   "opponent_raw": "MIT",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Mobile (AL)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Morningside College (Iowa)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "MSU Denver",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Northwest Nazarene",
+   "games": 10
+  },
+  {
+   "opponent_raw": "Northwest Nazarene (ID)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Northwestern (IA)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Occidental",
+   "games": 48
+  },
+  {
+   "opponent_raw": "Occidental College",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Ohio Dominican",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Oklahoma Baptist",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Ottawa (Ariz.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Pacific",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Pacific (OR)",
+   "games": 12
+  },
+  {
+   "opponent_raw": "Pacific Lutheran",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Patten",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Patten (CA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Patten CA",
+   "games": 9
+  },
+  {
+   "opponent_raw": "Patten Univ.",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Patten University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Patten University (DH)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Pembroke State (NC)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Pennsylvania",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Pepperdine",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Philadelphia",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Point Loma",
+   "games": 185
+  },
+  {
+   "opponent_raw": "Point Loma Nazarene",
+   "games": 25
+  },
+  {
+   "opponent_raw": "Point Loma Nazarene University",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Pomona-Pitzer",
+   "games": 44
+  },
+  {
+   "opponent_raw": "Prairie View A&M",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Providence Christian",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Providence Christian College",
+   "games": 7
+  },
+  {
+   "opponent_raw": "Puget Sound",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Purdue-North Central IN",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Redlands",
+   "games": 45
+  },
+  {
+   "opponent_raw": "Regis",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Regis (CO)",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Rio Hondo",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Rochester",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Saint Francis IL",
+   "games": 2
+  },
+  {
+   "opponent_raw": "San Diego Christian",
+   "games": 28
+  },
+  {
+   "opponent_raw": "San Diego Christian College",
+   "games": 4
+  },
+  {
+   "opponent_raw": "San Diego Christian College (Calif.)",
+   "games": 18
+  },
+  {
+   "opponent_raw": "San Francisco",
+   "games": 1
+  },
+  {
+   "opponent_raw": "San Francisco State",
+   "games": 10
+  },
+  {
+   "opponent_raw": "San Francisco State University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "San Jose State",
+   "games": 2
+  },
+  {
+   "opponent_raw": "San Mateo",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Simpson CA",
+   "games": 11
+  },
+  {
+   "opponent_raw": "Sonoma State",
+   "games": 25
+  },
+  {
+   "opponent_raw": "Sonoma State CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Southern Poly GA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Southern Utah",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Southwestern Christian University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Spring Arbor (MI)",
+   "games": 3
+  },
+  {
+   "opponent_raw": "St. Katherine",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Stanislaus State",
+   "games": 9
+  },
+  {
+   "opponent_raw": "Sterling (KS)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Temple (PA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Texas A&M",
+   "games": 1
+  },
+  {
+   "opponent_raw": "The College of Idaho",
+   "games": 4
+  },
+  {
+   "opponent_raw": "The Master's",
+   "games": 129
+  },
+  {
+   "opponent_raw": "The Master's College",
+   "games": 7
+  },
+  {
+   "opponent_raw": "The Master's College (Calif.)",
+   "games": 15
+  },
+  {
+   "opponent_raw": "The Master's University",
+   "games": 4
+  },
+  {
+   "opponent_raw": "UC Irvine",
+   "games": 4
+  },
+  {
+   "opponent_raw": "UC Riverside",
+   "games": 7
+  },
+  {
+   "opponent_raw": "UC San Diego",
+   "games": 60
+  },
+  {
+   "opponent_raw": "UC San DIego",
+   "games": 2
+  },
+  {
+   "opponent_raw": "UC Santa Barbara",
+   "games": 1
+  },
+  {
+   "opponent_raw": "University of Antelope Valley",
+   "games": 4
+  },
+  {
+   "opponent_raw": "University of Saint Katherine",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Unknown",
+   "games": 8
+  },
+  {
+   "opponent_raw": "UNKNOWN",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Upland",
+   "games": 2
+  },
+  {
+   "opponent_raw": "US International",
+   "games": 24
+  },
+  {
+   "opponent_raw": "Utah",
+   "games": 7
+  },
+  {
+   "opponent_raw": "Utah State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Utah State Eastern",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Vangaurd",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Vanguard",
+   "games": 144
+  },
+  {
+   "opponent_raw": "Vanguard University",
+   "games": 7
+  },
+  {
+   "opponent_raw": "Vanguard University (Calif.)",
+   "games": 23
+  },
+  {
+   "opponent_raw": "Weheaton",
+   "games": 1
+  },
+  {
+   "opponent_raw": "West Coast Christian",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Western Oregon",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Western Oregon University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Westmont",
+   "games": 172
+  },
+  {
+   "opponent_raw": "Westmont College",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Westmont College (Calif.)",
+   "games": 24
+  },
+  {
+   "opponent_raw": "Wheaton",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Whittier",
+   "games": 54
+  },
+  {
+   "opponent_raw": "Whittier CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Whitworth",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Whitworth (WA)",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Willamette",
+   "games": 3
+  },
+  {
+   "opponent_raw": "William Jessup University (Calif.)",
+   "games": 12
+  },
+  {
+   "opponent_raw": "Wisconsin - LaCrosse",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Wisconsin-Superior",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Wisconsin-Whitewater",
+   "games": 4
+  }
+ ],
+ "Softball": [
+  {
+   "opponent_raw": "Academy of Art",
+   "games": 22
+  },
+  {
+   "opponent_raw": "Adams State (CO)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Adelphi",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Albion (MI)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Alumni Game",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Amherst",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Antelope Valley",
+   "games": 10
+  },
+  {
+   "opponent_raw": "Aquinas MI",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Arizona Christian",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Arizona Christian University",
+   "games": 16
+  },
+  {
+   "opponent_raw": "Augustana",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Avila MO",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Azusa Pacific",
+   "games": 115
+  },
+  {
+   "opponent_raw": "Azusa Pacific University",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Azusa Pacific University (Calif.)",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Barry (FL)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Belhaven University (Miss.)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Bethany",
+   "games": 11
+  },
+  {
+   "opponent_raw": "Bethany CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Bethany University CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Bethel (IN)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Bethel IN",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Briar Cliff",
+   "games": 4
+  },
+  {
+   "opponent_raw": "British Columbia",
+   "games": 2
+  },
+  {
+   "opponent_raw": "BYU-Hawaii",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Cal Baptist",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cal Baptist University",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Cal Lutheran",
+   "games": 10
+  },
+  {
+   "opponent_raw": "Cal Poly Humboldt",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cal State Dominguez Hills",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Cal State East Bay",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Cal State Monterey Bay",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Cal State San Bernardino",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Cal State San Marcos",
+   "games": 34
+  },
+  {
+   "opponent_raw": "Cal State San Marcos (if necessary)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "California Baptist",
+   "games": 76
+  },
+  {
+   "opponent_raw": "California Baptist University",
+   "games": 4
+  },
+  {
+   "opponent_raw": "California State University-San Marcos",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Carlton College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Carroll College (Mont.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Central Washington",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Chaminade",
+   "games": 32
+  },
+  {
+   "opponent_raw": "Chaminade University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Chapman",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Chico State",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Cincinnati Christian University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Clark College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "College of Idaho",
+   "games": 9
+  },
+  {
+   "opponent_raw": "Colorado Christian",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Colorado College",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Colorado Mesa",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Colorado Mesa University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Colorado State University Pueblo",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Concordia",
+   "games": 31
+  },
+  {
+   "opponent_raw": "Concordia (CA)",
+   "games": 50
+  },
+  {
+   "opponent_raw": "Concordia CA",
+   "games": 16
+  },
+  {
+   "opponent_raw": "Concordia IL",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Concordia Irvine",
+   "games": 18
+  },
+  {
+   "opponent_raw": "Concordia MN",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Concordia OR",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Concordia Portland",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Concordia University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Concordia University (Calif.)",
+   "games": 23
+  },
+  {
+   "opponent_raw": "Concordia University (Mich.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Concordia University (Ore.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Concordia University CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Concordia University Irvine",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Corban OR",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Corban University (Ore.)",
+   "games": 3
+  },
+  {
+   "opponent_raw": "CSU Bakersfield",
+   "games": 6
+  },
+  {
+   "opponent_raw": "CSU Dominguez Hills",
+   "games": 13
+  },
+  {
+   "opponent_raw": "CSU East Bay",
+   "games": 6
+  },
+  {
+   "opponent_raw": "CSU Monterey Bay",
+   "games": 6
+  },
+  {
+   "opponent_raw": "CSU San Bernardino",
+   "games": 19
+  },
+  {
+   "opponent_raw": "CSU San Marcos",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Culver-Stockton",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Dakota Wesleyan SD",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Dana College (NE)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Dickinson State ND",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Dixie State",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Doane",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Doane College (Neb.)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Doane NE",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Dominican",
+   "games": 36
+  },
+  {
+   "opponent_raw": "Dominican University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Dordt",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Eastern New Mexico",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Eastern Oregon",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Ecclesia College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Embry-Riddle Aeronautical University (Ariz.)",
+   "games": 14
+  },
+  {
+   "opponent_raw": "Erskine College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Evangel",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Fort Lewis College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Franklin Pierce University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "George Fox",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Goshen College (Ind.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Grinnell",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Hamline MN",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Hamline University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Hawai'i Hilo",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Hawai'i Pacific",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Hawaii Hilo",
+   "games": 22
+  },
+  {
+   "opponent_raw": "Hawaii Pacific",
+   "games": 25
+  },
+  {
+   "opponent_raw": "Hawaii Pacific University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Holy Names",
+   "games": 12
+  },
+  {
+   "opponent_raw": "Holy Names CA",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Holy Names University (Calif.)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Holy Names University CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Hope International",
+   "games": 77
+  },
+  {
+   "opponent_raw": "Hope International University",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Hope International University (Calif.)",
+   "games": 19
+  },
+  {
+   "opponent_raw": "Houston Baptist",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Iowa Wesleyan",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Jamestown",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Jamestown (ND)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Jessup",
+   "games": 9
+  },
+  {
+   "opponent_raw": "Johnson & Wales",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Judson",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Judson University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "La Sierra CA",
+   "games": 8
+  },
+  {
+   "opponent_raw": "La Sierra University",
+   "games": 16
+  },
+  {
+   "opponent_raw": "La Verne",
+   "games": 4
+  },
+  {
+   "opponent_raw": "La Verne CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Lake Forest",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Lee University TN",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Lewis & Clark",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Lewis & Clark College",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Louisiana State University, Alexandria",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Loyola Marymount",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Lubbock Christian University (Texas)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Macalester College MN",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Madonna MI",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Mary (ND)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Marymount College (Calif.)",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Maryville (TN)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "McPherson KS",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Menlo",
+   "games": 10
+  },
+  {
+   "opponent_raw": "Menlo CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Menlo CA (DH)",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Menlo College (Calif.)",
+   "games": 9
+  },
+  {
+   "opponent_raw": "Menlo College (Calif.) (DH)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "MidAmerica Nazarene University KS",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Montana State - Billings",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Morningside",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Morningside IA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "North Georgia",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Northwest Christian College (Ore.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Northwest Christian OR",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Northwest Nazarene",
+   "games": 10
+  },
+  {
+   "opponent_raw": "Notre Dame de Namur",
+   "games": 21
+  },
+  {
+   "opponent_raw": "Notre Dame de Namur University CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Notre Dame OH",
+   "games": 1
+  },
+  {
+   "opponent_raw": "NW Christian College",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Nyack College",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Occidental",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Oklahoma Baptist",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Oklahoma Baptist University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Oklahoma Christian",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Olivet Nazarene IL",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Oregon Institute of Technology",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Oregon Tech",
+   "games": 7
+  },
+  {
+   "opponent_raw": "Pace",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Pacific",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Pacific Lutheran",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Patten",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Plattsburgh State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Plattsburgh State (NY)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Point Loma",
+   "games": 61
+  },
+  {
+   "opponent_raw": "Point Loma Nazarene",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Point Loma Nazarene University",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Pomona-Pitzer",
+   "games": 16
+  },
+  {
+   "opponent_raw": "Pt. Loma Nazarene",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Puget Sound",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Redlands",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Regis (CO)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Reinhardt University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Robert Morris (IL)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Rockhurst",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Saint Martin's",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Saint Martin's University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "San Diego",
+   "games": 4
+  },
+  {
+   "opponent_raw": "San Diego Christian College",
+   "games": 2
+  },
+  {
+   "opponent_raw": "San Diego Christian College (Calif.)",
+   "games": 17
+  },
+  {
+   "opponent_raw": "San Francisco State",
+   "games": 6
+  },
+  {
+   "opponent_raw": "San Francisco State University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Seattle",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Shorter GA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Siena Heights MI",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Siena Heights University (Mich.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Simon Fraser University (B.C.)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Simon Fraser University BC",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Simpson CA",
+   "games": 9
+  },
+  {
+   "opponent_raw": "Simpson University (Calif.)",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Sioux Falls",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Sonoma State",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Southern Colorado",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Southern Oregon",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Southern Oregon University",
+   "games": 7
+  },
+  {
+   "opponent_raw": "St. Mary's (MN)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "St. Mary's University (TX)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "St. Thomas (MN)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "St. Thomas FL",
+   "games": 2
+  },
+  {
+   "opponent_raw": "St. Thomas MN",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Stanislaus State",
+   "games": 4
+  },
+  {
+   "opponent_raw": "SUNY Cortland",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Taylor IN",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Taylor University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "The College of Idaho",
+   "games": 2
+  },
+  {
+   "opponent_raw": "The Master's",
+   "games": 12
+  },
+  {
+   "opponent_raw": "Trinity International IL",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Tufts",
+   "games": 2
+  },
+  {
+   "opponent_raw": "UC Riverside",
+   "games": 2
+  },
+  {
+   "opponent_raw": "UC San Diego",
+   "games": 6
+  },
+  {
+   "opponent_raw": "University of Antelope Valley",
+   "games": 4
+  },
+  {
+   "opponent_raw": "University of Mobile AL",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Vanguard",
+   "games": 88
+  },
+  {
+   "opponent_raw": "Vanguard University",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Vanguard University (Calif.)",
+   "games": 19
+  },
+  {
+   "opponent_raw": "Viterbo",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Waldorf",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Walsh OH",
+   "games": 1
+  },
+  {
+   "opponent_raw": "West Texas A&M",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Westcliff",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Western Oregon",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Western Oregon University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Western Washington",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Whittier",
+   "games": 16
+  },
+  {
+   "opponent_raw": "Whittier College",
+   "games": 2
+  },
+  {
+   "opponent_raw": "William Jessup",
+   "games": 1
+  },
+  {
+   "opponent_raw": "William Jessup CA",
+   "games": 9
+  },
+  {
+   "opponent_raw": "William Jessup University (Calif.)",
+   "games": 13
+  },
+  {
+   "opponent_raw": "William Penn IA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "William Woods MO",
+   "games": 2
+  },
+  {
+   "opponent_raw": "William Woods University (Mo.)",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Wilmington (DE)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Wisconsin-Eau Claire",
+   "games": 1
+  }
+ ],
+ "Men's Water Polo": [
+  {
+   "opponent_raw": "Air Force",
+   "games": 6
+  },
+  {
+   "opponent_raw": "American River College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Augustana",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Austin College",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Brown",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Bucknell",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cal Lutheran",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Cal State Fullerton",
+   "games": 1
+  },
+  {
+   "opponent_raw": "California Baptist",
+   "games": 8
+  },
+  {
+   "opponent_raw": "California Lutheran",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Caltech",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Chapman",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Chapman University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Claremont-Mudd-Scripps",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Concordia",
+   "games": 9
+  },
+  {
+   "opponent_raw": "Concordia Irvine",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Concordia University Irvine",
+   "games": 2
+  },
+  {
+   "opponent_raw": "CSU Fullerton",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Cuesta",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cuesta College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Fresno Pacific",
+   "games": 10
+  },
+  {
+   "opponent_raw": "Gannon",
+   "games": 3
+  },
+  {
+   "opponent_raw": "George Washington",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Iona",
+   "games": 1
+  },
+  {
+   "opponent_raw": "La Verne",
+   "games": 3
+  },
+  {
+   "opponent_raw": "LIU",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Long Beach State",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Loyola Marymount",
+   "games": 3
+  },
+  {
+   "opponent_raw": "McKendree",
+   "games": 4
+  },
+  {
+   "opponent_raw": "McKendree University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Mercyhurst",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Mount St. Mary's",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Mount St. Mary's (Md.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "NAVY",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Navy",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Occidental",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Occidental College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Ottawa",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Ottawa (Ariz.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Ottawa (AZ)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Pacific",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Penn State Behrend",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Pepperdine",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Pomona-Pitzer",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Princeton",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Redlands",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Saddleback",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Saddleback College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Salem",
+   "games": 4
+  },
+  {
+   "opponent_raw": "San Jose State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Santa Clara",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Toronto",
+   "games": 2
+  },
+  {
+   "opponent_raw": "UC Davis",
+   "games": 4
+  },
+  {
+   "opponent_raw": "UC Irvine",
+   "games": 2
+  },
+  {
+   "opponent_raw": "UC Merced",
+   "games": 5
+  },
+  {
+   "opponent_raw": "UC San Diego",
+   "games": 6
+  },
+  {
+   "opponent_raw": "UC Santa Barbara",
+   "games": 2
+  },
+  {
+   "opponent_raw": "UCLA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "USC",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Wagner",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Westcliff",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Whittier",
+   "games": 5
+  }
+ ],
+ "Women's Water Polo": [
+  {
+   "opponent_raw": "Arizona State",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Azusa Pacific",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Brown",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Cal State East Bay",
+   "games": 3
+  },
+  {
+   "opponent_raw": "California Baptist",
+   "games": 3
+  },
+  {
+   "opponent_raw": "California Baptist University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Chapman",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Claremont-Mudd-Scripps",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Concordia",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Concordia Irvine",
+   "games": 1
+  },
+  {
+   "opponent_raw": "CSU East Bay",
+   "games": 5
+  },
+  {
+   "opponent_raw": "CSU Fullerton",
+   "games": 6
+  },
+  {
+   "opponent_raw": "CSU Monterey Bay",
+   "games": 13
+  },
+  {
+   "opponent_raw": "CSU Northridge",
+   "games": 1
+  },
+  {
+   "opponent_raw": "CSUN",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Fresno Pacific",
+   "games": 10
+  },
+  {
+   "opponent_raw": "Fresno Pacifiic",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Fresno State",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Gannon",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Grove City College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Hawaii",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Iona",
+   "games": 1
+  },
+  {
+   "opponent_raw": "La Salle",
+   "games": 1
+  },
+  {
+   "opponent_raw": "La Verne",
+   "games": 4
+  },
+  {
+   "opponent_raw": "LIU",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Long Beach State",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Long Island University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Loyola Marymount",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Marist",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Marist College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "McKendree",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Mercyhurst",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Michigan",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Mount St. Mary's",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Occidental",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Ottawa (Ariz.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Pacific",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Pomona-Pitzer",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Princeton",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Redlands",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Saint Francis",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Salem",
+   "games": 2
+  },
+  {
+   "opponent_raw": "San Diego State",
+   "games": 2
+  },
+  {
+   "opponent_raw": "San Jose State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Santa Clara",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Stanford",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Toronto",
+   "games": 1
+  },
+  {
+   "opponent_raw": "UC Davis",
+   "games": 1
+  },
+  {
+   "opponent_raw": "UC Merced",
+   "games": 5
+  },
+  {
+   "opponent_raw": "UC San Diego",
+   "games": 3
+  },
+  {
+   "opponent_raw": "UC Santa Barbara",
+   "games": 3
+  },
+  {
+   "opponent_raw": "UCLA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "UCSB",
+   "games": 3
+  },
+  {
+   "opponent_raw": "USC",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Wagner College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Westcliff",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Whittier",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Whittier College",
+   "games": 1
+  }
+ ],
+ "Men's Tennis": [
+  {
+   "opponent_raw": "Arizona Christian",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Arizona Christian University",
+   "games": 9
+  },
+  {
+   "opponent_raw": "Austin College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Azusa Pacific",
+   "games": 27
+  },
+  {
+   "opponent_raw": "Azusa Pacific University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Azusa Pacific University (Calif.)",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Azusa Pacifiic",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Baker University KS",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Brigham Young University - Hawaii",
+   "games": 2
+  },
+  {
+   "opponent_raw": "BYU-Hawaii",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cal Tech",
+   "games": 4
+  },
+  {
+   "opponent_raw": "California Baptist",
+   "games": 2
+  },
+  {
+   "opponent_raw": "California Baptist University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "California Institute of Technology",
+   "games": 3
+  },
+  {
+   "opponent_raw": "California Lutheran",
+   "games": 2
+  },
+  {
+   "opponent_raw": "California Lutheran University",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Caltech",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Catawba College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Chapman",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Chapman CA",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Chapman University",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Christopher Newport University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Claremont College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Claremont-Mudd-Scripps",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Colorado Christian University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Colorado Mesa",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Colorado Mesa University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Concordia",
+   "games": 13
+  },
+  {
+   "opponent_raw": "Concordia CA",
+   "games": 11
+  },
+  {
+   "opponent_raw": "Concordia Irvine",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Concordia University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Concordia University (Calif.)",
+   "games": 7
+  },
+  {
+   "opponent_raw": "Concordia University Irvine",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Dallas Baptist University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Fresno Pacific",
+   "games": 18
+  },
+  {
+   "opponent_raw": "Fresno Pacific University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Fresno Pacific University (Calif.)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Fresno Pacifiic",
+   "games": 1
+  },
+  {
+   "opponent_raw": "George Fox OR",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Goucher MD",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Grand Valley State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Hastings College (Neb.)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Hawai'i Hilo",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Hawai'i Pacific",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Hawaii Hilo",
+   "games": 7
+  },
+  {
+   "opponent_raw": "Hawaii Pacific",
+   "games": 11
+  },
+  {
+   "opponent_raw": "Hawaii-Hilo",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Holy Names",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Holy Names University (Calif.)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Hope International",
+   "games": 17
+  },
+  {
+   "opponent_raw": "Hope International University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Hope International University (Calif.)",
+   "games": 9
+  },
+  {
+   "opponent_raw": "Jessup",
+   "games": 2
+  },
+  {
+   "opponent_raw": "La Sierra CA",
+   "games": 4
+  },
+  {
+   "opponent_raw": "La Sierra University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "La Verne CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Lewis-Clark State College (Idaho)",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Lewis-Clark State ID",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Linfield",
+   "games": 1
+  },
+  {
+   "opponent_raw": "McPherson College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "McPherson KS",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Menlo College",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Merrimack College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Metro State",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Michigan Tech",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Middlebury College",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Middlebury VT",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Midwestern State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "MSU Denver",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Occidental CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Occidental College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Ottawa",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Ottawa (Ariz.)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Pacific Lutheran",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Pacific Lutheran University",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Pacific Lutheran WA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Pacific University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Palm Beach Atlantic University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Point Loma",
+   "games": 21
+  },
+  {
+   "opponent_raw": "Point Loma Nazarene",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Point Loma Nazarene University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Principia College",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Redlands",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Redlands CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Rensselaer Polytechnic Institute",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Saint Katherine",
+   "games": 3
+  },
+  {
+   "opponent_raw": "San Diego Christian",
+   "games": 2
+  },
+  {
+   "opponent_raw": "San Diego Christian College (Calif.)",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Sewanee TN",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Sewanee: The University of the South",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Sonoma State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Sonoma State University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "St. Katherine",
+   "games": 2
+  },
+  {
+   "opponent_raw": "St. Lawrence University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Stanton",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Texas Permian Basin",
+   "games": 1
+  },
+  {
+   "opponent_raw": "The College of Wooster",
+   "games": 1
+  },
+  {
+   "opponent_raw": "UC Davis",
+   "games": 1
+  },
+  {
+   "opponent_raw": "UC Riverside",
+   "games": 1
+  },
+  {
+   "opponent_raw": "UC San Diego",
+   "games": 2
+  },
+  {
+   "opponent_raw": "University of Hawaii at Hilo",
+   "games": 2
+  },
+  {
+   "opponent_raw": "University of La Verne",
+   "games": 3
+  },
+  {
+   "opponent_raw": "University of Redlands",
+   "games": 1
+  },
+  {
+   "opponent_raw": "University of Rochester",
+   "games": 2
+  },
+  {
+   "opponent_raw": "University of the Southwest",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Vanguard",
+   "games": 10
+  },
+  {
+   "opponent_raw": "Vanguard University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Vanguard University (Calif.)",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Ventura College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Washburn",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Washington College (Md.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Washington University in St. Louis",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Westcliff",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Western New Mexico",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Westmont",
+   "games": 23
+  },
+  {
+   "opponent_raw": "Westmont College",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Westmont College (Calif.)",
+   "games": 9
+  },
+  {
+   "opponent_raw": "Whittier",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Whittier CA",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Whittier College",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Willamette",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Willamette University",
+   "games": 1
+  }
+ ],
+ "Women's Tennis": [
+  {
+   "opponent_raw": "Academy of Art",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Air Force",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Albion College (MI)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Alliant International",
+   "games": 9
+  },
+  {
+   "opponent_raw": "Alma College (MI)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Angelo State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Arizona Christian",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Arizona Christian University",
+   "games": 9
+  },
+  {
+   "opponent_raw": "Austin College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Azusa Pacific",
+   "games": 46
+  },
+  {
+   "opponent_raw": "Azusa Pacific University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Azusa Pacific University (Calif.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Baker University KS",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Barry",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Beloit College (WI)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Brenau University (Ga.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Brigham Young University - Hawaii",
+   "games": 3
+  },
+  {
+   "opponent_raw": "BYU Hawaii",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cal Lutheran",
+   "games": 34
+  },
+  {
+   "opponent_raw": "Cal Poly Pomona",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cal State Bakersfield",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Cal State Dominguez Hills",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Cal State East Bay",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Cal State LA",
+   "games": 11
+  },
+  {
+   "opponent_raw": "Cal State Los Angeles",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Cal State San Bernardino",
+   "games": 10
+  },
+  {
+   "opponent_raw": "Cal Tech",
+   "games": 3
+  },
+  {
+   "opponent_raw": "California Baptist",
+   "games": 15
+  },
+  {
+   "opponent_raw": "California Baptist University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "California Institute of Technology",
+   "games": 3
+  },
+  {
+   "opponent_raw": "California Lutheran",
+   "games": 7
+  },
+  {
+   "opponent_raw": "California Lutheran University",
+   "games": 4
+  },
+  {
+   "opponent_raw": "California State University, Los Angeles",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Caltech",
+   "games": 20
+  },
+  {
+   "opponent_raw": "Chaminade",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Chapman",
+   "games": 14
+  },
+  {
+   "opponent_raw": "Chapman University",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Claremont-Mudd-Scripps",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Cleveland State",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Colorado Christian",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Colorado Christian University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Colorado College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Colorado Mesa",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Concordia",
+   "games": 14
+  },
+  {
+   "opponent_raw": "Concordia CA",
+   "games": 10
+  },
+  {
+   "opponent_raw": "Concordia Irvine",
+   "games": 13
+  },
+  {
+   "opponent_raw": "Concordia University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Concordia University (Calif.)",
+   "games": 9
+  },
+  {
+   "opponent_raw": "Cornell College (IA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "CSU Dominguez Hills",
+   "games": 1
+  },
+  {
+   "opponent_raw": "CSU Los Angeles",
+   "games": 8
+  },
+  {
+   "opponent_raw": "CSU San Bernardino",
+   "games": 9
+  },
+  {
+   "opponent_raw": "CSULA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Dallas Baptist University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Dixie State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Dixie State University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Dominican",
+   "games": 10
+  },
+  {
+   "opponent_raw": "Fordham",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Fort Lewis College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Fresno Pacific",
+   "games": 23
+  },
+  {
+   "opponent_raw": "Fresno Pacific University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Graceland University (Iowa)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Grand Canyon",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Grand Canyon University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Grand Valley State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Hawai'i Hilo",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Hawaii",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Hawaii Hilo",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Hawaii Pacific",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Hawaii Pacific University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Holy Names",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Holy Names University (Calif.)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Hope International",
+   "games": 30
+  },
+  {
+   "opponent_raw": "Hope International University",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Hope International University (Calif.)",
+   "games": 9
+  },
+  {
+   "opponent_raw": "Indiana Wesleyan University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Jessup",
+   "games": 2
+  },
+  {
+   "opponent_raw": "John Carroll (OH)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Kenyon College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "La Sierra",
+   "games": 1
+  },
+  {
+   "opponent_raw": "La Sierra CA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "La Sierra University",
+   "games": 4
+  },
+  {
+   "opponent_raw": "La Verne",
+   "games": 27
+  },
+  {
+   "opponent_raw": "La Verne CA",
+   "games": 6
+  },
+  {
+   "opponent_raw": "Lewis & Clark (OR)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Lewis-Clark State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Lewis-Clark State College (Idaho)",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Lewis-Clark State ID",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Long Beach State",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Los Angeles Harbor",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Loyola Marymount",
+   "games": 9
+  },
+  {
+   "opponent_raw": "Luther College (IA)",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Malone (OH)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "McPherson College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Menlo",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Menlo College",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Metro State",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Michigan Tech",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Midwestern State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Mills CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Mills College",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Mills College (Calif.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Minnesota State - Mankato",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Missouri Baptist University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Mount St. Mary's",
+   "games": 19
+  },
+  {
+   "opponent_raw": "MSU Denver",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Nevada",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Northern Arizona",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Notre Dame de Namur",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Notre Dame de Namur CA",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Occidental",
+   "games": 15
+  },
+  {
+   "opponent_raw": "Occidental CA",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Occidental College",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Ohio Northern",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Ohio Northern University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Oklahoma Baptist",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Oklahoma Christian",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Ottawa",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Ottawa (Ariz.)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Pacific Lutheran",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Pacific Lutheran University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Pacific Lutheran WA",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Pacific OR",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Pacific University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Palm Beach Atlantic University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Point Loma",
+   "games": 61
+  },
+  {
+   "opponent_raw": "Point Loma Nazarene",
+   "games": 8
+  },
+  {
+   "opponent_raw": "Point Loma Nazarene University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Principia College",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Puget Sound",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Redlands",
+   "games": 23
+  },
+  {
+   "opponent_raw": "Regis",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Rensselaer Polytechnic Institute",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Rowan University (NJ)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Saint Katherine",
+   "games": 3
+  },
+  {
+   "opponent_raw": "San Diego Christian",
+   "games": 2
+  },
+  {
+   "opponent_raw": "San Diego Christian College (Calif.)",
+   "games": 7
+  },
+  {
+   "opponent_raw": "San Francisco State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "San Jose State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Seattle U",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Sewanee TN",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Sewanee: The University of the South",
+   "games": 3
+  },
+  {
+   "opponent_raw": "Southern Nazarene",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Southern Oregon",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Southern Oregon University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "St. Catherine University",
+   "games": 1
+  },
+  {
+   "opponent_raw": "St. Katherine",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Stanislaus State",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Texas A&M University - Kingsville",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Texas Permian Basin",
+   "games": 1
+  },
+  {
+   "opponent_raw": "The Master's",
+   "games": 18
+  },
+  {
+   "opponent_raw": "UC Riverside",
+   "games": 11
+  },
+  {
+   "opponent_raw": "UC San Diego",
+   "games": 4
+  },
+  {
+   "opponent_raw": "UC Santa Cruz",
+   "games": 2
+  },
+  {
+   "opponent_raw": "University of Alberta",
+   "games": 2
+  },
+  {
+   "opponent_raw": "University of California Riverside",
+   "games": 1
+  },
+  {
+   "opponent_raw": "University of Hawaii at Hilo",
+   "games": 1
+  },
+  {
+   "opponent_raw": "University of La Verne",
+   "games": 3
+  },
+  {
+   "opponent_raw": "University of the Southwest",
+   "games": 3
+  },
+  {
+   "opponent_raw": "UNLV",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Valparaiso IN",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Vanguard",
+   "games": 37
+  },
+  {
+   "opponent_raw": "Vanguard University",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Vanguard University (Calif.)",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Ventura College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Washburn",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Washington State",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Webster (MO)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Westcliff",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Western New Mexico",
+   "games": 5
+  },
+  {
+   "opponent_raw": "Western Washington",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Westmont",
+   "games": 59
+  },
+  {
+   "opponent_raw": "Westmont College",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Westmont College (Calif.)",
+   "games": 11
+  },
+  {
+   "opponent_raw": "Wheaton (IL)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Whitman College",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Whittier",
+   "games": 2
+  },
+  {
+   "opponent_raw": "Whittier CA",
+   "games": 4
+  },
+  {
+   "opponent_raw": "Whittier College",
+   "games": 28
+  },
+  {
+   "opponent_raw": "Whitworth (WA)",
+   "games": 1
+  },
+  {
+   "opponent_raw": "Whitworth University",
+   "games": 1
+  }
+ ]
+}
