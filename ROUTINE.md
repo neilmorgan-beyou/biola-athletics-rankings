@@ -57,7 +57,8 @@ Read `SPEC-poll-archive.md` first. The standing rules:
    - If nothing changed (no new polls or games): do nothing.
 
 7. **Email Neil** (neil.morgan@biola.edu) using the Gmail connector ONLY when there is something to
-   report: a failed validation, an uncertain item you left out, a possible alias, or a notable new
-   ranking for Biola (Biola newly ranked or moving up 5+ spots). Subject starts with
+   report: the run could not complete (for example a source or athletics.biola.edu was unreachable),
+   a failed validation, an uncertain item you left out, a possible alias, or a notable new ranking for
+   Biola (Biola newly ranked or moving up 5+ spots). Subject starts with
    "[Rankings routine]". Keep it short: what changed, what needs him, links to the commit or report.
    Include `validate-report.md` content on failure. Do not email on quiet weeks.
