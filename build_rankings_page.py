@@ -947,6 +947,42 @@ def render(vs_tab, vs_panel):
 }}
 </script>
 """
+# ---------------------------------------------------------------- phones
+# Below 700px every table row becomes a card: first cell is the title, the rest are
+# "label: value" pairs. Labels come from each table's own header (data-label on every td).
+def label_css(html_):
+    """Per-table rules: #t-polls td:nth-child(2)::before{content:"Season"} etc., from each table's header."""
+    rules = []
+    for tid, thead in re.findall(r'<table class="rk-table" id="([^"]+)">\s*<thead>(.*?)</thead>', html_, re.S):
+        heads = [re.sub(r"<[^>]+>", "", h).strip() for h in re.findall(r"<th[^>]*>(.*?)</th>", thead, re.S)]
+        for i, h in enumerate(heads[1:], start=2):
+            rules.append('.biola-cmp #%s td:nth-child(%d)::before{content:"%s"}' % (tid, i, h.replace('"', "'")))
+    return "".join(rules)
+
+
+MOBILE_CSS = ("<style>@media (max-width:700px){"
+              ".biola-cmp .rk-wrap{border:0;max-height:75vh;overflow-x:hidden}"
+              ".biola-cmp .rk-table thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}"
+              ".biola-cmp .rk-table,.biola-cmp .rk-table tbody{display:block;width:100%}"
+              ".biola-cmp .rk-table tr{display:grid;grid-template-columns:1fr 1fr;gap:2px 12px;border:1px solid var(--border);"
+              "border-left:4px solid var(--red);border-radius:var(--r-sm);padding:10px 12px;margin:0 0 10px;background:var(--white)}"
+              ".biola-cmp .rk-table tbody tr:nth-child(even){background:var(--white)}"
+              ".biola-cmp .rk-table tr.is-hidden{display:none}"
+              ".biola-cmp .rk-table td{display:block;border:0;padding:2px 0;white-space:normal !important;font-size:14px}"
+              ".biola-cmp .rk-table td:first-child{grid-column:1/-1;font-family:var(--fd);font-weight:600;text-transform:uppercase;font-size:16px;padding-bottom:4px}"
+              ".biola-cmp .rk-table td:not(:first-child)::before{display:block;font-size:10.5px;font-weight:700;"
+              "letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}"
+              ".biola-cmp .rk-table td:empty{display:none}"
+              ".biola-cmp .rk-table tr.is-total{border-left-color:var(--black);background:#EFEFEF}"
+              ".biola-cmp .rk-filters label,.biola-cmp .rk-filters select,.biola-cmp .rk-filters input{width:100%;min-width:0}"
+              ".biola-cmp .rk-filters .rk-q{flex-basis:100%}.biola-cmp .rk-count{margin-left:0}"
+              "__LABELS__}</style>")
+
+
+def mobile_css(html_):
+    return MOBILE_CSS.replace("__LABELS__", label_css(html_))
+
+
 # Hosted data (Neil, 2026-09-30): the Sidearm body carries the light page; on load the script
 # fetches docs/rankings-data.json (GitHub Pages) and swaps in the current parts. The weekly
 # routine only has to update the JSON, never Sidearm.
@@ -963,7 +999,7 @@ for sid in ("rk-seasons", "rk-polls", "rk-dept", "rk-vs"):
     m = inner(full, sid)
     parts[sid] = m.group(2) if m else ""
 parts["rk-stats"] = re.search(r'<div class="rk-stats">(.*?)</div>\n', full, re.S).group(1)
-parts["rk-ones"] = (NOW_HTML + ones_html).encode("ascii", "xmlcharrefreplace").decode("ascii")
+parts["rk-ones"] = (mobile_css(full) + NOW_HTML + ones_html).encode("ascii", "xmlcharrefreplace").decode("ascii")
 parts["rk-asof"] = ASOF
 
 # Light body: the two heavy panels keep their heading and a placeholder until the data arrives.
