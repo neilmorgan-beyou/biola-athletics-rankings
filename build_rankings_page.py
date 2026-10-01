@@ -960,7 +960,10 @@ def label_css(html_):
     return "".join(rules)
 
 
-MOBILE_CSS = ("<style>@media (max-width:700px){"
+MOBILE_CSS = ("<style>.biola-cmp .rk-sort{display:none}@media (max-width:700px){"
+              ".biola-cmp.js-on .rk-sort{display:flex;flex-basis:100%}"
+              ".biola-cmp .rk-table td.is-sorted::before{color:var(--red)}"
+              ".biola-cmp .rk-table td.is-sorted{font-weight:700}"
               ".biola-cmp .rk-wrap{border:0;max-height:75vh;overflow-x:hidden}"
               ".biola-cmp .rk-table thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}"
               ".biola-cmp .rk-table,.biola-cmp .rk-table tbody{display:block;width:100%}"
@@ -1010,8 +1013,15 @@ for sid, head in (("rk-polls", "Every poll appearance"), ("rk-vs", "Record vs. r
         ph = ('\n<h2 class="cmp-h%s">%s</h2>\n<p class="cmp-sub rk-loading">Loading the full tables&hellip; '
               'If they do not appear, reload the page.</p>\n' % ("" if sid == "rk-polls" else " is-blue", head))
         body = body[:m.start(2)] + ph + body[m.end(2):]
+# The script is served from GitHub Pages too, so behavior changes ship without a Sidearm edit.
+JS_URL = "https://neilmorgan-beyou.github.io/biola-athletics-rankings/rankings.js"
+script_block = "<script>\n%s\n</script>" % JS
+assert script_block in body
+body = body.replace(script_block, '<script src="%s"></script>' % JS_URL)
 preview_body = full
 (OUT / "rankings-history-sportfile-body.html").write_text(body)
+(OUT / "docs").mkdir(exist_ok=True)
+(OUT / "docs" / "rankings.js").write_text(JS)
 (OUT / "docs").mkdir(exist_ok=True)
 (OUT / "docs" / "rankings-data.json").write_text(json.dumps({"generated": GENERATED, "parts": parts}))
 (OUT / "docs" / ".nojekyll").write_text("")

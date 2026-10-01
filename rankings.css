@@ -143,3 +143,4 @@
 .biola-cmp #t-vsgames td:nth-child(2), .biola-cmp #t-polls td:nth-child(5) { white-space: nowrap; }
 .biola-cmp .rk-table td.rk-partial { color: var(--red); }
 .biola-cmp .rk-table td.rk-partial::after { content: " *"; }
+.biola-cmp .rk-sort { display: none; }
