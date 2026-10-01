@@ -407,7 +407,9 @@ stats = [
 print("dedupe dropped:", len(dropped), "| unmatched researcher summaries:", len(unmatched))
 
 # ---------------------------------------------------------------- render
-LABELS = {"other": "Other (NCCAA)", "national": "National", "regional": "Regional"}
+# Every organization gets its own Era line (Neil, 2026-10-01). The "other" era holds only NCCAA polls.
+LABELS = {"other": "NCCAA", "NAIA/AIAW (unstated)": "Not stated", "national": "National", "regional": "Regional"}
+ERA_ORDER = ["AIAW", "NAIA", "NCAA DII", "other", "NAIA/AIAW (unstated)"]
 
 
 def opts(values):
@@ -415,7 +417,7 @@ def opts(values):
 
 
 sports_present = sorted({r["sport"] for r in rows} | {g["sport"] for g in games}, key=sport_key)
-eras = sorted({r.get("era") or "" for r in rows} - {""})
+eras = sorted({r.get("era") or "" for r in rows} - {""}, key=lambda v: (ERA_ORDER.index(v) if v in ERA_ORDER else 99, v))
 scopes = sorted({r.get("scope") or "" for r in rows} - {""})
 polls = sorted({r.get("poll") or "" for r in rows} - {""})
 
