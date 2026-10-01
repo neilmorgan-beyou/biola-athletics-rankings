@@ -67,7 +67,19 @@ Read `SPEC-poll-archive.md` first. The standing rules:
    - If validation FAILED, or you skipped anything uncertain: do not push. Commit nothing to main.
    - If nothing changed (no new polls or games): do nothing.
 
-7. **Email Neil** (neil.morgan@biola.edu) using the Gmail connector ONLY when there is something to
+7. **QUILL recap-context feed** (only if step 6 published, or nothing changed but it is a new week):
+   run `python3 recap_context.py`, which writes `recap/<academic year>/biola-recap-context-<today>.json`.
+   The second repository in this session, `sid-article-generation`, is Eddie's QUILL data repo. Copy the
+   new file to `recap-context/<academic year>/` there (same filename), commit ONLY that one new file to
+   `main` and push. Rules from Eddie (2026-09-30):
+   - never edit or delete an existing file there; one new file per week;
+   - before pushing, run `git show --stat HEAD` and confirm the commit lists exactly that one added file;
+   - no head-to-head series facts until Eddie confirms PR #135 is merged (recap_context.py omits them);
+   - the contract is `recap-context/README.md` in that repo; if the script's output would break it, stop
+     and email Neil instead of pushing.
+   Commit the generated `recap/` file to this repo too.
+
+8. **Email Neil** (neil.morgan@biola.edu) using the Gmail connector ONLY when there is something to
    report: the run could not complete (for example a source or athletics.biola.edu was unreachable),
    new USTFCCCA polls that need a manual read,
    a failed validation, an uncertain item you left out, a possible alias, or a notable new ranking for
