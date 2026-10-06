@@ -167,8 +167,12 @@ def main():
                 pos = "tied for No. %s" % rank[1:]
             else:
                 pos = "No. %s" % rank
-            where = "in the %s" % poll if sc == "national" else "in the %s%s" % (
-                "%s Region " % region if region else "", poll.replace(" Regional Rankings", " regional rankings"))
+            if sc == "national":
+                where = "in the %s" % poll
+            elif poll.startswith("NCAA DII Regional Rankings"):
+                where = "in the %sNCAA Division II regional rankings" % ("%s Region of the " % region if region else "")
+            else:
+                where = "in the %s%s" % ("%s Region " % region if region else "", poll.replace(" Regional Rankings", " regional rankings"))
             facts.append(fact("Biola is %s %s (%s, released %s)." % (pos, where, r.get("week") or "", md(r["date"])),
                               "poll", "volatile", r["date"], r["source_url"]))
 
