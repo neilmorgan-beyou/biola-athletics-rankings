@@ -1,4 +1,7 @@
-# Weekly refresh routine (Tuesday mornings)
+# Daily refresh routine (mornings)
+
+Runs every morning so each poll lands the day after it is released (AVCA Mon, United Soccer Coaches Tue,
+USTFCCCA regional Tue / national Wed, CWPA Wed). Most days nothing changes and the run ends quietly.
 
 You are refreshing the data behind the Biola Athletics "Rankings History" page
 (https://athletics.biola.edu/sports/2026/9/30/rankings-history.aspx). The page loads
@@ -26,7 +29,9 @@ Read `SPEC-poll-archive.md` first. The standing rules:
    - Tennis: ITA NCAA DII team rankings (wearecollegetennis.com)
    - Water polo: CWPA / ACWPC national varsity poll (collegiatewaterpolo.org)
    Also NAIA polls for the same sports ONLY if a current-season NAIA series already exists in the file.
-   **If a source can't be read** (blocked, empty page, script-rendered), never assume no new poll. List
+   **If a source can't be read** (blocked, empty page, script-rendered), never assume no new poll. On the
+   first run after that poll's release day (see "When the polls come out" in sid-article-generation's
+   recap-context/README.md; USTFCCCA skips some weeks) when the poll is still missing, list
    the sport and the exact poll URL (for AVCA: `https://www.avca.org/polls-awards/polls/?_season=<year>&_divisions=division-ii-women&_weeks=week-<n>`)
    in the email to Neil under "Needs a manual read (paste these links into Claude Code)".
 
@@ -70,22 +75,28 @@ Read `SPEC-poll-archive.md` first. The standing rules:
    - If validation FAILED, or you skipped anything uncertain: do not push. Commit nothing to main.
    - If nothing changed (no new polls or games): do nothing.
 
-7. **QUILL recap-context feed** (only if step 6 published, or nothing changed but it is a new week):
-   run `python3 recap_context.py`, which writes `recap/<academic year>/biola-recap-context-<today>.json`.
-   The second repository in this session, `sid-article-generation`, is Eddie's QUILL data repo. Copy the
-   new file to `recap-context/<academic year>/` there (same filename), commit ONLY that one new file to
-   `main` and push. Rules from Eddie (2026-09-30):
-   - never edit or delete an existing file there; one new file per week;
+7. **QUILL recap-context feed.** Run `python3 recap_context.py`, which writes
+   `recap/<academic year>/biola-recap-context-<today>.json`. The second repository in this session,
+   `sid-article-generation`, is Eddie's QUILL data repo (pull it first). Compare the new file's facts with
+   the newest `recap-context/<academic year>/biola-recap-context-*.json` there, ignoring `generated_at`.
+   - **Facts identical:** publish nothing.
+   - **Facts changed, no file for today yet:** copy the new file there (same filename), commit ONLY that
+     one new file to `main` and push.
+   - **A file for today already exists there** (an earlier run or a fix today): do not overwrite it.
+     Eddie allows an in-place correction only before any recap has used the file, which this routine
+     cannot check, so email Neil what differs instead.
+   Rules from Eddie (recap-context/README.md, which is the contract; if the output would break it, stop
+   and email Neil instead of pushing):
+   - never edit or delete an existing file there except the same-day correction above (done by Neil/Eddie);
    - before pushing, run `git show --stat HEAD` and confirm the commit lists exactly that one added file;
    - no head-to-head series facts until Eddie confirms PR #135 is merged (recap_context.py omits them);
-   - the contract is `recap-context/README.md` in that repo; if the script's output would break it, stop
-     and email Neil instead of pushing.
-   - **Hold the feed if a poll is missing.** If step 1 could not read the poll source for an in-season sport
-     and that poll's usual release day has passed since the sport's latest archived poll, do NOT publish the
-     feed file this week (it would state a stale rank). Email Neil instead; once he pastes the link and the
-     poll is added, the file is published with the next day's date (QUILL uses the newest file dated today or
-     earlier, and old files are never edited).
-   Commit the generated `recap/` file to this repo too.
+   - poll positions use `category: "poll"` and carry a `poll` name (recap_context.py adds it). QUILL
+     retires a poll position on its own when that poll's next release is due, so a missing poll never
+     leaves a wrong rank in a recap; it only leaves that sport without a rank until the next file.
+   - a poll QUILL has no schedule for (any poll other than AVCA DII women, United Soccer Coaches DII,
+     CWPA men's varsity, USTFCCCA DII XC regional/national) gets no `poll` field; list it in the email
+     to Neil the first time it appears so Eddie can add its schedule.
+   Commit the generated `recap/` file to this repo too (only when it was published).
 
 8. **Email Neil** (neil.morgan@biola.edu) using the Gmail connector ONLY when there is something to
    report: the run could not complete (for example a source or athletics.biola.edu was unreachable),
@@ -93,4 +104,4 @@ Read `SPEC-poll-archive.md` first. The standing rules:
    a failed validation, an uncertain item you left out, a possible alias, or a notable new ranking for
    Biola (Biola newly ranked or moving up 5+ spots). Subject starts with
    "[Rankings routine]". Keep it short: what changed, what needs him, links to the commit or report.
-   Include `validate-report.md` content on failure. Do not email on quiet weeks.
+   Include `validate-report.md` content on failure. Do not email on quiet days, and do not repeat a manual-read request on later days.

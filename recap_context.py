@@ -69,11 +69,32 @@ def wlt(a):
     return "%d-%d" % (a[0], a[1]) + ("-%d" % a[2] if a[2] else "")
 
 
+def poll_name(url):
+    """The poll's name in QUILL's poll calendar (recap-context/README.md), or None for a poll QUILL
+    has no schedule for (those ranks last a week there; tell Eddie when a new one appears)."""
+    u = url.lower()
+    if "avca.org" in u and "division-ii-women" in u:
+        return "avca-d2-women"
+    if "unitedsoccercoaches.org" in u:
+        return "usc-d2"
+    if "collegiatewaterpolo.org" in u and "mens-varsity" in u and "womens" not in u:
+        return "cwpa-mens-varsity"
+    if "ustfccca.org" in u and "ncaa-dii" in u and "cross-country" in u:
+        if "regional" in u:
+            return "ustfccca-d2-xc-regional"
+        if "national" in u:
+            return "ustfccca-d2-xc-national"
+    return None
+
+
 def fact(text, category, volatility, as_of, source_url):
     assert len(text) <= 320, text
     assert source_url and source_url.startswith("https://"), source_url
-    return {"text": text, "category": category, "volatility": volatility, "as_of": str(as_of)[:10],
-            "source_url": source_url}
+    f = {"text": text, "category": category, "volatility": volatility, "as_of": str(as_of)[:10],
+         "source_url": source_url}
+    if category == "poll" and poll_name(source_url):
+        f["poll"] = poll_name(source_url)
+    return f
 
 
 def main():
