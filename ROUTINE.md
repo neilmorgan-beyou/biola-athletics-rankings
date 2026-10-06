@@ -59,7 +59,15 @@ Read `SPEC-poll-archive.md` first. The standing rules:
    the rows in `data/xc-track.json` (sport, season, era, poll, scope, region, week, date, rank, points,
    record_at_time, source_url, confidence "primary", notes). Skip if the row already exists.
 
-4. **Run** `sh refresh.sh`. It re-scrapes recent games from athletics.biola.edu, joins games to
+4. **NCAA regional rankings (NPI).** `refresh.sh` runs `ncaa_regional.py`, which checks the published
+   NCAA.com Division II regional rankings page for each team sport
+   (`https://www.ncaa.com/rankings/<sport>/d2/regional-rankings`; from 2026-27 they are NPI-based and
+   usually appear only for the last ~3 weeks of a regular season). It archives each new release and adds
+   Biola's row. **Never use stats.ncaa.org (the "nitty gritties"); only the published NCAA.com page.**
+   In the email to Neil, report any `NEW release` line where Biola is ranked, the first release of each
+   sport's season (with the NCAA.com link, for Eddie), and any `NEEDS-MANUAL` line.
+
+   **Run** `sh refresh.sh`. It re-scrapes recent games from athletics.biola.edu, joins games to
    polls, rebuilds the page data and runs `validate.py`.
 
 5. **Review the join report** `polls/join-report.md` for the current season: any "Near misses" or

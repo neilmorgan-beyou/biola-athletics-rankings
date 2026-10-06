@@ -5,4 +5,4 @@ Result: **PASS**
 ## Notes
 
 - Verified games: 1942 (baseline 1942).
-- Ranking rows: 1271 (+1 vs baseline).
+- Ranking rows: 1271 (+0 vs baseline).
