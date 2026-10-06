@@ -95,7 +95,9 @@ Read `SPEC-poll-archive.md` first. The standing rules:
      leaves a wrong rank in a recap; it only leaves that sport without a rank until the next file.
    - a poll QUILL has no schedule for (any poll other than AVCA DII women, United Soccer Coaches DII,
      CWPA men's varsity, USTFCCCA DII XC regional/national) gets no `poll` field; list it in the email
-     to Neil the first time it appears so Eddie can add its schedule.
+     to Neil the first time it appears, with one example `source_url` exactly as the feed cites it (Eddie
+     recognizes a poll by that page; he pulls release schedules himself). Add the `poll` name once
+     Eddie lists it in recap-context/README.md.
    Commit the generated `recap/` file to this repo too (only when it was published).
 
 8. **Email Neil** (neil.morgan@biola.edu) using the Gmail connector ONLY when there is something to
