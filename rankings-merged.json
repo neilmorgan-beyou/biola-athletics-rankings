@@ -16003,6 +16003,22 @@
   },
   {
    "sport": "Women's Volleyball",
+   "season": "2026",
+   "era": "NCAA DII",
+   "poll": "AVCA NCAA DII Coaches Top 25",
+   "scope": "national",
+   "region": null,
+   "week": "Week 6",
+   "date": "2026-10-05",
+   "rank": "RV",
+   "points": 27,
+   "record_at_time": null,
+   "source_url": "https://www.avca.org/polls-awards/polls/?_season=2026&_divisions=division-ii-women&_weeks=week-6",
+   "confidence": "primary",
+   "notes": "From the poll archive (polls/womens-volleyball.json)"
+  },
+  {
+   "sport": "Women's Volleyball",
    "season": "2023",
    "era": "NCAA DII",
    "poll": "AVCA NCAA DII Coaches Top 25",

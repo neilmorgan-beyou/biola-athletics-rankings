@@ -58,7 +58,7 @@
 - 2023: 21 polls (2023-08-16 to 2023-12-11); 4 of 27 games vs ranked
 - 2024: 22 polls (2024-08-14 to 2024-12-18); 7 of 28 games vs ranked
 - 2025: 22 polls (2025-08-13 to 2025-12-17); 3 of 27 games vs ranked
-- 2026: 9 polls (2026-08-12 to 2026-09-28); 2 of 15 games vs ranked
+- 2026: 10 polls (2026-08-12 to 2026-10-05); 2 of 15 games vs ranked
 - 10 polls have no release date and were not used: avca-dii-1995-pre, avca-dii-1996-pre, avca-dii-1997-pre, avca-dii-1998-pre, avca-dii-1999-pre, avca-dii-1999-post, avca-dii-2001-pre, avca-dii-2002-pre, avca-dii-2003-pre, avca-dii-2005-post
 
 ## Men's Soccer
