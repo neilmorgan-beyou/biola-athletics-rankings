@@ -26,6 +26,9 @@ Read `SPEC-poll-archive.md` first. The standing rules:
    - Tennis: ITA NCAA DII team rankings (wearecollegetennis.com)
    - Water polo: CWPA / ACWPC national varsity poll (collegiatewaterpolo.org)
    Also NAIA polls for the same sports ONLY if a current-season NAIA series already exists in the file.
+   **If a source can't be read** (blocked, empty page, script-rendered), never assume no new poll. List
+   the sport and the exact poll URL (for AVCA: `https://www.avca.org/polls-awards/polls/?_season=<year>&_divisions=division-ii-women&_weeks=week-<n>`)
+   in the email to Neil under "Needs a manual read (paste these links into Claude Code)".
 
 2. **Add each newly released poll** to the right `polls/<sport>.json` exactly per the spec: every
    ranked team, `team_raw` exactly as printed, `receiving_votes`, `release_date` (the date the poll was
@@ -77,6 +80,11 @@ Read `SPEC-poll-archive.md` first. The standing rules:
    - no head-to-head series facts until Eddie confirms PR #135 is merged (recap_context.py omits them);
    - the contract is `recap-context/README.md` in that repo; if the script's output would break it, stop
      and email Neil instead of pushing.
+   - **Hold the feed if a poll is missing.** If step 1 could not read the poll source for an in-season sport
+     and that poll's usual release day has passed since the sport's latest archived poll, do NOT publish the
+     feed file this week (it would state a stale rank). Email Neil instead; once he pastes the link and the
+     poll is added, the file is published with the next day's date (QUILL uses the newest file dated today or
+     earlier, and old files are never edited).
    Commit the generated `recap/` file to this repo too.
 
 8. **Email Neil** (neil.morgan@biola.edu) using the Gmail connector ONLY when there is something to
