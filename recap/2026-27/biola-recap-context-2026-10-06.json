@@ -1,0 +1,372 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-10-06T15:00:00-07:00",
+ "sports": {
+  "volleyball": {
+   "current_through": "2026-10-02",
+   "facts": [
+    {
+     "text": "Biola is No. 25 in the AVCA NCAA DII Coaches Top 25 poll (Week 5, released Sept. 28) with 71 points.",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-28",
+     "source_url": "https://www.avca.org/polls-awards/polls/?_season=2026&_divisions=division-ii-women&_weeks=week-5"
+    },
+    {
+     "text": "Biola is 1-1 this season against opponents ranked in the national poll at the time they played, including 0-1 against top-10 teams.",
+     "category": "record",
+     "volatility": "volatile",
+     "as_of": "2026-10-02",
+     "source_url": "https://athletics.biola.edu/sports/2026/9/30/rankings-history.aspx"
+    },
+    {
+     "text": "Since 2000, Biola is 149-143 against nationally ranked opponents, 55-107 against top-10 teams, 26-73 against top-5 teams and 3-19 against No. 1 teams (rank from the poll in effect on game day).",
+     "category": "record",
+     "volatility": "volatile",
+     "as_of": "2026-10-02",
+     "source_url": "https://athletics.biola.edu/sports/2026/9/30/rankings-history.aspx"
+    },
+    {
+     "text": "Biola's most recent win over a No. 1 team was Aug. 27, 2016, 3-2 over No. 1 Columbia College (Mo.).",
+     "category": "record",
+     "volatility": "volatile",
+     "as_of": "2026-10-02",
+     "source_url": "https://athletics.biola.edu/sports/2026/9/30/rankings-history.aspx"
+    },
+    {
+     "text": "Biola's most recent win over a top-5 team was Aug. 27, 2016, 3-2 over No. 1 Columbia College (Mo.).",
+     "category": "record",
+     "volatility": "volatile",
+     "as_of": "2026-10-02",
+     "source_url": "https://athletics.biola.edu/sports/2026/9/30/rankings-history.aspx"
+    },
+    {
+     "text": "Biola's most recent win over a top-10 team was Sept. 2, 2022, 3-2 over No. 7 CSU San Bernardino.",
+     "category": "record",
+     "volatility": "volatile",
+     "as_of": "2026-10-02",
+     "source_url": "https://athletics.biola.edu/sports/2026/9/30/rankings-history.aspx"
+    },
+    {
+     "text": "Biola's Sept. 8, 2026 win over No. 13 Point Loma was its first over a ranked team since Sept. 7, 2024 (vs. No. 19 Seattle Pacific).",
+     "category": "storyline",
+     "volatility": "stable",
+     "as_of": "2026-09-08",
+     "source_url": "https://athletics.biola.edu/sports/2026/9/30/rankings-history.aspx"
+    },
+    {
+     "text": "Fresno Pacific is No. 4 in the AVCA NCAA DII Coaches Top 25 poll (Week 5, released Sept. 28).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-28",
+     "source_url": "https://www.avca.org/polls-awards/polls/?_season=2026&_divisions=division-ii-women&_weeks=week-5"
+    },
+    {
+     "text": "Nebraska-Kearney is No. 6 in the AVCA NCAA DII Coaches Top 25 poll (Week 5, released Sept. 28).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-28",
+     "source_url": "https://www.avca.org/polls-awards/polls/?_season=2026&_divisions=division-ii-women&_weeks=week-5"
+    },
+    {
+     "text": "Point Loma is No. 20 in the AVCA NCAA DII Coaches Top 25 poll (Week 5, released Sept. 28).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-28",
+     "source_url": "https://www.avca.org/polls-awards/polls/?_season=2026&_divisions=division-ii-women&_weeks=week-5"
+    },
+    {
+     "text": "Concordia (CA) is No. 22 in the AVCA NCAA DII Coaches Top 25 poll (Week 5, released Sept. 28).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-28",
+     "source_url": "https://www.avca.org/polls-awards/polls/?_season=2026&_divisions=division-ii-women&_weeks=week-5"
+    },
+    {
+     "text": "Alaska Fairbanks is No. 23 in the AVCA NCAA DII Coaches Top 25 poll (Week 5, released Sept. 28).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-28",
+     "source_url": "https://www.avca.org/polls-awards/polls/?_season=2026&_divisions=division-ii-women&_weeks=week-5"
+    },
+    {
+     "text": "Dallas Baptist is receiving votes in the AVCA NCAA DII Coaches Top 25 poll (Week 5, released Sept. 28).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-28",
+     "source_url": "https://www.avca.org/polls-awards/polls/?_season=2026&_divisions=division-ii-women&_weeks=week-5"
+    },
+    {
+     "text": "Colorado Mesa is receiving votes in the AVCA NCAA DII Coaches Top 25 poll (Week 5, released Sept. 28).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-28",
+     "source_url": "https://www.avca.org/polls-awards/polls/?_season=2026&_divisions=division-ii-women&_weeks=week-5"
+    },
+    {
+     "text": "Hawaii Hilo is receiving votes in the AVCA NCAA DII Coaches Top 25 poll (Week 5, released Sept. 28).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-28",
+     "source_url": "https://www.avca.org/polls-awards/polls/?_season=2026&_divisions=division-ii-women&_weeks=week-5"
+    }
+   ]
+  },
+  "mens-soccer": {
+   "current_through": "2026-10-01",
+   "facts": [
+    {
+     "text": "Biola is not ranked or receiving votes in the United Soccer Coaches NCAA Division II National Top 25 poll (Week 5, released Sept. 29).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-29",
+     "source_url": "https://unitedsoccercoaches.org/rankings/college-rankings/ncaa-dii-men/"
+    },
+    {
+     "text": "Biola is 0-1 this season against opponents ranked in the national poll at the time they played, including 0-1 against top-10 teams.",
+     "category": "record",
+     "volatility": "volatile",
+     "as_of": "2026-10-01",
+     "source_url": "https://athletics.biola.edu/sports/2026/9/30/rankings-history.aspx"
+    },
+    {
+     "text": "Since 2000, Biola is 22-58-9 against nationally ranked opponents, 6-38-2 against top-10 teams, 3-17-1 against top-5 teams and 0-3 against No. 1 teams (rank from the poll in effect on game day).",
+     "category": "record",
+     "volatility": "volatile",
+     "as_of": "2026-10-01",
+     "source_url": "https://athletics.biola.edu/sports/2026/9/30/rankings-history.aspx"
+    },
+    {
+     "text": "Biola's most recent win over a top-5 team was Sept. 2, 2015, 2-0 over No. 3 Marymount College (Calif.).",
+     "category": "record",
+     "volatility": "volatile",
+     "as_of": "2026-10-01",
+     "source_url": "https://athletics.biola.edu/sports/2026/9/30/rankings-history.aspx"
+    },
+    {
+     "text": "Biola's most recent win over a top-10 team was Sept. 5, 2016, 2-0 over No. 8 Rocky Mountain College (Mont.).",
+     "category": "record",
+     "volatility": "volatile",
+     "as_of": "2026-10-01",
+     "source_url": "https://athletics.biola.edu/sports/2026/9/30/rankings-history.aspx"
+    },
+    {
+     "text": "Cal State LA is No. 1 in the United Soccer Coaches NCAA Division II National Top 25 poll (Week 5, released Sept. 29).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-29",
+     "source_url": "https://unitedsoccercoaches.org/rankings/college-rankings/ncaa-dii-men/"
+    },
+    {
+     "text": "Cal State San Bernardino is No. 6 in the United Soccer Coaches NCAA Division II National Top 25 poll (Week 5, released Sept. 29).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-29",
+     "source_url": "https://unitedsoccercoaches.org/rankings/college-rankings/ncaa-dii-men/"
+    },
+    {
+     "text": "Regis is No. 24 in the United Soccer Coaches NCAA Division II National Top 25 poll (Week 5, released Sept. 29).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-29",
+     "source_url": "https://unitedsoccercoaches.org/rankings/college-rankings/ncaa-dii-men/"
+    },
+    {
+     "text": "Cal State San Marcos is No. 25 in the United Soccer Coaches NCAA Division II National Top 25 poll (Week 5, released Sept. 29).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-29",
+     "source_url": "https://unitedsoccercoaches.org/rankings/college-rankings/ncaa-dii-men/"
+    }
+   ]
+  },
+  "womens-soccer": {
+   "current_through": "2026-10-01",
+   "facts": [
+    {
+     "text": "Biola is not ranked or receiving votes in the United Soccer Coaches NCAA Division II National Top 25 poll (Week 5, released Sept. 29).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-29",
+     "source_url": "https://unitedsoccercoaches.org/rankings/college-rankings/ncaa-dii-women/"
+    },
+    {
+     "text": "Biola is 0-0 this season against opponents ranked in the national poll at the time they played.",
+     "category": "record",
+     "volatility": "volatile",
+     "as_of": "2026-10-01",
+     "source_url": "https://athletics.biola.edu/sports/2026/9/30/rankings-history.aspx"
+    },
+    {
+     "text": "Since 1999, Biola is 34-64-18 against nationally ranked opponents, 15-36-12 against top-10 teams, 6-25-6 against top-5 teams and 1-4-1 against No. 1 teams (rank from the poll in effect on game day).",
+     "category": "record",
+     "volatility": "volatile",
+     "as_of": "2026-10-01",
+     "source_url": "https://athletics.biola.edu/sports/2026/9/30/rankings-history.aspx"
+    },
+    {
+     "text": "Biola's most recent win over a No. 1 team was Oct. 21, 2003, 1-0 over No. 1 Azusa Pacific.",
+     "category": "record",
+     "volatility": "volatile",
+     "as_of": "2026-10-01",
+     "source_url": "https://athletics.biola.edu/sports/2026/9/30/rankings-history.aspx"
+    },
+    {
+     "text": "Biola's most recent win over a top-5 team was Oct. 5, 2016, 1-0 OT over No. 4 Westmont College (Calif.).",
+     "category": "record",
+     "volatility": "volatile",
+     "as_of": "2026-10-01",
+     "source_url": "https://athletics.biola.edu/sports/2026/9/30/rankings-history.aspx"
+    },
+    {
+     "text": "Biola's most recent win over a top-10 team was Nov. 10, 2016, 1-0 over No. 10 Westmont College.",
+     "category": "record",
+     "volatility": "volatile",
+     "as_of": "2026-10-01",
+     "source_url": "https://athletics.biola.edu/sports/2026/9/30/rankings-history.aspx"
+    },
+    {
+     "text": "Cal Poly Pomona is No. 5 in the United Soccer Coaches NCAA Division II National Top 25 poll (Week 5, released Sept. 29).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-29",
+     "source_url": "https://unitedsoccercoaches.org/rankings/college-rankings/ncaa-dii-women/"
+    }
+   ]
+  },
+  "mens-water-polo": {
+   "current_through": "2026-10-03",
+   "facts": [
+    {
+     "text": "Biola is not ranked or receiving votes in the CWPA Men's Varsity National Top 20 poll (Week 5, released Sept. 30).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-30",
+     "source_url": "https://collegiatewaterpolo.org/polls/2026-mens-varsity-polls-week-5-september-30/"
+    },
+    {
+     "text": "Biola is 0-5 this season against opponents ranked in the national poll at the time they played, including 0-1 against top-10 teams.",
+     "category": "record",
+     "volatility": "volatile",
+     "as_of": "2026-10-03",
+     "source_url": "https://athletics.biola.edu/sports/2026/9/30/rankings-history.aspx"
+    },
+    {
+     "text": "Since 2021, Biola is 0-47 against nationally ranked opponents, 0-18 against top-10 teams, 0-5 against top-5 teams and 0-1 against No. 1 teams (rank from the poll in effect on game day).",
+     "category": "record",
+     "volatility": "volatile",
+     "as_of": "2026-10-03",
+     "source_url": "https://athletics.biola.edu/sports/2026/9/30/rankings-history.aspx"
+    },
+    {
+     "text": "UC Irvine is No. 6 in the CWPA Men's Varsity National Top 20 poll (Week 5, released Sept. 30).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-30",
+     "source_url": "https://collegiatewaterpolo.org/polls/2026-mens-varsity-polls-week-5-september-30/"
+    },
+    {
+     "text": "University of the Pacific (Calif.) is No. 8 in the CWPA Men's Varsity National Top 20 poll (Week 5, released Sept. 30).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-30",
+     "source_url": "https://collegiatewaterpolo.org/polls/2026-mens-varsity-polls-week-5-september-30/"
+    },
+    {
+     "text": "Pepperdine is No. 11 in the CWPA Men's Varsity National Top 20 poll (Week 5, released Sept. 30).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-30",
+     "source_url": "https://collegiatewaterpolo.org/polls/2026-mens-varsity-polls-week-5-september-30/"
+    },
+    {
+     "text": "UC San Diego is No. 12 in the CWPA Men's Varsity National Top 20 poll (Week 5, released Sept. 30).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-30",
+     "source_url": "https://collegiatewaterpolo.org/polls/2026-mens-varsity-polls-week-5-september-30/"
+    },
+    {
+     "text": "UC Santa Barbara is No. 13 in the CWPA Men's Varsity National Top 20 poll (Week 5, released Sept. 30).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-30",
+     "source_url": "https://collegiatewaterpolo.org/polls/2026-mens-varsity-polls-week-5-september-30/"
+    },
+    {
+     "text": "California Baptist is No. 16 in the CWPA Men's Varsity National Top 20 poll (Week 5, released Sept. 30).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-30",
+     "source_url": "https://collegiatewaterpolo.org/polls/2026-mens-varsity-polls-week-5-september-30/"
+    },
+    {
+     "text": "UC Davis is No. 17 in the CWPA Men's Varsity National Top 20 poll (Week 5, released Sept. 30).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-30",
+     "source_url": "https://collegiatewaterpolo.org/polls/2026-mens-varsity-polls-week-5-september-30/"
+    },
+    {
+     "text": "Brown is No. 19 in the CWPA Men's Varsity National Top 20 poll (Week 5, released Sept. 30).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-30",
+     "source_url": "https://collegiatewaterpolo.org/polls/2026-mens-varsity-polls-week-5-september-30/"
+    },
+    {
+     "text": "Concordia Irvine is tied for No. 20 in the CWPA Men's Varsity National Top 20 poll (Week 5, released Sept. 30).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-30",
+     "source_url": "https://collegiatewaterpolo.org/polls/2026-mens-varsity-polls-week-5-september-30/"
+    },
+    {
+     "text": "CSU Fullerton is tied for No. 20 in the CWPA Men's Varsity National Top 20 poll (Week 5, released Sept. 30).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-30",
+     "source_url": "https://collegiatewaterpolo.org/polls/2026-mens-varsity-polls-week-5-september-30/"
+    }
+   ]
+  },
+  "mens-cross-country": {
+   "current_through": "2026-09-30",
+   "facts": [
+    {
+     "text": "Biola is No. 30 in the USTFCCCA NCAA DII National Coaches' Poll (Week 2, released Sept. 30).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.ustfccca.org/2026/09/featured/2026-ncaa-dii-mens-cross-country-national-coaches-poll-week-2"
+    },
+    {
+     "text": "Biola is No. 7 in the West Region USTFCCCA NCAA DII regional rankings (Week 2, released Sept. 29).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-29",
+     "source_url": "https://www.ustfccca.org/2026/09/featured/2026-ncaa-dii-mens-cross-country-regional-rankings-week-2"
+    }
+   ]
+  },
+  "womens-cross-country": {
+   "current_through": "2026-09-30",
+   "facts": [
+    {
+     "text": "Biola is tied for No. 23 in the USTFCCCA NCAA DII National Coaches' Poll (Week 2, released Sept. 30).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-30",
+     "source_url": "https://www.ustfccca.org/2026/09/featured/2026-ncaa-dii-womens-cross-country-national-coaches-poll-week-2"
+    },
+    {
+     "text": "Biola is No. 3 in the West Region USTFCCCA NCAA DII regional rankings (Week 2, released Sept. 29).",
+     "category": "poll",
+     "volatility": "volatile",
+     "as_of": "2026-09-29",
+     "source_url": "https://www.ustfccca.org/2026/09/featured/2026-ncaa-dii-womens-cross-country-regional-rankings-week-2"
+    }
+   ]
+  }
+ }
+}
