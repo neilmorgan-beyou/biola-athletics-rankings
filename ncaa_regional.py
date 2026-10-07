@@ -9,10 +9,11 @@ carries a sport only for the last three weeks or so of its regular season; betwe
 showing last season's final release, which is ignored.
 
 For each release not seen before (keyed by sport + the page's datePublished):
-  - the whole table is appended to polls/ncaa-regional.json (append-only snapshots);
+  - the whole table is appended to ncaa-regional/releases.json (append-only snapshots);
   - Biola's row, if Biola is ranked in its region, is appended to data/current-season.json, which the
     page builder and recap_context.py already read (scope "regional", region "West").
-Prints one line per sport. A page that cannot be read prints "NEEDS-MANUAL <url>" for the routine to
+Prints one line per sport. The region name is kept as printed (men's soccer uses "Super-Region 4").
+A page that cannot be read prints "NEEDS-MANUAL <url>" for the routine to
 report; it never stops the refresh.
 --test-season accepts any season (to test the parser on last season's pages); it writes nothing.
 """
@@ -25,10 +26,13 @@ from datetime import date, datetime
 from pathlib import Path
 
 HERE = Path(__file__).parent
-ARCHIVE = HERE / "polls" / "ncaa-regional.json"
+# Not under polls/: every file there is read as a poll archive by the builder, join and validate.
+ARCHIVE = HERE / "ncaa-regional" / "releases.json"
 CURRENT = HERE / "data" / "current-season.json"
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36"
+# Basketball pages end in "regional-ranking" (singular); the rest in "regional-rankings" (Eddie, 2026-10-06).
 PAGE = "https://www.ncaa.com/rankings/%s/d2/regional-rankings"
+PAGE_SINGULAR = {"basketball-men", "basketball-women"}
 
 # NCAA.com slug -> (sport name in this repo, season kind)
 SPORTS = {
@@ -102,7 +106,7 @@ def main():
     seen = {(s["sport"], s["release_date"]) for s in arch["snapshots"]}
     changed = False
     for slug, (sport, kind) in SPORTS.items():
-        url = PAGE % slug
+        url = (PAGE[:-1] if slug in PAGE_SINGULAR else PAGE) % slug
         season, lo, hi = season_window(kind, today)
         in_window = lo <= today <= hi
         page, code = fetch(url)
@@ -135,7 +139,9 @@ def main():
                 "poll": "NCAA DII Regional Rankings (NPI)" if snap["basis"] == "NPI" else "NCAA DII Regional Rankings",
                 "scope": "regional", "region": reg,
                 "week": "Through games %s %d" % (MON[d.month - 1], d.day),
-                "date": snap["release_date"],
+                # as_of = the "Through Games" date exactly as the page prints it: the only date the page
+                # shows, and the one QUILL keys a release on (Eddie, 2026-10-06).
+                "date": snap["through"],
                 "record_at_time": next((v for k, v in c.items() if "IN-REGION" not in k and "RECORD" in k), None),
                 "confidence": "primary", "sport": sport, "rank": str(t["rank"]), "points": None,
                 "source_url": url,
@@ -143,6 +149,7 @@ def main():
                          % (snap["release_date"], snap["through"], next((v for k, v in c.items() if "IN-REGION" in k), "n/a"))})
         changed = True
     if changed:
+        ARCHIVE.parent.mkdir(exist_ok=True)
         ARCHIVE.write_text(json.dumps(arch, indent=1, ensure_ascii=False) + "\n")
         CURRENT.write_text(json.dumps(cur, indent=1, ensure_ascii=False) + "\n")
 

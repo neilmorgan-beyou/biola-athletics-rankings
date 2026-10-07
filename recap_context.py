@@ -75,6 +75,12 @@ def poll_name(url):
     u = url.lower()
     if "avca.org" in u and "division-ii-women" in u:
         return "avca-d2-women"
+    if "ncaa.com/rankings/" in u and "/d2/regional-ranking" in u:
+        if "/soccer-" in u:
+            return "ncaa-d2-regional-soccer"
+        if "/volleyball-women/" in u:
+            return "ncaa-d2-regional-volleyball"
+        return None
     if "unitedsoccercoaches.org" in u:
         return "usc-d2"
     if "collegiatewaterpolo.org" in u and "mens-varsity" in u and "womens" not in u:
@@ -170,10 +176,14 @@ def main():
             if sc == "national":
                 where = "in the %s" % poll
             elif poll.startswith("NCAA DII Regional Rankings"):
-                where = "in the %sNCAA Division II regional rankings" % ("%s Region of the " % region if region else "")
+                # Region name as printed: "West" -> "the West Region", "Super-Region 4" stays as is.
+                reg = (region if "region" in (region or "").lower() else "the %s Region" % region) if region else ""
+                where = "in %s of the NCAA Division II regional rankings" % reg if reg else "in the NCAA Division II regional rankings"
             else:
                 where = "in the %s%s" % ("%s Region " % region if region else "", poll.replace(" Regional Rankings", " regional rankings"))
-            facts.append(fact("Biola is %s %s (%s, released %s)." % (pos, where, r.get("week") or "", md(r["date"])),
+            when = ("%s%s" % ((r.get("week") or "")[:1].lower(), (r.get("week") or "")[1:])
+                    if poll.startswith("NCAA DII Regional Rankings") else "%s, released %s" % (r.get("week") or "", md(r["date"])))
+            facts.append(fact("Biola is %s %s (%s)." % (pos, where, when),
                               "poll", "volatile", r["date"], r["source_url"]))
 
         # Records vs ranked (same numbers as the Rankings History page)
