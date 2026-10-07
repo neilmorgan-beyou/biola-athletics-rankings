@@ -190981,6 +190981,21 @@
    "source_url": "https://athletics.biola.edu/sports/womens-volleyball/schedule/2026"
   },
   {
+   "game_id": "wvb-2026-10-06-1",
+   "sport": "Women's Volleyball",
+   "season": "2026",
+   "date": "2026-10-06",
+   "opponent_raw": "Hawaii Hilo",
+   "opponent_as_listed": "Hawaii Hilo",
+   "location": "Away",
+   "result": "L",
+   "score": "0-3",
+   "event": null,
+   "postseason": false,
+   "exhibition": false,
+   "source_url": "https://athletics.biola.edu/sports/womens-volleyball/schedule/2026"
+  },
+  {
    "game_id": "msoc-2025-09-04-1",
    "sport": "Men's Soccer",
    "season": "2025",

@@ -58,7 +58,7 @@
 - 2023: 21 polls (2023-08-16 to 2023-12-11); 4 of 27 games vs ranked
 - 2024: 22 polls (2024-08-14 to 2024-12-18); 7 of 28 games vs ranked
 - 2025: 22 polls (2025-08-13 to 2025-12-17); 3 of 27 games vs ranked
-- 2026: 10 polls (2026-08-12 to 2026-10-05); 2 of 15 games vs ranked
+- 2026: 10 polls (2026-08-12 to 2026-10-05); 2 of 16 games vs ranked
 - 10 polls have no release date and were not used: avca-dii-1995-pre, avca-dii-1996-pre, avca-dii-1997-pre, avca-dii-1998-pre, avca-dii-1999-pre, avca-dii-1999-post, avca-dii-2001-pre, avca-dii-2002-pre, avca-dii-2003-pre, avca-dii-2005-post
 
 ## Men's Soccer
@@ -128,7 +128,7 @@
 - 2023: 23 polls (2023-08-01 to 2023-12-12); 3 of 18 games vs ranked
 - 2024: 19 polls (2024-08-06 to 2024-12-18); 2 of 18 games vs ranked
 - 2025: 19 polls (2025-08-20 to 2025-12-17); 1 of 17 games vs ranked
-- 2026: 9 polls (2026-08-04 to 2026-09-29); 1 of 10 games vs ranked
+- 2026: 10 polls (2026-08-04 to 2026-10-06); 1 of 10 games vs ranked
 
 ## Women's Soccer
 - 1992: no polls archived; 17 games unverified
@@ -165,7 +165,7 @@
 - 2023: 23 polls (2023-08-01 to 2023-12-12, 1 incomplete); 3 of 17 games vs ranked
 - 2024: 19 polls (2024-08-06 to 2024-12-18); 4 of 18 games vs ranked
 - 2025: 19 polls (2025-08-20 to 2025-12-17); 1 of 17 games vs ranked
-- 2026: 8 polls (2026-08-19 to 2026-09-29); 0 of 10 games vs ranked
+- 2026: 9 polls (2026-08-19 to 2026-10-06); 0 of 10 games vs ranked
 
 ## Men's Basketball
 - 1960: no polls archived; 21 games unverified

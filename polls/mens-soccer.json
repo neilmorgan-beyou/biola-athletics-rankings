@@ -127955,6 +127955,268 @@
     "added from NAIA week-by-week PDF https://www.naia.org/wp-content/uploads/2026/05/MS_Week-by-Week_Ratings.pdf",
     "ranks only (the PDF prints no points, first-place votes or receiving votes); team names are the PDF's short forms; week label = column order in the PDF (column printed '2000-10-31')"
    ]
+  },
+  {
+   "poll_id": "usc-dii-m-2026-w06",
+   "poll": "United Soccer Coaches (formerly NSCAA) NCAA Division II National Top 25",
+   "division": "NCAA DII",
+   "season": "2026",
+   "week": "Week 6",
+   "release_date": "2026-10-06",
+   "postseason_final": false,
+   "size": 25,
+   "complete": true,
+   "source_url": "https://unitedsoccercoaches.org/rankings/college-rankings/ncaa-dii-men/",
+   "confidence": "primary",
+   "date_basis": "date printed in the poll title",
+   "notes": [
+    "Read from the United Soccer Coaches national rankings web page (Wayback snapshot or live page).",
+    "Records shown are through games of October 4, 2026"
+   ],
+   "teams": [
+    {
+     "rank": 1,
+     "tied": false,
+     "team_raw": "California State University-Los Angeles",
+     "points": null,
+     "prev": "1",
+     "record": "10-0-1"
+    },
+    {
+     "rank": 2,
+     "tied": false,
+     "team_raw": "Midwestern State University",
+     "points": null,
+     "prev": "3",
+     "record": "9-0-3"
+    },
+    {
+     "rank": 3,
+     "tied": false,
+     "team_raw": "University of Charleston",
+     "points": null,
+     "prev": "2",
+     "record": "9-2-0"
+    },
+    {
+     "rank": 4,
+     "tied": false,
+     "team_raw": "Auburn University Montgomery",
+     "points": null,
+     "prev": "4",
+     "record": "8-1-1"
+    },
+    {
+     "rank": 5,
+     "tied": false,
+     "team_raw": "Southern New Hampshire University",
+     "points": null,
+     "prev": "5",
+     "record": "8-0-3"
+    },
+    {
+     "rank": 6,
+     "tied": false,
+     "team_raw": "Anderson University (S.C.)",
+     "points": null,
+     "prev": "9",
+     "record": "7-0-3"
+    },
+    {
+     "rank": 7,
+     "tied": false,
+     "team_raw": "Colorado State University-Pueblo",
+     "points": null,
+     "prev": "8",
+     "record": "8-0-2"
+    },
+    {
+     "rank": 8,
+     "tied": false,
+     "team_raw": "California State University-San Bernardino",
+     "points": null,
+     "prev": "6",
+     "record": "8-1-2"
+    },
+    {
+     "rank": 9,
+     "tied": false,
+     "team_raw": "Florida Southern College",
+     "points": null,
+     "prev": "11",
+     "record": "9-1-1"
+    },
+    {
+     "rank": 10,
+     "tied": false,
+     "team_raw": "Francis Marion University",
+     "points": null,
+     "prev": "7",
+     "record": "9-2-1"
+    },
+    {
+     "rank": 11,
+     "tied": false,
+     "team_raw": "Drury University",
+     "points": null,
+     "prev": "10",
+     "record": "8-2-1"
+    },
+    {
+     "rank": 12,
+     "tied": false,
+     "team_raw": "Davis & Elkins College",
+     "points": null,
+     "prev": "12",
+     "record": "8-1-1"
+    },
+    {
+     "rank": 13,
+     "tied": false,
+     "team_raw": "Fort Hays State University",
+     "points": null,
+     "prev": "13",
+     "record": "7-2-2"
+    },
+    {
+     "rank": 14,
+     "tied": false,
+     "team_raw": "Fort Lewis College",
+     "points": null,
+     "prev": "NR",
+     "record": "7-2-2"
+    },
+    {
+     "rank": 15,
+     "tied": false,
+     "team_raw": "Seattle Pacific University",
+     "points": null,
+     "prev": "RV",
+     "record": "8-2-1"
+    },
+    {
+     "rank": 16,
+     "tied": false,
+     "team_raw": "University of Alabama-Huntsville",
+     "points": null,
+     "prev": "17",
+     "record": "8-1-1"
+    },
+    {
+     "rank": 17,
+     "tied": false,
+     "team_raw": "Lees-McRae College",
+     "points": null,
+     "prev": "RV",
+     "record": "9-0-2"
+    },
+    {
+     "rank": 18,
+     "tied": false,
+     "team_raw": "Mercy University",
+     "points": null,
+     "prev": "23",
+     "record": "8-2-2"
+    },
+    {
+     "rank": 19,
+     "tied": false,
+     "team_raw": "Concord University",
+     "points": null,
+     "prev": "NR",
+     "record": "8-1-2"
+    },
+    {
+     "rank": 20,
+     "tied": false,
+     "team_raw": "University of North Georgia",
+     "points": null,
+     "prev": "15",
+     "record": "7-0-5"
+    },
+    {
+     "rank": 21,
+     "tied": false,
+     "team_raw": "Northern Michigan University",
+     "points": null,
+     "prev": "RV",
+     "record": "7-2-2"
+    },
+    {
+     "rank": 22,
+     "tied": false,
+     "team_raw": "Northwest Nazarene University",
+     "points": null,
+     "prev": "19",
+     "record": "6-2-4"
+    },
+    {
+     "rank": 23,
+     "tied": false,
+     "team_raw": "University of Colorado-Colorado Springs",
+     "points": null,
+     "prev": "14",
+     "record": "6-1-5"
+    },
+    {
+     "rank": 24,
+     "tied": false,
+     "team_raw": "Gannon University",
+     "points": null,
+     "prev": "20",
+     "record": "7-1-2"
+    },
+    {
+     "rank": 25,
+     "tied": false,
+     "team_raw": "Tiffin University",
+     "points": null,
+     "prev": "16",
+     "record": "6-1-4"
+    }
+   ],
+   "receiving_votes": [
+    {
+     "team_raw": "Southern Nazarene University",
+     "points": null
+    },
+    {
+     "team_raw": "Trevecca Nazarene University",
+     "points": null
+    },
+    {
+     "team_raw": "American International College",
+     "points": null
+    },
+    {
+     "team_raw": "Regis University",
+     "points": null
+    },
+    {
+     "team_raw": "Florida Tech",
+     "points": null
+    },
+    {
+     "team_raw": "Rogers State University",
+     "points": null
+    },
+    {
+     "team_raw": "Western Oregon University",
+     "points": null
+    },
+    {
+     "team_raw": "Embry-Riddle Aeronautical University (Fla.)",
+     "points": null
+    },
+    {
+     "team_raw": "Franklin Pierce University",
+     "points": null
+    },
+    {
+     "team_raw": "Catawba College",
+     "points": null
+    }
+   ]
   }
  ],
  "gaps": [
