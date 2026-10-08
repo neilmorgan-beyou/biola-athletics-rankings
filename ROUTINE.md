@@ -50,11 +50,29 @@ Read `SPEC-poll-archive.md` first. The standing rules:
      and each tab as CSV via `.../pub?gid=<gid>&single=true&output=csv` (men left, women right;
      "Also receiving votes" rows list points in parentheses). Confirm the sheet's header says
      "Division II" before using it. Source URL for rows: https://cscaa.org/top-25/
-   - **Cross country / track (USTFCCCA):** ustfccca.org blocks automated reads (Cloudflare 403),
-     but https://www.ustfccca.org/feed lists new polls. Do not guess ranks. If the feed shows a new
-     "NCAA DII ... Cross Country (or Track & Field) National Coaches' Poll" or "Regional Rankings"
-     post since the last row in data/current-season.json / data/xc-track.json, list its link(s) in the
-     email to Neil under "Needs a manual read (paste these links into Claude Code)". For each new appearance, append
+   - **Cross country / track (USTFCCCA) -- ALWAYS notify Neil (his standing request, 2026-10-08).**
+     ustfccca.org blocks automated reads (Cloudflare), so Neil pastes the links and Claude Code reads them.
+     Every run, read https://www.ustfccca.org/feed (it loads; post pages don't). For every item titled
+     (NCAA, not NJCAA) "<year> NCAA DII Men's/Women's Cross Country (or Track & Field) National Coaches' Poll" or
+     "... Regional Rankings" with a pubDate in the last 7 days, check whether its link appears as a
+     `source_url` in data/current-season.json or data/xc-track.json, or in data/ustfccca-read.json (posts
+     already read where Biola was not listed). Every link in none of those is missing:
+     email Neil about it, even if nothing else happened in the run. Subject:
+     "[Rankings routine] New USTFCCCA XC polls need a manual read". List each link on its own line with
+     a plain label, e.g. "Men's national poll, Week 3 (Oct. 7): <link>", "Women's regional rankings,
+     Week 3 (Oct. 6): <link>". Links with a pubDate in the last 30 hours go under "New"; older missing
+     ones go under "Still waiting (reminder)", so a missed day is never lost. If the feed itself can't be
+     read, say so in the email. Never guess a rank from a headline or teaser.
+     **Backup check (the feed holds only the latest 15 posts, so a busy poll day can push one off):**
+     the release dates are in sid-article-generation's recap-context/README.md ("When the polls come
+     out"), and the links follow one pattern:
+     https://www.ustfccca.org/<yyyy>/<mm>/featured/<yyyy>-ncaa-dii-<mens|womens>-cross-country-<national-coaches-poll|regional-rankings>-week-<n>
+     (regional = the Tuesday date, national = the Wednesday; <mm> is the release month; week n = last
+     archived week + 1). For every release date that has passed, if any of its four links is not archived,
+     list it as above, marked "(expected link, built from the usual pattern)". The final and
+     postseason editions may use other names; for those rely on the feed.
+     When Neil pastes the links in Claude Code, the ranks are read there (a post without Biola goes into
+     data/ustfccca-read.json). For each new appearance, append
    a row to `data/current-season.json` (create it as `{"rows": []}` if missing) with the same fields as
    the rows in `data/xc-track.json` (sport, season, era, poll, scope, region, week, date, rank, points,
    record_at_time, source_url, confidence "primary", notes). Skip if the row already exists.
@@ -114,4 +132,4 @@ Read `SPEC-poll-archive.md` first. The standing rules:
    a failed validation, an uncertain item you left out, a possible alias, or a notable new ranking for
    Biola (Biola newly ranked or moving up 5+ spots). Subject starts with
    "[Rankings routine]". Keep it short: what changed, what needs him, links to the commit or report.
-   Include `validate-report.md` content on failure. Do not email on quiet days, and do not repeat a manual-read request on later days.
+   Include `validate-report.md` content on failure. Do not email on quiet days. Manual-read requests for other sources go out once; USTFCCCA links repeat as reminders until added (step 3).
