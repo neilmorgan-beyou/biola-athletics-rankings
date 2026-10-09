@@ -190996,6 +190996,21 @@
    "source_url": "https://athletics.biola.edu/sports/womens-volleyball/schedule/2026"
   },
   {
+   "game_id": "wvb-2026-10-08-1",
+   "sport": "Women's Volleyball",
+   "season": "2026",
+   "date": "2026-10-08",
+   "opponent_raw": "Chaminade",
+   "opponent_as_listed": "Chaminade",
+   "location": "Away",
+   "result": "W",
+   "score": "3-2",
+   "event": null,
+   "postseason": false,
+   "exhibition": false,
+   "source_url": "https://athletics.biola.edu/sports/womens-volleyball/schedule/2026"
+  },
+  {
    "game_id": "msoc-2025-09-04-1",
    "sport": "Men's Soccer",
    "season": "2025",

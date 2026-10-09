@@ -95,6 +95,22 @@
    "source_url": "https://www.ustfccca.org/2026/10/featured/2026-ncaa-dii-womens-cross-country-regional-rankings-week-3",
    "confidence": "primary",
    "notes": "LW 3. Read from the published rankings 2026-10-08."
+  },
+  {
+   "season": "2026-27",
+   "era": "NCAA DII",
+   "poll": "CSCAA DII Top 25 (dual meet)",
+   "scope": "national",
+   "region": null,
+   "week": "Preseason",
+   "date": "2026-09-29",
+   "record_at_time": null,
+   "confidence": "primary",
+   "sport": "Women's Swimming & Diving",
+   "rank": "RV",
+   "points": 11,
+   "source_url": "https://cscaa.org/top-25/",
+   "notes": "Receiving votes (11 pts). Read from the CSCAA DII 2026-27 Preseason 2026 sheet tab; date is the CSCAA article publication date (cscaa.org/nova-southeastern-women-drury-men-lead-cscaa-division-ii-preseason-rankings/, 2026-09-29)."
   }
  ]
 }
