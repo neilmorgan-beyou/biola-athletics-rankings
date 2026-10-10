@@ -191011,6 +191011,21 @@
    "source_url": "https://athletics.biola.edu/sports/womens-volleyball/schedule/2026"
   },
   {
+   "game_id": "wvb-2026-10-09-1",
+   "sport": "Women's Volleyball",
+   "season": "2026",
+   "date": "2026-10-09",
+   "opponent_raw": "Hawaii Pacific",
+   "opponent_as_listed": "Hawaii Pacific",
+   "location": "Away",
+   "result": "W",
+   "score": "3-1",
+   "event": null,
+   "postseason": false,
+   "exhibition": false,
+   "source_url": "https://athletics.biola.edu/sports/womens-volleyball/schedule/2026"
+  },
+  {
    "game_id": "msoc-2025-09-04-1",
    "sport": "Men's Soccer",
    "season": "2025",
@@ -196946,6 +196961,21 @@
    "result": "L",
    "score": "9-13",
    "event": "Gary Troyer Tournament",
+   "postseason": false,
+   "exhibition": false,
+   "source_url": "https://athletics.biola.edu/sports/mens-water-polo/schedule/2026"
+  },
+  {
+   "game_id": "mwp-2026-10-09-1",
+   "sport": "Men's Water Polo",
+   "season": "2026",
+   "date": "2026-10-09",
+   "opponent_raw": "Fresno Pacific",
+   "opponent_as_listed": "Fresno Pacific",
+   "location": "Away",
+   "result": "W",
+   "score": "15-12",
+   "event": null,
    "postseason": false,
    "exhibition": false,
    "source_url": "https://athletics.biola.edu/sports/mens-water-polo/schedule/2026"
