@@ -35,8 +35,11 @@ def _days(a, b):
     return [(a + timedelta(n)).isoformat() for n in range((b - a).days + 1)]
 
 
-# Official release dates, 2026-27 prechampionships manuals as relayed by Eddie (2026-10-07): Mondays from four
-# weeks before selections, then daily for the last two weeks. Not yet checked against the manuals themselves.
+# Official release dates from the 2026-27 prechampionships manuals (links and quotes in npi/manuals.json; checked
+# 2026-10-12): Mondays from four weeks before selections, then daily for the last two weeks. Volleyball and women's
+# soccer list the daily dates; men's soccer lists Oct. 12/19/26 and states the two-week daily rule. Neither soccer
+# manual says whether selection day (Nov. 9) itself has a release; it is kept here. Other Biola NPI sports
+# (basketball, baseball, softball, tennis) are added when their manuals publish (npi/manuals.json).
 SCHEDULE = {
     "Women's Soccer": ["2026-10-12", "2026-10-19"] + _days("2026-10-26", "2026-11-09"),
     "Men's Soccer": ["2026-10-12", "2026-10-19"] + _days("2026-10-26", "2026-11-09"),
