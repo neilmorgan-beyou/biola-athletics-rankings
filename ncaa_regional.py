@@ -58,7 +58,7 @@ def season_window(kind, today):
 
 
 def fetch(url):
-    r = subprocess.run(["curl", "-s", "--compressed", "-A", UA, "-w", "\n%{http_code}", url],
+    r = subprocess.run(["curl", "-sL", "--compressed", "-A", UA, "-w", "\n%{http_code}", url],
                        capture_output=True, text=True, timeout=60)
     body, _, code = r.stdout.rpartition("\n")
     return (body if code == "200" else None), code
@@ -112,8 +112,12 @@ def main():
         page, code = fetch(url)
         snap = parse(page) if page else None
         if not snap:
+            # From 2026-10-12 NCAA.com redirects soccer to .../npi-rankings, which has no table, only a link
+            # to stats.ncaa.org. That site blocks scripts and its terms forbid scraping, so Neil reads it.
+            link = re.search(r'href="(https://stats\.ncaa\.org/selection_rankings/nitty_gritties/\d+)"', page or "")
             print("%s: %s %s" % (sport, "NEEDS-MANUAL" if in_window else "unreadable (out of season)", url)
-                  + ("" if page else " (HTTP %s)" % code))
+                  + ("" if page else " (HTTP %s)" % code)
+                  + (" (NCAA.com now links to %s)" % link.group(1) if link else ""))
             continue
         thr = date.fromisoformat(snap["through"])
         if not test and not (lo <= thr <= hi):
