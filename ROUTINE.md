@@ -1,7 +1,11 @@
-# Daily refresh routine (mornings)
+# Daily refresh routine (late mornings)
 
-Runs every morning so each poll lands the day after it is released (AVCA Mon, United Soccer Coaches Tue,
-USTFCCCA regional Tue / national Wed, CWPA Wed). Most days nothing changes and the run ends quietly.
+Runs daily at 17:30 UTC (10:30 a.m. Pacific in daylight time, 9:30 a.m. in standard time) so each poll lands
+the day after it is released (AVCA Mon, United Soccer Coaches Tue, USTFCCCA regional Tue / national Wed,
+CWPA Wed). The late-morning time is for the NCAA NPI: NCAA posts it about 7:15 a.m. Pacific, Neil has it
+read by hand after his 8:00 reminder, and this run then puts that day's release into the day's QUILL file
+(one file per day, so an earlier run would always be a release behind). Most days nothing changes and the
+run ends quietly.
 
 You are refreshing the data behind the Biola Athletics "Rankings History" page
 (https://athletics.biola.edu/sports/2026/9/30/rankings-history.aspx). The page loads

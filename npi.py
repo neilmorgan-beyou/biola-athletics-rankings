@@ -187,7 +187,7 @@ def main():
     elif a[:1] == ["check"]:
         print("%d releases OK" % len(load()))
     elif a[:1] == ["due"]:
-        # Dates before today only (NCAA posts around 7:15 a.m. Pacific, after the morning run), and only the
+        # Dates before today only (today's release is read after Neil's 8:00 a.m. reminder, before the 17:30 UTC run), and only the
         # last 7 days: an older release that was never read is dropped from the reminders, not chased forever.
         today = date.fromisoformat(a[a.index("--today") + 1]) if "--today" in a else date.today()
         have = {(r["sport"], r["release_date"]) for r in load()}
