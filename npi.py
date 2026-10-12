@@ -4,6 +4,7 @@
 Usage:
   python3 npi.py add CAPTURE.json    check a capture and append it to npi/releases.json
   python3 npi.py check               re-check every stored release (also run by the builder on load)
+  python3 npi.py schedule-check      check npi/schedule.json; exits 1 if any sport's entry is malformed
   python3 npi.py due [--today D]     print official release dates 1-7 days before D not yet recorded
 
 From 2026-27 the NPI is the sole DII selection metric. NCAA.com's /d2/npi-rankings page only links to
@@ -35,22 +36,51 @@ def _days(a, b):
     return [(a + timedelta(n)).isoformat() for n in range((b - a).days + 1)]
 
 
-# Official release dates from the 2026-27 prechampionships manuals (links and quotes in npi/manuals.json; checked
-# 2026-10-12): Mondays from four weeks before selections, then daily for the last two weeks. Volleyball and women's
-# soccer list the daily dates; men's soccer lists Oct. 12/19/26 and states the two-week daily rule. Neither soccer
-# manual says whether selection day (Nov. 9) itself has a release; it is kept here. Other Biola NPI sports
-# (basketball, baseball, softball, tennis) are added when their manuals publish (npi/manuals.json).
-SCHEDULE = {
-    "Women's Soccer": ["2026-10-12", "2026-10-19"] + _days("2026-10-26", "2026-11-09"),
-    "Men's Soccer": ["2026-10-12", "2026-10-19"] + _days("2026-10-26", "2026-11-09"),
-    "Women's Volleyball": ["2026-10-19", "2026-10-26"] + _days("2026-11-02", "2026-11-15"),
-}
-# NCAA.com page that announces each sport's release (it links to the stats.ncaa.org table).
-NCAA_COM = {
-    "Women's Soccer": "https://www.ncaa.com/rankings/soccer-women/d2/npi-rankings",
-    "Men's Soccer": "https://www.ncaa.com/rankings/soccer-men/d2/npi-rankings",
-    "Women's Volleyball": "https://www.ncaa.com/rankings/volleyball-women/d2/npi-rankings",
-}
+def _iso(v):
+    try:
+        return date.fromisoformat(v) if isinstance(v, str) and len(v) == 10 else None
+    except ValueError:
+        return None
+
+
+SCHEDULE_FILE = HERE / "npi" / "schedule.json"
+NCAA_COM_RE = re.compile(r"https://www\.ncaa\.com/rankings/[a-z-]+/d2/npi-rankings")
+
+
+def schedule_problems(sport, v):
+    p = []
+    if not (isinstance(v.get("ncaa_com"), str) and NCAA_COM_RE.fullmatch(v["ncaa_com"])):
+        p.append("ncaa_com must be https://www.ncaa.com/rankings/<sport>/d2/npi-rankings")
+    days = list(v.get("weekly") or [])
+    if v.get("daily"):
+        if not (isinstance(v["daily"], list) and len(v["daily"]) == 2 and all(_iso(x) for x in v["daily"])
+                and v["daily"][0] <= v["daily"][1]):
+            p.append("daily must be [first, last] YYYY-MM-DD")
+    if not all(_iso(x) for x in days):
+        p.append("weekly dates must be YYYY-MM-DD")
+    if not (days or v.get("daily")):
+        p.append("no dates")
+    if not v.get("basis"):
+        p.append("basis (manual page/quote) is missing")
+    return p
+
+
+def load_schedule():
+    """Official release dates and NCAA.com pages from npi/schedule.json, from the 2026-27 prechampionships
+    manuals. A sport with a malformed entry is skipped with a warning, never fatal."""
+    sched, pages = {}, {}
+    sports = json.loads(SCHEDULE_FILE.read_text())["sports"] if SCHEDULE_FILE.exists() else {}
+    for sport, v in sports.items():
+        p = schedule_problems(sport, v)
+        if p:
+            print("WARNING npi/schedule.json: skipped %s: %s" % (sport, "; ".join(p)), file=sys.stderr)
+            continue
+        days = list(v.get("weekly") or []) + (_days(*v["daily"]) if v.get("daily") else [])
+        sched[sport], pages[sport] = sorted(set(days)), v["ncaa_com"]
+    return sched, pages
+
+
+SCHEDULE, NCAA_COM = load_schedule()
 REQUIRED = ("sport", "season", "release_date", "through", "official", "source_url", "ncaa_com_url",
             "teams_nationally", "national_rank", "npi", "region", "region_rank", "region_teams",
             "region_standings", "read")
@@ -69,13 +99,6 @@ def load():
         else:
             good.append(r)
     return good
-
-
-def _iso(v):
-    try:
-        return date.fromisoformat(v) if isinstance(v, str) and len(v) == 10 else None
-    except ValueError:
-        return None
 
 
 def check_one(r):
@@ -167,10 +190,10 @@ def main():
     if a[:1] == ["add"] and len(a) == 2:
         new = json.loads(Path(a[1]).read_text())
         if new.get("official") is True and new.get("release_date") not in SCHEDULE.get(new.get("sport"), []):
-            raise SystemExit("not added: %s is not an official release date for %s (npi.py SCHEDULE); "
+            raise SystemExit("not added: %s is not an official release date for %s (npi/schedule.json); "
                              "store it with official false, or fix SCHEDULE first" % (new.get("release_date"), new.get("sport")))
         if new.get("official") is True:
-            new.setdefault("official_basis", "Release date on the official 2026-27 schedule (npi.py SCHEDULE), "
+            new.setdefault("official_basis", "Release date on the official 2026-27 schedule (npi/schedule.json), "
                                              "linked from NCAA.com's NPI Rankings page")
         problems = check_one(new)
         if problems:
@@ -187,6 +210,14 @@ def main():
         print("added %s %s: %s of %d %s, No. %d of %d nationally, NPI %s" % (
             new["sport"], new["release_date"], ordinal(new["region_rank"]), new["region_teams"], in_region(new["region"]),
             new["national_rank"], new["teams_nationally"], new["npi"]))
+    elif a[:1] == ["schedule-check"]:
+        sports = json.loads(SCHEDULE_FILE.read_text())["sports"]
+        bad = {k: schedule_problems(k, v) for k, v in sports.items()}
+        for k in sports:
+            print("%s: %s" % (k, "; ".join(bad[k]) if bad[k] else "%d release dates, %s to %s" % (
+                len(SCHEDULE[k]), SCHEDULE[k][0], SCHEDULE[k][-1])))
+        if any(bad.values()):
+            raise SystemExit(1)
     elif a[:1] == ["check"]:
         print("%d releases OK" % len(load()))
     elif a[:1] == ["due"]:

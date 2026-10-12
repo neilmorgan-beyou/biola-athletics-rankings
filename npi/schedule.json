@@ -1,0 +1,23 @@
+{
+ "about": "Official NPI release dates per sport, from each sport's 2026-27 NCAA Division II prechampionships manual (npi/manuals.json has the quotes). 'weekly' lists single release dates; 'daily' is an inclusive [first, last] range of daily releases. Read by npi.py; edited by hand or by the monthly manuals routine, then checked with `python3 npi.py schedule-check`.",
+ "sports": {
+  "Women's Soccer": {
+   "ncaa_com": "https://www.ncaa.com/rankings/soccer-women/d2/npi-rankings",
+   "weekly": ["2026-10-12", "2026-10-19"],
+   "daily": ["2026-10-26", "2026-11-09"],
+   "basis": "Manual p. 12: Oct. 12 first, Oct. 19 second, Oct. 26 daily updates begin; selections Mon. Nov. 9 (end of daily range assumed = selection day)."
+  },
+  "Men's Soccer": {
+   "ncaa_com": "https://www.ncaa.com/rankings/soccer-men/d2/npi-rankings",
+   "weekly": ["2026-10-12", "2026-10-19"],
+   "daily": ["2026-10-26", "2026-11-09"],
+   "basis": "Manual p. 12 lists Oct. 12, 19, 26; p. 17: daily pushes begin two weeks before selections (Mon. Nov. 9), so daily from Oct. 26 (implied)."
+  },
+  "Women's Volleyball": {
+   "ncaa_com": "https://www.ncaa.com/rankings/volleyball-women/d2/npi-rankings",
+   "weekly": ["2026-10-19", "2026-10-26"],
+   "daily": ["2026-11-02", "2026-11-15"],
+   "basis": "Manual p. 13: Oct. 19 first NPI publication, Oct. 26 second, Nov. 2-15 daily; selections Sun. Nov. 15."
+  }
+ }
+}

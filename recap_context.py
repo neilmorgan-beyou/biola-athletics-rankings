@@ -45,6 +45,10 @@ SPORTS = {
 }
 MON = ["Jan.", "Feb.", "March", "April", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
 POLL_NAME = {"NCAA DII": "NCAA Division II", "mixed": "national"}
+# QUILL poll names for NPI facts (recap-context/README.md). A sport not listed here gets no `poll` field until
+# Eddie adds its schedule; the routine reports it to Neil the first time (ROUTINE.md step 7).
+NPI_POLL = {"Women's Volleyball": "ncaa-d2-regional-volleyball", "Men's Soccer": "ncaa-d2-regional-soccer",
+            "Women's Soccer": "ncaa-d2-regional-soccer"}
 
 
 def d(s):
@@ -200,7 +204,7 @@ def main():
                     npi.ordinal(nr["national_rank"]), nr["teams_nationally"], md(nr["release_date"]), md(nr["through"]),
                     nr["npi"], npi.ordinal(nr["region_rank"]), nr["region_teams"], npi.in_region(nr["region"])),
                 "poll", "volatile", nr["through"], nr["source_url"],
-                poll="ncaa-d2-regional-volleyball" if sport == "Women's Volleyball" else "ncaa-d2-regional-soccer"))
+                poll=NPI_POLL.get(sport)))
 
         # Records vs ranked (same numbers as the Rankings History page)
         ver = [g for g in vr["games"] if g["sport"] == sport]

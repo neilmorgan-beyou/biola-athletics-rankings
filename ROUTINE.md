@@ -88,7 +88,7 @@ Read `SPEC-poll-archive.md` first. The standing rules:
    terms forbid scraping. Those releases are read by hand (Claude in Neil's Chrome, when Neil asks) and
    recorded with `npi.py add`, into `npi/releases.json`.
    `refresh.sh` then runs `npi.py due`, which prints `NPI-READ-NEEDED <sport> <date> <NCAA.com link>` for
-   each official release date (npi.py SCHEDULE) from the last 7 days, before today, not recorded yet.
+   each official release date (npi/schedule.json) from the last 7 days, before today, not recorded yet.
    **Email Neil every run that prints one**, even if nothing else happened, subject
    "[Rankings routine] NPI release to read", one line per sport and date, labeled plainly, e.g.
    "Women's soccer NPI, released Mon. Oct. 19: <NCAA.com link>", plus "Reply in Claude: read the NPI."
