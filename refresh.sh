@@ -10,6 +10,8 @@ if [ "$M" -ge 7 ]; then FROM=$((Y - 1)); else FROM=$((Y - 2)); fi
 (cd games && RECENT_FROM=$FROM python3 scrape_all_games.py)
 # Published NCAA DII regional rankings (NPI) from NCAA.com; prints NEEDS-MANUAL lines, never stops the run.
 python3 ncaa_regional.py || echo "ncaa_regional.py failed; report it"
+# Official NPI release dates not yet recorded (read by hand in Neil's Chrome; prints NPI-READ-NEEDED lines).
+python3 npi.py due || echo "npi.py due failed; report it"
 python3 join_games_polls.py
 python3 build_rankings_page.py data .
 set +e

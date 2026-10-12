@@ -8,6 +8,7 @@ Writes <DIR or recap/>/<academic year>/biola-recap-context-YYYY-MM-DD.json and p
 Facts per in-season sport (QUILL sport slugs):
   poll      Biola's current national poll position (volatile)
   poll      Biola's current regional ranking, where one is published (volatile)
+  poll      Biola's latest official NPI release: region rank, national rank, NPI value (volatile)
   record    record vs. ranked opponents this season and in all covered seasons (volatile)
   record    most recent win over a No. 1 / Top 5 / Top 10 team (volatile)
   poll      opponents Biola has played this season or last that are ranked / receiving votes now (volatile, team level)
@@ -23,6 +24,7 @@ from pathlib import Path
 HERE = Path(__file__).parent
 sys.path.insert(0, str(HERE))
 from join_games_polls import key as name_key, AMBIGUOUS  # noqa: E402
+import npi  # noqa: E402
 
 PAGE = "https://athletics.biola.edu/sports/2026/9/30/rankings-history.aspx"
 # QUILL slug -> (sport name in this repo, poll archive file or None)
@@ -93,13 +95,13 @@ def poll_name(url):
     return None
 
 
-def fact(text, category, volatility, as_of, source_url):
+def fact(text, category, volatility, as_of, source_url, poll=None):
     assert len(text) <= 320, text
     assert source_url and source_url.startswith("https://"), source_url
     f = {"text": text, "category": category, "volatility": volatility, "as_of": str(as_of)[:10],
          "source_url": source_url}
-    if category == "poll" and poll_name(source_url):
-        f["poll"] = poll_name(source_url)
+    if category == "poll" and (poll or poll_name(source_url)):
+        f["poll"] = poll or poll_name(source_url)
     return f
 
 
@@ -185,6 +187,20 @@ def main():
                     if poll.startswith("NCAA DII Regional Rankings") else "%s, released %s" % (r.get("week") or "", md(r["date"])))
             facts.append(fact("Biola is %s %s (%s)." % (pos, where, when),
                               "poll", "volatile", r["date"], r["source_url"]))
+
+        # Official NCAA DII NPI release (npi/releases.json): region rank, national rank and NPI value together.
+        # as_of = the "Through Games" date (Eddie, 2026-10-06); QUILL retires it on the next release date.
+        nr = npi.latest(sport, today) if sport in npi.SCHEDULE else None
+        # Only while it is the newest release that should exist: once a later official date has passed, the
+        # fact is stale even if that release has not been read yet.
+        if nr and npi.is_current(nr, today):
+            facts.append(fact(
+                "Biola is %s of %d teams nationally in the official NCAA Division II NPI released %s (through games %s), "
+                "with an NPI of %s. By NPI rank, that places Biola %s of the %d teams %s." % (
+                    npi.ordinal(nr["national_rank"]), nr["teams_nationally"], md(nr["release_date"]), md(nr["through"]),
+                    nr["npi"], npi.ordinal(nr["region_rank"]), nr["region_teams"], npi.in_region(nr["region"])),
+                "poll", "volatile", nr["through"], nr["source_url"],
+                poll="ncaa-d2-regional-volleyball" if sport == "Women's Volleyball" else "ncaa-d2-regional-soccer"))
 
         # Records vs ranked (same numbers as the Rankings History page)
         ver = [g for g in vr["games"] if g["sport"] == sport]

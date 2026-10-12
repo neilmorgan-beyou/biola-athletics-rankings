@@ -1,0 +1,511 @@
+{
+ "about": "Official NCAA DII NPI releases, one record per sport and release (append-only). See npi.py.",
+ "releases": [
+  {
+   "sport": "Men's Soccer",
+   "season": "2026",
+   "official": true,
+   "release_date": "2026-10-12",
+   "through": "2026-10-11",
+   "ncaa_com_url": "https://www.ncaa.com/rankings/soccer-men/d2/npi-rankings",
+   "ncaa_com_published": "2026-10-12T10:15:10-04:00",
+   "source_url": "https://stats.ncaa.org/selection_rankings/nitty_gritties/53193",
+   "teams_nationally": 202,
+   "national_rank": 155,
+   "npi": "45.733",
+   "record": "3-6-3",
+   "region": "Super-Region 4",
+   "region_rank": 44,
+   "region_teams": 52,
+   "region_standings": [
+    [
+     1,
+     "Cal State LA"
+    ],
+    [
+     2,
+     "Midwestern St."
+    ],
+    [
+     3,
+     "CSU Pueblo"
+    ],
+    [
+     8,
+     "Seattle Pacific"
+    ],
+    [
+     12,
+     "CSUSB"
+    ],
+    [
+     15,
+     "UCCS"
+    ],
+    [
+     16,
+     "Regis (CO)"
+    ],
+    [
+     27,
+     "Northwest Nazarene"
+    ],
+    [
+     32,
+     "Cal St. Monterey Bay"
+    ],
+    [
+     33,
+     "Fort Lewis"
+    ],
+    [
+     41,
+     "Simon Fraser"
+    ],
+    [
+     43,
+     "St. Mary's (TX)"
+    ],
+    [
+     51,
+     "South Dakota Mines"
+    ],
+    [
+     54,
+     "Point Loma"
+    ],
+    [
+     55,
+     "Colorado Mesa"
+    ],
+    [
+     58,
+     "Texas-Dallas"
+    ],
+    [
+     59,
+     "Cal St. San Marcos"
+    ],
+    [
+     62,
+     "Western Ore."
+    ],
+    [
+     63,
+     "Okla. Christian"
+    ],
+    [
+     70,
+     "Western Wash."
+    ],
+    [
+     73,
+     "MSU Denver"
+    ],
+    [
+     87,
+     "Cal Poly Pomona"
+    ],
+    [
+     92,
+     "Menlo"
+    ],
+    [
+     97,
+     "Westminster (UT)"
+    ],
+    [
+     99,
+     "Cal St. Dom. Hills"
+    ],
+    [
+     100,
+     "DBU"
+    ],
+    [
+     104,
+     "Westmont"
+    ],
+    [
+     105,
+     "CUI"
+    ],
+    [
+     107,
+     "UC Merced"
+    ],
+    [
+     110,
+     "Stanislaus St."
+    ],
+    [
+     114,
+     "Tex. A&M Int'l"
+    ],
+    [
+     118,
+     "Hawaii Hilo"
+    ],
+    [
+     126,
+     "UT Tyler"
+    ],
+    [
+     127,
+     "Hawaii Pacific"
+    ],
+    [
+     130,
+     "West Tex. A&M"
+    ],
+    [
+     131,
+     "Vanguard"
+    ],
+    [
+     133,
+     "St. Edward's"
+    ],
+    [
+     137,
+     "Lubbock Christian"
+    ],
+    [
+     139,
+     "Fresno Pacific"
+    ],
+    [
+     142,
+     "Chico St."
+    ],
+    [
+     144,
+     "Colo. Christian"
+    ],
+    [
+     148,
+     "Dominican (CA)"
+    ],
+    [
+     152,
+     "Saint Martin's"
+    ],
+    [
+     155,
+     "Biola"
+    ],
+    [
+     157,
+     "Cal St. East Bay"
+    ],
+    [
+     169,
+     "Cal Poly Humboldt"
+    ],
+    [
+     194,
+     "Jessup"
+    ],
+    [
+     195,
+     "Colo. Sch. of Mines"
+    ],
+    [
+     196,
+     "Virginia St."
+    ],
+    [
+     197,
+     "Chaminade"
+    ],
+    [
+     199,
+     "Adams St."
+    ],
+    [
+     200,
+     "Sul Ross St."
+    ]
+   ],
+   "biola_row": [
+    [
+     "Team",
+     "Biola"
+    ],
+    [
+     "Conference",
+     "PacWest"
+    ],
+    [
+     "Region",
+     "SUPER-REGION 4"
+    ],
+    [
+     "10/11/2026 Result",
+     ""
+    ],
+    [
+     "NPI Rank",
+     "155"
+    ],
+    [
+     "NPI",
+     "45.733"
+    ],
+    [
+     "Prev NPI",
+     ""
+    ],
+    [
+     "DII WL",
+     "3-6-3"
+    ],
+    [
+     "Adj W/L",
+     "4.4-6.3"
+    ],
+    [
+     "AdjWin%",
+     "0.412"
+    ],
+    [
+     "Win Value",
+     "59.300"
+    ],
+    [
+     "Loss Value",
+     "34.300"
+    ],
+    [
+     "QWB",
+     "57"
+    ],
+    [
+     "QWB",
+     "0.000"
+    ],
+    [
+     "vAbove",
+     "1-6-2"
+    ],
+    [
+     "vBelow",
+     "2-0-1"
+    ]
+   ],
+   "read": "Read 2026-10-12 by Claude in Neil's Chrome from the stats.ncaa.org table that NCAA.com's NPI Rankings page links to; region rank = Biola's position among the region's teams sorted by NPI rank.",
+   "official_basis": "Release date on the official 2026-27 schedule (npi.py SCHEDULE), linked from NCAA.com's NPI Rankings page"
+  },
+  {
+   "sport": "Women's Soccer",
+   "season": "2026",
+   "official": true,
+   "release_date": "2026-10-12",
+   "through": "2026-10-11",
+   "ncaa_com_url": "https://www.ncaa.com/rankings/soccer-women/d2/npi-rankings",
+   "ncaa_com_published": "2026-10-12T10:18:32-04:00",
+   "source_url": "https://stats.ncaa.org/selection_rankings/nitty_gritties/53169",
+   "teams_nationally": 259,
+   "national_rank": 82,
+   "npi": "53.280",
+   "record": "7-3-2",
+   "region": "West Region",
+   "region_rank": 11,
+   "region_teams": 32,
+   "region_standings": [
+    [
+     32,
+     "Western Wash."
+    ],
+    [
+     36,
+     "Cal Poly Pomona"
+    ],
+    [
+     46,
+     "CUI"
+    ],
+    [
+     49,
+     "CSUSB"
+    ],
+    [
+     52,
+     "Cal State LA"
+    ],
+    [
+     59,
+     "UC Merced"
+    ],
+    [
+     62,
+     "Simon Fraser"
+    ],
+    [
+     66,
+     "Cal St. San Marcos"
+    ],
+    [
+     67,
+     "Point Loma"
+    ],
+    [
+     81,
+     "Seattle Pacific"
+    ],
+    [
+     82,
+     "Biola"
+    ],
+    [
+     92,
+     "Stanislaus St."
+    ],
+    [
+     96,
+     "Hawaii Hilo"
+    ],
+    [
+     102,
+     "Cal St. Monterey Bay"
+    ],
+    [
+     112,
+     "Cal Poly Humboldt"
+    ],
+    [
+     124,
+     "Chico St."
+    ],
+    [
+     141,
+     "Dominican (CA)"
+    ],
+    [
+     159,
+     "Vanguard"
+    ],
+    [
+     160,
+     "Central Wash."
+    ],
+    [
+     162,
+     "Fresno Pacific"
+    ],
+    [
+     172,
+     "Western Ore."
+    ],
+    [
+     183,
+     "Mont. St. Billings"
+    ],
+    [
+     190,
+     "Cal St. East Bay"
+    ],
+    [
+     191,
+     "Westmont"
+    ],
+    [
+     198,
+     "Northwest Nazarene"
+    ],
+    [
+     208,
+     "Menlo"
+    ],
+    [
+     217,
+     "Jessup"
+    ],
+    [
+     219,
+     "Saint Martin's"
+    ],
+    [
+     226,
+     "San Fran. St."
+    ],
+    [
+     228,
+     "Cal St. Dom. Hills"
+    ],
+    [
+     243,
+     "Hawaii Pacific"
+    ],
+    [
+     254,
+     "Chaminade"
+    ]
+   ],
+   "biola_row": [
+    [
+     "Team",
+     "Biola"
+    ],
+    [
+     "Conference",
+     "PacWest"
+    ],
+    [
+     "Region",
+     "WEST REGION"
+    ],
+    [
+     "10/11/2026 Result",
+     ""
+    ],
+    [
+     "NPI Rank",
+     "82"
+    ],
+    [
+     "NPI",
+     "53.280"
+    ],
+    [
+     "Prev NPI",
+     ""
+    ],
+    [
+     "DII WL",
+     "7-3-2"
+    ],
+    [
+     "Adj W/L",
+     "8.0-4.0"
+    ],
+    [
+     "AdjWin%",
+     "0.667"
+    ],
+    [
+     "Win Value",
+     "64.960"
+    ],
+    [
+     "Loss Value",
+     "39.960"
+    ],
+    [
+     "QWB",
+     "0.000"
+    ],
+    [
+     "vAbove",
+     "1-3-1"
+    ],
+    [
+     "vBelow",
+     "6-0-1"
+    ]
+   ],
+   "read": "Read 2026-10-12 by Claude in Neil's Chrome from the stats.ncaa.org table that NCAA.com's NPI Rankings page links to; region rank = Biola's position among the region's teams sorted by NPI rank.",
+   "official_basis": "Release date on the official 2026-27 schedule (npi.py SCHEDULE), linked from NCAA.com's NPI Rankings page"
+  }
+ ]
+}

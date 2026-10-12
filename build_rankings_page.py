@@ -422,14 +422,14 @@ scopes = sorted({r.get("scope") or "" for r in rows} - {""})
 polls = sorted({r.get("poll") or "" for r in rows} - {""})
 
 
-def filters(tid, extra=""):
+def filters(tid, extra="", sports=None, hint="Opponent, poll, season..."):
     return (
         '<div class="rk-filters" data-for="%s">'
         '<label><span>Sport</span><select data-f="sport"><option value="">All sports</option>%s</select></label>'
         '%s'
-        '<label class="rk-q"><span>Search</span><input type="search" data-f="q" placeholder="Opponent, poll, season..."></label>'
+        '<label class="rk-q"><span>Search</span><input type="search" data-f="q" placeholder="%s"></label>'
         '<p class="rk-count" aria-live="polite"></p>'
-        '</div>' % (tid, opts(sports_present), extra)
+        '</div>' % (tid, opts(sports or sports_present), extra, e(hint))
     )
 
 
@@ -848,6 +848,39 @@ def currently_ranked(today=None):
 
 NOW_HTML = currently_ranked()
 
+# Section 2b: official NCAA DII NPI releases (npi/releases.json). The NPI ranks every team, so these are
+# positions, not poll rankings: own table, never in the poll rows, stats or "Currently ranked".
+sys.path.insert(0, str(Path(__file__).parent))
+import npi as npi_mod  # noqa: E402
+# Newest release first; sports in the usual order within a release.
+NPI = sorted(npi_mod.load(), key=lambda r: (sport_key(r["sport"]), r["release_date"]))
+NPI.sort(key=lambda r: r["release_date"], reverse=True)
+npi_rows = []
+for r in NPI:
+    npi_rows.append(
+        '<tr data-sport="%s"><td>%s</td><td data-v="%s">%s</td><td data-v="%s">%s</td>'
+        '<td data-v="%d">%s of %d %s</td><td data-v="%d">%s of %d</td>'
+        '<td data-v="%s">%s</td><td>%s</td><td>%s</td></tr>' % (
+            e(r["sport"]), e(r["sport"]), e(r["release_date"]),
+            e(when(r["release_date"]) + ", " + r["release_date"][:4]) + (" <b>Official release</b>" if r["official"] else " (unofficial)"),
+            e(r["through"]), e(when(r["through"]) + ", " + r["through"][:4]),
+            r["region_rank"], e(npi_mod.ordinal(r["region_rank"])), r["region_teams"], e(npi_mod.in_region(r["region"])),
+            r["national_rank"], e(npi_mod.ordinal(r["national_rank"])), r["teams_nationally"],
+            e(r["npi"]), e(r["npi"]), e(r.get("record") or ""),
+            link(r["source_url"], "NCAA")))
+
+npi_html = ("" if not NPI else
+    '<h3 class="rk-h3" id="rk-npi">NCAA Power Index (NPI)</h3>\n'
+    '<p class="cmp-sub">Official NCAA Division II NPI releases, the selection metric the NCAA uses for championship '
+    'selection from 2026-27. The NPI ranks every team in the sport, so these are positions rather than poll rankings and '
+    'are not counted above. Region rank is Biola\'s place among the teams in its NCAA region, ordered by NPI rank. '
+    'National rank and NPI are as published.</p>\n'
+    + filters("t-npi", sports=sorted({r["sport"] for r in NPI}, key=sport_key), hint="Sport, region, date...") +
+    '<div class="rk-wrap"><table class="rk-table" id="t-npi">\n<thead><tr>%s%s%s%s%s%s%s<th scope="col">Source</th></tr></thead>\n'
+    '<tbody>%s</tbody></table></div>' % (th("Sport", "0"), th("Released", "1"), th("Through games", "2"),
+                                         th("Region rank", "3", "num"), th("National NPI rank", "4", "num"),
+                                         th("NPI", "5", "num"), th("Record", "6"), "".join(npi_rows)))
+
 
 def render(vs_tab, vs_panel):
     return f"""
@@ -896,6 +929,7 @@ def render(vs_tab, vs_panel):
 <div class="rk-wrap"><table class="rk-table" id="t-polls">
 <thead><tr>{th("Sport","0")}{th("Season","1","num")}{th("Poll","2")}{th("Type","3")}{th("Week","4")}{th("Date","5")}{th("Rank","6","num")}{th("Record","7")}<th scope="col">Source</th></tr></thead>
 <tbody>{"".join(p_rows)}</tbody></table></div>
+{npi_html}
 </section>
 
 <section class="cmp-sec rk-panel" id="rk-dept" role="tabpanel" aria-labelledby="tab-rk-dept">

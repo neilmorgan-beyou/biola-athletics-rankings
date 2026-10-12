@@ -115,9 +115,12 @@ def main():
             # From 2026-10-12 NCAA.com redirects soccer to .../npi-rankings, which has no table, only a link
             # to stats.ncaa.org. That site blocks scripts and its terms forbid scraping, so Neil reads it.
             link = re.search(r'href="(https://stats\.ncaa\.org/selection_rankings/nitty_gritties/\d+)"', page or "")
+            if link:
+                # Expected: npi.py tracks these releases and `npi.py due` lists any not yet read.
+                print("%s: NPI-REDIRECT %s (table on stats.ncaa.org; read by hand, see npi.py)" % (sport, url))
+                continue
             print("%s: %s %s" % (sport, "NEEDS-MANUAL" if in_window else "unreadable (out of season)", url)
-                  + ("" if page else " (HTTP %s)" % code)
-                  + (" (NCAA.com now links to %s)" % link.group(1) if link else ""))
+                  + ("" if page else " (HTTP %s)" % code))
             continue
         thr = date.fromisoformat(snap["through"])
         if not test and not (lo <= thr <= hi):

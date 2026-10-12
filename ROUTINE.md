@@ -77,13 +77,21 @@ Read `SPEC-poll-archive.md` first. The standing rules:
    the rows in `data/xc-track.json` (sport, season, era, poll, scope, region, week, date, rank, points,
    record_at_time, source_url, confidence "primary", notes). Skip if the row already exists.
 
-4. **NCAA regional rankings (NPI).** `refresh.sh` runs `ncaa_regional.py`, which checks the published
-   NCAA.com Division II regional rankings page for each team sport
-   (`https://www.ncaa.com/rankings/<sport>/d2/regional-rankings`; from 2026-27 they are NPI-based and
-   usually appear only for the last ~3 weeks of a regular season). It archives each new release and adds
-   Biola's row. **Never use stats.ncaa.org (the "nitty gritties"); only the published NCAA.com page.**
-   In the email to Neil, report any `NEW release` line where Biola is ranked, the first release of each
-   sport's season (with the NCAA.com link, for Eddie), and any `NEEDS-MANUAL` line.
+4. **NCAA regional rankings and the NPI.** `refresh.sh` runs `ncaa_regional.py`, which checks the
+   NCAA.com Division II regional rankings pages and archives any release that still has a table there.
+   From 2026-10-12 the soccer pages (and, expected, volleyball) redirect to `/d2/npi-rankings`, which only
+   links to a stats.ncaa.org table. **This routine never opens stats.ncaa.org**: it blocks scripts and its
+   terms forbid scraping. Those releases are read by hand (Claude in Neil's Chrome, when Neil asks) and
+   recorded with `npi.py add`, into `npi/releases.json`.
+   `refresh.sh` then runs `npi.py due`, which prints `NPI-READ-NEEDED <sport> <date> <NCAA.com link>` for
+   each official release date (npi.py SCHEDULE) from the last 7 days, before today, not recorded yet.
+   **Email Neil every run that prints one**, even if nothing else happened, subject
+   "[Rankings routine] NPI release to read", one line per sport and date, labeled plainly, e.g.
+   "Women's soccer NPI, released Mon. Oct. 19: <NCAA.com link>", plus "Reply in Claude: read the NPI."
+   Dates still listed from earlier runs go under "Still waiting (reminder)". `due` lists only dates 1-7
+   days before today, so a release appears the morning after it is posted (Neil also has a calendar
+   reminder on each release day). `NPI-REDIRECT` lines from `ncaa_regional.py` are expected and are
+   not reported. Also report any `NEW release` line where Biola is ranked and any `NEEDS-MANUAL` line.
 
    **Run** `sh refresh.sh`. It re-scrapes recent games from athletics.biola.edu, joins games to
    polls, rebuilds the page data and runs `validate.py`.
@@ -120,7 +128,8 @@ Read `SPEC-poll-archive.md` first. The standing rules:
      retires a poll position on its own when that poll's next release is due, so a missing poll never
      leaves a wrong rank in a recap; it only leaves that sport without a rank until the next file.
    - a poll QUILL has no schedule for (any poll other than AVCA DII women, United Soccer Coaches DII,
-     CWPA men's varsity, USTFCCCA DII XC regional/national) gets no `poll` field; list it in the email
+     CWPA men's varsity, USTFCCCA DII XC regional/national, and the NCAA DII regional rankings / NPI for
+     soccer and volleyball: `ncaa-d2-regional-soccer`, `ncaa-d2-regional-volleyball`) gets no `poll` field; list it in the email
      to Neil the first time it appears, with one example `source_url` exactly as the feed cites it (Eddie
      recognizes a poll by that page; he pulls release schedules himself). Add the `poll` name once
      Eddie lists it in recap-context/README.md.
@@ -128,8 +137,8 @@ Read `SPEC-poll-archive.md` first. The standing rules:
 
 8. **Email Neil** (neil.morgan@biola.edu) using the Gmail connector ONLY when there is something to
    report: the run could not complete (for example a source or athletics.biola.edu was unreachable),
-   new USTFCCCA polls that need a manual read,
+   new USTFCCCA polls that need a manual read, NPI releases to read (`NPI-READ-NEEDED`, step 4),
    a failed validation, an uncertain item you left out, a possible alias, or a notable new ranking for
    Biola (Biola newly ranked or moving up 5+ spots). Subject starts with
    "[Rankings routine]". Keep it short: what changed, what needs him, links to the commit or report.
-   Include `validate-report.md` content on failure. Do not email on quiet days. Manual-read requests for other sources go out once; USTFCCCA links repeat as reminders until added (step 3).
+   Include `validate-report.md` content on failure. Do not email on quiet days. Manual-read requests for other sources go out once; USTFCCCA links (step 3) and `NPI-READ-NEEDED` lines (step 4) repeat as reminders until added (`npi.py due` itself stops listing a date after 7 days).

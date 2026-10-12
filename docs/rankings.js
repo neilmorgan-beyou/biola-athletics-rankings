@@ -76,9 +76,9 @@
 
   // Sort labels for the phone "Sort by" menu (headers are hidden when rows become cards).
   // [first option, second option, direction of the first]: 1 = ascending, -1 = descending.
-  var RANKISH = /^(rank|preseason|peak|final|finish)$/i;
+  var RANKISH = /^(rank|preseason|peak|final|finish|.* rank)$/i;
   function sortWords(name, kind) {
-    if (/^(season|date)$/i.test(name)) return ['newest first', 'oldest first', -1];
+    if (/^(season|date|released|through games)$/i.test(name)) return ['newest first', 'oldest first', -1];
     if (/^opp\. rank$/i.test(name)) return ['highest-ranked first', 'lowest-ranked first', 1];
     if (RANKISH.test(name)) return ['best first', 'worst first', 1];
     if (/^vs\./i.test(name)) return ['best record first', 'worst record first', -1];
