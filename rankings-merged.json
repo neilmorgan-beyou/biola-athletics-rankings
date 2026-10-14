@@ -6098,6 +6098,22 @@
    "notes": "LW 7. Read from the published rankings 2026-10-08."
   },
   {
+   "season": "2026",
+   "era": "NCAA DII",
+   "record_at_time": null,
+   "confidence": "primary",
+   "sport": "Men's Cross Country",
+   "poll": "USTFCCCA NCAA DII Regional Rankings",
+   "scope": "regional",
+   "region": "West",
+   "week": "Week 4",
+   "date": "2026-10-13",
+   "rank": 7,
+   "points": null,
+   "source_url": "https://www.ustfccca.org/2026/10/featured/2026-ncaa-dii-mens-cross-country-regional-rankings-week-4",
+   "notes": "LW 7. Read from the published rankings 2026-10-14."
+  },
+  {
    "sport": "Men's Cross Country",
    "season": "2025",
    "era": "NCAA DII",
@@ -7842,6 +7858,22 @@
    "notes": "Tied with Neb.-Kearney and Dallas Baptist (55 pts); LW 23. Read from the published poll 2026-10-08."
   },
   {
+   "season": "2026",
+   "era": "NCAA DII",
+   "record_at_time": null,
+   "confidence": "primary",
+   "sport": "Women's Cross Country",
+   "poll": "USTFCCCA NCAA DII National Coaches' Poll",
+   "scope": "national",
+   "region": null,
+   "week": "Week 4",
+   "date": "2026-10-14",
+   "rank": "T15",
+   "points": 126,
+   "source_url": "https://www.ustfccca.org/2026/10/featured/2026-ncaa-dii-womens-cross-country-national-coaches-poll-week-4",
+   "notes": "Tied with Winona State (126 pts); LW T23. Read from the published poll 2026-10-14."
+  },
+  {
    "sport": "Women's Cross Country",
    "season": "2026",
    "era": "NCAA DII",
@@ -7904,6 +7936,22 @@
    "source_url": "https://www.ustfccca.org/2026/10/featured/2026-ncaa-dii-womens-cross-country-regional-rankings-week-3",
    "confidence": "primary",
    "notes": "LW 3. Read from the published rankings 2026-10-08."
+  },
+  {
+   "season": "2026",
+   "era": "NCAA DII",
+   "record_at_time": null,
+   "confidence": "primary",
+   "sport": "Women's Cross Country",
+   "poll": "USTFCCCA NCAA DII Regional Rankings",
+   "scope": "regional",
+   "region": "West",
+   "week": "Week 4",
+   "date": "2026-10-13",
+   "rank": 3,
+   "points": null,
+   "source_url": "https://www.ustfccca.org/2026/10/featured/2026-ncaa-dii-womens-cross-country-regional-rankings-week-4",
+   "notes": "LW 3. Read from the published rankings 2026-10-14."
   },
   {
    "sport": "Women's Cross Country",
@@ -21605,7 +21653,7 @@
    "preseason": 30,
    "peak": 22,
    "final": null,
-   "source_url": "https://www.ustfccca.org/2026/09/featured/2026-ncaa-dii-womens-cross-country-national-coaches-poll-week-1"
+   "source_url": "https://www.ustfccca.org/2026/10/featured/2026-ncaa-dii-womens-cross-country-national-coaches-poll-week-4"
   },
   {
    "sport": "Women's Cross Country",

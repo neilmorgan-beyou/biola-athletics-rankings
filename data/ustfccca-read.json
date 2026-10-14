@@ -1,4 +1,10 @@
 {
  "about": "USTFCCCA posts read by hand where Biola was not listed, so the routine stops reminding Neil about them. Posts where Biola appears are tracked by source_url in current-season.json / xc-track.json.",
- "links": []
+ "links": [
+  {
+   "url": "https://www.ustfccca.org/2026/10/featured/2026-ncaa-dii-mens-cross-country-national-coaches-poll-week-4",
+   "read": "2026-10-14",
+   "note": "Biola not in the Top 30 or receiving votes (LW RV 2 pts)."
+  }
+ ]
 }
