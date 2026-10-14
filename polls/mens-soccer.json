@@ -128217,6 +128217,284 @@
      "points": null
     }
    ]
+  },
+  {
+   "poll_id": "usc-dii-m-2026-w07",
+   "poll": "United Soccer Coaches (formerly NSCAA) NCAA Division II National Top 25",
+   "division": "NCAA DII",
+   "season": "2026",
+   "week": "Week 7",
+   "release_date": "2026-10-13",
+   "postseason_final": false,
+   "size": 25,
+   "complete": true,
+   "source_url": "https://unitedsoccercoaches.org/rankings/college-rankings/ncaa-dii-men/",
+   "confidence": "primary",
+   "date_basis": "date printed in the poll title",
+   "notes": [
+    "Read from the United Soccer Coaches national rankings web page (Wayback snapshot or live page).",
+    "Records shown are through games of October 11, 2026"
+   ],
+   "teams": [
+    {
+     "rank": 1,
+     "tied": false,
+     "team_raw": "California State University-Los Angeles",
+     "points": null,
+     "prev": "1",
+     "record": "12-0-1"
+    },
+    {
+     "rank": 2,
+     "tied": false,
+     "team_raw": "Midwestern State University",
+     "points": null,
+     "prev": "2",
+     "record": "11-0-3"
+    },
+    {
+     "rank": 3,
+     "tied": false,
+     "team_raw": "University of Charleston",
+     "points": null,
+     "prev": "3",
+     "record": "10-2-0"
+    },
+    {
+     "rank": 4,
+     "tied": false,
+     "team_raw": "Southern New Hampshire University",
+     "points": null,
+     "prev": "5",
+     "record": "10-0-3"
+    },
+    {
+     "rank": 5,
+     "tied": false,
+     "team_raw": "Florida Southern College",
+     "points": null,
+     "prev": "9",
+     "record": "10-1-1"
+    },
+    {
+     "rank": 6,
+     "tied": false,
+     "team_raw": "Colorado State University-Pueblo",
+     "points": null,
+     "prev": "7",
+     "record": "10-0-2"
+    },
+    {
+     "rank": 7,
+     "tied": false,
+     "team_raw": "Francis Marion University",
+     "points": null,
+     "prev": "10",
+     "record": "11-2-1"
+    },
+    {
+     "rank": 8,
+     "tied": false,
+     "team_raw": "Drury University",
+     "points": null,
+     "prev": "11",
+     "record": "9-2-2"
+    },
+    {
+     "rank": 9,
+     "tied": false,
+     "team_raw": "California State University-San Bernardino",
+     "points": null,
+     "prev": "8",
+     "record": "10-1-2"
+    },
+    {
+     "rank": 10,
+     "tied": false,
+     "team_raw": "Auburn University Montgomery",
+     "points": null,
+     "prev": "4",
+     "record": "9-1-2"
+    },
+    {
+     "rank": 11,
+     "tied": false,
+     "team_raw": "Davis & Elkins College",
+     "points": null,
+     "prev": "12",
+     "record": "9-1-1"
+    },
+    {
+     "rank": 12,
+     "tied": false,
+     "team_raw": "Lees-McRae College",
+     "points": null,
+     "prev": "17",
+     "record": "10-0-3"
+    },
+    {
+     "rank": 13,
+     "tied": false,
+     "team_raw": "Seattle Pacific University",
+     "points": null,
+     "prev": "15",
+     "record": "10-2-1"
+    },
+    {
+     "rank": 14,
+     "tied": false,
+     "team_raw": "Fort Hays State University",
+     "points": null,
+     "prev": "13",
+     "record": "8-2-3"
+    },
+    {
+     "rank": 15,
+     "tied": false,
+     "team_raw": "Lincoln University (Mo.)",
+     "points": null,
+     "prev": "NR",
+     "record": "7-0-4"
+    },
+    {
+     "rank": 16,
+     "tied": false,
+     "team_raw": "University of Colorado-Colorado Springs",
+     "points": null,
+     "prev": "23",
+     "record": "8-1-5"
+    },
+    {
+     "rank": 17,
+     "tied": false,
+     "team_raw": "Mercy University",
+     "points": null,
+     "prev": "18",
+     "record": "9-2-3"
+    },
+    {
+     "rank": 18,
+     "tied": false,
+     "team_raw": "Concord University",
+     "points": null,
+     "prev": "19",
+     "record": "9-1-2"
+    },
+    {
+     "rank": 19,
+     "tied": false,
+     "team_raw": "Flagler College",
+     "points": null,
+     "prev": "NR",
+     "record": "7-1-4"
+    },
+    {
+     "rank": 20,
+     "tied": false,
+     "team_raw": "Trevecca Nazarene University",
+     "points": null,
+     "prev": "RV",
+     "record": "9-1-2"
+    },
+    {
+     "rank": 21,
+     "tied": false,
+     "team_raw": "Saginaw Valley State University",
+     "points": null,
+     "prev": "NR",
+     "record": "6-1-5"
+    },
+    {
+     "rank": 22,
+     "tied": false,
+     "team_raw": "Franklin Pierce University",
+     "points": null,
+     "prev": "RV",
+     "record": "6-3-3"
+    },
+    {
+     "rank": 23,
+     "tied": false,
+     "team_raw": "University of Alabama-Huntsville",
+     "points": null,
+     "prev": "16",
+     "record": "8-1-3"
+    },
+    {
+     "rank": 24,
+     "tied": false,
+     "team_raw": "Anderson University (S.C.)",
+     "points": null,
+     "prev": "6",
+     "record": "7-1-4"
+    },
+    {
+     "rank": 25,
+     "tied": false,
+     "team_raw": "Rogers State University",
+     "points": null,
+     "prev": "RV",
+     "record": "8-3-2"
+    }
+   ],
+   "receiving_votes": [
+    {
+     "team_raw": "Regis University",
+     "points": null
+    },
+    {
+     "team_raw": "California State University Monterey Bay",
+     "points": null
+    },
+    {
+     "team_raw": "Menlo College",
+     "points": null
+    },
+    {
+     "team_raw": "Catawba College",
+     "points": null
+    },
+    {
+     "team_raw": "Northwest Nazarene University",
+     "points": null
+    },
+    {
+     "team_raw": "Millersville University",
+     "points": null
+    },
+    {
+     "team_raw": "University of North Georgia",
+     "points": null
+    },
+    {
+     "team_raw": "Fort Lewis College",
+     "points": null
+    },
+    {
+     "team_raw": "Gannon University",
+     "points": null
+    },
+    {
+     "team_raw": "Embry-Riddle Aeronautical University (Fla.)",
+     "points": null
+    },
+    {
+     "team_raw": "Southern Nazarene University",
+     "points": null
+    },
+    {
+     "team_raw": "Thomas More University",
+     "points": null
+    },
+    {
+     "team_raw": "Queens College",
+     "points": null
+    },
+    {
+     "team_raw": "Northern Michigan University",
+     "points": null
+    }
+   ]
   }
  ],
  "gaps": [

@@ -130073,6 +130073,263 @@
      "points": null
     }
    ]
+  },
+  {
+   "poll_id": "usc-dii-w-2026-w07",
+   "poll": "United Soccer Coaches (formerly NSCAA) NCAA Division II National Top 25",
+   "division": "NCAA DII",
+   "season": "2026",
+   "week": "Week 7",
+   "release_date": "2026-10-13",
+   "postseason_final": false,
+   "size": 25,
+   "complete": true,
+   "source_url": "https://unitedsoccercoaches.org/rankings/college-rankings/ncaa-dii-women/",
+   "confidence": "primary",
+   "date_basis": "date printed in the poll title",
+   "notes": [
+    "Read from the United Soccer Coaches national rankings web page (Wayback snapshot or live page)."
+   ],
+   "teams": [
+    {
+     "rank": 1,
+     "tied": false,
+     "team_raw": "Dallas Baptist University",
+     "points": null,
+     "prev": "2",
+     "record": "12-0-0"
+    },
+    {
+     "rank": 2,
+     "tied": false,
+     "team_raw": "Florida Tech",
+     "points": null,
+     "prev": "1",
+     "record": "9-0-4"
+    },
+    {
+     "rank": 3,
+     "tied": false,
+     "team_raw": "Minnesota State University-Mankato",
+     "points": null,
+     "prev": "7",
+     "record": "11-1-1"
+    },
+    {
+     "rank": 4,
+     "tied": false,
+     "team_raw": "Kutztown University",
+     "points": null,
+     "prev": "9",
+     "record": "10-1-2"
+    },
+    {
+     "rank": 5,
+     "tied": false,
+     "team_raw": "Grand Valley State University",
+     "points": null,
+     "prev": "5",
+     "record": "8-2-3"
+    },
+    {
+     "rank": 6,
+     "tied": false,
+     "team_raw": "Franklin Pierce University",
+     "points": null,
+     "prev": "13",
+     "record": "9-2-0"
+    },
+    {
+     "rank": 7,
+     "tied": false,
+     "team_raw": "Catawba College",
+     "points": null,
+     "prev": "6",
+     "record": "10-2-1"
+    },
+    {
+     "rank": 8,
+     "tied": true,
+     "team_raw": "Pittsburg State University",
+     "points": null,
+     "prev": "3",
+     "record": "10-0-4"
+    },
+    {
+     "rank": 8,
+     "tied": true,
+     "team_raw": "Western Washington University",
+     "points": null,
+     "prev": "9",
+     "record": "9-1-3"
+    },
+    {
+     "rank": 10,
+     "tied": false,
+     "team_raw": "Nova Southeastern University",
+     "points": null,
+     "prev": "11",
+     "record": "7-0-4"
+    },
+    {
+     "rank": 11,
+     "tied": false,
+     "team_raw": "Midwestern State University",
+     "points": null,
+     "prev": "8",
+     "record": "12-1-1"
+    },
+    {
+     "rank": 12,
+     "tied": false,
+     "team_raw": "Columbus State University",
+     "points": null,
+     "prev": "14",
+     "record": "9-2-2"
+    },
+    {
+     "rank": 13,
+     "tied": false,
+     "team_raw": "Cal Poly Pomona",
+     "points": null,
+     "prev": "12",
+     "record": "7-0-6"
+    },
+    {
+     "rank": 14,
+     "tied": false,
+     "team_raw": "Lee University",
+     "points": null,
+     "prev": "15",
+     "record": "8-1-3"
+    },
+    {
+     "rank": 15,
+     "tied": false,
+     "team_raw": "Ashland University",
+     "points": null,
+     "prev": "19",
+     "record": "9-2-2"
+    },
+    {
+     "rank": 16,
+     "tied": false,
+     "team_raw": "Bentley University",
+     "points": null,
+     "prev": "4",
+     "record": "8-1-2"
+    },
+    {
+     "rank": 17,
+     "tied": false,
+     "team_raw": "West Chester University",
+     "points": null,
+     "prev": "17",
+     "record": "9-1-1"
+    },
+    {
+     "rank": 18,
+     "tied": false,
+     "team_raw": "Texas Woman's University",
+     "points": null,
+     "prev": "25",
+     "record": "13-1-0"
+    },
+    {
+     "rank": 19,
+     "tied": false,
+     "team_raw": "Washburn University",
+     "points": null,
+     "prev": "18",
+     "record": "10-1-2"
+    },
+    {
+     "rank": 20,
+     "tied": false,
+     "team_raw": "University of North Georgia",
+     "points": null,
+     "prev": "19",
+     "record": "10-3-0"
+    },
+    {
+     "rank": 21,
+     "tied": false,
+     "team_raw": "Fairmont State University",
+     "points": null,
+     "prev": "21",
+     "record": "11-0-2"
+    },
+    {
+     "rank": 22,
+     "tied": false,
+     "team_raw": "University of Missouri-St. Louis",
+     "points": null,
+     "prev": "NR",
+     "record": "10-1-2"
+    },
+    {
+     "rank": 23,
+     "tied": false,
+     "team_raw": "University of Montevallo",
+     "points": null,
+     "prev": "RV",
+     "record": "10-2-1"
+    },
+    {
+     "rank": 24,
+     "tied": false,
+     "team_raw": "Concordia University Irvine",
+     "points": null,
+     "prev": "RV",
+     "record": "6-1-4"
+    },
+    {
+     "rank": 25,
+     "tied": false,
+     "team_raw": "University of Central Missouri",
+     "points": null,
+     "prev": "RV",
+     "record": "10-1-2"
+    }
+   ],
+   "receiving_votes": [
+    {
+     "team_raw": "Regis University",
+     "points": null
+    },
+    {
+     "team_raw": "Saint Michael's College",
+     "points": null
+    },
+    {
+     "team_raw": "Point Loma Nazarene University",
+     "points": null
+    },
+    {
+     "team_raw": "Cedarville University",
+     "points": null
+    },
+    {
+     "team_raw": "California State University-Los Angeles",
+     "points": null
+    },
+    {
+     "team_raw": "McKendree University",
+     "points": null
+    },
+    {
+     "team_raw": "University of Colorado-Colorado Springs",
+     "points": null
+    },
+    {
+     "team_raw": "Slippery Rock University",
+     "points": null
+    },
+    {
+     "team_raw": "Thomas Jefferson University",
+     "points": null
+    }
+   ]
   }
  ],
  "gaps": [

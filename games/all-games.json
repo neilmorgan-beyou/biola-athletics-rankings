@@ -191026,6 +191026,21 @@
    "source_url": "https://athletics.biola.edu/sports/womens-volleyball/schedule/2026"
   },
   {
+   "game_id": "wvb-2026-10-13-1",
+   "sport": "Women's Volleyball",
+   "season": "2026",
+   "date": "2026-10-13",
+   "opponent_raw": "Concordia",
+   "opponent_as_listed": "Concordia",
+   "location": "Home",
+   "result": "W",
+   "score": "3-1",
+   "event": null,
+   "postseason": false,
+   "exhibition": false,
+   "source_url": "https://athletics.biola.edu/sports/womens-volleyball/schedule/2026"
+  },
+  {
    "game_id": "msoc-2025-09-04-1",
    "sport": "Men's Soccer",
    "season": "2025",
@@ -191455,6 +191470,21 @@
    "location": "Away",
    "result": "W",
    "score": "8-2",
+   "event": null,
+   "postseason": false,
+   "exhibition": false,
+   "source_url": "https://athletics.biola.edu/sports/mens-soccer/schedule/2026"
+  },
+  {
+   "game_id": "msoc-2026-10-13-1",
+   "sport": "Men's Soccer",
+   "season": "2026",
+   "date": "2026-10-13",
+   "opponent_raw": "Life Pacific",
+   "opponent_as_listed": "Life Pacific",
+   "location": "Home",
+   "result": "W",
+   "score": "2-1",
    "event": null,
    "postseason": false,
    "exhibition": false,
