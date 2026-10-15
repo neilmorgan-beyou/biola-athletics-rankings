@@ -805,18 +805,36 @@ def currently_ranked(today=None):
                 entries[pd_["sport"]]["national"] = {"rank": ("T%d" % t["rank"]) if t.get("tied") else t["rank"],
                                                      "poll": p["poll"], "date": p["release_date"],
                                                      "source_url": p.get("source_url")}
-    for r in rows:  # sports without a poll archive, and regional rankings everywhere
+    # Sports without a poll archive, and regional rankings everywhere. The newest release decides,
+    # ranked or not: a team that fell to RV, or off a poll entirely, stops showing its older rank.
+    # Posts read by hand without Biola (data/ustfccca-read.json) count as unranked releases.
+    newest = {}
+    unlisted = []
+    rf = Path(__file__).parent / "data" / "ustfccca-read.json"
+    for l_ in (json.loads(rf.read_text()).get("links", []) if rf.exists() else []):
+        m_ = re.search(r"ncaa-dii-(mens|womens)-(cross-country|indoor-track-field|outdoor-track-field)-"
+                       r"(national-coaches-poll|regional-rankings)", l_.get("url", ""))
+        if m_ and l_.get("read"):
+            sp_ = ("Women's " if m_.group(1) == "womens" else "Men's ") + {
+                "cross-country": "Cross Country", "indoor-track-field": "Indoor Track & Field",
+                "outdoor-track-field": "Outdoor Track & Field"}[m_.group(2)]
+            unlisted.append({"sport": sp_, "scope": "national" if m_.group(3).startswith("national") else "regional",
+                             "date": l_["read"], "rank": "NR", "era": "NCAA DII"})
+    for r in list(rows) + unlisted:
         sc = (r.get("scope") or "").lower()
-        if sc not in ("national", "regional") or not r.get("date") or not is_ranked(r.get("rank")):
+        if sc not in ("national", "regional") or not r.get("date"):
             continue
         if sc == "national" and r["sport"] in archived:
             continue
         age = (today - date.fromisoformat(str(r["date"])[:10])).days
         if age < 0 or age > 16 or not re.match(r"NCAA", r.get("era") or ""):
             continue
-        cur = entries[r["sport"]].get(sc)
-        if not cur or r["date"] > cur["date"]:
-            entries[r["sport"]][sc] = dict(r)
+        cur = newest.get((r["sport"], sc))
+        if not cur or str(r["date"]) > str(cur["date"]):
+            newest[(r["sport"], sc)] = dict(r)
+    for (sp_, sc), r in newest.items():
+        if is_ranked(r.get("rank")):
+            entries[sp_][sc] = r
     cards = []
     for sp in sorted(entries, key=sport_key):
         e_ = entries[sp]
