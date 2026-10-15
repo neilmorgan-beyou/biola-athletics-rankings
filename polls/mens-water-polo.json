@@ -12493,6 +12493,156 @@
     }
    ],
    "notes": "CWPA/ACWPC varsity national poll (mixed NCAA divisions). Division III Top 10 and conference Top 5 polls in the same post are separate polls and not included."
+  },
+  {
+   "poll_id": "cwpa-m-2026-week7",
+   "poll": "CWPA Men's Varsity National Top 20",
+   "division": "mixed",
+   "season": "2026",
+   "week": "Week 7",
+   "release_date": "2026-10-14",
+   "postseason_final": false,
+   "size": 20,
+   "complete": true,
+   "source_url": "https://collegiatewaterpolo.org/polls/2026-mens-varsity-polls-week-7-october-14/",
+   "confidence": "primary",
+   "teams": [
+    {
+     "rank": 1,
+     "tied": false,
+     "team_raw": "Stanford University",
+     "points": 99
+    },
+    {
+     "rank": 2,
+     "tied": false,
+     "team_raw": "University of California-Los Angeles",
+     "points": 96
+    },
+    {
+     "rank": 3,
+     "tied": false,
+     "team_raw": "University of Southern California",
+     "points": 91
+    },
+    {
+     "rank": 4,
+     "tied": false,
+     "team_raw": "University of California",
+     "points": 85
+    },
+    {
+     "rank": 5,
+     "tied": false,
+     "team_raw": "Fordham University",
+     "points": 80
+    },
+    {
+     "rank": 6,
+     "tied": false,
+     "team_raw": "University of California-Irvine",
+     "points": 74
+    },
+    {
+     "rank": 7,
+     "tied": false,
+     "team_raw": "Princeton University",
+     "points": 65
+    },
+    {
+     "rank": 8,
+     "tied": true,
+     "team_raw": "University of California-San Diego",
+     "points": 61
+    },
+    {
+     "rank": 8,
+     "tied": true,
+     "team_raw": "Loyola Marymount University",
+     "points": 61
+    },
+    {
+     "rank": 10,
+     "tied": false,
+     "team_raw": "Long Beach State University",
+     "points": 57
+    },
+    {
+     "rank": 11,
+     "tied": false,
+     "team_raw": "University of the Pacific",
+     "points": 56
+    },
+    {
+     "rank": 12,
+     "tied": false,
+     "team_raw": "University of California-Davis",
+     "points": 38
+    },
+    {
+     "rank": 13,
+     "tied": false,
+     "team_raw": "Pepperdine University",
+     "points": 36
+    },
+    {
+     "rank": 14,
+     "tied": true,
+     "team_raw": "University of California-Santa Barbara",
+     "points": 34
+    },
+    {
+     "rank": 14,
+     "tied": true,
+     "team_raw": "California Baptist University",
+     "points": 34
+    },
+    {
+     "rank": 16,
+     "tied": false,
+     "team_raw": "San Jose State University",
+     "points": 31
+    },
+    {
+     "rank": 17,
+     "tied": false,
+     "team_raw": "United States Naval Academy",
+     "points": 26
+    },
+    {
+     "rank": 18,
+     "tied": false,
+     "team_raw": "Santa Clara University",
+     "points": 16
+    },
+    {
+     "rank": 19,
+     "tied": false,
+     "team_raw": "Harvard University",
+     "points": 5
+    },
+    {
+     "rank": 20,
+     "tied": false,
+     "team_raw": "Saint Mary’s College (Calif.)",
+     "points": 4
+    }
+   ],
+   "receiving_votes": [
+    {
+     "team_raw": "Brown University",
+     "points": 3
+    },
+    {
+     "team_raw": "California State University-Fullerton",
+     "points": 3
+    },
+    {
+     "team_raw": "Concordia University",
+     "points": 1
+    }
+   ],
+   "notes": "CWPA/ACWPC varsity national poll (mixed NCAA divisions). Division III Top 10 and conference Top 5 polls in the same post are separate polls and not included."
   }
  ],
  "gaps": [
