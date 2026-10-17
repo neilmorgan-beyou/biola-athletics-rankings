@@ -197056,6 +197056,21 @@
    "source_url": "https://athletics.biola.edu/sports/mens-water-polo/schedule/2026"
   },
   {
+   "game_id": "mwp-2026-10-17-1",
+   "sport": "Men's Water Polo",
+   "season": "2026",
+   "date": "2026-10-17",
+   "opponent_raw": "MIT",
+   "opponent_as_listed": "MIT",
+   "location": "Neutral",
+   "result": "W",
+   "score": "11-10",
+   "event": "Harvard Invitational",
+   "postseason": false,
+   "exhibition": false,
+   "source_url": "https://athletics.biola.edu/sports/mens-water-polo/schedule/2026"
+  },
+  {
    "game_id": "wwp-2025-01-18-1",
    "sport": "Women's Water Polo",
    "season": "2025",
