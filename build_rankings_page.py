@@ -768,7 +768,7 @@ ASOF = "%s %d, %d" % (["Jan.", "Feb.", "March", "April", "May", "June", "July", 
 
 # Section 2b: official NCAA DII NPI releases (npi/releases.json). The NPI ranks every team, so these are
 # positions, not poll rankings: own tab, never in the poll rows or stats. "Currently ranked" shows the
-# newest current release only when Biola is top 15 in its region (Neil, 2026-10-19).
+# newest Monday release when Biola is top 15 in its region (Neil, 2026-10-19).
 sys.path.insert(0, str(Path(__file__).parent))
 import npi as npi_mod  # noqa: E402
 # Newest release first; sports in the usual order within a release.
@@ -847,13 +847,18 @@ def currently_ranked(today=None):
     for (sp_, sc), r in newest.items():
         if is_ranked(r.get("rank")):
             entries[sp_][sc] = r
-    # The NPI: the sport's newest official release, while no newer one is due, if Biola is top 15 in its region.
+    # The NPI (Neil, 2026-10-19): the sport's newest official MONDAY release, kept until the next Monday
+    # release replaces it, so daily releases in the selection run-up never make the line disappear.
+    # Shown only when Biola is top 15 in its region, and taken down on selection day (the last date in
+    # npi/schedule.json: volleyball Sun. Nov. 15, soccer Mon. Nov. 9; Neil, 2026-10-19).
     for sp_ in sorted({r["sport"] for r in NPI}):
-        r = npi_mod.latest(sp_, today)
-        # Also at most 8 days old: after a season's last scheduled release nothing newer is "due", so
-        # without an age cap a final top-15 line would stay up until next season.
-        if (r and npi_mod.is_current(r, today) and (today - date.fromisoformat(r["release_date"])).days <= 8
-                and r["region_rank"] <= NPI_FEATURE_MAX):
+        mondays = [r for r in NPI if r["sport"] == sp_ and r["official"] and r["release_date"] <= today.isoformat()
+                   and date.fromisoformat(r["release_date"]).weekday() == 0]
+        sched = npi_mod.SCHEDULE.get(sp_) or []
+        if not mondays or not sched or today >= date.fromisoformat(max(sched)):
+            continue
+        r = max(mondays, key=lambda x: x["release_date"])
+        if r["region_rank"] <= NPI_FEATURE_MAX:
             entries[sp_]["npi"] = r
     cards = []
     for sp in sorted(entries, key=sport_key):
