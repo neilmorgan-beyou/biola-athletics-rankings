@@ -153,6 +153,9 @@ def check_one(r):
         p.append("biola_row must be a list of [header, value] pairs")
     else:
         got = {h: v for h, v in row}
+        # Volleyball's table heads the value column "NPI Value"; soccer's says "NPI".
+        if "NPI" not in got and "NPI Value" in got:
+            got["NPI"] = got["NPI Value"]
         for h, want in (("Team", "Biola"), ("NPI Rank", str(r["national_rank"])), ("NPI", r["npi"]),
                         ("DII WL", r.get("record"))):
             if got.get(h) != want:
