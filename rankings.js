@@ -10,7 +10,18 @@
       .then(function (d) {
         var p = d && d.parts;
         if (!p || (d.generated || '') < (APP.getAttribute('data-generated') || '')) return;
-        ['rk-seasons', 'rk-polls', 'rk-dept', 'rk-vs'].forEach(function (id) {
+        // The NPI tab (second) and its panel, for a Sidearm body saved before they existed.
+        if (p['rk-npi'] && !document.getElementById('rk-npi')) {
+          var first = APP.querySelector('#tab-rk-seasons'), seasons = document.getElementById('rk-seasons');
+          if (first && seasons && p['rk-npi-tab']) {
+            first.insertAdjacentHTML('afterend', p['rk-npi-tab']);
+            var sec = document.createElement('section');
+            sec.className = 'cmp-sec rk-panel'; sec.id = 'rk-npi';
+            sec.setAttribute('role', 'tabpanel'); sec.setAttribute('aria-labelledby', 'tab-rk-npi');
+            seasons.parentNode.insertBefore(sec, seasons.nextSibling);
+          }
+        }
+        ['rk-seasons', 'rk-npi', 'rk-polls', 'rk-dept', 'rk-vs'].forEach(function (id) {
           var el = document.getElementById(id);
           if (el && p[id]) el.innerHTML = p[id];
         });
@@ -57,6 +68,18 @@
       if (k === 'ArrowLeft' || k === 'ArrowUp') { ev.preventDefault(); show((i - 1 + n) % n, true); }
     });
   });
+  APP.addEventListener('click', function (ev) {
+    var a = ev.target.closest ? ev.target.closest('a[href^="#rk-"]') : null;
+    if (!a || a.classList.contains('rk-tab')) return;
+    var id = a.getAttribute('href').slice(1);
+    tabs.forEach(function (t, i) {
+      if (t.getAttribute('aria-controls') !== id) return;
+      ev.preventDefault();
+      show(i);
+      try { history.replaceState(null, '', '#' + id); } catch (e) {}
+      t.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
   if (tabs.length) {
     var start = 0;
     try {
@@ -81,6 +104,7 @@
     if (/^(season|date|released|through games)$/i.test(name)) return ['newest first', 'oldest first', -1];
     if (/^opp\. rank$/i.test(name)) return ['highest-ranked first', 'lowest-ranked first', 1];
     if (RANKISH.test(name)) return ['best first', 'worst first', 1];
+    if (/^npi$/i.test(name)) return ['highest first', 'lowest first', -1];
     if (/^vs\./i.test(name)) return ['best record first', 'worst record first', -1];
     if (kind === 'num') return ['most first', 'fewest first', -1];
     return ['A to Z', 'Z to A', 1];
@@ -117,11 +141,38 @@
     rows.forEach(function (r) { frag.appendChild(r); });
     tbody.appendChild(frag);
     if (table._rkMenu) table._rkMenu.value = i < 0 ? '' : i + ':' + dir;
+    var note = table._rkNote;
+    if (note) {
+      note.hidden = false;
+      if (i < 0) note.textContent = 'Default order';
+      else {
+        var h = table.tHead.rows[0].children[i], name = h.textContent.replace(/[\u21C5\u25B2\u25BC\u2191\u2193\u2195]/g, '').trim();
+        var w = sortWords(name, h.getAttribute('data-t'));
+        note.innerHTML = '';
+        note.appendChild(document.createTextNode('Sorted by '));
+        var b = document.createElement('b'); b.textContent = name; note.appendChild(b);
+        note.appendChild(document.createTextNode(', ' + (dir === w[2] ? w[0] : w[1])));
+      }
+    }
+    var wrap = table.parentNode;
+    if (wrap && wrap.classList) {
+      wrap.classList.remove('rk-flash');
+      void wrap.offsetWidth; // restart the animation on every sort
+      wrap.classList.add('rk-flash');
+    }
   }
 
   Array.prototype.forEach.call(APP.querySelectorAll('.rk-table'), function (table) {
     Array.prototype.forEach.call(table.tBodies[0].rows, function (r, n) { r._rkOrder = n; });
     var ths = table.querySelectorAll('th[data-k]');
+    // The "Sorted by" line, read out by screen readers too. Empty (hidden) until the first sort.
+    if (ths.length && table.parentNode) {
+      var note = document.createElement('p');
+      note.className = 'rk-sortnote'; note.setAttribute('aria-live', 'polite');
+      note.hidden = true; // shown on the first sort, so it never leaves a gap (even without the hosted styles)
+      table.parentNode.parentNode.insertBefore(note, table.parentNode);
+      table._rkNote = note;
+    }
     Array.prototype.forEach.call(ths, function (th) {
       var btn = th.querySelector('button');
       if (!btn) return;

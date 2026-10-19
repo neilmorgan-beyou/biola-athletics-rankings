@@ -766,6 +766,18 @@ ASOF = "%s %d, %d" % (["Jan.", "Feb.", "March", "April", "May", "June", "July", 
                       _today.day, _today.year)
 
 
+# Section 2b: official NCAA DII NPI releases (npi/releases.json). The NPI ranks every team, so these are
+# positions, not poll rankings: own tab, never in the poll rows or stats. "Currently ranked" shows the
+# newest current release only when Biola is top 15 in its region (Neil, 2026-10-19).
+sys.path.insert(0, str(Path(__file__).parent))
+import npi as npi_mod  # noqa: E402
+# Newest release first; sports in the usual order within a release.
+NPI = sorted(npi_mod.load(), key=lambda r: (sport_key(r["sport"]), r["release_date"]))
+NPI.sort(key=lambda r: r["release_date"], reverse=True)
+
+NPI_FEATURE_MAX = 15  # region rank at or above which the NPI shows in "Currently ranked"
+
+
 # ---------------------------------------------------------------- currently ranked
 # Delivered through the hosted data (prepended to the No. 1 line), so it needs no Sidearm edit.
 MON = ["Jan.", "Feb.", "March", "April", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
@@ -835,6 +847,14 @@ def currently_ranked(today=None):
     for (sp_, sc), r in newest.items():
         if is_ranked(r.get("rank")):
             entries[sp_][sc] = r
+    # The NPI: the sport's newest official release, while no newer one is due, if Biola is top 15 in its region.
+    for sp_ in sorted({r["sport"] for r in NPI}):
+        r = npi_mod.latest(sp_, today)
+        # Also at most 8 days old: after a season's last scheduled release nothing newer is "due", so
+        # without an age cap a final top-15 line would stay up until next season.
+        if (r and npi_mod.is_current(r, today) and (today - date.fromisoformat(r["release_date"])).days <= 8
+                and r["region_rank"] <= NPI_FEATURE_MAX):
+            entries[sp_]["npi"] = r
     cards = []
     for sp in sorted(entries, key=sport_key):
         e_ = entries[sp]
@@ -848,6 +868,12 @@ def currently_ranked(today=None):
             where = label if sc == "national" else ("%s Region" % r["region"] if r.get("region") else "regionally")
             lines.append('<span class="r"><b>%s</b> %s</span><span class="s">%s, %s &middot; <a href="%s">source</a></span>' % (
                 e(rank_label(r["rank"])), e(where), e(poll_short(r["poll"])), when(r["date"]), e(r.get("source_url") or "")))
+        r = e_.get("npi")
+        if r:
+            lines.append('<span class="r"><b>%s</b> of %d %s</span><span class="s">NCAA NPI, %s &middot; '
+                         '<a href="#rk-npi">NPI table</a> &middot; <a href="%s">source</a></span>' % (
+                             e(npi_mod.ordinal(r["region_rank"])), r["region_teams"], e(npi_mod.in_region(r["region"])),
+                             when(r["release_date"]), e(r["source_url"])))
         cards.append('<div class="rk-now-card"><span class="t">%s</span>%s</div>' % (e(sp), "".join(lines)))
     if not cards:
         return ""
@@ -866,13 +892,6 @@ def currently_ranked(today=None):
 
 NOW_HTML = currently_ranked()
 
-# Section 2b: official NCAA DII NPI releases (npi/releases.json). The NPI ranks every team, so these are
-# positions, not poll rankings: own table, never in the poll rows, stats or "Currently ranked".
-sys.path.insert(0, str(Path(__file__).parent))
-import npi as npi_mod  # noqa: E402
-# Newest release first; sports in the usual order within a release.
-NPI = sorted(npi_mod.load(), key=lambda r: (sport_key(r["sport"]), r["release_date"]))
-NPI.sort(key=lambda r: r["release_date"], reverse=True)
 npi_rows = []
 for r in NPI:
     npi_rows.append(
@@ -887,11 +906,13 @@ for r in NPI:
             e(r["npi"]), e(r["npi"]), e(r.get("record") or ""),
             link(r["source_url"], "NCAA")))
 
+NPI_TAB = ('<a class="rk-tab" role="tab" id="tab-rk-npi" href="#rk-npi" aria-controls="rk-npi">'
+           '<span class="t">NCAA NPI</span><span class="d">This season&rsquo;s official selection ranking</span></a>\n')
 npi_html = ("" if not NPI else
-    '<h3 class="rk-h3" id="rk-npi">NCAA Power Index (NPI)</h3>\n'
+    '<h2 class="cmp-h">NCAA Power Index (NPI)</h2>\n'
     '<p class="cmp-sub">Official NCAA Division II NPI releases, the selection metric the NCAA uses for championship '
     'selection from 2026-27. The NPI ranks every team in the sport, so these are positions rather than poll rankings and '
-    'are not counted above. Region rank is Biola\'s place among the teams in its NCAA region, ordered by NPI rank. '
+    'are not counted in the poll tables. Region rank is Biola\'s place among the teams in its NCAA region, ordered by NPI rank. '
     'National rank and NPI are as published.</p>\n'
     + filters("t-npi", sports=sorted({r["sport"] for r in NPI}, key=sport_key), hint="Sport, region, date...") +
     '<div class="rk-wrap"><table class="rk-table" id="t-npi">\n<thead><tr>%s%s%s%s%s%s%s<th scope="col">Source</th></tr></thead>\n'
@@ -901,6 +922,8 @@ npi_html = ("" if not NPI else
 
 
 def render(vs_tab, vs_panel):
+    npi_section = ('<section class="cmp-sec rk-panel" id="rk-npi" role="tabpanel" aria-labelledby="tab-rk-npi">\n%s\n</section>'
+                   % npi_html) if NPI else ""
     return f"""
 <!-- RANKINGS HISTORY -- Sidearm sport file body. GENERATED by build_rankings_page.py;
      edit the data or the builder, not this file.
@@ -927,7 +950,7 @@ def render(vs_tab, vs_panel):
 
 <nav class="rk-tabs" role="tablist" aria-label="Rankings history sections">
 <a class="rk-tab" role="tab" id="tab-rk-seasons" href="#rk-seasons" aria-controls="rk-seasons"><span class="t">Ranked seasons</span><span class="d">Preseason, peak and final rank by year</span></a>
-<a class="rk-tab" role="tab" id="tab-rk-polls" href="#rk-polls" aria-controls="rk-polls"><span class="t">Week-by-week polls</span><span class="d">Every poll Biola appeared in</span></a>
+{NPI_TAB if NPI else ""}<a class="rk-tab" role="tab" id="tab-rk-polls" href="#rk-polls" aria-controls="rk-polls"><span class="t">Week-by-week polls</span><span class="d">Every poll Biola appeared in</span></a>
 <a class="rk-tab" role="tab" id="tab-rk-dept" href="#rk-dept" aria-controls="rk-dept"><span class="t">Department awards</span><span class="d">Directors' Cup and conference all-sport</span></a>
 {vs_tab}</nav>
 
@@ -947,8 +970,8 @@ def render(vs_tab, vs_panel):
 <div class="rk-wrap"><table class="rk-table" id="t-polls">
 <thead><tr>{th("Sport","0")}{th("Season","1","num")}{th("Poll","2")}{th("Type","3")}{th("Week","4")}{th("Date","5")}{th("Rank","6","num")}{th("Record","7")}<th scope="col">Source</th></tr></thead>
 <tbody>{"".join(p_rows)}</tbody></table></div>
-{npi_html}
 </section>
+{npi_section}
 
 <section class="cmp-sec rk-panel" id="rk-dept" role="tabpanel" aria-labelledby="tab-rk-dept">
 <h2 class="cmp-h is-blue">Department awards</h2>
@@ -1036,6 +1059,24 @@ MOBILE_CSS = ("<style>.biola-cmp .rk-sort{display:none}@media (max-width:700px){
               "__LABELS__}</style>")
 
 
+# Sort feedback (Neil, 2026-10-19: "more visual confirmation"): the sorted header filled blue with a
+# clear arrow, the sorted column tinted, a plain-language "Sorted by" line, and a short flash.
+SORT_CSS = ("<style>"
+            ".biola-cmp .rk-table th button{border-radius:3px;padding:2px 6px;margin:-2px -6px}"
+            ".biola-cmp .rk-table th button::after{content:\" \\21C5\";opacity:.5}"
+            ".biola-cmp .rk-table th[aria-sort] button{background:var(--blue);color:#fff}"
+            ".biola-cmp .rk-table th[aria-sort=\"ascending\"] button::after{content:\" \\25B2\";opacity:1;color:#fff}"
+            ".biola-cmp .rk-table th[aria-sort=\"descending\"] button::after{content:\" \\25BC\";opacity:1;color:#fff}"
+            ".biola-cmp .rk-table td.is-sorted{background:rgba(72,159,223,.13);font-weight:700}"
+            ".biola-cmp .rk-sortnote{margin:0 0 8px;font-size:13.5px;font-weight:600;color:var(--black)}"
+            ".biola-cmp .rk-sortnote b{color:var(--blue)}"
+            ".biola-cmp .rk-sortnote:empty{display:none}"
+            "@keyframes rkflash{0%{box-shadow:0 0 0 3px var(--blue);background:rgba(72,159,223,.12)}100%{box-shadow:0 0 0 3px transparent;background:transparent}}"
+            ".biola-cmp .rk-wrap.rk-flash{animation:rkflash .7s ease-out}"
+            "@media (prefers-reduced-motion:reduce){.biola-cmp .rk-wrap.rk-flash{animation:none}}"
+            "</style>")
+
+
 def mobile_css(html_):
     return MOBILE_CSS.replace("__LABELS__", label_css(html_))
 
@@ -1052,12 +1093,14 @@ def inner(html_, sec_id):
 
 
 parts = {}
-for sid in ("rk-seasons", "rk-polls", "rk-dept", "rk-vs"):
+for sid in ("rk-seasons", "rk-npi", "rk-polls", "rk-dept", "rk-vs"):
     m = inner(full, sid)
     parts[sid] = m.group(2) if m else ""
 parts["rk-stats"] = re.search(r'<div class="rk-stats">(.*?)</div>\n', full, re.S).group(1)
-parts["rk-ones"] = (mobile_css(full) + NOW_HTML + ones_html).encode("ascii", "xmlcharrefreplace").decode("ascii")
+parts["rk-ones"] = (SORT_CSS + mobile_css(full) + NOW_HTML + ones_html).encode("ascii", "xmlcharrefreplace").decode("ascii")
 parts["rk-asof"] = ASOF
+# The NPI tab, for a Sidearm body saved before it existed: the script adds the tab and panel itself.
+parts["rk-npi-tab"] = NPI_TAB if NPI else ""
 
 # Light body: the two heavy panels keep their heading and a placeholder until the data arrives.
 body = full
