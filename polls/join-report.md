@@ -408,7 +408,7 @@
 - 2023: 15 polls (2023-08-23 to 2023-12-06); 11 of 34 games vs ranked
 - 2024: 15 polls (2024-08-21 to 2024-12-11); 8 of 33 games vs ranked
 - 2025: 16 polls (2025-08-20 to 2025-12-10); 7 of 31 games vs ranked
-- 2026: 8 polls (2026-08-19 to 2026-10-14); 5 of 24 games vs ranked
+- 2026: 8 polls (2026-08-19 to 2026-10-14); 5 of 25 games vs ranked
 
 ## Women's Water Polo
 - 2022: 17 polls (2022-01-12 to 2022-05-11); 8 of 29 games vs ranked
