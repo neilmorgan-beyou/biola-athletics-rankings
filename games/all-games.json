@@ -197176,6 +197176,21 @@
    "source_url": "https://athletics.biola.edu/sports/mens-water-polo/schedule/2026"
   },
   {
+   "game_id": "mwp-2026-10-22-1",
+   "sport": "Men's Water Polo",
+   "season": "2026",
+   "date": "2026-10-22",
+   "opponent_raw": "Concordia",
+   "opponent_as_listed": "Concordia",
+   "location": "Home",
+   "result": "L",
+   "score": "11-16",
+   "event": null,
+   "postseason": false,
+   "exhibition": false,
+   "source_url": "https://athletics.biola.edu/sports/mens-water-polo/schedule/2026"
+  },
+  {
    "game_id": "wwp-2025-01-18-1",
    "sport": "Women's Water Polo",
    "season": "2025",
