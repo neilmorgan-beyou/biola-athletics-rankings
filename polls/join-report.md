@@ -128,7 +128,7 @@
 - 2023: 23 polls (2023-08-01 to 2023-12-12); 3 of 18 games vs ranked
 - 2024: 19 polls (2024-08-06 to 2024-12-18); 2 of 18 games vs ranked
 - 2025: 19 polls (2025-08-20 to 2025-12-17); 1 of 17 games vs ranked
-- 2026: 12 polls (2026-08-04 to 2026-10-20); 1 of 14 games vs ranked
+- 2026: 12 polls (2026-08-04 to 2026-10-20); 1 of 15 games vs ranked
 
 ## Women's Soccer
 - 1992: no polls archived; 17 games unverified

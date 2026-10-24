@@ -191536,6 +191536,21 @@
    "source_url": "https://athletics.biola.edu/sports/mens-soccer/schedule/2026"
   },
   {
+   "game_id": "msoc-2026-10-23-1",
+   "sport": "Men's Soccer",
+   "season": "2026",
+   "date": "2026-10-23",
+   "opponent_raw": "Westmont",
+   "opponent_as_listed": "Westmont",
+   "location": "Home",
+   "result": "L",
+   "score": "0-2",
+   "event": null,
+   "postseason": false,
+   "exhibition": false,
+   "source_url": "https://athletics.biola.edu/sports/mens-soccer/schedule/2026"
+  },
+  {
    "game_id": "wsoc-2025-08-30-1",
    "sport": "Women's Soccer",
    "season": "2025",
@@ -192854,6 +192869,21 @@
    "postseason": false,
    "exhibition": false,
    "source_url": "https://athletics.biola.edu/sports/womens-basketball/schedule/2025-26"
+  },
+  {
+   "game_id": "wbb-2026-10-23-1",
+   "sport": "Women's Basketball",
+   "season": "2026-27",
+   "date": "2026-10-23",
+   "opponent_raw": "Claremont-Mudd-Scripps",
+   "opponent_as_listed": "Claremont-Mudd-Scripps",
+   "location": "Home",
+   "result": "W",
+   "score": "65-53",
+   "event": "Exhibition",
+   "postseason": false,
+   "exhibition": true,
+   "source_url": "https://athletics.biola.edu/sports/womens-basketball/schedule/2026-27"
   },
   {
    "game_id": "bsb-2025-01-31-1",
