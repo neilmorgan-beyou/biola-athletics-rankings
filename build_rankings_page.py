@@ -571,7 +571,7 @@ ones_html = ""
 if ones:
     parts = []
     for sp in sorted({k[0] for k in ones}, key=sport_key):
-        yrs = sorted((k[1] for k in ones if k[0] == sp), key=season_start)
+        yrs = sorted((k[1] for k in ones if k[0] == sp), key=lambda x: (season_start(x), x))
         cites = ", ".join('%s (<a href="%s">%s</a>)' % (e(y), e(ones[(sp, y)].get("source_url") or ""),
                           ones[(sp, y)].get("cite_label") or SRC_WORD.get(ones[(sp, y)].get("confidence"), "source")) for y in yrs)
         parts.append("<strong>%s</strong> %s" % (e(sp), cites))
@@ -716,7 +716,7 @@ def build_vs():
                                                       e(g["poll_release_date"]))))
     sport_sel = '<label><span>Program</span><select data-f="sport"><option value="">All programs</option>%s</select></label>' % opts(sports)
     season_sel = ('<label><span>Season</span><select data-f="season"><option value="">All seasons</option>%s</select></label>'
-                  % "".join('<option value="%s">%s</option>' % (e(x), e(x)) for x in sorted(season_opts, key=season_start, reverse=True)))
+                  % "".join('<option value="%s">%s</option>' % (e(x), e(x)) for x in sorted(season_opts, key=lambda x: (season_start(x), x), reverse=True)))  # label breaks the "2025"/"2025-26" tie: stable rebuilds
     def spans(ys):
         ys, out, i = sorted(ys), [], 0
         while i < len(ys):

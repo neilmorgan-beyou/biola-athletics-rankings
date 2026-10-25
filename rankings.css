@@ -30,7 +30,7 @@
   font-family: var(--fd); font-weight: 600; text-transform: uppercase; letter-spacing: -.012em;
   line-height: .92; font-size: 56px; margin: 0 0 18px; color: var(--white); text-wrap: balance;
 }
-.biola-cmp .cmp-hero h1 span { color: var(--gray); }
+.biola-cmp .cmp-hero h1 span { color: var(--gray); } /* accent is Light Gray, not red: red on the Warm Gray hero fails contrast, and text on a dark surface is white or Light Gray only */
 .biola-cmp .cmp-lede { color: var(--gray); font-size: 17px; max-width: 62ch; margin: 0; }
 @media (max-width: 860px) { .biola-cmp .cmp-hero { padding: 34px 24px 32px; } .biola-cmp .cmp-hero h1 { font-size: 40px; } }
 @media (max-width: 560px) { .biola-cmp .cmp-hero h1 { font-size: 32px; } }
