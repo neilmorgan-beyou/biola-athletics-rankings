@@ -1,0 +1,4 @@
+{
+  "_why": "scripts/brand-check.mjs is the verbatim brand checker; its own pattern lines name the banned lockups and the retired tagline.",
+  "skip": ["scripts/brand-check.mjs"]
+}
