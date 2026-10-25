@@ -51,10 +51,10 @@ const ALL_ONLY_SKIP = /(^|\/)(build|tests?|__tests__|fixtures|data)\/|[._-]test\
 // class. A light tint (alpha under 0x40 or .3, or a /5 to /30 opacity) is fine.
 const WARM_LIT = String.raw`#5E514D(?![0-9a-f])|#5E514D[4-9a-f][0-9a-f]|rgba?\(\s*94\s*[,\s]\s*81\s*[,\s]\s*77\s*(?:\)|[,/]\s*(?:0?\.[3-9]\d*|1(?:\.0*)?|(?:[3-9]\d(?:\.\d+)?|100)%)\s*\))`;
 const DEFAULT_WARM_VARS = ["warm", "warm-gray", "warm-grey", "ink", "ink-2", "muted", "es-warm", "es-ink"];
-const TW_WARM = /\b(?:bg|fill|from|via|to)-(?:\[(?:#5E514D|var\(\s*--(?:color-|es-)?(?:ink|warm)(?:-[4-9]\d)?\s*\)|rgba?\(\s*94\s*,\s*81\s*,\s*77[^\]]*)\]|warm(?:-gr[ae]y)?(?:-[4-9]\d+)?|ink(?:-[4-9]\d)?)(?![\w-])(?!\/(?:5|10|15|20|25|30)\b)/i;
+const TW_WARM = /(?<![\w/-])(?:bg|fill|from|via|to)-(?:\[(?:#5E514D|var\(\s*--(?:color-|es-)?(?:ink|warm)(?:-[4-9]\d)?\s*\)|rgba?\(\s*94\s*,\s*81\s*,\s*77[^\]]*)\]|warm(?:-gr[ae]y)?(?:-[4-9]\d\d)?|ink(?:-[4-9]\d)?)(?![\w-])(?!\/(?:5|10|15|20|25|30)\b)/i;
 // Where a fill value starts: a CSS or JSX property, an HTML/SVG attribute, or
 // a variable named for a background (tag_bg = ..., bgColor = ...).
-const FILL_KEY = /(?:\bbackground(?:-color|Color|-image|Image)?|\bfill|\bbgcolor|\bbg)\s*["']?\s*:|\bfillStyle\s*=|\bsetProperty\(\s*["']background(?:-color)?["']\s*,|\b(?:bgcolor|fill)\s*=|\b\w*(?:bg|Bg|BG|background|Background)\w*\s*=(?!=)/g;
+const FILL_KEY = /(?:\bbackground(?:-color|Color|-image|Image)?|\bfill|\bbgcolor|\bbg)\s*["']?\s*:|\bsetProperty\(\s*["']background(?:-color)?["']\s*,|\b(?:bgcolor|fill)\s*=|\b\w*(?:bg|Bg|BG|background|Background)\w*\s*=(?!=)/g;
 // Where it ends: the next declaration, attribute or object key.
 const FILL_END = /;|>|,\s*["']?[A-Za-z][\w-]*["']?\s*:|["'\s{](?:color|border[\w-]*|outline[\w-]*|stroke[\w-]*|padding[\w-]*|margin[\w-]*|font[\w-]*|box-shadow|text-[\w-]+|width|height|display|opacity|cursor|transition)\s*["']?\s*:/i;
 // A warm-grey shade other than #5E514D itself (#6F6360, #7E7471 and the like):
@@ -79,9 +79,9 @@ function warmNames(text, base = { vars: new Set(DEFAULT_WARM_VARS), consts: new 
 function warmFill(line, names) {
   if (TW_WARM.test(line)) return true;
   // Tailwind arbitrary values and v4 shorthand: bg-[var(--hero)], bg-[--hero], bg-(--hero).  brand-check: allow the checker's own example
-  for (const m of line.matchAll(/\b(?:bg|fill)-(?:\[(?:var\(\s*)?--([\w-]+)\s*\)?\]|\(--([\w-]+)\))/g)) if (names.vars.has((m[1] || m[2]).toLowerCase())) return true;
+  for (const m of line.matchAll(/(?<![\w-])(?:bg|fill)-(?:\[(?:var\(\s*)?--([\w-]+)\s*\)?\]|\(--([\w-]+)\))(?!\/(?:5|10|15|20|25|30)\b)/g)) if (names.vars.has((m[1] || m[2]).toLowerCase())) return true;
   // SVG text is copy: its fill is a text colour.
-  const l = line.replace(/<(?:text|tspan|Label|LabelList)\b[^>]*>/g, "").replace(/\btick=\{\{[^}]*\}\}/g, "");
+  const l = line.replace(/<(?:text|tspan|label|labellist)\b[^>]*>/gi, t => t.replace(/\bfill\s*=\s*(?:"[^"]*"|'[^']*'|\{[^}]*\})/gi, "")).replace(/\btick=\{\{[^}]*\}\}/g, "");
   const parts = [WARM_LIT, String.raw`var\(\s*--(?:${[...names.vars].map(esc).join("|")})\s*[,)]`];
   const tok = new RegExp(parts.join("|"), "i");
   // Constants match case-sensitively and as whole names: INK, not --color-ink-10.
@@ -128,6 +128,7 @@ function hexProblem(h) {
 function checkText(file, lines, context = {}) {
   const out = [];
   const names = warmNames((context.text ?? "") + "\n" + lines.map(x => x[1]).join("\n"), context.names);
+  const flips = new Map();
   for (const [n, line] of lines) {
     if (ALLOW.test(line)) continue;
     if (BANNED_NAME.test(line)) out.push([file, n, "banned lockup (typographic or Eagles Script + Athletics): lead with the Biola Script"]);
@@ -139,15 +140,11 @@ function checkText(file, lines, context = {}) {
     // Warm Gray is for copy, not design (Neil 2026-10-25): no warm-grey hero,
     // band, button, badge or tile. Red leads, blue supports, greys sit behind.
     if (warmFill(line, names)) out.push([file, n, "Warm Gray used as a fill: it is for copy only. Use Biola Red (white text) or Biola Blue for heroes, bands, buttons and badges; Light Gray or white for quiet fills"]);
-    // A token flipped to Warm Gray (--hero: #5E514D) where the repo fills  brand-check: allow the checker's own example
-    // with it: the fill lines are unchanged, so judge them here.
+    // A token flipped to Warm Gray (--hero: #5E514D, or a var chain to one):
+    // collected here, judged after the loop with one search of the repo.
     if (context.root) for (const m of line.matchAll(/--([\w-]+)\s*:\s*([^;}]+)/g)) {
-      const v = m[2].trim(), hex = v.match(/^#([0-9a-f]{6})\b/i);
-      if (!(new RegExp(`^(?:${WARM_LIT})`, "i").test(v) || (hex && warmShade(hex[1])))) continue;
-      let uses = "";
-      try { uses = execFileSync("git", ["grep", "-h", "-I", "-E", "-e", String.raw`var\([[:space:]]*--${m[1]}[[:space:]]*[,)]|-\[--${m[1]}\]|-\(--${m[1]}\)`], { cwd: context.root, encoding: "utf8", stdio: ["ignore", "pipe", "ignore"], maxBuffer: 1 << 26 }); } catch { /* no uses */ }
-      const withIt = { vars: new Set([...names.vars, m[1].toLowerCase()]), consts: names.consts };
-      if (uses.split("\n").some(u => !ALLOW.test(u) && warmFill(u, withIt))) out.push([file, n, `--${m[1]} is now Warm Gray and the repo fills with var(--${m[1]}): Warm Gray is for copy only`]);
+      const v = m[2].trim(), hex = v.match(/^#([0-9a-f]{6})\b/i), chain = v.match(/^var\(\s*--([\w-]+)\s*[,)]/);
+      if (new RegExp(`^(?:${WARM_LIT})`, "i").test(v) || (hex && warmShade(hex[1])) || (chain && names.vars.has(chain[1].toLowerCase()))) flips.set(m[1].toLowerCase(), n);
     }
     const scan = line.replace(/data:image\/[^"')\s]+/g, "");
     for (const m of scan.matchAll(/(?<![\w&])#([0-9a-fA-F]{6}|[0-9a-fA-F]{3})(?![0-9a-fA-F\w])/g)) {
@@ -155,6 +152,21 @@ function checkText(file, lines, context = {}) {
       // colour in a styling context.
       if (m[1].length === 3 && !/(color|background|fill|stroke|border|outline|shadow|style|:\s*#)/i.test(scan)) continue;
       const p = hexProblem(m[1]); if (p) out.push([file, n, `#${m[1]} ${p}`]);
+    }
+  }
+  if (flips.size) {
+    // Every place the repo fills with a flipped token: one git grep, then only
+    // files the checker would itself judge (context.keep), never docs.
+    const alt = [...flips.keys()].map(esc).join("|");
+    let uses = "";
+    try { uses = execFileSync("git", ["grep", "-n", "-I", "-i", "-E", "-e", String.raw`var\([[:space:]]*--(${alt})[[:space:]]*[,)]|-\[--(${alt})\]|-\(--(${alt})\)`], { cwd: context.root, encoding: "utf8", stdio: ["ignore", "pipe", "ignore"], maxBuffer: 1 << 26 }); } catch { /* no uses */ }
+    const withIt = { vars: new Set([...names.vars, ...flips.keys()]), consts: names.consts };
+    for (const u of uses.split("\n")) {
+      const m = u.match(/^(.*?):(\d+):(.*)$/); if (!m) continue;
+      const [, rel, ln, text] = m;
+      if (/\.md$/i.test(rel) || !TEXT_EXT.test(rel) || ALL_ONLY_SKIP.test(rel) || (context.keep && !context.keep(rel)) || ALLOW.test(text) || !warmFill(text, withIt)) continue;
+      const name = [...flips.keys()].find(k => new RegExp(String.raw`--${esc(k)}(?![\w-])`, "i").test(text));
+      if (name) out.push([file, flips.get(name), `--${name} is now Warm Gray, and ${rel}:${ln} fills with it: Warm Gray is for copy only`]);
     }
   }
   return out;
@@ -210,7 +222,8 @@ if (args[0] === "--hook") {
   const lines = chunks.join("\n").split("\n").map((l, i) => [i + 1, l]);
   let hookRoot = null; try { hookRoot = sh("git rev-parse --show-toplevel", path.dirname(file)).trim(); } catch { /* not in a repo */ }
   let onDisk = ""; try { onDisk = fs.readFileSync(file, "utf8"); } catch { /* new or unreadable */ }
-  const ctx = { text: onDisk, names: hookRoot ? repoWarmNames(hookRoot) : undefined, root: hookRoot };
+  const hookCfg = hookRoot ? loadCfg(hookRoot) : {};
+  const ctx = { text: onDisk, names: hookRoot ? repoWarmNames(hookRoot) : undefined, root: hookRoot, keep: rel => !skipped(rel, hookCfg) };
   const found = [...checkText(file + " (new text)", lines, ctx), ...checkDataUris(file + " (new text)", chunks.join("\n")).map(x => x.slice(0, 3)), ...checkBinary(file)];
   if (found.length) { report(found); process.exit(2); }
   process.exit(0);
@@ -237,8 +250,17 @@ if (args[0] === "--all") {
 } else {
   // Base: the merge-base with origin/main; without an origin/main, HEAD; in a
   // repo with no commits yet, the empty tree.
-  let base = "4b825dc642cb6eb9a060e54bf8d69288fbee4904";
-  try { base = sh("git merge-base origin/main HEAD", root).trim(); } catch { try { base = sh("git rev-parse --verify HEAD", root).trim(); } catch { /* no commits yet: keep the empty tree */ } }
+  let base = null, label = "changes vs origin/main";
+  try { base = sh("git merge-base origin/main HEAD", root).trim(); } catch { /* no origin/main here */ }
+  if (!base) {
+    // In CI a missing origin/main would silently skip every committed change:
+    // fail instead (fetch it: actions/checkout with fetch-depth: 0).
+    if (process.env.CI) { console.error("brand-check: origin/main is not available, so committed changes cannot be checked. Fetch it (actions/checkout with fetch-depth: 0) or pass --all."); process.exit(2); }
+    try { base = sh("git rev-parse --verify HEAD", root).trim(); label = "uncommitted changes vs HEAD: no origin/main here"; } catch {
+      base = sh("git hash-object -t tree /dev/null", root).trim(); label = "every file: no commits yet";
+    }
+    console.error(`brand-check: no origin/main; checking ${label}.`);
+  }
   const diff = sh(`git -c core.quotePath=false diff -U0 --no-color --no-renames ${base} --`, root);
   let file = null, n = 0, expectHeader = false; const byFile = new Map();
   for (const l of diff.split("\n")) {
@@ -261,12 +283,12 @@ if (args[0] === "--all") {
   for (const [f, lines] of byFile) if (TEXT_EXT.test(f)) {
     const abs = path.join(root, f);
     let onDisk = ""; try { onDisk = fs.readFileSync(abs, "utf8"); } catch { /* deleted since */ }
-    found.push(...checkText(f, lines, { text: onDisk, names: repoNames, root }));
+    found.push(...checkText(f, lines, { text: onDisk, names: repoNames, root, keep: rel => !skipped(rel, cfg) }));
     if (fs.existsSync(abs)) { const changedLines = new Set(lines.map(x => x[0])); found.push(...checkDataUris(f, fs.readFileSync(abs, "utf8")).filter(x => [...changedLines].some(c => c >= x[1] && c <= x[3])).map(x => x.slice(0, 3))); }
   }
   const changed = sh(`git diff --name-only ${base} --`, root).split("\n").filter(Boolean);
   const untracked = sh("git ls-files --others --exclude-standard", root).split("\n").filter(Boolean);
   for (const rel of [...changed, ...untracked]) if (!skipped(rel, cfg)) found.push(...checkBinary(path.join(root, rel)).map(x => [rel, x[1], x[2]]));
-  for (const rel of untracked) if (!skipped(rel, cfg) && TEXT_EXT.test(rel)) found.push(...checkText(rel, wholeFile(path.join(root, rel)), { names: repoNames }));
-  process.exit(report(found, "changes vs origin/main"));
+  for (const rel of untracked) if (!skipped(rel, cfg) && TEXT_EXT.test(rel)) found.push(...checkText(rel, wholeFile(path.join(root, rel)), { names: repoNames, root, keep: r => !skipped(r, cfg) }));
+  process.exit(report(found, label));
 }
