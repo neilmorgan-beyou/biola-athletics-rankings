@@ -38,7 +38,7 @@
   font-family: var(--fd); font-weight: 600; text-transform: uppercase; letter-spacing: -.012em;
   line-height: .92; font-size: 56px; margin: 0 0 18px; color: var(--white); text-wrap: balance;
 }
-.biola-cmp .cmp-hero h1 span { color: var(--tint); } /* a very light red tint on the red hero: 4.9:1 */
+.biola-cmp .cmp-hero h1 span { color: var(--tint); } /* a very light red tint on the red hero: 5.03:1 */
 .biola-cmp .cmp-lede { color: var(--white); font-size: 17px; max-width: 62ch; margin: 0; }
 @media (max-width: 860px) { .biola-cmp .cmp-hero { padding: 34px 24px 32px; } .biola-cmp .cmp-hero h1 { font-size: 40px; } }
 @media (max-width: 560px) { .biola-cmp .cmp-hero h1 { font-size: 32px; } }
@@ -94,7 +94,7 @@
   all: unset; cursor: default; font: inherit; letter-spacing: inherit; color: inherit;
 }
 .biola-cmp.js-on .rk-table th button { cursor: pointer; }
-.biola-cmp.js-on .rk-table th button::after { content: " \2195"; opacity: .45; }
+.biola-cmp.js-on .rk-table th button::after { content: " \2195"; opacity: 1; color: var(--tint); } /* the light red tint on the red head: 5.03:1 (white at .45 was 2.08:1) */
 .biola-cmp .rk-table th[aria-sort="ascending"] button::after { content: " \2191"; opacity: 1; color: var(--white); }
 .biola-cmp .rk-table th[aria-sort="descending"] button::after { content: " \2193"; opacity: 1; color: var(--white); }
 .biola-cmp .rk-table td { padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
@@ -155,7 +155,7 @@
 
 </style>
 
-<div class="biola-cmp rk-app" data-src="https://neilmorgan-beyou.github.io/biola-athletics-rankings/rankings-data.json" data-generated="2026-10-25T05:46:45Z">
+<div class="biola-cmp rk-app" data-src="https://neilmorgan-beyou.github.io/biola-athletics-rankings/rankings-data.json" data-generated="2026-10-25T06:22:24Z">
 
 <div class="cmp-hero">
 <p class="cmp-eyebrow">Program history</p>

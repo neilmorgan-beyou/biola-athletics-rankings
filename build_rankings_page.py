@@ -1068,7 +1068,7 @@ MOBILE_CSS = ("<style>.biola-cmp .rk-sort{display:none}@media (max-width:700px){
 # red text on the Biola Red head (brand rules 2026-10-25), a clear arrow, the sorted column tinted, a plain-language "Sorted by" line, and a short flash.
 SORT_CSS = ("<style>"
             ".biola-cmp .rk-table th button{border-radius:3px;padding:2px 6px;margin:-2px -6px}"
-            ".biola-cmp .rk-table th button::after{content:\" \\21C5\";opacity:.5}"
+            ".biola-cmp .rk-table th button::after{content:\" \\21C5\";opacity:1;color:var(--tint,#FBE9EC)}"  # the light red tint on the red head: 5.03:1 (white at .5 was 2.3:1)
             ".biola-cmp .rk-table th[aria-sort] button{background:#fff;color:var(--red);box-shadow:inset 0 -3px 0 var(--blue)}"
             ".biola-cmp .rk-table th[aria-sort=\"ascending\"] button::after{content:\" \\25B2\";opacity:1;color:var(--red)}"
             ".biola-cmp .rk-table th[aria-sort=\"descending\"] button::after{content:\" \\25BC\";opacity:1;color:var(--red)}"
