@@ -10,8 +10,10 @@
  *     alias AND by the exact bytes of an embedded or copied image (sha256);
  *   - navy and other dark blues, near-black UI ink, and cool greys;
  *   - the retired tagline "Faith You Can See".  // brand-check: allow the checker's own pattern list
- * The canonical copy is ~/.claude/brand/brand-check.mjs on Neil's Mac; each
- * repo carries a verbatim copy at scripts/brand-check.mjs.
+ * The canonical copy is perch/brand/brand-check.mjs (rules: perch/brand/
+ * BRAND-RULES.md). Each repo carries a verbatim copy at scripts/brand-check.mjs,
+ * kept in step by perch/scripts/sync-brand-kit.sh; ~/.claude/brand/ holds the
+ * copy the Claude Code hook runs on a developer's Mac.
  *
  * Usage:
  *   node scripts/brand-check.mjs              changed lines vs origin/main
@@ -36,8 +38,18 @@ const BANNED_NAME = /Typographic_(Horizontal|Centered|Stacked|Vertical)|eagles-a
 const TAGLINE = /faith you can see/i;  // brand-check: allow the checker's own pattern list
 const BANNED_HEX = new Set(["14527B","1D6FA5","2C7CB8","1F6FB2","2F7CB8","25689B","2A6FA8","1B5C8A","1E66A0","164C76","256EA5","2565A3","181818","1A1614","1A1A1A","17161A","0B0B0C","0F172A","1E293B","2A2320","1F1A19","1F1A18","2C2B31","4A403D","4A403C","64748B","75757C","3A3A40","4A4A50","B9B7B4","8F8D8A"]);
 const PALETTE = new Set(["C8102E","489FDF","5E514D","D0D3D4","FFFFFF","000000","A50D26"]);
-const TEXT_EXT = /\.(html?|css|m?js|cjs|tsx?|jsx|svg|sql|py|gs|vue|svelte|astro|json)$/i;
-const SKIP_DIR = /(^|\/)(node_modules|dist|build|\.git|three-brain-out|vendor|coverage|\.next|\.wrangler|tests?|__tests__|fixtures|data)\/|[._-]test\.[a-z]+$/;
+const TEXT_EXT = /\.(html?|css|scss|sass|less|styl|m?js|cjs|tsx?|jsx|svg|sql|py|gs|vue|svelte|astro|json|jsonc|hbs|njk|ejs|liquid|mjml|xml)$/i;
+// Never checked: generated output and third-party code.
+const SKIP_DIR = /(^|\/)(node_modules|dist|\.git|three-brain-out|vendor|coverage|\.next|\.wrangler)\//;
+// Also skipped by --all only (they legitimately quote old values or hold
+// records); a CHANGE to them is still checked, with allow markers for
+// assertions about old values.
+const ALL_ONLY_SKIP = /(^|\/)(build|tests?|__tests__|fixtures|data)\/|[._-]test\.[a-z]+$/;
+// Warm Gray (#5E514D or a warm/ink token, or a Tailwind bg-ink class) used as
+// a background, fill or bgcolor.
+const WARM_FILL = /(background(-color)?\s*:[^;"'}]*(#5E514D|var\(--(es-)?(warm|ink|ink-2|muted)\)))|(bgcolor\s*=\s*["']?#5E514D)|(\bfill\s*[:=]\s*["']?#5E514D)|(\bbg-ink-(50|60|70|80|90)\b)/i;
+// An exception must say why: "brand-check: allow <reason>".
+const ALLOW = /brand-check: allow\s+[A-Za-z]{2,}/;
 
 const lum = (r, g, b) => { const f = x => { x /= 255; return x <= .03928 ? x / 12.92 : ((x + .055) / 1.055) ** 2.4; }; return .2126 * f(r) + .7152 * f(g) + .0722 * f(b); };
 function hexProblem(h) {
@@ -54,14 +66,22 @@ function hexProblem(h) {
 }
 function checkText(file, lines) {
   const out = [];
+  // Custom properties defined as Warm Gray in this text, so a fill through
+  // var(--dark) or var(--hero) is caught like a literal one.
+  const warmVars = new Set();
+  for (const [, l] of lines) for (const m of l.matchAll(/--([\w-]+)\s*:\s*#5E514D\b/gi)) warmVars.add(m[1].toLowerCase());
   for (const [n, line] of lines) {
-    if (/brand-check: allow/.test(line)) continue;
+    if (ALLOW.test(line)) continue;
     if (BANNED_NAME.test(line)) out.push([file, n, "banned lockup (typographic or Eagles Script + Athletics): lead with the Biola Script"]);
     if (TAGLINE.test(line)) out.push([file, n, 'retired tagline: use "Faith. Formation. Fierce."']);
     for (const m of line.matchAll(/data:image\/(?:svg\+xml|png);base64,([A-Za-z0-9+/=]{200,})/g)) {
       const sha = crypto.createHash("sha256").update(Buffer.from(m[1], "base64")).digest("hex");
       if (BANNED_SHA256.has(sha)) out.push([file, n, "embedded image is a banned lockup (matched by sha256)"]);
     }
+    // Warm Gray is for copy, not design (Neil 2026-10-25): no warm-grey hero,
+    // band, button, badge or tile. Red leads, blue supports, greys sit behind.
+    const viaVar = [...line.matchAll(/(?:background(?:-color)?|fill)\s*:[^;"'}]*var\(--([\w-]+)\)/gi)].some(m => warmVars.has(m[1].toLowerCase()));
+    if (WARM_FILL.test(line) || viaVar) out.push([file, n, "Warm Gray used as a fill: it is for copy only. Use Biola Red (white text) or Biola Blue for heroes, bands, buttons and badges; Light Gray or white for quiet fills"]);
     const scan = line.replace(/data:image\/[^"')\s]+/g, "");
     for (const m of scan.matchAll(/(?<![\w&])#([0-9a-fA-F]{6}|[0-9a-fA-F]{3})(?![0-9a-fA-F\w])/g)) {
       // A three-digit "#107" is usually an issue number: only count it as a
@@ -81,9 +101,10 @@ function checkDataUris(file, text) {
     const sha = crypto.createHash("sha256").update(Buffer.from(b64, "base64")).digest("hex");
     if (!BANNED_SHA256.has(sha)) continue;
     const line = text.slice(0, m.index).split("\n").length;
+    const endLine = line + (m[0].match(/\n/g) || []).length;
     const lineText = text.split("\n")[line - 1] || "";
-    if (/brand-check: allow/.test(lineText)) continue;
-    out.push([file, line, "embedded image is a banned lockup (matched by sha256)"]);
+    if (ALLOW.test(lineText)) continue;
+    out.push([file, line, "embedded image is a banned lockup (matched by sha256)", endLine]);
   }
   return out;
 }
@@ -92,8 +113,15 @@ function checkBinary(file) {
   const sha = crypto.createHash("sha256").update(fs.readFileSync(file)).digest("hex");
   return BANNED_SHA256.has(sha) ? [[file, 0, "this image file is a banned lockup (sha256)"]] : [];
 }
-function skipped(rel, cfg) { return SKIP_DIR.test(rel) || (cfg.skip || []).some(p => rel.startsWith(p)); }
-function loadCfg(root) { try { return JSON.parse(fs.readFileSync(path.join(root, ".brandcheck.json"), "utf8")); } catch { return {}; } }
+function skipped(rel, cfg) { return SKIP_DIR.test(rel) || (cfg.skip || []).some(p => typeof p === "string" && p.length > 0 && rel.startsWith(p)); }
+const inHistory = (rel, cfg) => (cfg.history || []).some(p => typeof p === "string" && p.length > 0 && rel.startsWith(p));
+// --config FILE reads the config from elsewhere: CI passes main's copy, so a
+// pull request cannot loosen the check that judges it.
+function loadCfg(root) {
+  const i = process.argv.indexOf("--config");
+  const f = i > 0 ? process.argv[i + 1] : path.join(root, ".brandcheck.json");
+  try { return JSON.parse(fs.readFileSync(f, "utf8")); } catch { return {}; }
+}
 const sh = (c, cwd) => execSync(c, { cwd, encoding: "utf8", stdio: ["ignore", "pipe", "ignore"], maxBuffer: 1 << 28 });
 function wholeFile(f) { const t = fs.readFileSync(f, "utf8"); return t.split("\n").map((l, i) => [i + 1, l]); }
 
@@ -105,39 +133,50 @@ function report(found, label) {
   return 1;
 }
 
-const args = process.argv.slice(2);
+const args = process.argv.slice(2).filter((a, i, all) => a !== "--config" && all[i - 1] !== "--config");
 if (args[0] === "--hook") {
-  let input = ""; try { input = fs.readFileSync(0, "utf8"); } catch {}
+  let input = ""; try { input = fs.readFileSync(0, "utf8"); } catch { /* not available here; keep the default */ }
   let j = {}; try { j = JSON.parse(input); } catch { process.exit(0); }
   const ti = j.tool_input || {}; const file = ti.file_path || ti.notebook_path || "";
   if (!file || /\.md$/i.test(file) || !(TEXT_EXT.test(file) || /\.(png|svg)$/i.test(file)) || SKIP_DIR.test(file) || /\/\.claude\/brand\//.test(file)) process.exit(0);
   const chunks = [ti.content, ti.new_string, ...((ti.edits || []).map(e => e.new_string))].filter(s => typeof s === "string");
   const lines = chunks.join("\n").split("\n").map((l, i) => [i + 1, l]);
-  const found = [...checkText(file + " (new text)", lines), ...checkDataUris(file + " (new text)", chunks.join("\n")), ...checkBinary(file)];
+  const found = [...checkText(file + " (new text)", lines), ...checkDataUris(file + " (new text)", chunks.join("\n")).map(x => x.slice(0, 3)), ...checkBinary(file)];
   if (found.length) { report(found); process.exit(2); }
   process.exit(0);
 }
 let root; try { root = sh("git rev-parse --show-toplevel", process.cwd()).trim(); } catch { root = process.cwd(); }
 const cfg = loadCfg(root);
-let found = [];
+const found = [];
 if (args[0] === "--all") {
   const files = sh("git ls-files", root).split("\n").filter(Boolean);
   for (const rel of files) {
-    if (skipped(rel, cfg) || (cfg.history || []).some(p => rel.startsWith(p))) continue;
+    if (skipped(rel, cfg) || ALL_ONLY_SKIP.test(rel) || inHistory(rel, cfg)) continue;
     const abs = path.join(root, rel);
     found.push(...checkBinary(abs).map(x => [rel, x[1], x[2]]));
-    if (TEXT_EXT.test(rel) && fs.existsSync(abs) && fs.statSync(abs).size < 40e6) { found.push(...checkText(rel, wholeFile(abs))); found.push(...checkDataUris(rel, fs.readFileSync(abs, "utf8"))); }
+    if (TEXT_EXT.test(rel) && fs.existsSync(abs) && fs.statSync(abs).size < 40e6) { found.push(...checkText(rel, wholeFile(abs))); found.push(...checkDataUris(rel, fs.readFileSync(abs, "utf8")).map(x => x.slice(0, 3))); }
   }
   process.exit(report(found, "all tracked files"));
 } else if (args.length) {
-  for (const f of args) { found.push(...checkBinary(f)); if (TEXT_EXT.test(f)) { found.push(...checkText(f, wholeFile(f))); found.push(...checkDataUris(f, fs.readFileSync(f, "utf8"))); } }
+  for (const f of args) { found.push(...checkBinary(f)); if (TEXT_EXT.test(f)) { found.push(...checkText(f, wholeFile(f))); found.push(...checkDataUris(f, fs.readFileSync(f, "utf8")).map(x => x.slice(0, 3))); } }
   process.exit(report(found, args.length + " file(s)"));
 } else {
-  let base = "origin/main"; try { base = sh("git merge-base origin/main HEAD", root).trim(); } catch {}
-  const diff = sh(`git diff -U0 --no-color ${base} --`, root);
-  let file = null, n = 0; const byFile = new Map();
+  let base = "origin/main"; try { base = sh("git merge-base origin/main HEAD", root).trim(); } catch { /* not available here; keep the default */ }
+  const diff = sh(`git -c core.quotePath=false diff -U0 --no-color --no-renames ${base} --`, root);
+  let file = null, n = 0, expectHeader = false; const byFile = new Map();
   for (const l of diff.split("\n")) {
-    if (l.startsWith("+++ ")) { file = l.slice(4).replace(/^b\//, ""); if (file === "/dev/null") file = null; continue; }
+    // A "+++ " line is a file header only straight after its "--- " line; an
+    // added line that happens to start with "++ " is content. Paths with a
+    // space end in a tab, and odd paths come quoted.
+    if (l.startsWith("--- ")) { expectHeader = true; continue; }
+    if (expectHeader && l.startsWith("+++ ")) {
+      expectHeader = false;
+      let p = l.slice(4).replace(/\t$/, "");
+      if (p.startsWith('"') && p.endsWith('"')) p = JSON.parse(p);
+      file = p === "/dev/null" ? null : p.replace(/^b\//, "");
+      continue;
+    }
+    expectHeader = false;
     const h = l.match(/^@@ -\S+ \+(\d+)/); if (h) { n = +h[1]; continue; }
     if (!file || skipped(file, cfg)) continue;
     if (l.startsWith("+")) { if (!byFile.has(file)) byFile.set(file, []); byFile.get(file).push([n, l.slice(1)]); n++; }
@@ -145,7 +184,7 @@ if (args[0] === "--all") {
   for (const [f, lines] of byFile) if (TEXT_EXT.test(f)) {
     found.push(...checkText(f, lines));
     const abs = path.join(root, f);
-    if (fs.existsSync(abs)) { const changedLines = new Set(lines.map(x => x[0])); found.push(...checkDataUris(f, fs.readFileSync(abs, "utf8")).filter(x => changedLines.has(x[1]) || changedLines.has(x[1] + 1))); }
+    if (fs.existsSync(abs)) { const changedLines = new Set(lines.map(x => x[0])); found.push(...checkDataUris(f, fs.readFileSync(abs, "utf8")).filter(x => [...changedLines].some(c => c >= x[1] && c <= x[3])).map(x => x.slice(0, 3))); }
   }
   const changed = sh(`git diff --name-only ${base} --`, root).split("\n").filter(Boolean);
   const untracked = sh("git ls-files --others --exclude-standard", root).split("\n").filter(Boolean);

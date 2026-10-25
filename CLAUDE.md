@@ -21,7 +21,12 @@ text is "BRAND RULES for every build" in Neil's `~/.claude/CLAUDE.md`).
   sparingly for body copy. Green and amber only to mean a state. No navy or dark
   blues, no near-black UI, no cool greys. Never text (or a white glyph) on
   solid Biola Blue: use a blue wash with a blue edge, or red with white text.
-  Links are red. A dark-on-purpose surface uses Warm Gray as the dark.
+  Links are red. Balance is red-dominant, blue secondary, greys and white
+  behind. Warm Gray is for copy only (body text, labels, small UI text), never
+  a fill: heroes and bands are Biola Red with white text and a Biola Blue
+  accent; table heads, selected tabs and primary buttons are red with white
+  text; quiet badges and pills are Light Gray #D0D3D4 with Warm Gray text
+  (Neil, 2026-10-25).
 - **Emails:** every email, app mail included, opens with the official 2C
   outlined Eagle mascot (150 x 75) on a white band, then the email's own red
   band. Inks: Warm Gray text, red links, Light Gray lines, a #F3F4F4 wash for

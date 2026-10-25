@@ -1,8 +1,8 @@
 .biola-cmp {
-  /* Official Biola Athletics 2026 palette (brand rules, Neil Morgan 2026-10-24): ink is Warm Gray,
-     and the dark-on-purpose surfaces (hero, table heads, selected tab) use Warm Gray as the dark. */
+  /* Official Biola Athletics 2026 palette (brand rules, Neil Morgan 2026-10-25): Warm Gray is for copy only.
+     The hero, table heads and selected tab are Biola Red with white text, with Biola Blue as the accent. */
   --red: #C8102E; --blue: #489FDF; --gray: #D0D3D4; --warm: #5E514D;
-  --black: #000000; --white: #FFFFFF; --ink: #5E514D; --muted: #5E514D; --dark: #5E514D;
+  --black: #000000; --white: #FFFFFF; --ink: #5E514D; --muted: #5E514D; --tint: #FBE9EC;
   --border: #D0D3D4; --surface: #FFFFFF; --surface-alt: #F4F4F4;
   --fd: 'beachwood-variable', 'Oswald', 'Arial Narrow', sans-serif;
   --fb: 'gotham', 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -18,20 +18,20 @@
 
 /* ---- hero ---- */
 .biola-cmp .cmp-hero {
-  position: relative; overflow: hidden; background: var(--dark);
+  position: relative; overflow: hidden; background: var(--red);
   border-radius: var(--r); padding: 46px 44px 42px; margin-bottom: 22px;
 }
 .biola-cmp .cmp-hero::after {
   content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 5px;
-  background: linear-gradient(90deg, var(--red) 0 72%, var(--blue) 72% 100%);
+  background: var(--blue);
 }
-.biola-cmp .cmp-eyebrow { font-size: 11px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; color: var(--gray); margin: 0 0 14px; }
+.biola-cmp .cmp-eyebrow { font-size: 11px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; color: var(--white); margin: 0 0 14px; }
 .biola-cmp .cmp-hero h1 {
   font-family: var(--fd); font-weight: 600; text-transform: uppercase; letter-spacing: -.012em;
   line-height: .92; font-size: 56px; margin: 0 0 18px; color: var(--white); text-wrap: balance;
 }
-.biola-cmp .cmp-hero h1 span { color: var(--gray); } /* accent is Light Gray, not red: red on the Warm Gray hero fails contrast, and text on a dark surface is white or Light Gray only */
-.biola-cmp .cmp-lede { color: var(--gray); font-size: 17px; max-width: 62ch; margin: 0; }
+.biola-cmp .cmp-hero h1 span { color: var(--tint); } /* a very light red tint on the red hero: 4.9:1 */
+.biola-cmp .cmp-lede { color: var(--white); font-size: 17px; max-width: 62ch; margin: 0; }
 @media (max-width: 860px) { .biola-cmp .cmp-hero { padding: 34px 24px 32px; } .biola-cmp .cmp-hero h1 { font-size: 40px; } }
 @media (max-width: 560px) { .biola-cmp .cmp-hero h1 { font-size: 32px; } }
 
@@ -78,9 +78,9 @@
 .biola-cmp .rk-wrap { overflow-x: auto; max-height: 640px; overflow-y: auto; border: 1px solid var(--border); border-radius: var(--r-sm); }
 .biola-cmp .rk-table { width: 100%; border-collapse: collapse; font-size: 14px; font-variant-numeric: tabular-nums; }
 .biola-cmp .rk-table th {
-  position: sticky; top: 0; z-index: 1; background: var(--dark); color: var(--white);
+  position: sticky; top: 0; z-index: 1; background: var(--red); color: var(--white);
   text-align: left; font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
-  padding: 10px 12px; white-space: nowrap; border-bottom: 3px solid var(--red);
+  padding: 10px 12px 13px; white-space: nowrap; border-bottom: 0; box-shadow: inset 0 -3px 0 var(--blue); /* a shadow, not a border: a collapsed border on a sticky head paints in patches */
 }
 .biola-cmp .rk-table th button {
   all: unset; cursor: default; font: inherit; letter-spacing: inherit; color: inherit;
@@ -118,7 +118,7 @@
 .biola-cmp .rk-ones .k { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--white); background: var(--red); border-radius: 4px; padding: 2px 8px; margin-right: 6px; }
 
 /* ---- section tabs: links without script (jump + all panels shown), real tabs with it ---- */
-.biola-cmp .rk-tabs { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0; margin: 8px 0 28px; border-bottom: 3px solid var(--dark); }
+.biola-cmp .rk-tabs { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0; margin: 8px 0 28px; border-bottom: 3px solid var(--red); }
 .biola-cmp a.rk-tab {
   display: block; text-decoration: none; color: var(--ink); background: var(--surface-alt);
   padding: 14px 18px 12px; border: 1px solid var(--border); border-bottom: 0; margin-right: -1px;
@@ -127,8 +127,8 @@
 .biola-cmp a.rk-tab .t { display: block; font-family: var(--fd); font-weight: 600; text-transform: uppercase; font-size: 19px; line-height: 1.1; }
 .biola-cmp a.rk-tab .d { display: block; font-size: 12.5px; color: var(--muted); margin-top: 4px; line-height: 1.35; }
 .biola-cmp a.rk-tab:hover { background: #EAEAEA; }
-.biola-cmp a.rk-tab[aria-selected="true"] { background: var(--dark); border-color: var(--dark); color: var(--white); box-shadow: inset 0 4px 0 var(--red); }
-.biola-cmp a.rk-tab[aria-selected="true"] .d { color: var(--gray); }
+.biola-cmp a.rk-tab[aria-selected="true"] { background: var(--red); border-color: var(--red); color: var(--white); box-shadow: inset 0 4px 0 var(--blue); }
+.biola-cmp a.rk-tab[aria-selected="true"] .d { color: var(--white); }
 .biola-cmp.js-on .rk-panel[hidden] { display: none; }
 @media (max-width: 640px) {
   .biola-cmp .rk-tabs { grid-template-columns: 1fr; border-bottom: 0; }
