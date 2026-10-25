@@ -571,7 +571,7 @@ ones_html = ""
 if ones:
     parts = []
     for sp in sorted({k[0] for k in ones}, key=sport_key):
-        yrs = sorted((k[1] for k in ones if k[0] == sp), key=season_start)
+        yrs = sorted((k[1] for k in ones if k[0] == sp), key=lambda x: (season_start(x), x))
         cites = ", ".join('%s (<a href="%s">%s</a>)' % (e(y), e(ones[(sp, y)].get("source_url") or ""),
                           ones[(sp, y)].get("cite_label") or SRC_WORD.get(ones[(sp, y)].get("confidence"), "source")) for y in yrs)
         parts.append("<strong>%s</strong> %s" % (e(sp), cites))
@@ -716,7 +716,7 @@ def build_vs():
                                                       e(g["poll_release_date"]))))
     sport_sel = '<label><span>Program</span><select data-f="sport"><option value="">All programs</option>%s</select></label>' % opts(sports)
     season_sel = ('<label><span>Season</span><select data-f="season"><option value="">All seasons</option>%s</select></label>'
-                  % "".join('<option value="%s">%s</option>' % (e(x), e(x)) for x in sorted(season_opts, key=season_start, reverse=True)))
+                  % "".join('<option value="%s">%s</option>' % (e(x), e(x)) for x in sorted(season_opts, key=lambda x: (season_start(x), x), reverse=True)))  # label breaks the "2025"/"2025-26" tie: stable rebuilds
     def spans(ys):
         ys, out, i = sorted(ys), [], 0
         while i < len(ys):
@@ -1058,23 +1058,23 @@ MOBILE_CSS = ("<style>.biola-cmp .rk-sort{display:none}@media (max-width:700px){
               ".biola-cmp .rk-table td:not(:first-child)::before{display:block;font-size:10.5px;font-weight:700;"
               "letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}"
               ".biola-cmp .rk-table td:empty{display:none}"
-              ".biola-cmp .rk-table tr.is-total{border-left-color:var(--black);background:#EFEFEF}"
+              ".biola-cmp .rk-table tr.is-total{border-left-color:var(--dark);background:#EFEFEF}"
               ".biola-cmp .rk-filters label,.biola-cmp .rk-filters select,.biola-cmp .rk-filters input{width:100%;min-width:0}"
               ".biola-cmp .rk-filters .rk-q{flex-basis:100%}.biola-cmp .rk-count{margin-left:0}"
               "__LABELS__}</style>")
 
 
-# Sort feedback (Neil, 2026-10-19: "more visual confirmation"): the sorted header filled blue with a
-# clear arrow, the sorted column tinted, a plain-language "Sorted by" line, and a short flash.
+# Sort feedback (Neil, 2026-10-19: "more visual confirmation"): the sorted header lifted on the Warm Gray
+# head with a Biola Blue underbar (never white text on solid blue, brand rules 2026-10-24) and a clear arrow, the sorted column tinted, a plain-language "Sorted by" line, and a short flash.
 SORT_CSS = ("<style>"
             ".biola-cmp .rk-table th button{border-radius:3px;padding:2px 6px;margin:-2px -6px}"
             ".biola-cmp .rk-table th button::after{content:\" \\21C5\";opacity:.5}"
-            ".biola-cmp .rk-table th[aria-sort] button{background:var(--blue);color:#fff}"
+            ".biola-cmp .rk-table th[aria-sort] button{background:rgba(255,255,255,.16);color:#fff;box-shadow:inset 0 -3px 0 var(--blue)}"
             ".biola-cmp .rk-table th[aria-sort=\"ascending\"] button::after{content:\" \\25B2\";opacity:1;color:#fff}"
             ".biola-cmp .rk-table th[aria-sort=\"descending\"] button::after{content:\" \\25BC\";opacity:1;color:#fff}"
             ".biola-cmp .rk-table td.is-sorted{background:rgba(72,159,223,.13);font-weight:700}"
-            ".biola-cmp .rk-sortnote{margin:0 0 8px;font-size:13.5px;font-weight:600;color:var(--black)}"
-            ".biola-cmp .rk-sortnote b{color:var(--blue)}"
+            ".biola-cmp .rk-sortnote{margin:0 0 8px;font-size:13.5px;font-weight:600;color:var(--ink)}"
+            ".biola-cmp .rk-sortnote b{color:var(--red)}"
             ".biola-cmp .rk-sortnote:empty{display:none}"
             "@keyframes rkflash{0%{box-shadow:0 0 0 3px var(--blue);background:rgba(72,159,223,.12)}100%{box-shadow:0 0 0 3px transparent;background:transparent}}"
             ".biola-cmp .rk-wrap.rk-flash{animation:rkflash .7s ease-out}"
