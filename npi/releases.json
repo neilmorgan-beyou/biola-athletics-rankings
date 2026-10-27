@@ -1528,6 +1528,213 @@
    "official_basis": "Release date on the official 2026-27 schedule (npi/schedule.json), linked from NCAA.com's NPI Rankings page"
   },
   {
+   "sport": "Women's Soccer",
+   "season": "2026",
+   "official": true,
+   "release_date": "2026-10-26",
+   "through": "2026-10-25",
+   "ncaa_com_url": "https://www.ncaa.com/rankings/soccer-women/d2/npi-rankings",
+   "ncaa_com_published": "2026-10-26T15:16:59-04:00",
+   "source_url": "https://stats.ncaa.org/selection_rankings/nitty_gritties/2027/WSO/2/current_rankings",
+   "teams_nationally": 259,
+   "national_rank": 89,
+   "npi": "53.192",
+   "record": "8-4-2",
+   "region": "West Region",
+   "region_rank": 12,
+   "region_teams": 32,
+   "region_standings": [
+    [
+     29,
+     "Western Wash."
+    ],
+    [
+     33,
+     "Cal Poly Pomona"
+    ],
+    [
+     38,
+     "Cal State LA"
+    ],
+    [
+     41,
+     "Point Loma"
+    ],
+    [
+     44,
+     "CUI"
+    ],
+    [
+     46,
+     "Simon Fraser"
+    ],
+    [
+     51,
+     "UC Merced"
+    ],
+    [
+     60,
+     "Cal St. San Marcos"
+    ],
+    [
+     62,
+     "Hawaii Hilo"
+    ],
+    [
+     75,
+     "CSUSB"
+    ],
+    [
+     84,
+     "Cal St. Monterey Bay"
+    ],
+    [
+     89,
+     "Biola"
+    ],
+    [
+     93,
+     "Seattle Pacific"
+    ],
+    [
+     97,
+     "Stanislaus St."
+    ],
+    [
+     112,
+     "Chico St."
+    ],
+    [
+     130,
+     "Cal Poly Humboldt"
+    ],
+    [
+     139,
+     "Vanguard"
+    ],
+    [
+     163,
+     "Western Ore."
+    ],
+    [
+     167,
+     "Central Wash."
+    ],
+    [
+     171,
+     "Dominican (CA)"
+    ],
+    [
+     177,
+     "Fresno Pacific"
+    ],
+    [
+     193,
+     "Northwest Nazarene"
+    ],
+    [
+     203,
+     "Cal St. East Bay"
+    ],
+    [
+     205,
+     "Menlo"
+    ],
+    [
+     207,
+     "Mont. St. Billings"
+    ],
+    [
+     213,
+     "Westmont"
+    ],
+    [
+     214,
+     "Chaminade"
+    ],
+    [
+     217,
+     "Cal St. Dom. Hills"
+    ],
+    [
+     225,
+     "San Fran. St."
+    ],
+    [
+     232,
+     "Jessup"
+    ],
+    [
+     235,
+     "Saint Martin's"
+    ],
+    [
+     244,
+     "Hawaii Pacific"
+    ]
+   ],
+   "biola_row": [
+    [
+     "Team",
+     "Biola"
+    ],
+    [
+     "Conference",
+     "PacWest"
+    ],
+    [
+     "Region",
+     "WEST REGION"
+    ],
+    [
+     "NPI Rank",
+     "89"
+    ],
+    [
+     "NPI",
+     "53.192"
+    ],
+    [
+     "Prev NPI",
+     "94"
+    ],
+    [
+     "DII WL",
+     "8-4-2"
+    ],
+    [
+     "Adj W/L",
+     "8.9-5.1"
+    ],
+    [
+     "AdjWin%",
+     "0.636"
+    ],
+    [
+     "Win Value",
+     "64.894"
+    ],
+    [
+     "Loss Value",
+     "39.894"
+    ],
+    [
+     "QWB",
+     "0"
+    ],
+    [
+     "vAbove",
+     "1-4-2"
+    ],
+    [
+     "vBelow",
+     "7-0"
+    ]
+   ],
+   "read": "Read 2026-10-27 from the table on NCAA.com's own NPI page (Through Games OCT. 25, 2026; 259 teams), by the routine's plain page fetch; stats.ncaa.org was not opened. source_url is the generic current-rankings page that NCAA.com links to, not a dated table id. Region rank = Biola's position among WEST REGION teams sorted by NPI rank.",
+   "official_basis": "Release date on the official 2026-27 schedule (npi/schedule.json), linked from NCAA.com's NPI Rankings page"
+  },
+  {
    "sport": "Women's Volleyball",
    "season": "2026",
    "official": true,
