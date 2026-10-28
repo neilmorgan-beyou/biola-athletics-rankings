@@ -6130,6 +6130,22 @@
    "notes": "LW 7. Read from the published rankings 2026-10-21."
   },
   {
+   "season": "2026",
+   "era": "NCAA DII",
+   "record_at_time": null,
+   "confidence": "primary",
+   "sport": "Men's Cross Country",
+   "poll": "USTFCCCA NCAA DII Regional Rankings",
+   "scope": "regional",
+   "region": "West",
+   "week": "Week 6",
+   "date": "2026-10-27",
+   "rank": 7,
+   "points": null,
+   "source_url": "https://www.ustfccca.org/2026/10/featured/2026-ncaa-dii-mens-cross-country-regional-rankings-week-6",
+   "notes": "LW 7. Read from the published rankings 2026-10-28."
+  },
+  {
    "sport": "Men's Cross Country",
    "season": "2025",
    "era": "NCAA DII",
@@ -8000,6 +8016,22 @@
    "points": null,
    "source_url": "https://www.ustfccca.org/2026/10/featured/2026-ncaa-dii-womens-cross-country-regional-rankings-week-5",
    "notes": "LW 3. Read from the published rankings 2026-10-21."
+  },
+  {
+   "season": "2026",
+   "era": "NCAA DII",
+   "record_at_time": null,
+   "confidence": "primary",
+   "sport": "Women's Cross Country",
+   "poll": "USTFCCCA NCAA DII Regional Rankings",
+   "scope": "regional",
+   "region": "West",
+   "week": "Week 6",
+   "date": "2026-10-27",
+   "rank": 3,
+   "points": null,
+   "source_url": "https://www.ustfccca.org/2026/10/featured/2026-ncaa-dii-womens-cross-country-regional-rankings-week-6",
+   "notes": "LW 3. Read from the published rankings 2026-10-28."
   },
   {
    "sport": "Women's Cross Country",
@@ -16206,6 +16238,22 @@
    "points": 56,
    "record_at_time": null,
    "source_url": "https://www.avca.org/polls-awards/polls/?_season=2026&_divisions=division-ii-women&_weeks=week-8",
+   "confidence": "primary",
+   "notes": "From the poll archive (polls/womens-volleyball.json)"
+  },
+  {
+   "sport": "Women's Volleyball",
+   "season": "2026",
+   "era": "NCAA DII",
+   "poll": "AVCA NCAA DII Coaches Top 25",
+   "scope": "national",
+   "region": null,
+   "week": "Week 9",
+   "date": "2026-10-26",
+   "rank": "RV",
+   "points": 22,
+   "record_at_time": null,
+   "source_url": "https://www.avca.org/polls-awards/polls/?_season=2026&_divisions=division-ii-women&_weeks=week-9",
    "confidence": "primary",
    "notes": "From the poll archive (polls/womens-volleyball.json)"
   },

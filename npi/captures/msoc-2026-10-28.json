@@ -1,0 +1,293 @@
+{
+ "sport": "Men's Soccer",
+ "season": "2026",
+ "official": true,
+ "release_date": "2026-10-28",
+ "through": "2026-10-27",
+ "ncaa_com_url": "https://www.ncaa.com/rankings/soccer-men/d2/npi-rankings",
+ "source_url": "https://stats.ncaa.org/selection_rankings/nitty_gritties/54152",
+ "teams_nationally": 202,
+ "national_rank": 165,
+ "npi": "45.035",
+ "record": "3-8-3",
+ "region": "Super-Region 4",
+ "region_rank": 44,
+ "region_teams": 52,
+ "region_standings": [
+  [
+   1,
+   "Cal State LA"
+  ],
+  [
+   2,
+   "CSU Pueblo"
+  ],
+  [
+   4,
+   "Midwestern St."
+  ],
+  [
+   8,
+   "Regis (CO)"
+  ],
+  [
+   11,
+   "Seattle Pacific"
+  ],
+  [
+   15,
+   "UCCS"
+  ],
+  [
+   16,
+   "Cal St. Monterey Bay"
+  ],
+  [
+   19,
+   "CSUSB"
+  ],
+  [
+   30,
+   "Western Ore."
+  ],
+  [
+   31,
+   "Fort Lewis"
+  ],
+  [
+   38,
+   "Okla. Christian"
+  ],
+  [
+   45,
+   "Texas-Dallas"
+  ],
+  [
+   48,
+   "Cal St. San Marcos"
+  ],
+  [
+   49,
+   "Northwest Nazarene"
+  ],
+  [
+   50,
+   "Simon Fraser"
+  ],
+  [
+   51,
+   "St. Mary's (TX)"
+  ],
+  [
+   52,
+   "Cal Poly Pomona"
+  ],
+  [
+   64,
+   "Colorado Mesa"
+  ],
+  [
+   65,
+   "Western Wash."
+  ],
+  [
+   70,
+   "MSU Denver"
+  ],
+  [
+   72,
+   "Point Loma"
+  ],
+  [
+   79,
+   "South Dakota Mines"
+  ],
+  [
+   85,
+   "UC Merced"
+  ],
+  [
+   88,
+   "Westmont"
+  ],
+  [
+   93,
+   "Westminster (UT)"
+  ],
+  [
+   98,
+   "CUI"
+  ],
+  [
+   103,
+   "DBU"
+  ],
+  [
+   106,
+   "Menlo"
+  ],
+  [
+   107,
+   "Cal St. Dom. Hills"
+  ],
+  [
+   108,
+   "Hawaii Pacific"
+  ],
+  [
+   112,
+   "Stanislaus St."
+  ],
+  [
+   114,
+   "Hawaii Hilo"
+  ],
+  [
+   120,
+   "Vanguard"
+  ],
+  [
+   127,
+   "St. Edward's"
+  ],
+  [
+   128,
+   "UT Tyler"
+  ],
+  [
+   131,
+   "Colo. Christian"
+  ],
+  [
+   133,
+   "Tex. A&M Int'l"
+  ],
+  [
+   136,
+   "Dominican (CA)"
+  ],
+  [
+   138,
+   "Lubbock Christian"
+  ],
+  [
+   139,
+   "West Tex. A&M"
+  ],
+  [
+   143,
+   "Fresno Pacific"
+  ],
+  [
+   156,
+   "Chico St."
+  ],
+  [
+   159,
+   "Saint Martin's"
+  ],
+  [
+   165,
+   "Biola"
+  ],
+  [
+   166,
+   "Cal St. East Bay"
+  ],
+  [
+   179,
+   "Cal Poly Humboldt"
+  ],
+  [
+   192,
+   "Adams St."
+  ],
+  [
+   195,
+   "Jessup"
+  ],
+  [
+   196,
+   "Colo. Sch. of Mines"
+  ],
+  [
+   197,
+   "Virginia St."
+  ],
+  [
+   198,
+   "Chaminade"
+  ],
+  [
+   200,
+   "Sul Ross St."
+  ]
+ ],
+ "biola_row": [
+  [
+   "Team",
+   "Biola"
+  ],
+  [
+   "Conference",
+   "PacWest"
+  ],
+  [
+   "Region",
+   "SUPER-REGION 4"
+  ],
+  [
+   "10/27/2026 Result",
+   ""
+  ],
+  [
+   "NPI Rank",
+   "165"
+  ],
+  [
+   "NPI",
+   "45.035"
+  ],
+  [
+   "Prev NPI",
+   "164"
+  ],
+  [
+   "DII WL",
+   "3-8-3"
+  ],
+  [
+   "Adj W/L",
+   "4.4-8.6"
+  ],
+  [
+   "AdjWin%",
+   "0.342"
+  ],
+  [
+   "Win Value",
+   "58.776"
+  ],
+  [
+   "Loss Value",
+   "33.776"
+  ],
+  [
+   "QWB",
+   "58"
+  ],
+  [
+   "QWB",
+   "0.000"
+  ],
+  [
+   "vAbove",
+   "1-8-2"
+  ],
+  [
+   "vBelow",
+   "2-0-1"
+  ]
+ ],
+ "read": "Read 2026-10-28 by Claude in Neil's Chrome from stats.ncaa.org (Neil accepted its terms himself): the fixed id 54152 for 'Ranking thru games 10/27/2026' in the current_rankings date menu, 202 teams. NCAA.com's NPI page had not yet been updated to this release. Region rank = Biola's position among the region's teams sorted by NPI rank."
+}
