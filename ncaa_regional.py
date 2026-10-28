@@ -35,8 +35,8 @@ PAGE = "https://www.ncaa.com/rankings/%s/d2/regional-rankings"
 PAGE_SINGULAR = {"basketball-men", "basketball-women"}
 
 # NCAA.com slug -> (sport name in this repo, season kind)
+# No volleyball: its only DII regional ranking is the NPI (Neil, 2026-10-28); the old regional page 404s.
 SPORTS = {
-    "volleyball-women": ("Women's Volleyball", "fall"),
     "soccer-men": ("Men's Soccer", "fall"),
     "soccer-women": ("Women's Soccer", "fall"),
     "basketball-men": ("Men's Basketball", "winter"),

@@ -83,7 +83,8 @@ Read `SPEC-poll-archive.md` first. The standing rules:
 
 4. **NCAA regional rankings and the NPI.** `refresh.sh` runs `ncaa_regional.py`, which checks the
    NCAA.com Division II regional rankings pages and archives any release that still has a table there.
-   From 2026-10-12 the soccer pages (and, expected, volleyball) redirect to `/d2/npi-rankings`, which only
+   Volleyball is not checked: its only DII regional ranking is the NPI (Neil, 2026-10-28), so its old
+   regional page's 404 is not news and is never emailed. From 2026-10-12 the soccer pages redirect to `/d2/npi-rankings`, which only
    links to a stats.ncaa.org table. **This routine never opens stats.ncaa.org**: it blocks scripts and its
    terms forbid scraping. Those releases are read by hand (Claude in Neil's Chrome, when Neil asks) and
    recorded with `npi.py add`, into `npi/releases.json`.
