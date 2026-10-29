@@ -191566,6 +191566,21 @@
    "source_url": "https://athletics.biola.edu/sports/mens-soccer/schedule/2026"
   },
   {
+   "game_id": "msoc-2026-10-28-1",
+   "sport": "Men's Soccer",
+   "season": "2026",
+   "date": "2026-10-28",
+   "opponent_raw": "Vanguard",
+   "opponent_as_listed": "Vanguard",
+   "location": "Away",
+   "result": "L",
+   "score": "0-1",
+   "event": null,
+   "postseason": false,
+   "exhibition": false,
+   "source_url": "https://athletics.biola.edu/sports/mens-soccer/schedule/2026"
+  },
+  {
    "game_id": "wsoc-2025-08-30-1",
    "sport": "Women's Soccer",
    "season": "2025",
@@ -192040,6 +192055,21 @@
    "location": "Home",
    "result": "W",
    "score": "6-1",
+   "event": null,
+   "postseason": false,
+   "exhibition": false,
+   "source_url": "https://athletics.biola.edu/sports/womens-soccer/schedule/2026"
+  },
+  {
+   "game_id": "wsoc-2026-10-28-1",
+   "sport": "Women's Soccer",
+   "season": "2026",
+   "date": "2026-10-28",
+   "opponent_raw": "Vanguard",
+   "opponent_as_listed": "Vanguard",
+   "location": "Away",
+   "result": "T",
+   "score": "0-0",
    "event": null,
    "postseason": false,
    "exhibition": false,
