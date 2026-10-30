@@ -50,6 +50,29 @@ def season_start(season):
     return int(m.group(1)) if m else 0
 
 
+# The school year a row belongs to, for the Season filter (Neil, 2026-10-29:
+# "filter/select a specific year"). Fall sports record the calendar year they
+# played (2025 = 2025-26), spring sports the year they finished (2026 =
+# 2025-26); winter sports and the department awards already say 2025-26.
+FALL_SPORTS = {"Men's Soccer", "Women's Soccer", "Men's Cross Country", "Women's Cross Country",
+               "Women's Volleyball", "Men's Water Polo"}
+
+
+def school_year(sport, season):
+    t = str(season or "").strip()
+    m = re.match(r"(\d{4})\s*[-/]\s*(\d{2,4})$", t)
+    if m:
+        y = int(m.group(1))
+        return "%d-%02d" % (y, (y + 1) % 100)
+    m = re.match(r"(\d{4})\b", t)
+    if not m:
+        return t
+    y = int(m.group(1))
+    if sport in FALL_SPORTS:
+        return "%d-%02d" % (y, (y + 1) % 100)
+    return "%d-%02d" % (y - 1, y % 100)
+
+
 def e(s):
     """HTML-escape and force pure-ASCII output (non-ASCII -> numeric entity)."""
     s = html.escape("" if s is None else str(s), quote=True)
@@ -452,11 +475,11 @@ def link(url, text="Source"):
 s_rows = []
 for s in summ:
     s_rows.append(
-        '<tr data-sport="%s" data-era="%s" data-scope="%s">'
+        '<tr data-sport="%s" data-era="%s" data-scope="%s" data-season="%s">'
         '<td>%s</td><td data-v="%d">%s</td><td>%s</td><td>%s</td>'
         '<td data-v="%d">%s</td><td data-v="%d" class="rk-peak">%s</td><td data-v="%d">%s</td>'
         '<td>%s</td></tr>' % (
-            e(s["sport"]), e(s.get("era")), e(s.get("scope")),
+            e(s["sport"]), e(s.get("era")), e(s.get("scope")), e(school_year(s["sport"], s["season"])),
             e(s["sport"]), season_start(s["season"]), e(s["season"]),
             e(LABELS.get(s.get("era"), s.get("era"))), e(s.get("poll")) + (" (%s)" % e(s["region"]) if s.get("region") and s["region"].lower() not in (s.get("poll") or "").lower() else ""),
             rank_num(s.get("preseason")), e(rank_label(s.get("preseason"))),
@@ -468,10 +491,10 @@ for s in summ:
 p_rows = []
 for r in rows:
     p_rows.append(
-        '<tr data-sport="%s" data-era="%s" data-scope="%s">'
+        '<tr data-sport="%s" data-era="%s" data-scope="%s" data-season="%s">'
         '<td>%s</td><td data-v="%d">%s</td><td>%s</td><td>%s</td><td>%s</td>'
         '<td data-v="%s">%s</td><td data-v="%d" class="rk-peak">%s</td><td>%s</td><td>%s</td></tr>' % (
-            e(r["sport"]), e(r.get("era")), e(r.get("scope")),
+            e(r["sport"]), e(r.get("era")), e(r.get("scope")), e(school_year(r["sport"], r["season"])),
             e(r["sport"]), season_start(r["season"]), e(r["season"]),
             e(r.get("poll")), e((r.get("scope") or "").capitalize()) + (" - %s" % e(r["region"]) if r.get("region") else ""),
             e(r.get("week")), e(r.get("date") or ""), e(r.get("date") or ""),
@@ -534,9 +557,9 @@ def dept_rows(rs, group_key, out_of_key, show_points=True):
     for r in sorted(rs, key=lambda r: (-season_start(r.get("season")), r.get("award") or "")):
         placed = (r.get("status") or "").lower() == "placed"
         out.append(
-            '<tr data-sport="%s"%s><td>%s</td><td data-v="%d">%s</td><td>%s</td>'
+            '<tr data-sport="%s" data-season="%s"%s><td>%s</td><td data-v="%d">%s</td><td>%s</td>'
             '<td data-v="%s" class="%s">%s</td>%s<td data-v="%s">%s</td><td>%s</td></tr>' % (
-                e(r.get("award")), '' if placed else ' class="is-quiet"',
+                e(r.get("award")), e(school_year(None, r.get("season"))), '' if placed else ' class="is-quiet"',
                 e(r.get("award")), season_start(r.get("season")), e(r.get("season")),
                 e(r.get(group_key) or ""),
                 r.get("place") if placed and r.get("place") is not None else 999,
@@ -554,11 +577,17 @@ dc_html = dept_rows(dc, "body", "schools_scored")
 cc_html = dept_rows(cc, "conference", "schools", show_points=False)
 
 
+def season_sel(rs):
+    years = sorted({school_year(r.get("sport"), r.get("season")) for r in rs if r.get("season")},
+                   key=season_start, reverse=True)
+    return '<label><span>School year</span><select data-f="season"><option value="">All years</option>%s</select></label>' % opts(years)
+
+
 def award_filter(tid, rs):
     return (
         '<div class="rk-filters" data-for="%s">'
         '<label><span>Award</span><select data-f="sport"><option value="">All awards</option>%s</select></label>'
-        '<p class="rk-count" aria-live="polite"></p></div>' % (tid, opts(sorted({r.get("award") for r in rs if r.get("award")})))
+        '%s<p class="rk-count" aria-live="polite"></p></div>' % (tid, opts(sorted({r.get("award") for r in rs if r.get("award")})), season_sel(rs))
     )
 
 
@@ -690,7 +719,7 @@ def build_vs():
         for se in ["All seasons"] + seasons:
             lab_ = se if se == "All seasons" else label.get((sp, se), str(se))
             if se != "All seasons":
-                season_opts.add(lab_)
+                season_opts.add(school_year(sp, lab_))
             tds = "".join('<td data-v="%s">%s</td>' % (pct(cell[(sp, se, lab)]) or -1, wlt(cell[(sp, se, lab)]) if sum(cell[(sp, se, lab)]) else "&ndash;")
                           for lab, _ in VS_CATS)
             if se == "All seasons":
@@ -700,14 +729,14 @@ def build_vs():
             part = ck[0] < ck[1]
             rows_html.append('<tr data-sport="%s" data-season="%s"%s><td>%s</td><td data-v="%d">%s</td>%s'
                              '<td data-v="%d"%s>%d of %d</td></tr>' % (
-                e(sp), e(lab_), ' class="is-total"' if se == "All seasons" else "", e(sp),
+                e(sp), e(lab_ if se == "All seasons" else school_year(sp, lab_)), ' class="is-total"' if se == "All seasons" else "", e(sp),
                 9999 if se == "All seasons" else se, e(lab_), tds,
                 ck[0], ' class="rk-partial" title="Some games had no archived poll in effect"' if part else "", ck[0], ck[1]))
     g_rows = []
     for g in sorted(vg, key=lambda g: (sport_key(g["sport"]), g["date"]), reverse=True):
         g_rows.append('<tr data-sport="%s" data-season="%s" data-res="%s"><td>%s</td><td data-v="%s">%s</td>'
                       '<td data-v="%d">%s%d</td><td>%s</td><td>%s</td><td class="rk-res is-%s">%s</td><td>%s</td></tr>' % (
-                          e(g["sport"]), e(g["season"]), g["result"], e(g["sport"]), e(g["date"]), e(g["date"]),
+                          e(g["sport"]), e(school_year(g["sport"], g["season"])), g["result"], e(g["sport"]), e(g["date"]), e(g["date"]),
                           rank_num(g["opponent_rank"]), "T-" if g.get("tied") else "No. ", rank_num(g["opponent_rank"]),
                           e(g["opponent_raw"]), e(g.get("location") or ""), g["result"].lower(),
                           e(show_result(g)),
@@ -715,8 +744,8 @@ def build_vs():
                                                       e({"mixed": "CWPA"}.get(g.get("poll_division"), g.get("poll_division") or "")),
                                                       e(g["poll_release_date"]))))
     sport_sel = '<label><span>Program</span><select data-f="sport"><option value="">All programs</option>%s</select></label>' % opts(sports)
-    season_sel = ('<label><span>Season</span><select data-f="season"><option value="">All seasons</option>%s</select></label>'
-                  % "".join('<option value="%s">%s</option>' % (e(x), e(x)) for x in sorted(season_opts, key=lambda x: (season_start(x), x), reverse=True)))  # label breaks the "2025"/"2025-26" tie: stable rebuilds
+    season_sel = ('<label><span>School year</span><select data-f="season"><option value="">All years</option>%s</select></label>'
+                  % "".join('<option value="%s">%s</option>' % (e(x), e(x)) for x in sorted(season_opts, key=lambda x: (season_start(x), x), reverse=True)))
     def spans(ys):
         ys, out, i = sorted(ys), [], 0
         while i < len(ys):
@@ -962,7 +991,7 @@ def render(vs_tab, vs_panel):
 <section class="cmp-sec rk-panel" id="rk-seasons" role="tabpanel" aria-labelledby="tab-rk-seasons">
 <h2 class="cmp-h">Ranked seasons</h2>
 <p class="cmp-sub">One row per season and poll: preseason, highest and final ranking. Final is the last poll of the season, postseason where one was published. NR means not ranked. Select a column heading to sort.</p>
-{filters("t-seasons", era_sel + scope_sel)}
+{filters("t-seasons", season_sel(summ) + era_sel + scope_sel)}
 <div class="rk-wrap"><table class="rk-table" id="t-seasons">
 <thead><tr>{th("Sport","0")}{th("Season","1","num")}{th("Era","2")}{th("Poll","3")}{th("Preseason","4","num")}{th("Peak","5","num")}{th("Final","6","num")}<th scope="col">Source</th></tr></thead>
 <tbody>{"".join(s_rows)}</tbody></table></div>
@@ -971,7 +1000,7 @@ def render(vs_tab, vs_panel):
 <section class="cmp-sec rk-panel" id="rk-polls" role="tabpanel" aria-labelledby="tab-rk-polls">
 <h2 class="cmp-h">Every poll appearance</h2>
 <p class="cmp-sub">Each week Biola appeared in a published poll, ranked or receiving votes.</p>
-{filters("t-polls", era_sel + scope_sel)}
+{filters("t-polls", season_sel(rows) + era_sel + scope_sel)}
 <div class="rk-wrap"><table class="rk-table" id="t-polls">
 <thead><tr>{th("Sport","0")}{th("Season","1","num")}{th("Poll","2")}{th("Type","3")}{th("Week","4")}{th("Date","5")}{th("Rank","6","num")}{th("Record","7")}<th scope="col">Source</th></tr></thead>
 <tbody>{"".join(p_rows)}</tbody></table></div>
