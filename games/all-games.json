@@ -192961,6 +192961,21 @@
    "source_url": "https://athletics.biola.edu/sports/womens-basketball/schedule/2026-27"
   },
   {
+   "game_id": "wbb-2026-10-30-1",
+   "sport": "Women's Basketball",
+   "season": "2026-27",
+   "date": "2026-10-30",
+   "opponent_raw": "Pomona-Pitzer",
+   "opponent_as_listed": "Pomona-Pitzer",
+   "location": "Home",
+   "result": "W",
+   "score": "80-48",
+   "event": "Exhibition",
+   "postseason": false,
+   "exhibition": true,
+   "source_url": "https://athletics.biola.edu/sports/womens-basketball/schedule/2026-27"
+  },
+  {
    "game_id": "bsb-2025-01-31-1",
    "sport": "Baseball",
    "season": "2025",
@@ -197290,6 +197305,21 @@
    "location": "Home",
    "result": "L",
    "score": "11-16",
+   "event": null,
+   "postseason": false,
+   "exhibition": false,
+   "source_url": "https://athletics.biola.edu/sports/mens-water-polo/schedule/2026"
+  },
+  {
+   "game_id": "mwp-2026-10-30-1",
+   "sport": "Men's Water Polo",
+   "season": "2026",
+   "date": "2026-10-30",
+   "opponent_raw": "Concordia",
+   "opponent_as_listed": "Concordia",
+   "location": "Away",
+   "result": "L",
+   "score": "9-16",
    "event": null,
    "postseason": false,
    "exhibition": false,
