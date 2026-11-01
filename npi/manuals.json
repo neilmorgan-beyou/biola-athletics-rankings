@@ -1,6 +1,6 @@
 {
  "about": "2026-27 NCAA Division II prechampionships manuals for the sports that use the NPI (list: https://www.ncaa.org/championships/general-championship-resources/ncaa-power-index/#dii-resources). The monthly manuals routine checks every sport still 'not published' and updates this file. When a Biola sport's manual appears, its NPI release dates go into npi.py SCHEDULE and Neil's calendar.",
- "checked": "2026-10-12",
+ "checked": "2026-11-01",
  "sports": [
   {"sport": "Women's Volleyball", "biola": true, "status": "published", "manual": "https://ncaaorg.s3.amazonaws.com/championships/sports/volleyball/d2/women/2026-27D2WVB_PreChampsManual.pdf.pdf", "page": "https://www.ncaa.org/championship/division-ii/womens-volleyball/", "npi_dates": "Mon. Oct. 19 first NPI publication; Mon. Oct. 26 second; Nov. 2-15 daily (p. 13)", "selection": "Sun. Nov. 15", "in_schedule": true},
   {"sport": "Men's Soccer", "biola": true, "status": "published", "manual": "https://ncaaorg.s3.amazonaws.com/championships/sports/soccer/d2/men/2026-27D2MSO_PreChampsManual.pdf", "page": "https://www.ncaa.org/championship/division-ii/mens-soccer/", "npi_dates": "Mon. Oct. 12, Oct. 19, Oct. 26 published on ncaa.com (p. 12); daily from two weeks before selections (p. 17), so from Oct. 26 (implied, not listed)", "selection": "Mon. Nov. 9 (selection call)", "in_schedule": true},
