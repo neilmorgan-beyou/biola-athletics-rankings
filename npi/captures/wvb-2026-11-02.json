@@ -1,0 +1,213 @@
+{
+ "sport": "Women's Volleyball",
+ "season": "2026",
+ "official": true,
+ "release_date": "2026-11-02",
+ "through": "2026-11-01",
+ "ncaa_com_url": "https://www.ncaa.com/rankings/volleyball-women/d2/npi-rankings",
+ "source_url": "https://stats.ncaa.org/selection_rankings/nitty_gritties/54569",
+ "teams_nationally": 288,
+ "national_rank": 38,
+ "npi": "60.062",
+ "record": "19-5",
+ "region": "West Region",
+ "region_rank": 8,
+ "region_teams": 34,
+ "region_standings": [
+  [
+   6,
+   "Fresno Pacific"
+  ],
+  [
+   7,
+   "CSUSB"
+  ],
+  [
+   19,
+   "Central Wash."
+  ],
+  [
+   20,
+   "Cal Poly Pomona"
+  ],
+  [
+   22,
+   "Point Loma"
+  ],
+  [
+   29,
+   "CUI"
+  ],
+  [
+   36,
+   "Seattle Pacific"
+  ],
+  [
+   38,
+   "Biola"
+  ],
+  [
+   40,
+   "Simon Fraser"
+  ],
+  [
+   47,
+   "Alas. Anchorage"
+  ],
+  [
+   52,
+   "Hawaii Hilo"
+  ],
+  [
+   73,
+   "Western Wash."
+  ],
+  [
+   90,
+   "Northwest Nazarene"
+  ],
+  [
+   93,
+   "Westmont"
+  ],
+  [
+   117,
+   "Alas. Fairbanks"
+  ],
+  [
+   122,
+   "Chaminade"
+  ],
+  [
+   124,
+   "San Fran. St."
+  ],
+  [
+   132,
+   "Cal State LA"
+  ],
+  [
+   143,
+   "Cal St. East Bay"
+  ],
+  [
+   149,
+   "Cal Poly Humboldt"
+  ],
+  [
+   154,
+   "Saint Martin's"
+  ],
+  [
+   169,
+   "Western Ore."
+  ],
+  [
+   175,
+   "Menlo"
+  ],
+  [
+   192,
+   "Cal St. San Marcos"
+  ],
+  [
+   195,
+   "Vanguard"
+  ],
+  [
+   207,
+   "Stanislaus St."
+  ],
+  [
+   208,
+   "Chico St."
+  ],
+  [
+   211,
+   "Jessup"
+  ],
+  [
+   216,
+   "Cal St. Monterey Bay"
+  ],
+  [
+   233,
+   "Hawaii Pacific"
+  ],
+  [
+   243,
+   "Mont. St. Billings"
+  ],
+  [
+   244,
+   "Dominican (CA)"
+  ],
+  [
+   254,
+   "UC Merced"
+  ],
+  [
+   268,
+   "Cal St. Dom. Hills"
+  ]
+ ],
+ "biola_row": [
+  [
+   "Team",
+   "Biola"
+  ],
+  [
+   "Conference",
+   "PacWest"
+  ],
+  [
+   "Region",
+   "WEST REGION"
+  ],
+  [
+   "NPI Rank",
+   "38"
+  ],
+  [
+   "NPI Value",
+   "60.062"
+  ],
+  [
+   "Prev NPI",
+   "37"
+  ],
+  [
+   "DII WL",
+   "19-5"
+  ],
+  [
+   "Adj W/L",
+   "12.0-4.6"
+  ],
+  [
+   "Adj W/L Value",
+   "0.723"
+  ],
+  [
+   "Win Value",
+   "73.684"
+  ],
+  [
+   "Loss Value",
+   "45.047"
+  ],
+  [
+   "QWB",
+   "3.637"
+  ],
+  [
+   "vAbove",
+   "3-3"
+  ],
+  [
+   "vBelow",
+   "16-2"
+  ]
+ ],
+ "read": "Read 2026-11-02 by Claude in Neil's Chrome from NCAA.com's public NPI page (Neil, 2026-11-02: read the public page, it is the official release), headed 'Through Games NOV. 1, 2026', 288 teams. stats.ncaa.org's date menu lists 11/01/2026 as id 54569; source_url is that release's fixed id; the page itself refused reads (Access Denied) at the time. Region rank = Biola's position among the region's teams sorted by NPI rank."
+}

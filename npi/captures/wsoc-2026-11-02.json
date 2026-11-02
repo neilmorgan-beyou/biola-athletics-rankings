@@ -1,0 +1,209 @@
+{
+ "sport": "Women's Soccer",
+ "season": "2026",
+ "official": true,
+ "release_date": "2026-11-02",
+ "through": "2026-11-01",
+ "ncaa_com_url": "https://www.ncaa.com/rankings/soccer-women/d2/npi-rankings",
+ "source_url": "https://stats.ncaa.org/selection_rankings/nitty_gritties/54575",
+ "teams_nationally": 259,
+ "national_rank": 95,
+ "npi": "52.534",
+ "record": "8-5-3",
+ "region": "West Region",
+ "region_rank": 14,
+ "region_teams": 32,
+ "region_standings": [
+  [
+   30,
+   "Cal Poly Pomona"
+  ],
+  [
+   32,
+   "Western Wash."
+  ],
+  [
+   38,
+   "CUI"
+  ],
+  [
+   39,
+   "Simon Fraser"
+  ],
+  [
+   43,
+   "Point Loma"
+  ],
+  [
+   48,
+   "Cal State LA"
+  ],
+  [
+   50,
+   "UC Merced"
+  ],
+  [
+   57,
+   "Hawaii Hilo"
+  ],
+  [
+   60,
+   "CSUSB"
+  ],
+  [
+   82,
+   "Cal St. San Marcos"
+  ],
+  [
+   85,
+   "Stanislaus St."
+  ],
+  [
+   86,
+   "Seattle Pacific"
+  ],
+  [
+   89,
+   "Cal St. Monterey Bay"
+  ],
+  [
+   95,
+   "Biola"
+  ],
+  [
+   108,
+   "Cal Poly Humboldt"
+  ],
+  [
+   124,
+   "Chico St."
+  ],
+  [
+   136,
+   "Vanguard"
+  ],
+  [
+   155,
+   "Central Wash."
+  ],
+  [
+   156,
+   "Western Ore."
+  ],
+  [
+   168,
+   "Dominican (CA)"
+  ],
+  [
+   178,
+   "Fresno Pacific"
+  ],
+  [
+   196,
+   "Northwest Nazarene"
+  ],
+  [
+   202,
+   "Cal St. East Bay"
+  ],
+  [
+   208,
+   "Menlo"
+  ],
+  [
+   209,
+   "Chaminade"
+  ],
+  [
+   214,
+   "Mont. St. Billings"
+  ],
+  [
+   215,
+   "Cal St. Dom. Hills"
+  ],
+  [
+   216,
+   "Westmont"
+  ],
+  [
+   224,
+   "San Fran. St."
+  ],
+  [
+   231,
+   "Saint Martin's"
+  ],
+  [
+   233,
+   "Jessup"
+  ],
+  [
+   246,
+   "Hawaii Pacific"
+  ]
+ ],
+ "biola_row": [
+  [
+   "Team",
+   "Biola"
+  ],
+  [
+   "Conference",
+   "PacWest"
+  ],
+  [
+   "Region",
+   "WEST REGION"
+  ],
+  [
+   "11/01/2026 Result",
+   ""
+  ],
+  [
+   "NPI Rank",
+   "95"
+  ],
+  [
+   "NPI",
+   "52.534"
+  ],
+  [
+   "Prev NPI",
+   "95"
+  ],
+  [
+   "DII WL",
+   "8-5-3"
+  ],
+  [
+   "Adj W/L",
+   "9.4-6.4"
+  ],
+  [
+   "AdjWin%",
+   "0.594"
+  ],
+  [
+   "Win Value",
+   "64.400"
+  ],
+  [
+   "Loss Value",
+   "39.400"
+  ],
+  [
+   "QWB",
+   "0.000"
+  ],
+  [
+   "vAbove",
+   "1-5-2"
+  ],
+  [
+   "vBelow",
+   "7-0-1"
+  ]
+ ],
+ "read": "Read 2026-11-02 by Claude in Neil's Chrome from stats.ncaa.org (Neil accepted its terms himself): the fixed id 54575 for 'Ranking thru games 11/01/2026' in the current_rankings date menu, 259 teams. Region rank = Biola's position among the region's teams sorted by NPI rank."
+}
