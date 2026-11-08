@@ -152389,6 +152389,237 @@
     }
    ],
    "receiving_votes_other": "7 team(s) mentioned on only one ballot for combined 16 points"
+  },
+  {
+   "poll_id": "avca-dii-2026-w10",
+   "poll": "AVCA NCAA DII Coaches Top 25",
+   "division": "NCAA DII",
+   "season": "2026",
+   "week": "Week 10",
+   "release_date": "2026-11-02",
+   "postseason_final": false,
+   "size": 25,
+   "complete": true,
+   "source_url": "https://www.avca.org/polls-awards/polls/?_season=2026&_divisions=division-ii-women&_weeks=week-10",
+   "confidence": "primary",
+   "notes": [],
+   "teams": [
+    {
+     "rank": 1,
+     "tied": false,
+     "team_raw": "Ferris State",
+     "points": 1174,
+     "first_place_votes": 46
+    },
+    {
+     "rank": 2,
+     "tied": false,
+     "team_raw": "Tampa",
+     "points": 1105
+    },
+    {
+     "rank": 3,
+     "tied": false,
+     "team_raw": "Fresno Pacific",
+     "points": 1075,
+     "first_place_votes": 1
+    },
+    {
+     "rank": 4,
+     "tied": false,
+     "team_raw": "Wayne State (Neb.)",
+     "points": 1018
+    },
+    {
+     "rank": 5,
+     "tied": false,
+     "team_raw": "Angelo State",
+     "points": 1003
+    },
+    {
+     "rank": 6,
+     "tied": false,
+     "team_raw": "Nebraska Kearney",
+     "points": 910
+    },
+    {
+     "rank": 7,
+     "tied": false,
+     "team_raw": "Cal State San Bernardino",
+     "points": 885
+    },
+    {
+     "rank": 8,
+     "tied": false,
+     "team_raw": "Concordia-St. Paul",
+     "points": 792
+    },
+    {
+     "rank": 9,
+     "tied": false,
+     "team_raw": "Lynn",
+     "points": 778
+    },
+    {
+     "rank": 10,
+     "tied": false,
+     "team_raw": "Missouri Western",
+     "points": 726
+    },
+    {
+     "rank": 11,
+     "tied": false,
+     "team_raw": "Barry",
+     "points": 697
+    },
+    {
+     "rank": 12,
+     "tied": false,
+     "team_raw": "Emporia State",
+     "points": 639
+    },
+    {
+     "rank": 13,
+     "tied": false,
+     "team_raw": "Southwest Minnesota State",
+     "points": 600
+    },
+    {
+     "rank": 14,
+     "tied": false,
+     "team_raw": "Cal Poly Pomona",
+     "points": 555
+    },
+    {
+     "rank": 15,
+     "tied": false,
+     "team_raw": "St. Cloud State",
+     "points": 435
+    },
+    {
+     "rank": 16,
+     "tied": false,
+     "team_raw": "Washburn",
+     "points": 431
+    },
+    {
+     "rank": 17,
+     "tied": true,
+     "team_raw": "Central Washington",
+     "points": 425
+    },
+    {
+     "rank": 17,
+     "tied": true,
+     "team_raw": "Point Loma",
+     "points": 425
+    },
+    {
+     "rank": 19,
+     "tied": false,
+     "team_raw": "Indianapolis",
+     "points": 288
+    },
+    {
+     "rank": 20,
+     "tied": false,
+     "team_raw": "Colorado School of Mines",
+     "points": 252
+    },
+    {
+     "rank": 21,
+     "tied": false,
+     "team_raw": "Grand Valley State",
+     "points": 216
+    },
+    {
+     "rank": 22,
+     "tied": false,
+     "team_raw": "Simon Fraser",
+     "points": 147
+    },
+    {
+     "rank": 23,
+     "tied": false,
+     "team_raw": "Minnesota Duluth",
+     "points": 114
+    },
+    {
+     "rank": 24,
+     "tied": false,
+     "team_raw": "Central Oklahoma",
+     "points": 108
+    },
+    {
+     "rank": 25,
+     "tied": false,
+     "team_raw": "Seattle Pacific",
+     "points": 78
+    }
+   ],
+   "receiving_votes": [
+    {
+     "team_raw": "Anderson (S.C.)",
+     "points": 74
+    },
+    {
+     "team_raw": "Concordia University Irvine",
+     "points": 58
+    },
+    {
+     "team_raw": "Alabama-Huntsville",
+     "points": 43
+    },
+    {
+     "team_raw": "Oklahoma Baptist",
+     "points": 37
+    },
+    {
+     "team_raw": "Flagler",
+     "points": 30
+    },
+    {
+     "team_raw": "Colorado Mesa",
+     "points": 26
+    },
+    {
+     "team_raw": "Northern State",
+     "points": 23
+    },
+    {
+     "team_raw": "Dallas Baptist",
+     "points": 20
+    },
+    {
+     "team_raw": "Alaska-Anchorage",
+     "points": 19
+    },
+    {
+     "team_raw": "Missouri-St Louis",
+     "points": 19
+    },
+    {
+     "team_raw": "Biola",
+     "points": 16
+    },
+    {
+     "team_raw": "MSU Denver",
+     "points": 16
+    },
+    {
+     "team_raw": "Mercy",
+     "points": 7
+    },
+    {
+     "team_raw": "Bentley",
+     "points": 3
+    },
+    {
+     "team_raw": "American International",
+     "points": 2
+    }
+   ],
+   "receiving_votes_other": "4 team(s) mentioned on only one ballot for combined 9 points"
   }
  ],
  "gaps": [

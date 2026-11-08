@@ -192166,6 +192166,21 @@
    "source_url": "https://athletics.biola.edu/sports/womens-soccer/schedule/2026"
   },
   {
+   "game_id": "wsoc-2026-11-07-1",
+   "sport": "Women's Soccer",
+   "season": "2026",
+   "date": "2026-11-07",
+   "opponent_raw": "Concordia",
+   "opponent_as_listed": "Concordia (Championship Match)",
+   "location": "Neutral",
+   "result": "T",
+   "score": "0-0",
+   "event": "PacWest Women's Soccer Tournament; Championship Match; Biola Clinches Title 5-4 in PKs",
+   "postseason": true,
+   "exhibition": false,
+   "source_url": "https://athletics.biola.edu/sports/womens-soccer/schedule/2026"
+  },
+  {
    "game_id": "mbb-2025-11-14-1",
    "sport": "Men's Basketball",
    "season": "2025-26",
