@@ -1,0 +1,213 @@
+{
+ "sport": "Women's Volleyball",
+ "season": "2026",
+ "official": true,
+ "release_date": "2026-11-09",
+ "through": "2026-11-08",
+ "ncaa_com_url": "https://www.ncaa.com/rankings/volleyball-women/d2/npi-rankings",
+ "source_url": "https://stats.ncaa.org/selection_rankings/nitty_gritties/2027/WVB/2/current_rankings",
+ "teams_nationally": 288,
+ "national_rank": 39,
+ "npi": "59.533",
+ "record": "19-6",
+ "region": "West Region",
+ "region_rank": 9,
+ "region_teams": 34,
+ "biola_row": [
+  [
+   "Team",
+   "Biola"
+  ],
+  [
+   "Conference",
+   "PacWest"
+  ],
+  [
+   "Region",
+   "WEST REGION"
+  ],
+  [
+   "NPI Rank",
+   "39"
+  ],
+  [
+   "NPI Value",
+   "59.533"
+  ],
+  [
+   "Prev NPI",
+   "39"
+  ],
+  [
+   "DII WL",
+   "19-6"
+  ],
+  [
+   "Adj W/L",
+   "12.0-5.5"
+  ],
+  [
+   "Adj W/L Value",
+   "0.686"
+  ],
+  [
+   "Win Value",
+   "72.969"
+  ],
+  [
+   "Loss Value",
+   "44.65"
+  ],
+  [
+   "QWB",
+   "3.32"
+  ],
+  [
+   "vAbove",
+   "3-4"
+  ],
+  [
+   "vBelow",
+   "16-2"
+  ]
+ ],
+ "region_standings": [
+  [
+   6,
+   "CSUSB"
+  ],
+  [
+   8,
+   "Fresno Pacific"
+  ],
+  [
+   14,
+   "Cal Poly Pomona"
+  ],
+  [
+   16,
+   "Central Wash."
+  ],
+  [
+   17,
+   "Point Loma"
+  ],
+  [
+   27,
+   "CUI"
+  ],
+  [
+   35,
+   "Simon Fraser"
+  ],
+  [
+   38,
+   "Seattle Pacific"
+  ],
+  [
+   39,
+   "Biola"
+  ],
+  [
+   45,
+   "Alas. Anchorage"
+  ],
+  [
+   51,
+   "Hawaii Hilo"
+  ],
+  [
+   76,
+   "Western Wash."
+  ],
+  [
+   89,
+   "Westmont"
+  ],
+  [
+   90,
+   "Northwest Nazarene"
+  ],
+  [
+   111,
+   "San Fran. St."
+  ],
+  [
+   123,
+   "Chaminade"
+  ],
+  [
+   125,
+   "Cal State LA"
+  ],
+  [
+   126,
+   "Cal St. East Bay"
+  ],
+  [
+   137,
+   "Alas. Fairbanks"
+  ],
+  [
+   146,
+   "Saint Martin's"
+  ],
+  [
+   165,
+   "Western Ore."
+  ],
+  [
+   167,
+   "Cal Poly Humboldt"
+  ],
+  [
+   184,
+   "Menlo"
+  ],
+  [
+   188,
+   "Cal St. San Marcos"
+  ],
+  [
+   196,
+   "Stanislaus St."
+  ],
+  [
+   200,
+   "Vanguard"
+  ],
+  [
+   207,
+   "Cal St. Monterey Bay"
+  ],
+  [
+   218,
+   "Chico St."
+  ],
+  [
+   225,
+   "Jessup"
+  ],
+  [
+   235,
+   "Dominican (CA)"
+  ],
+  [
+   239,
+   "Hawaii Pacific"
+  ],
+  [
+   247,
+   "Mont. St. Billings"
+  ],
+  [
+   254,
+   "UC Merced"
+  ],
+  [
+   270,
+   "Cal St. Dom. Hills"
+  ]
+ ],
+ "read": "Copied by Neil from stats.ncaa.org into his Google Sheet '11/9 - Volleyball NPI' (Drive 11zkukYqKJEyn9QlvCuOjkz2yAs4T07_K2z1YiRgUUFA, 288 teams) on 2026-11-09 and read from there by Claude; stats.ncaa.org refused Claude's reads (Access Denied). The sheet has no headings, so the columns are taken in the page's order (Biola's Prev NPI column, 39, matches). Through date = the day before the release (daily releases). source_url is the current-rankings page, not the release's fixed id, which the copy does not carry. Region rank = Biola's position among the region's teams sorted by NPI rank."
+}
