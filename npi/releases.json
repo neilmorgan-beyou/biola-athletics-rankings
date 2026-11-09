@@ -5399,6 +5399,300 @@
    "official_basis": "Release date on the official 2026-27 schedule (npi/schedule.json), linked from NCAA.com's NPI Rankings page"
   },
   {
+   "sport": "Men's Soccer",
+   "season": "2026",
+   "official": true,
+   "release_date": "2026-11-09",
+   "through": "2026-11-08",
+   "ncaa_com_url": "https://www.ncaa.com/rankings/soccer-men/d2/npi-rankings",
+   "source_url": "https://stats.ncaa.org/selection_rankings/nitty_gritties/2027/MSO/2/current_rankings",
+   "teams_nationally": 202,
+   "national_rank": 159,
+   "npi": "45.739",
+   "record": "4-9-3",
+   "region": "Super-Region 4",
+   "region_rank": 43,
+   "region_teams": 52,
+   "biola_row": [
+    [
+     "Team",
+     "Biola"
+    ],
+    [
+     "Conference",
+     "PacWest"
+    ],
+    [
+     "Region",
+     "SUPER-REGION 4"
+    ],
+    [
+     "Result",
+     ""
+    ],
+    [
+     "NPI Rank",
+     "159"
+    ],
+    [
+     "NPI",
+     "45.739"
+    ],
+    [
+     "Prev NPI",
+     "159"
+    ],
+    [
+     "DII WL",
+     "4-9-3"
+    ],
+    [
+     "Adj W/L",
+     "5.6-9.4"
+    ],
+    [
+     "AdjWin%",
+     "0.37"
+    ],
+    [
+     "Win Value",
+     "59.305"
+    ],
+    [
+     "Loss Value",
+     "34.305"
+    ],
+    [
+     "QWB",
+     "54"
+    ],
+    [
+     "QWB",
+     "0"
+    ],
+    [
+     "vAbove",
+     "2-9-2"
+    ],
+    [
+     "vBelow",
+     ""
+    ]
+   ],
+   "region_standings": [
+    [
+     1,
+     "Cal State LA(AQ)"
+    ],
+    [
+     3,
+     "Midwestern St.(AQ)"
+    ],
+    [
+     5,
+     "CSU Pueblo"
+    ],
+    [
+     7,
+     "Seattle Pacific(AQ)"
+    ],
+    [
+     9,
+     "Regis (CO)(AQ)"
+    ],
+    [
+     15,
+     "CSUSB"
+    ],
+    [
+     18,
+     "UCCS"
+    ],
+    [
+     23,
+     "Western Ore."
+    ],
+    [
+     27,
+     "Fort Lewis"
+    ],
+    [
+     30,
+     "Texas-Dallas"
+    ],
+    [
+     31,
+     "Cal St. Monterey Bay"
+    ],
+    [
+     45,
+     "St. Mary's (TX)"
+    ],
+    [
+     49,
+     "Okla. Christian"
+    ],
+    [
+     51,
+     "Northwest Nazarene"
+    ],
+    [
+     52,
+     "Cal St. San Marcos"
+    ],
+    [
+     56,
+     "Westminster (UT)"
+    ],
+    [
+     57,
+     "Cal Poly Pomona"
+    ],
+    [
+     58,
+     "Simon Fraser"
+    ],
+    [
+     63,
+     "MSU Denver"
+    ],
+    [
+     67,
+     "Western Wash."
+    ],
+    [
+     72,
+     "Westmont(AQ)"
+    ],
+    [
+     75,
+     "Menlo"
+    ],
+    [
+     76,
+     "Colorado Mesa"
+    ],
+    [
+     77,
+     "South Dakota Mines"
+    ],
+    [
+     84,
+     "Point Loma"
+    ],
+    [
+     94,
+     "UC Merced"
+    ],
+    [
+     95,
+     "DBU"
+    ],
+    [
+     99,
+     "CUI"
+    ],
+    [
+     100,
+     "Hawaii Pacific"
+    ],
+    [
+     106,
+     "Stanislaus St."
+    ],
+    [
+     112,
+     "Cal St. Dom. Hills"
+    ],
+    [
+     117,
+     "Hawaii Hilo"
+    ],
+    [
+     122,
+     "St. Edward's"
+    ],
+    [
+     127,
+     "Vanguard"
+    ],
+    [
+     132,
+     "Lubbock Christian"
+    ],
+    [
+     135,
+     "UT Tyler"
+    ],
+    [
+     136,
+     "Tex. A&M Int'l"
+    ],
+    [
+     138,
+     "Dominican (CA)"
+    ],
+    [
+     140,
+     "Colo. Christian"
+    ],
+    [
+     142,
+     "West Tex. A&M"
+    ],
+    [
+     147,
+     "Chico St."
+    ],
+    [
+     152,
+     "Fresno Pacific"
+    ],
+    [
+     159,
+     "Biola"
+    ],
+    [
+     162,
+     "Saint Martin's"
+    ],
+    [
+     168,
+     "Cal St. East Bay"
+    ],
+    [
+     184,
+     "Cal Poly Humboldt"
+    ],
+    [
+     189,
+     "Virginia St."
+    ],
+    [
+     192,
+     "Adams St."
+    ],
+    [
+     196,
+     "Jessup"
+    ],
+    [
+     197,
+     "Colo. Sch. of Mines"
+    ],
+    [
+     198,
+     "Chaminade"
+    ],
+    [
+     201,
+     "Sul Ross St."
+    ]
+   ],
+   "read": "Copied by Neil from stats.ncaa.org into his Google Sheet '11/9 - MSOC NPI' (Drive 1L1yELedlxhi2QExQ_K4G5PQXmjyhJEBBqFGqEMrirC0, 202 teams) on 2026-11-09 and read from there by Claude; stats.ncaa.org refused Claude's reads (Access Denied). The sheet has no headings, so the columns are taken in the page's order (Prev NPI 159 matches). Google Sheets had turned two W-L-T cells into dates: DII WL '4-9-2003' is 4-9-3 (the record on the 11/1 release) and vAbove '2-9-2002' is 2-9-2; restored here. vBelow was blank in the copy (2-0-1 on 11/1). Team names carry the page's new '(AQ)' marks. Through date = the day before the release. source_url is the current-rankings page; the copy does not carry the release's fixed id. Region rank = Biola's position among the region's teams sorted by NPI rank.",
+   "official_basis": "Release date on the official 2026-27 schedule (npi/schedule.json), linked from NCAA.com's NPI Rankings page"
+  },
+  {
    "sport": "Women's Volleyball",
    "season": "2026",
    "official": true,
