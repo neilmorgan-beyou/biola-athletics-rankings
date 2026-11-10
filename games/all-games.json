@@ -192601,6 +192601,21 @@
    "source_url": "https://athletics.biola.edu/sports/mens-basketball/schedule/2025-26"
   },
   {
+   "game_id": "mbb-2026-11-09-1",
+   "sport": "Men's Basketball",
+   "season": "2026-27",
+   "date": "2026-11-09",
+   "opponent_raw": "Fresno Pacific",
+   "opponent_as_listed": "Fresno Pacific",
+   "location": "Home",
+   "result": "W",
+   "score": "77-61",
+   "event": null,
+   "postseason": false,
+   "exhibition": false,
+   "source_url": "https://athletics.biola.edu/sports/mens-basketball/schedule/2026-27"
+  },
+  {
    "game_id": "wbb-2025-10-31-1",
    "sport": "Women's Basketball",
    "season": "2025-26",
@@ -193063,6 +193078,21 @@
    "event": "Exhibition",
    "postseason": false,
    "exhibition": true,
+   "source_url": "https://athletics.biola.edu/sports/womens-basketball/schedule/2026-27"
+  },
+  {
+   "game_id": "wbb-2026-11-09-1",
+   "sport": "Women's Basketball",
+   "season": "2026-27",
+   "date": "2026-11-09",
+   "opponent_raw": "Azusa Pacific",
+   "opponent_as_listed": "Azusa Pacific",
+   "location": "Home",
+   "result": "W",
+   "score": "59-42",
+   "event": null,
+   "postseason": false,
+   "exhibition": false,
    "source_url": "https://athletics.biola.edu/sports/womens-basketball/schedule/2026-27"
   },
   {
