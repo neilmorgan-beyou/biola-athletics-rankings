@@ -13095,6 +13095,156 @@
      "points": 1
     }
    ]
+  },
+  {
+   "poll_id": "cwpa-m-2026-week11",
+   "poll": "CWPA Men's Varsity National Top 20",
+   "division": "mixed",
+   "season": "2026",
+   "week": "Week 11",
+   "release_date": "2026-11-11",
+   "postseason_final": false,
+   "size": 20,
+   "complete": true,
+   "source_url": "https://collegiatewaterpolo.org/polls/2026-mens-varsity-polls-week-11-november-11/",
+   "confidence": "primary",
+   "notes": "CWPA/ACWPC varsity national poll (mixed NCAA divisions). Division III Top 10 and conference Top 5 polls in the same post are separate polls and not included.",
+   "teams": [
+    {
+     "rank": 1,
+     "tied": false,
+     "team_raw": "University of California",
+     "points": 99
+    },
+    {
+     "rank": 2,
+     "tied": false,
+     "team_raw": "Stanford University",
+     "points": 96
+    },
+    {
+     "rank": 3,
+     "tied": false,
+     "team_raw": "University of California-Los Angeles",
+     "points": 89
+    },
+    {
+     "rank": 4,
+     "tied": false,
+     "team_raw": "University of Southern California",
+     "points": 85
+    },
+    {
+     "rank": 5,
+     "tied": false,
+     "team_raw": "Fordham University",
+     "points": 81
+    },
+    {
+     "rank": 6,
+     "tied": false,
+     "team_raw": "Princeton University",
+     "points": 75
+    },
+    {
+     "rank": 7,
+     "tied": false,
+     "team_raw": "University of California-Santa Barbara",
+     "points": 66
+    },
+    {
+     "rank": 8,
+     "tied": false,
+     "team_raw": "University of California-Davis",
+     "points": 65
+    },
+    {
+     "rank": 9,
+     "tied": false,
+     "team_raw": "Loyola Marymount University",
+     "points": 57
+    },
+    {
+     "rank": 10,
+     "tied": false,
+     "team_raw": "University of California-San Diego",
+     "points": 53
+    },
+    {
+     "rank": 11,
+     "tied": false,
+     "team_raw": "California Baptist University",
+     "points": 50
+    },
+    {
+     "rank": 12,
+     "tied": false,
+     "team_raw": "University of California-Irvine",
+     "points": 47
+    },
+    {
+     "rank": 13,
+     "tied": false,
+     "team_raw": "Long Beach State University",
+     "points": 44
+    },
+    {
+     "rank": 14,
+     "tied": false,
+     "team_raw": "San Jose State University",
+     "points": 38
+    },
+    {
+     "rank": 15,
+     "tied": false,
+     "team_raw": "Pepperdine University",
+     "points": 28
+    },
+    {
+     "rank": 16,
+     "tied": true,
+     "team_raw": "United States Naval Academy",
+     "points": 22
+    },
+    {
+     "rank": 16,
+     "tied": true,
+     "team_raw": "Santa Clara University",
+     "points": 22
+    },
+    {
+     "rank": 18,
+     "tied": false,
+     "team_raw": "University of the Pacific",
+     "points": 19
+    },
+    {
+     "rank": 19,
+     "tied": false,
+     "team_raw": "Harvard University",
+     "points": 11
+    },
+    {
+     "rank": 20,
+     "tied": false,
+     "team_raw": "Saint Mary’s College (Calif.)",
+     "points": 3
+    }
+   ],
+   "receiving_votes": [
+    {
+     "team_raw": "Brown University",
+     "points": 2
+    },
+    {
+     "team_raw": "Pomona-Pitzer Colleges",
+     "points": 1
+    },
+    {
+     "team_raw": "California State University-Fullerton",
+     "points": 1
+    }
+   ]
   }
  ],
  "gaps": [
