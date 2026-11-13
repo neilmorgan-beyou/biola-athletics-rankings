@@ -1,0 +1,213 @@
+{
+ "sport": "Women's Volleyball",
+ "season": "2026",
+ "official": true,
+ "release_date": "2026-11-08",
+ "through": "2026-11-07",
+ "ncaa_com_url": "https://www.ncaa.com/rankings/volleyball-women/d2/npi-rankings",
+ "source_url": "https://stats.ncaa.org/selection_rankings/nitty_gritties/54969",
+ "teams_nationally": 288,
+ "national_rank": 39,
+ "npi": "59.533",
+ "record": "19-6",
+ "region": "West Region",
+ "region_rank": 9,
+ "region_teams": 34,
+ "biola_row": [
+  [
+   "Team",
+   "Biola"
+  ],
+  [
+   "Conference",
+   "PacWest"
+  ],
+  [
+   "Region",
+   "WEST REGION"
+  ],
+  [
+   "NPI Rank",
+   "39"
+  ],
+  [
+   "NPI Value",
+   "59.533"
+  ],
+  [
+   "Prev NPI",
+   "41"
+  ],
+  [
+   "DII WL",
+   "19-6"
+  ],
+  [
+   "Adj W/L",
+   "12.0-5.5"
+  ],
+  [
+   "Adj W/L Value",
+   "0.686"
+  ],
+  [
+   "Win Value",
+   "72.970"
+  ],
+  [
+   "Loss Value",
+   "44.650"
+  ],
+  [
+   "QWB",
+   "3.320"
+  ],
+  [
+   "vAbove",
+   "3-4"
+  ],
+  [
+   "vBelow",
+   "16-2"
+  ]
+ ],
+ "region_standings": [
+  [
+   6,
+   "CSUSB"
+  ],
+  [
+   8,
+   "Fresno Pacific"
+  ],
+  [
+   14,
+   "Cal Poly Pomona"
+  ],
+  [
+   16,
+   "Central Wash."
+  ],
+  [
+   17,
+   "Point Loma"
+  ],
+  [
+   26,
+   "CUI"
+  ],
+  [
+   35,
+   "Simon Fraser"
+  ],
+  [
+   38,
+   "Seattle Pacific"
+  ],
+  [
+   39,
+   "Biola"
+  ],
+  [
+   45,
+   "Alas. Anchorage"
+  ],
+  [
+   51,
+   "Hawaii Hilo"
+  ],
+  [
+   77,
+   "Western Wash."
+  ],
+  [
+   89,
+   "Westmont"
+  ],
+  [
+   90,
+   "Northwest Nazarene"
+  ],
+  [
+   111,
+   "San Fran. St."
+  ],
+  [
+   123,
+   "Chaminade"
+  ],
+  [
+   125,
+   "Cal State LA"
+  ],
+  [
+   126,
+   "Cal St. East Bay"
+  ],
+  [
+   137,
+   "Alas. Fairbanks"
+  ],
+  [
+   146,
+   "Saint Martin's"
+  ],
+  [
+   165,
+   "Western Ore."
+  ],
+  [
+   167,
+   "Cal Poly Humboldt"
+  ],
+  [
+   184,
+   "Menlo"
+  ],
+  [
+   188,
+   "Cal St. San Marcos"
+  ],
+  [
+   195,
+   "Stanislaus St."
+  ],
+  [
+   200,
+   "Vanguard"
+  ],
+  [
+   207,
+   "Cal St. Monterey Bay"
+  ],
+  [
+   218,
+   "Chico St."
+  ],
+  [
+   225,
+   "Jessup"
+  ],
+  [
+   235,
+   "Dominican (CA)"
+  ],
+  [
+   239,
+   "Hawaii Pacific"
+  ],
+  [
+   247,
+   "Mont. St. Billings"
+  ],
+  [
+   254,
+   "UC Merced"
+  ],
+  [
+   270,
+   "Cal St. Dom. Hills"
+  ]
+ ],
+ "read": "Read 2026-11-13 by Claude from stats.ncaa.org's fixed release page (id 54969, date menu 'Thru Games 11/07/2026', 288 teams) in the Claude app's built-in browser, after Neil accepted the NCAA statistics terms there himself (Neil's Chrome got Access Denied). Release date = the day after the through date (daily releases). Region rank = Biola's position among the region's teams sorted by NPI rank."
+}
