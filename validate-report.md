@@ -1,8 +1,8 @@
-# Validation report (2026-11-12)
+# Validation report (2026-11-13)
 
 Result: **PASS**
 
 ## Notes
 
 - Verified games: 1945 (baseline 1945).
-- Ranking rows: 1289 (+0 vs baseline).
+- Ranking rows: 1292 (+3 vs baseline).

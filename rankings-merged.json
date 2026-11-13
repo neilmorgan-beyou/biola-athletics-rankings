@@ -6146,6 +6146,22 @@
    "notes": "LW 7. Read from the published rankings 2026-10-28."
   },
   {
+   "season": "2026",
+   "era": "NCAA DII",
+   "record_at_time": null,
+   "confidence": "primary",
+   "sport": "Men's Cross Country",
+   "poll": "USTFCCCA NCAA DII Regional Rankings",
+   "scope": "regional",
+   "region": "West",
+   "week": "Week 7",
+   "date": "2026-11-10",
+   "rank": 8,
+   "points": null,
+   "source_url": "https://www.ustfccca.org/iz/polls-rankings/regional/17832",
+   "notes": "LW 7. Read from the published rankings 2026-11-13."
+  },
+  {
    "sport": "Men's Cross Country",
    "season": "2025",
    "era": "NCAA DII",
@@ -7938,6 +7954,22 @@
    "notes": "LW T15. Read from the published poll 2026-10-28."
   },
   {
+   "season": "2026",
+   "era": "NCAA DII",
+   "record_at_time": null,
+   "confidence": "primary",
+   "sport": "Women's Cross Country",
+   "poll": "USTFCCCA NCAA DII National Coaches' Poll",
+   "scope": "national",
+   "region": null,
+   "week": "Week 7",
+   "date": "2026-11-11",
+   "rank": 16,
+   "points": 115,
+   "source_url": "https://www.ustfccca.org/iz/polls-rankings/collection/17884",
+   "notes": "LW 15. Read from the published poll 2026-11-13."
+  },
+  {
    "sport": "Women's Cross Country",
    "season": "2026",
    "era": "NCAA DII",
@@ -8048,6 +8080,22 @@
    "points": null,
    "source_url": "https://www.ustfccca.org/2026/10/featured/2026-ncaa-dii-womens-cross-country-regional-rankings-week-6",
    "notes": "LW 3. Read from the published rankings 2026-10-28."
+  },
+  {
+   "season": "2026",
+   "era": "NCAA DII",
+   "record_at_time": null,
+   "confidence": "primary",
+   "sport": "Women's Cross Country",
+   "poll": "USTFCCCA NCAA DII Regional Rankings",
+   "scope": "regional",
+   "region": "West",
+   "week": "Week 7",
+   "date": "2026-11-10",
+   "rank": 3,
+   "points": null,
+   "source_url": "https://www.ustfccca.org/iz/polls-rankings/regional/17924",
+   "notes": "LW 3. Read from the published rankings 2026-11-13."
   },
   {
    "sport": "Women's Cross Country",
