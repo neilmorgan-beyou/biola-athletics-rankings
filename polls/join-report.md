@@ -58,7 +58,7 @@
 - 2023: 21 polls (2023-08-16 to 2023-12-11); 4 of 27 games vs ranked
 - 2024: 22 polls (2024-08-14 to 2024-12-18); 7 of 28 games vs ranked
 - 2025: 22 polls (2025-08-13 to 2025-12-17); 3 of 27 games vs ranked
-- 2026: 15 polls (2026-08-12 to 2026-11-09); 4 of 25 games vs ranked
+- 2026: 15 polls (2026-08-12 to 2026-11-09); 4 of 26 games vs ranked
 - 10 polls have no release date and were not used: avca-dii-1995-pre, avca-dii-1996-pre, avca-dii-1997-pre, avca-dii-1998-pre, avca-dii-1999-pre, avca-dii-1999-post, avca-dii-2001-pre, avca-dii-2002-pre, avca-dii-2003-pre, avca-dii-2005-post
 
 ## Men's Soccer
@@ -165,7 +165,7 @@
 - 2023: 23 polls (2023-08-01 to 2023-12-12, 1 incomplete); 3 of 17 games vs ranked
 - 2024: 19 polls (2024-08-06 to 2024-12-18); 4 of 18 games vs ranked
 - 2025: 19 polls (2025-08-20 to 2025-12-17); 1 of 17 games vs ranked
-- 2026: 14 polls (2026-08-19 to 2026-11-10); 1 of 18 games vs ranked
+- 2026: 14 polls (2026-08-19 to 2026-11-10); 2 of 19 games vs ranked
 
 ## Men's Basketball
 - 1960: no polls archived; 21 games unverified
@@ -234,7 +234,7 @@
 - 2023: 17 polls (2023-10-31 to 2024-03-12); 1 of 29 games vs ranked
 - 2024: 17 polls (2024-10-29 to 2025-03-11); 2 of 30 games vs ranked
 - 2025: 16 polls (2025-10-28 to 2026-03-10); 2 of 28 games vs ranked
-- 2026: no polls archived; 1 games unverified
+- 2026: no polls archived; 2 games unverified
 
 ## Women's Basketball
 - 1961: no polls archived; 10 games unverified
@@ -301,7 +301,7 @@
 - 2023: 18 polls (2023-10-31 to 2024-04-01); 2 of 29 games vs ranked
 - 2024: 18 polls (2024-10-29 to 2025-03-31); 3 of 29 games vs ranked
 - 2025: 18 polls (2025-10-28 to 2026-03-30); 1 of 27 games vs ranked
-- 2026: no polls archived; 1 games unverified
+- 2026: no polls archived; 2 games unverified
 
 ## Baseball
 - 1964: no polls archived; 21 games unverified
