@@ -192661,6 +192661,21 @@
    "source_url": "https://athletics.biola.edu/sports/mens-basketball/schedule/2026-27"
   },
   {
+   "game_id": "mbb-2026-11-14-1",
+   "sport": "Men's Basketball",
+   "season": "2026-27",
+   "date": "2026-11-14",
+   "opponent_raw": "Cal State San Marcos",
+   "opponent_as_listed": "Cal State San Marcos",
+   "location": "Away",
+   "result": "W",
+   "score": "83-71",
+   "event": null,
+   "postseason": false,
+   "exhibition": false,
+   "source_url": "https://athletics.biola.edu/sports/mens-basketball/schedule/2026-27"
+  },
+  {
    "game_id": "wbb-2025-10-31-1",
    "sport": "Women's Basketball",
    "season": "2025-26",
@@ -193150,6 +193165,21 @@
    "location": "Neutral",
    "result": "W",
    "score": "74-49",
+   "event": "PacWest - CCAA Crossover Tournament",
+   "postseason": false,
+   "exhibition": false,
+   "source_url": "https://athletics.biola.edu/sports/womens-basketball/schedule/2026-27"
+  },
+  {
+   "game_id": "wbb-2026-11-14-1",
+   "sport": "Women's Basketball",
+   "season": "2026-27",
+   "date": "2026-11-14",
+   "opponent_raw": "Stanislaus State",
+   "opponent_as_listed": "Stanislaus State",
+   "location": "Neutral",
+   "result": "W",
+   "score": "61-50",
    "event": "PacWest - CCAA Crossover Tournament",
    "postseason": false,
    "exhibition": false,
