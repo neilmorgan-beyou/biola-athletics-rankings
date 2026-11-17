@@ -218,10 +218,12 @@
   "headline_max_rank": 25,
   "headline_exclude_polls": [
    "Clippd",
-   "Golfstat"
+   "Golfstat",
+   "Swimcloud"
   ],
   "drop_week_prefix": "Poll before",
-  "_drop_why": "Rows inferred from a later poll's previous-week column; several repeat polls already listed (review/sample-audit.md)."
+  "_drop_why": "Rows inferred from a later poll's previous-week column; several repeat polls already listed (review/sample-audit.md).",
+  "_swimcloud_why": "Swimcloud Dual Meet Rankings rank every team from results (not a poll); shown and credited, not counted in the headline stats (2026-11-17)."
  },
  "poll_row_updates": [
   {

@@ -165,6 +165,8 @@ def main():
                 continue
             if not str(r.get("era", "")).startswith("NCAA") or not (r.get("source_url") or "").startswith("https://"):
                 continue
+            if (r.get("poll") or "").startswith("Swimcloud"):  # not in the QUILL feed until Eddie agrees
+                continue
             sc = (r.get("scope") or "").lower()
             if sc == "national" and pfile:
                 continue

@@ -85,6 +85,8 @@ def rank_kind(r):
     if isinstance(r, (int, float)):
         return "num"
     t = str(r).strip().upper()
+    if re.fullmatch(r"\d+\+", t):  # Swimcloud's "50+": outside its top 50, not a rank
+        return "beyond"
     if t.startswith("RV"):
         return "rv"
     if t.startswith("NR") or t in ("NOT RANKED", "UNRANKED"):
@@ -103,7 +105,7 @@ def rank_num(r):
     k = rank_kind(r)
     if k in ("num", "top"):
         return int(r) if isinstance(r, (int, float)) else int(re.search(r"(\d+)", str(r)).group(1))
-    return {"rv": 900, "nr": 950}.get(k, 999)
+    return {"rv": 900, "beyond": 940, "nr": 950}.get(k, 999)
 
 
 def rank_label(r, unknown=""):
@@ -116,6 +118,8 @@ def rank_label(r, unknown=""):
         return "RV"
     if k == "nr":
         return "NR"
+    if k == "beyond":
+        return str(r).strip()
     if k == "top":
         return "Top %d" % rank_num(r)
     if k == "num":
@@ -140,7 +144,7 @@ def phase(week):
 
 # ---------------------------------------------------------------- load
 rows, summaries, games, vs_notes, gaps = [], [], [], [], []
-FINAL = ["volleyball", "soccer", "basketball", "bat-sports", "xc-track", "other-sports", "deep-history", "current-season", "vs-ranked"]
+FINAL = ["volleyball", "soccer", "basketball", "bat-sports", "xc-track", "other-sports", "deep-history", "current-season", "swimcloud", "vs-ranked"]
 for f in (DATA / (n + ".json") for n in FINAL):
     if not f.exists():
         print("missing (not finished yet?):", f.name)
@@ -418,6 +422,7 @@ for r in national:
 tot = [sum(rec[s]["all"][i] for s in rec) for i in range(3)]
 top10_finals = len({(x["sport"], season_start(x["season"])) for x in summ
                     if (x.get("scope") or "") == "national" and re.match(r"(NAIA|NCAA)", x.get("era") or "")
+                    and not any(p_ in (x.get("poll") or "") for p_ in PR.get("headline_exclude_polls", []))
                     and is_ranked(x.get("final")) and rank_num(x["final"]) <= 10})
 best_n = min((rank_num(r["rank"]) for r in national), default=None)
 stats = [
@@ -464,7 +469,7 @@ SRC_TEXT = {"primary": "Poll", "biola-news": "Biola", "secondary": "Other"}
 
 
 def src(r):
-    return link(r.get("source_url"), SRC_TEXT.get(r.get("confidence"), "Source"))
+    return link(r.get("source_url"), r.get("cite_label") or SRC_TEXT.get(r.get("confidence"), "Source"))
 
 
 def link(url, text="Source"):
@@ -824,6 +829,11 @@ def when(ds):
     return "%s %d" % (MON[d_.month - 1], d_.day)
 
 
+# Rankings computed from results for every team (not coaches' polls): shown and credited in the
+# tables, kept out of the headline counts (poll_rules.headline_exclude_polls) and "Currently ranked".
+COMPUTED_RANKINGS = ("Swimcloud",)
+
+
 def currently_ranked(today=None):
     today = today or date.today()
     entries = defaultdict(dict)  # sport -> {"national": row, "regional": row}
@@ -864,6 +874,8 @@ def currently_ranked(today=None):
     for r in list(rows) + unlisted:
         sc = (r.get("scope") or "").lower()
         if sc not in ("national", "regional") or not r.get("date"):
+            continue
+        if any(p_ in (r.get("poll") or "") for p_ in COMPUTED_RANKINGS):
             continue
         if sc == "national" and r["sport"] in archived:
             continue

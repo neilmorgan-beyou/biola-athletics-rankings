@@ -80,6 +80,21 @@ Read `SPEC-poll-archive.md` first. The standing rules:
    a row to `data/current-season.json` (create it as `{"rows": []}` if missing) with the same fields as
    the rows in `data/xc-track.json` (sport, season, era, poll, scope, region, week, date, rank, points,
    record_at_time, source_url, confidence "primary", notes). Skip if the row already exists.
+   - **Swimcloud Dual Meet Rankings -- NEVER fetch.** swimcloud.com's robots.txt disallows Claude
+     crawlers, so this routine never opens, curls or fetches any swimcloud.com URL. Swimcloud gave
+     permission (Greg Earhart, 2026-11-17) to show them credited "Swimcloud Dual Meet Rankings" with
+     the date; they update live and keep no in-season snapshots, so each read is a dated "As of" row
+     in `data/swimcloud.json` (read by hand in Neil's Chrome; its `read_rules` say how).
+     In season (Oct. 1 to the end of March), on the first run on or after each **Monday**: if the newest
+     "As of" row in `data/swimcloud.json` for the current school year is 7 or more days old, list under
+     "Needs a manual read (paste these links into Claude Code)" one line:
+     "Swimcloud: read by hand (men's and women's dual meet rank, last read <date>):
+     https://www.swimcloud.com/team/384/rankings/?page=1&event_course=Y&gender=F&rank_type=D&season=<N>"
+     where N = (school-year start year) - 1996 (2026-27 = 30). On the first Monday in April, list instead
+     "Swimcloud: read the year-end final" with the same link, until a "Final (year-end)" row exists for that
+     season. This is a weekly reminder, not a reason to email on its own: send it only with a run that
+     already emails, except on the first Monday run of each month, which emails it on its own.
+     Never write a Swimcloud row yourself. The CSCAA DII Top 25 above stays as it is (Swimcloud sits beside it).
 
 4. **NCAA regional rankings and the NPI.** `refresh.sh` runs `ncaa_regional.py`, which checks the
    NCAA.com Division II regional rankings pages and archives any release that still has a table there.
