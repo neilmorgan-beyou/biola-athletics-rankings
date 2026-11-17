@@ -830,7 +830,10 @@ def when(ds):
 
 
 # Rankings computed from results for every team (not coaches' polls): shown and credited in the
-# tables, kept out of the headline counts (poll_rules.headline_exclude_polls) and "Currently ranked".
+# tables and kept out of the headline counts (poll_rules.headline_exclude_polls). In "Currently ranked"
+# they get their own line beside the sport's poll (Neil, 2026-11-17: Swimcloud sits beside CSCAA), shown
+# only inside the top 25 (COMPUTED_FEATURE_MAX) and only while the read is at most 16 days old.
+COMPUTED_FEATURE_MAX = 25
 COMPUTED_RANKINGS = ("Swimcloud",)
 
 
@@ -876,8 +879,8 @@ def currently_ranked(today=None):
         if sc not in ("national", "regional") or not r.get("date"):
             continue
         if any(p_ in (r.get("poll") or "") for p_ in COMPUTED_RANKINGS):
-            continue
-        if sc == "national" and r["sport"] in archived:
+            sc = "computed"
+        elif sc == "national" and r["sport"] in archived:
             continue
         age = (today - date.fromisoformat(str(r["date"])[:10])).days
         if age < 0 or age > 16 or not re.match(r"NCAA", r.get("era") or ""):
@@ -886,7 +889,7 @@ def currently_ranked(today=None):
         if not cur or str(r["date"]) > str(cur["date"]):
             newest[(r["sport"], sc)] = dict(r)
     for (sp_, sc), r in newest.items():
-        if is_ranked(r.get("rank")):
+        if is_ranked(r.get("rank")) and (sc != "computed" or rank_num(r["rank"]) <= COMPUTED_FEATURE_MAX):
             entries[sp_][sc] = r
     # The NPI (Neil, 2026-10-19): the sport's newest official MONDAY release, kept until the next Monday
     # release replaces it, so daily releases in the selection run-up never make the line disappear.
@@ -914,6 +917,10 @@ def currently_ranked(today=None):
             where = label if sc == "national" else ("%s Region" % r["region"] if r.get("region") else "regionally")
             lines.append('<span class="r"><b>%s</b> %s</span><span class="s">%s, %s &middot; <a href="%s">source</a></span>' % (
                 e(rank_label(r["rank"])), e(where), e(poll_short(r["poll"])), when(r["date"]), e(r.get("source_url") or "")))
+        r = e_.get("computed")
+        if r:
+            lines.append('<span class="r"><b>%s</b> in DII dual meets</span><span class="s">%s, as of %s &middot; <a href="%s">Swimcloud</a></span>' % (
+                e(rank_label(r["rank"])), e(r["poll"]), when(r["date"]), e(r.get("source_url") or "")))
         r = e_.get("npi")
         if r:
             lines.append('<span class="r"><b>%s</b> of %d %s</span><span class="s">NCAA NPI, %s &middot; '
