@@ -234,7 +234,7 @@
 - 2023: 17 polls (2023-10-31 to 2024-03-12); 1 of 29 games vs ranked
 - 2024: 17 polls (2024-10-29 to 2025-03-11); 2 of 30 games vs ranked
 - 2025: 16 polls (2025-10-28 to 2026-03-10); 2 of 28 games vs ranked
-- 2026: no polls archived; 3 games unverified
+- 2026: no polls archived; 4 games unverified
 
 ## Women's Basketball
 - 1961: no polls archived; 10 games unverified
