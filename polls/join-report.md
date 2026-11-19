@@ -58,7 +58,7 @@
 - 2023: 21 polls (2023-08-16 to 2023-12-11); 4 of 27 games vs ranked
 - 2024: 22 polls (2024-08-14 to 2024-12-18); 7 of 28 games vs ranked
 - 2025: 22 polls (2025-08-13 to 2025-12-17); 3 of 27 games vs ranked
-- 2026: 15 polls (2026-08-12 to 2026-11-09); 4 of 26 games vs ranked
+- 2026: 16 polls (2026-08-12 to 2026-11-16); 4 of 26 games vs ranked
 - 10 polls have no release date and were not used: avca-dii-1995-pre, avca-dii-1996-pre, avca-dii-1997-pre, avca-dii-1998-pre, avca-dii-1999-pre, avca-dii-1999-post, avca-dii-2001-pre, avca-dii-2002-pre, avca-dii-2003-pre, avca-dii-2005-post
 
 ## Men's Soccer
@@ -410,7 +410,7 @@
 - 2023: 15 polls (2023-08-23 to 2023-12-06); 11 of 34 games vs ranked
 - 2024: 15 polls (2024-08-21 to 2024-12-11); 8 of 33 games vs ranked
 - 2025: 16 polls (2025-08-20 to 2025-12-10); 7 of 31 games vs ranked
-- 2026: 12 polls (2026-08-19 to 2026-11-11); 6 of 30 games vs ranked
+- 2026: 13 polls (2026-08-19 to 2026-11-18); 6 of 30 games vs ranked
 
 ## Women's Water Polo
 - 2022: 17 polls (2022-01-12 to 2022-05-11); 8 of 29 games vs ranked
