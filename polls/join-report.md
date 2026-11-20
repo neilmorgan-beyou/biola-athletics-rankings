@@ -301,7 +301,7 @@
 - 2023: 18 polls (2023-10-31 to 2024-04-01); 2 of 29 games vs ranked
 - 2024: 18 polls (2024-10-29 to 2025-03-31); 3 of 29 games vs ranked
 - 2025: 18 polls (2025-10-28 to 2026-03-30); 1 of 27 games vs ranked
-- 2026: no polls archived; 4 games unverified
+- 2026: no polls archived; 5 games unverified
 
 ## Baseball
 - 1964: no polls archived; 21 games unverified
