@@ -197626,6 +197626,21 @@
    "source_url": "https://athletics.biola.edu/sports/mens-water-polo/schedule/2026"
   },
   {
+   "game_id": "mwp-2026-11-20-1",
+   "sport": "Men's Water Polo",
+   "season": "2026",
+   "date": "2026-11-20",
+   "opponent_raw": "McKendree",
+   "opponent_as_listed": "McKendree",
+   "location": "Home",
+   "result": "W",
+   "score": "14-13",
+   "event": "WWPA Men's Water Polo Championships; Quarterfinal",
+   "postseason": true,
+   "exhibition": false,
+   "source_url": "https://athletics.biola.edu/sports/mens-water-polo/schedule/2026"
+  },
+  {
    "game_id": "wwp-2025-01-18-1",
    "sport": "Women's Water Polo",
    "season": "2025",
