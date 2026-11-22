@@ -234,7 +234,7 @@
 - 2023: 17 polls (2023-10-31 to 2024-03-12); 1 of 29 games vs ranked
 - 2024: 17 polls (2024-10-29 to 2025-03-11); 2 of 30 games vs ranked
 - 2025: 16 polls (2025-10-28 to 2026-03-10); 2 of 28 games vs ranked
-- 2026: no polls archived; 4 games unverified
+- 2026: no polls archived; 5 games unverified
 
 ## Women's Basketball
 - 1961: no polls archived; 10 games unverified
@@ -301,7 +301,7 @@
 - 2023: 18 polls (2023-10-31 to 2024-04-01); 2 of 29 games vs ranked
 - 2024: 18 polls (2024-10-29 to 2025-03-31); 3 of 29 games vs ranked
 - 2025: 18 polls (2025-10-28 to 2026-03-30); 1 of 27 games vs ranked
-- 2026: no polls archived; 5 games unverified
+- 2026: no polls archived; 6 games unverified
 
 ## Baseball
 - 1964: no polls archived; 21 games unverified
@@ -410,7 +410,7 @@
 - 2023: 15 polls (2023-08-23 to 2023-12-06); 11 of 34 games vs ranked
 - 2024: 15 polls (2024-08-21 to 2024-12-11); 8 of 33 games vs ranked
 - 2025: 16 polls (2025-08-20 to 2025-12-10); 7 of 31 games vs ranked
-- 2026: 13 polls (2026-08-19 to 2026-11-18); 6 of 31 games vs ranked
+- 2026: 13 polls (2026-08-19 to 2026-11-18); 6 of 32 games vs ranked
 
 ## Women's Water Polo
 - 2022: 17 polls (2022-01-12 to 2022-05-11); 8 of 29 games vs ranked
