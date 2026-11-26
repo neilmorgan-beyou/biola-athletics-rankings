@@ -4,5 +4,5 @@ Result: **PASS**
 
 ## Notes
 
-- Verified games: 1948 (baseline 1947).
-- Ranking rows: 1333 (+1 vs baseline).
+- Verified games: 1948 (baseline 1948).
+- Ranking rows: 1333 (+0 vs baseline).

@@ -184850,6 +184850,244 @@
     "9 teams mentioned on only one ballot for a total of 42 combined points (not named in the source)",
     "added by hand 2026-11-25 (Neil: women's basketball receiving votes)"
    ]
+  },
+  {
+   "poll_id": "wbca-dii-2026-27-2026-11-17",
+   "poll": "WBCA NCAA Division II Coaches' Top 25 Poll",
+   "division": "NCAA DII",
+   "season": "2026-27",
+   "week": "Week 1",
+   "release_date": "2026-11-17",
+   "release_date_basis": "date printed in the poll email's title (WBCA NCAA Division II Coaches' Poll — 11/17/2026)",
+   "postseason_final": false,
+   "size": 25,
+   "complete": true,
+   "source_url": "https://wbca.org/list-of-polls/polls-ncaa-division-ii-coaches/",
+   "confidence": "primary",
+   "teams": [
+    {
+     "rank": 1,
+     "tied": false,
+     "team_raw": "Grand Valley State",
+     "points": 575
+    },
+    {
+     "rank": 2,
+     "tied": false,
+     "team_raw": "Colorado Mesa",
+     "points": 545
+    },
+    {
+     "rank": 3,
+     "tied": false,
+     "team_raw": "Indiana, PA",
+     "points": 518
+    },
+    {
+     "rank": 4,
+     "tied": false,
+     "team_raw": "Cal Poly Pomona",
+     "points": 502
+    },
+    {
+     "rank": 5,
+     "tied": false,
+     "team_raw": "Lenoir-Rhyne",
+     "points": 447
+    },
+    {
+     "rank": 6,
+     "tied": false,
+     "team_raw": "Gannon",
+     "points": 427
+    },
+    {
+     "rank": 7,
+     "tied": false,
+     "team_raw": "Winston-Salem State",
+     "points": 424
+    },
+    {
+     "rank": 8,
+     "tied": false,
+     "team_raw": "Carson-Newman",
+     "points": 368
+    },
+    {
+     "rank": 9,
+     "tied": false,
+     "team_raw": "Bentley",
+     "points": 348
+    },
+    {
+     "rank": 10,
+     "tied": false,
+     "team_raw": "Alabama-Huntsville",
+     "points": 333
+    },
+    {
+     "rank": 11,
+     "tied": false,
+     "team_raw": "Holy Family",
+     "points": 329
+    },
+    {
+     "rank": 12,
+     "tied": false,
+     "team_raw": "Texas Woman’s",
+     "points": 320
+    },
+    {
+     "rank": 13,
+     "tied": false,
+     "team_raw": "Ashland",
+     "points": 273
+    },
+    {
+     "rank": 14,
+     "tied": false,
+     "team_raw": "Tampa",
+     "points": 248
+    },
+    {
+     "rank": 15,
+     "tied": false,
+     "team_raw": "Minnesota Duluth",
+     "points": 228
+    },
+    {
+     "rank": 16,
+     "tied": false,
+     "team_raw": "Concordia-St. Paul",
+     "points": 214
+    },
+    {
+     "rank": 17,
+     "tied": false,
+     "team_raw": "Columbus State",
+     "points": 185
+    },
+    {
+     "rank": 18,
+     "tied": false,
+     "team_raw": "Western Washington",
+     "points": 144
+    },
+    {
+     "rank": 19,
+     "tied": false,
+     "team_raw": "Fort Hays State",
+     "points": 135
+    },
+    {
+     "rank": 20,
+     "tied": false,
+     "team_raw": "Northwood",
+     "points": 98
+    },
+    {
+     "rank": 21,
+     "tied": false,
+     "team_raw": "Embry-Riddle",
+     "points": 88
+    },
+    {
+     "rank": 22,
+     "tied": false,
+     "team_raw": "Fairmont State",
+     "points": 86
+    },
+    {
+     "rank": 23,
+     "tied": false,
+     "team_raw": "Lubbock Christian",
+     "points": 78
+    },
+    {
+     "rank": 24,
+     "tied": false,
+     "team_raw": "Central Washington",
+     "points": 72
+    },
+    {
+     "rank": 25,
+     "tied": false,
+     "team_raw": "West Texas A&M",
+     "points": 64
+    }
+   ],
+   "receiving_votes": [
+    {
+     "team_raw": "Ferris State",
+     "points": 56
+    },
+    {
+     "team_raw": "Colorado-Colorado Springs",
+     "points": 40
+    },
+    {
+     "team_raw": "Augusta",
+     "points": 38
+    },
+    {
+     "team_raw": "Daemen",
+     "points": 38
+    },
+    {
+     "team_raw": "California State L.A.",
+     "points": 36
+    },
+    {
+     "team_raw": "Miles",
+     "points": 35
+    },
+    {
+     "team_raw": "Minnesota State Mankato",
+     "points": 29
+    },
+    {
+     "team_raw": "Mary",
+     "points": 21
+    },
+    {
+     "team_raw": "Lane",
+     "points": 15
+    },
+    {
+     "team_raw": "Lincoln Memorial",
+     "points": 14
+    },
+    {
+     "team_raw": "Texas-Tyler",
+     "points": 12
+    },
+    {
+     "team_raw": "Virginia State",
+     "points": 10
+    },
+    {
+     "team_raw": "Florida Southern",
+     "points": 7
+    },
+    {
+     "team_raw": "Missouri Southern State",
+     "points": 7
+    },
+    {
+     "team_raw": "Southern Connecticut State",
+     "points": 7
+    },
+    {
+     "team_raw": "Benedict",
+     "points": 3
+    }
+   ],
+   "notes": [
+    "read from the WBCA's own poll email to Biola Athletics (membership@wbca.org, sent 2026-11-17); wbca.org keeps only the current week's PDF, so source_url is the WBCA DII poll page, which no longer shows this week",
+    "week number from order (the Week 2 file is prefixed 02); every rank matches the 'Rank in Last Week's Poll' column of the 11/24 poll and its Dropped Out list",
+    "12 teams mentioned on only one ballot for a total of 58 combined points (not named in the source)",
+    "added by hand 2026-11-25 (Neil: pull it from the WBCA email)"
+   ]
   }
  ],
  "gaps": [
@@ -184889,8 +185127,7 @@
   "2016-17 NCAA DII: no preseason poll found (or none with a verifiable release date)",
   "2018-19 NAIA DII: no poll found between 2019-02-05 and 2019-02-28 (23 days) - possible missing poll(s)",
   "2020-21 NCAA DII: no preseason poll found (or none with a verifiable release date)",
-  "2023-24 NCAA DII: primary poll document not found for 2024-01-16, 2024-01-23, 2024-01-30, 2024-02-06, 2024-02-13, 2024-02-20, 2024-02-27, 2024-03-05, 2024-03-12 (secondary source used)",
-  "2026-27 NCAA DII: Week 1 poll document (about 2026-11-17) not found on wbca.org or the Wayback Machine (checked 2026-11-25)"
+  "2023-24 NCAA DII: primary poll document not found for 2024-01-16, 2024-01-23, 2024-01-30, 2024-02-06, 2024-02-13, 2024-02-20, 2024-02-27, 2024-03-05, 2024-03-12 (secondary source used)"
  ],
  "sources_tried": [
   "https://campus.mst.edu/athleticarchives/hoops/d2basketball/ncaa2wbbpolls.pdf (history; ranks only)",
