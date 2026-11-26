@@ -184364,6 +184364,492 @@
     "ranks only (the PDF prints no points, first-place votes or receiving votes); team names are the PDF's short forms; week label = column order in the PDF (column printed '1999-02-23')",
     "PDF column ranks are inconsistent as printed (rank 8 expected, got 9; rank 15 expected, got 14; rank 15 expected, got 16); copied exactly as printed, complete=false"
    ]
+  },
+  {
+   "poll_id": "wbca-dii-2026-27-2026-10-27",
+   "poll": "WBCA NCAA Division II Coaches' Top 25 Poll",
+   "division": "NCAA DII",
+   "season": "2026-27",
+   "week": "Preseason",
+   "release_date": "2026-10-27",
+   "release_date_basis": "date printed in poll document",
+   "postseason_final": false,
+   "size": 25,
+   "complete": true,
+   "source_url": "https://wbca.org/wp-content/uploads/2026/10/00-102726-d2-preseason-poll.pdf",
+   "confidence": "primary",
+   "teams": [
+    {
+     "rank": 1,
+     "tied": false,
+     "team_raw": "Grand Valley State",
+     "points": 575
+    },
+    {
+     "rank": 2,
+     "tied": false,
+     "team_raw": "Colorado Mesa",
+     "points": 510
+    },
+    {
+     "rank": 3,
+     "tied": false,
+     "team_raw": "Alabama-Huntsville",
+     "points": 465
+    },
+    {
+     "rank": 4,
+     "tied": false,
+     "team_raw": "Indiana, PA",
+     "points": 453
+    },
+    {
+     "rank": 5,
+     "tied": false,
+     "team_raw": "Cal Poly Pomona",
+     "points": 451
+    },
+    {
+     "rank": 6,
+     "tied": false,
+     "team_raw": "Texas Woman’s",
+     "points": 432
+    },
+    {
+     "rank": 7,
+     "tied": false,
+     "team_raw": "Minnesota State Mankato",
+     "points": 430
+    },
+    {
+     "rank": 8,
+     "tied": false,
+     "team_raw": "Winston-Salem State",
+     "points": 411
+    },
+    {
+     "rank": 9,
+     "tied": false,
+     "team_raw": "Lenoir-Rhyne",
+     "points": 329
+    },
+    {
+     "rank": 10,
+     "tied": false,
+     "team_raw": "Holy Family",
+     "points": 279
+    },
+    {
+     "rank": 11,
+     "tied": false,
+     "team_raw": "Bentley",
+     "points": 274
+    },
+    {
+     "rank": 12,
+     "tied": false,
+     "team_raw": "Gannon",
+     "points": 265
+    },
+    {
+     "rank": 13,
+     "tied": false,
+     "team_raw": "Carson-Newman",
+     "points": 262
+    },
+    {
+     "rank": 14,
+     "tied": false,
+     "team_raw": "Central Missouri",
+     "points": 211
+    },
+    {
+     "rank": 15,
+     "tied": true,
+     "team_raw": "Concordia-St. Paul",
+     "points": 178
+    },
+    {
+     "rank": 15,
+     "tied": true,
+     "team_raw": "Daemen",
+     "points": 178
+    },
+    {
+     "rank": 17,
+     "tied": false,
+     "team_raw": "Glenville State",
+     "points": 159
+    },
+    {
+     "rank": 18,
+     "tied": false,
+     "team_raw": "Ashland",
+     "points": 157
+    },
+    {
+     "rank": 19,
+     "tied": false,
+     "team_raw": "Tampa",
+     "points": 153
+    },
+    {
+     "rank": 20,
+     "tied": false,
+     "team_raw": "West Texas A&M",
+     "points": 152
+    },
+    {
+     "rank": 21,
+     "tied": false,
+     "team_raw": "Western Washington",
+     "points": 148
+    },
+    {
+     "rank": 22,
+     "tied": false,
+     "team_raw": "Minnesota Duluth",
+     "points": 85
+    },
+    {
+     "rank": 23,
+     "tied": false,
+     "team_raw": "Columbus State",
+     "points": 82
+    },
+    {
+     "rank": 24,
+     "tied": false,
+     "team_raw": "Texas-Tyler",
+     "points": 81
+    },
+    {
+     "rank": 25,
+     "tied": false,
+     "team_raw": "Missouri-St. Louis",
+     "points": 79
+    }
+   ],
+   "receiving_votes": [
+    {
+     "team_raw": "Miles",
+     "points": 76
+    },
+    {
+     "team_raw": "Fort Hays State",
+     "points": 74
+    },
+    {
+     "team_raw": "Nova Southeastern",
+     "points": 71
+    },
+    {
+     "team_raw": "Central Washington",
+     "points": 57
+    },
+    {
+     "team_raw": "Northwood",
+     "points": 54
+    },
+    {
+     "team_raw": "Embry-Riddle",
+     "points": 44
+    },
+    {
+     "team_raw": "Ferris State",
+     "points": 36
+    },
+    {
+     "team_raw": "Lincoln Memorial",
+     "points": 35
+    },
+    {
+     "team_raw": "Lubbock Christian",
+     "points": 35
+    },
+    {
+     "team_raw": "Fayetteville State",
+     "points": 34
+    },
+    {
+     "team_raw": "Harding",
+     "points": 33
+    },
+    {
+     "team_raw": "Coker",
+     "points": 22
+    },
+    {
+     "team_raw": "Edward Waters",
+     "points": 22
+    },
+    {
+     "team_raw": "Missouri Southern State",
+     "points": 13
+    },
+    {
+     "team_raw": "Fairmont State",
+     "points": 10
+    },
+    {
+     "team_raw": "Lane",
+     "points": 9
+    },
+    {
+     "team_raw": "Vanguard U.",
+     "points": 9
+    },
+    {
+     "team_raw": "Augusta",
+     "points": 8
+    },
+    {
+     "team_raw": "Southern Connecticut State",
+     "points": 4
+    },
+    {
+     "team_raw": "Benedict",
+     "points": 4
+    }
+   ],
+   "notes": [
+    "found via the Wayback snapshot of wbca.org/list-of-polls/polls-ncaa-division-ii-coaches/ (2026-10-27); the live page keeps only the current poll",
+    "5 teams mentioned on only one ballot for a total of 28 combined points (not named in the source)",
+    "added by hand 2026-11-25 (Neil: women's basketball receiving votes)"
+   ]
+  },
+  {
+   "poll_id": "wbca-dii-2026-27-2026-11-24",
+   "poll": "WBCA NCAA Division II Coaches' Top 25 Poll",
+   "division": "NCAA DII",
+   "season": "2026-27",
+   "week": "Week 2",
+   "release_date": "2026-11-24",
+   "release_date_basis": "date printed in poll document",
+   "postseason_final": false,
+   "size": 25,
+   "complete": true,
+   "source_url": "https://wbca.org/wp-content/uploads/2026/11/02-112426-d2-poll.pdf",
+   "confidence": "primary",
+   "teams": [
+    {
+     "rank": 1,
+     "tied": false,
+     "team_raw": "Grand Valley State",
+     "points": 575
+    },
+    {
+     "rank": 2,
+     "tied": false,
+     "team_raw": "Colorado Mesa",
+     "points": 549
+    },
+    {
+     "rank": 3,
+     "tied": false,
+     "team_raw": "Cal Poly Pomona",
+     "points": 512
+    },
+    {
+     "rank": 4,
+     "tied": false,
+     "team_raw": "Lenoir-Rhyne",
+     "points": 494
+    },
+    {
+     "rank": 5,
+     "tied": false,
+     "team_raw": "Gannon",
+     "points": 480
+    },
+    {
+     "rank": 6,
+     "tied": false,
+     "team_raw": "Winston-Salem State",
+     "points": 428
+    },
+    {
+     "rank": 7,
+     "tied": false,
+     "team_raw": "Holy Family",
+     "points": 399
+    },
+    {
+     "rank": 8,
+     "tied": false,
+     "team_raw": "Indiana, PA",
+     "points": 372
+    },
+    {
+     "rank": 9,
+     "tied": false,
+     "team_raw": "Minnesota Duluth",
+     "points": 367
+    },
+    {
+     "rank": 10,
+     "tied": false,
+     "team_raw": "Alabama-Huntsville",
+     "points": 337
+    },
+    {
+     "rank": 11,
+     "tied": false,
+     "team_raw": "Texas Woman’s",
+     "points": 316
+    },
+    {
+     "rank": 12,
+     "tied": false,
+     "team_raw": "Fort Hays State",
+     "points": 281
+    },
+    {
+     "rank": 13,
+     "tied": false,
+     "team_raw": "Fairmont State",
+     "points": 252
+    },
+    {
+     "rank": 14,
+     "tied": false,
+     "team_raw": "Northwood",
+     "points": 246
+    },
+    {
+     "rank": 15,
+     "tied": false,
+     "team_raw": "Carson-Newman",
+     "points": 237
+    },
+    {
+     "rank": 16,
+     "tied": false,
+     "team_raw": "Western Washington",
+     "points": 233
+    },
+    {
+     "rank": 17,
+     "tied": false,
+     "team_raw": "Bentley",
+     "points": 214
+    },
+    {
+     "rank": 18,
+     "tied": false,
+     "team_raw": "Embry-Riddle",
+     "points": 206
+    },
+    {
+     "rank": 19,
+     "tied": false,
+     "team_raw": "Central Washington",
+     "points": 135
+    },
+    {
+     "rank": 20,
+     "tied": false,
+     "team_raw": "Columbus State",
+     "points": 121
+    },
+    {
+     "rank": 21,
+     "tied": false,
+     "team_raw": "Tampa",
+     "points": 99
+    },
+    {
+     "rank": 22,
+     "tied": false,
+     "team_raw": "Augusta",
+     "points": 64
+    },
+    {
+     "rank": 23,
+     "tied": false,
+     "team_raw": "Cal State L.A.",
+     "points": 63
+    },
+    {
+     "rank": 24,
+     "tied": false,
+     "team_raw": "West Texas A&M",
+     "points": 59
+    },
+    {
+     "rank": 25,
+     "tied": false,
+     "team_raw": "Mary",
+     "points": 58
+    }
+   ],
+   "receiving_votes": [
+    {
+     "team_raw": "Concordia-St. Paul",
+     "points": 50
+    },
+    {
+     "team_raw": "Miles",
+     "points": 39
+    },
+    {
+     "team_raw": "Ashland",
+     "points": 36
+    },
+    {
+     "team_raw": "Florida Southern",
+     "points": 34
+    },
+    {
+     "team_raw": "Lubbock Christian",
+     "points": 30
+    },
+    {
+     "team_raw": "Wingate",
+     "points": 28
+    },
+    {
+     "team_raw": "Maryville, MO",
+     "points": 22
+    },
+    {
+     "team_raw": "Missouri Southern State",
+     "points": 17
+    },
+    {
+     "team_raw": "UW-Parkside",
+     "points": 16
+    },
+    {
+     "team_raw": "Benedict",
+     "points": 16
+    },
+    {
+     "team_raw": "Lane",
+     "points": 15
+    },
+    {
+     "team_raw": "Southern Connecticut State",
+     "points": 14
+    },
+    {
+     "team_raw": "Texas-Tyler",
+     "points": 7
+    },
+    {
+     "team_raw": "Virginia State",
+     "points": 7
+    },
+    {
+     "team_raw": "Biola, CA",
+     "points": 6
+    }
+   ],
+   "notes": [
+    "week number from the file name prefix 02 (not printed in the source); the Week 1 document (about 2026-11-17) was not found on wbca.org or the Wayback Machine",
+    "9 teams mentioned on only one ballot for a total of 42 combined points (not named in the source)",
+    "added by hand 2026-11-25 (Neil: women's basketball receiving votes)"
+   ]
   }
  ],
  "gaps": [
@@ -184403,7 +184889,8 @@
   "2016-17 NCAA DII: no preseason poll found (or none with a verifiable release date)",
   "2018-19 NAIA DII: no poll found between 2019-02-05 and 2019-02-28 (23 days) - possible missing poll(s)",
   "2020-21 NCAA DII: no preseason poll found (or none with a verifiable release date)",
-  "2023-24 NCAA DII: primary poll document not found for 2024-01-16, 2024-01-23, 2024-01-30, 2024-02-06, 2024-02-13, 2024-02-20, 2024-02-27, 2024-03-05, 2024-03-12 (secondary source used)"
+  "2023-24 NCAA DII: primary poll document not found for 2024-01-16, 2024-01-23, 2024-01-30, 2024-02-06, 2024-02-13, 2024-02-20, 2024-02-27, 2024-03-05, 2024-03-12 (secondary source used)",
+  "2026-27 NCAA DII: Week 1 poll document (about 2026-11-17) not found on wbca.org or the Wayback Machine (checked 2026-11-25)"
  ],
  "sources_tried": [
   "https://campus.mst.edu/athleticarchives/hoops/d2basketball/ncaa2wbbpolls.pdf (history; ranks only)",

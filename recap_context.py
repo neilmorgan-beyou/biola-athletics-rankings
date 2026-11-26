@@ -51,6 +51,12 @@ NPI_POLL = {"Women's Volleyball": "ncaa-d2-regional-volleyball", "Men's Soccer":
             "Women's Soccer": "ncaa-d2-regional-soccer"}
 
 
+
+def poll_phrase(name):
+    """'X Top 25' -> 'X Top 25 poll'; a name already ending in Poll keeps it ('...Top 25 Poll', not '... Poll poll')."""
+    n = name.replace(" (formerly NSCAA)", "")
+    return n if n.lower().endswith("poll") else n + " poll"
+
 def d(s):
     try:
         return date.fromisoformat(str(s)[:10])
@@ -143,7 +149,7 @@ def main():
 
         # Biola's own poll position
         if latest and (today - d(latest["release_date"])).days <= 21:
-            pname = "%s poll" % latest["poll"].replace(" (formerly NSCAA)", "")
+            pname = poll_phrase(latest["poll"])
             wk = latest.get("week") or ""
             t = next((t for t in latest["teams"] if is_biola(t["team_raw"])), None)
             rv = next((t for t in latest.get("receiving_votes", []) if is_biola(t["team_raw"])), None)
@@ -263,7 +269,7 @@ def main():
             for g in games:
                 if g["season"] in seasons:
                     seen.setdefault(name_key(g["opponent_raw"]).split("|")[0], g["opponent_raw"])
-            pname = "%s poll" % latest["poll"].replace(" (formerly NSCAA)", "")
+            pname = poll_phrase(latest["poll"])
             for t in latest["teams"]:
                 k = name_key(t["team_raw"]).split("|")[0]
                 if k in seen and not is_biola(t["team_raw"]):

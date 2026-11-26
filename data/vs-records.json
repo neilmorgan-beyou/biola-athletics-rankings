@@ -88,7 +88,8 @@
 2022,
 2023,
 2024,
-2025
+2025,
+2026
 ],
 "Men's Soccer": [
 2000,
@@ -20739,6 +20740,29 @@
 "poll_week": "Week 2",
 "poll_release_date": "2025-11-25",
 "poll_source_url": "https://wbca.org/wp-content/uploads/2025/11/02-112525-d2-poll.pdf",
+"poll_confidence": "primary"
+},
+{
+"game_id": "wbb-2026-11-19-1",
+"sport": "Women's Basketball",
+"season": "2026-27",
+"date": "2026-11-19",
+"opponent_raw": "Cal Poly Pomona",
+"location": "Home",
+"result": "L",
+"score": "73-74",
+"event": null,
+"postseason": false,
+"source_url": "https://athletics.biola.edu/sports/womens-basketball/schedule/2026-27",
+"opponent_rank": 5,
+"tied": false,
+"poll": "WBCA NCAA Division II Coaches' Top 25 Poll",
+"poll_id": "wbca-dii-2026-27-2026-10-27",
+"poll_team_raw": "Cal Poly Pomona",
+"poll_division": "NCAA DII",
+"poll_week": "Preseason",
+"poll_release_date": "2026-10-27",
+"poll_source_url": "https://wbca.org/wp-content/uploads/2026/10/00-102726-d2-preseason-poll.pdf",
 "poll_confidence": "primary"
 },
 {
