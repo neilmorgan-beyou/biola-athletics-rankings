@@ -405,7 +405,7 @@
 - 20 polls have no release date and were not used: naia-sb-2005-final, nfca-dii-1999-w01, nfca-dii-1999-w02, nfca-dii-1999-w03, nfca-dii-1999-w04, nfca-dii-1999-w05, nfca-dii-2000-final, nfca-dii-2000-w01, nfca-dii-2001-w01, nfca-dii-2001-w02, nfca-dii-2002-w01, nfca-dii-2002-w02
 
 ## Men's Water Polo
-- 2021: 15 polls (2021-09-01 to 2021-12-08); 11 of 25 games vs ranked
+- 2021: 16 polls (2021-09-01 to 2026-11-25); 11 of 25 games vs ranked
 - 2022: 15 polls (2022-08-31 to 2022-12-07); 5 of 32 games vs ranked
 - 2023: 15 polls (2023-08-23 to 2023-12-06); 11 of 34 games vs ranked
 - 2024: 15 polls (2024-08-21 to 2024-12-11); 8 of 33 games vs ranked
