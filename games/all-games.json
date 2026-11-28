@@ -193291,6 +193291,21 @@
    "source_url": "https://athletics.biola.edu/sports/womens-basketball/schedule/2026-27"
   },
   {
+   "game_id": "wbb-2026-11-27-1",
+   "sport": "Women's Basketball",
+   "season": "2026-27",
+   "date": "2026-11-27",
+   "opponent_raw": "Cal Poly Humboldt",
+   "opponent_as_listed": "Cal Poly Humboldt",
+   "location": "Away",
+   "result": "W",
+   "score": "71-70",
+   "event": null,
+   "postseason": false,
+   "exhibition": false,
+   "source_url": "https://athletics.biola.edu/sports/womens-basketball/schedule/2026-27"
+  },
+  {
    "game_id": "bsb-2025-01-31-1",
    "sport": "Baseball",
    "season": "2025",
